@@ -1,0 +1,16 @@
+body {
+  background: blue !important;
+}
+nav ul {
+  margin: 0;
+  padding: 12px;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 12px 12px;
+  text-decoration: none;
+}
