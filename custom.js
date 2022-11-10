@@ -29,7 +29,8 @@ $(function() {
                 content += '<tr><td>Week '+i+'</td><td>' +  maxPointsFranchise.name + ' -- ' + maxPointsFranchise.score + '</td></tr>';
                 break;
             case 4: 
-                var mostAllPurposeYards = mostAllPurposeYards(i,formattedWeek,franchiseDatabase,playerDatabase);
+                var maxAllPurposeYards = mostAllPurposeYards(i,formattedWeek,franchiseDatabase,playerDatabase);
+                console.log(maxAllPurposeYards);
                 // content += '<tr><td>Week '+i+'</td><td>' +  mostAllPurposeYards.franchiseName + ' -- ' + mostAllPurposeYards.playerName + ' -- ' + mostAllPurposeYards.score + '</td></tr>';
                 break;
             case 5:
