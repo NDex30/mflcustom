@@ -12,11 +12,13 @@ $(function() {
         const d = new Date();
         let ms = d.getMilliseconds();
         $.get( "https://www80.myfantasyleague.com/fflnetdynamic2022/live_stats_"+formattedWeek+".txt?RANDOM="+ms, function( data ) {
+            if(console)console.log("nickdebug2",data)
             liveStats = data
         },"text").fail(function() {
             if(console)console.log( "error" );
         });
         $.get("https://www80.myfantasyleague.com/2022/export?TYPE=liveScoring&L=58663&W="+i+"&JSON=1",function( data ) {
+            if(console)console.log("nickdebug3",data)
             liveScoring = data
         },"json").fail(function() {
             if(console)console.log( "error" );
