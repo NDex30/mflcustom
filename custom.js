@@ -66,8 +66,8 @@ function getLiveStats(formattedWeek) {
             for(x in lines){
                 const stats = lines[x].split("|")
                 liveStats[stats[0]] = stats
-                console.log(liveStats)
             }
+            // console.log(liveStats)
         }
     }).fail(function() {
             if(console)console.log( "error" );
@@ -148,5 +148,19 @@ function mostPlayerPoints(week,franchises,players,position,storageKey) {
 
 function mostAllPurposeYards(week,formattedWeek,franchises,players) {
    const liveStates = getLiveStats(formattedWeek);
-//    const liveScoring = getLiveScoring(week);
+   const liveScoring = getLiveScoring(week);
+   var mostAllPurposeYards;
+   for(x in liveScoring.liveScoring.matchup) {
+        for(y in liveScoring.liveScoring.matchup[x].franchise){
+            for(z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
+                for(zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]){
+                    var playerScore = liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
+                    var playerInfo = players['pid_'+playerScore.id]
+                    var playerStats = liveStats[playerScore.id]
+                    console.log(playerInfo,playerStats)
+                }
+            }
+        }
+    }
+    return mostAllPurposeYards;
 }
