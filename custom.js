@@ -34,7 +34,7 @@ $(function() {
         // });
         switch(i) {
             case 3:
-                week3(getLiveScoring(i),franchiseDatabase);
+                console.log(mostTeamPoints(getLiveScoring(i),franchiseDatabase));
                 break;
             case 4: 
                 week4(getLiveScoring(i),getLiveStats(formattedWeek),franchiseDatabase,playerDatabase);
@@ -96,7 +96,7 @@ Week 14 = Player with Most Yards (No QB)
 Week 15 = Most Team Points (Non-playoff Team)
 Week 16 = Most Team Points (Non-playoff Team)
 */
-function week3(liveScoring,franchises) {
+function mostTeamPoints(liveScoring,franchises) {
     var maxScoreFranchise;
     console.log(franchises,maxScoreFranchise);
     for(x in liveScoring.liveScoring.matchup) {
@@ -107,7 +107,12 @@ function week3(liveScoring,franchises) {
             }
         }
     }
-    console.log(maxScoreFranchise);
+    console.log(maxScoreFranchise,franchises["fid_"+maxScoreFranchise.id]);
+    let maxTeamPoints = {
+        ...maxScoreFranchise,
+        ...franchises["fid_"+maxScoreFranchise.id],
+    }
+    return maxTeamPoints;
 }
 
 function week4(liveScoring,liveStats,franchises,players) {
