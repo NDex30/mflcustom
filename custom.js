@@ -33,11 +33,11 @@ $(function() {
                 week4(liveScoring,getLiveStats(formattedWeek),franchiseDatabase,playerDatabase);
                 break;
             case 5:
-                var maxKickerPoints = mostKickerPoints(liveScoring,franchiseDatabase,playerDatabase);
+                var maxKickerPoints = mostPlayerPoints(liveScoring,franchiseDatabase,playerDatabase,"PK","smashBrosMostKickerPoints");
                 content += '<tr><td>Week 5</td><td>' +  maxKickerPoints.franchiseName + ' -- ' + maxKickerPoints.playerName + ' -- ' + maxKickerPoints.score + '</td></tr>';
                 break;
             case 8:
-                var maxDefPoints = mostDefensePoints(liveScoring,franchiseDatabase,playerDatabase)
+                var maxDefPoints = mostPlayerPoints(liveScoring,franchiseDatabase,playerDatabase,"Def","smashBrosMostDefensePoints")
                 content += '<tr><td>Week 5</td><td>' +  maxDefPoints.franchiseName + ' -- ' + maxDefPoints.playerName + ' -- ' + maxDefPoints.score + '</td></tr>';
                 break;
             default:
@@ -107,8 +107,8 @@ function week4(liveScoring,liveStats,franchises,players) {
 
 }
 
-function mostKickerPoints(liveScoring,franchises,players) {
-    const storageKey = "smashBrosMostKickerPoints";
+function mostPlayerPoints(liveScoring,franchises,players,position,storageKey) {
+    // const storageKey = "smashBrosMostKickerPoints";
     var mostKickerPoints;
     if (localStorage.getItem(storageKey) !== null) {
         mostKickerPoints = JSON.parse(localStorage.getItem(storageKey));
@@ -120,7 +120,7 @@ function mostKickerPoints(liveScoring,franchises,players) {
                 for(zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]){
                     var playerScore = liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
                     var playerInfo = players['pid_'+playerScore.id]
-                    if(playerInfo.position === "PK"){
+                    if(playerInfo.position === position){
                         if(mostKickerPoints === undefined || parseFloat(playerScore.score)  > parseFloat(mostKickerPoints.score)){
                             var playerName = playerInfo.name
                             var franchiseName = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id].name
@@ -142,10 +142,10 @@ function mostKickerPoints(liveScoring,franchises,players) {
 function mostDefensePoints(liveScoring,franchises,players) {
     const storageKey = "smashBrosMostDefensePoints";
     var mostDefPoints;
-    // if (localStorage.getItem(storageKey) !== null) {
-    //     mostDefPoints = JSON.parse(localStorage.getItem(storageKey));
-    //     return mostDefPoints;
-    // }
+    if (localStorage.getItem(storageKey) !== null) {
+        mostDefPoints = JSON.parse(localStorage.getItem(storageKey));
+        return mostDefPoints;
+    }
     console.log(players)
     for(x in liveScoring.liveScoring.matchup) {
         for(y in liveScoring.liveScoring.matchup[x].franchise){
