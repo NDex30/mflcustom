@@ -139,18 +139,19 @@ function week4(liveScoring,liveStats,franchises,players) {
 function mostKickerPoints(liveScoring,franchises,players) {
     const storageKey = "smashBrosMostKickerPoints";
     var mostKickerPoints;
-    console.log("franchises",franchises);
-    console.log("players",players)
+    // console.log("franchises",franchises);
+    // console.log("players",players)
     for(x in liveScoring.liveScoring.matchup) {
         for(y in liveScoring.liveScoring.matchup[x].franchise){
             // console.log(liveScoring.liveScoring.matchup[x].franchise[y])
             for(z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
                 for(zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]){
-                    console.log("player",liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz])
+                    // console.log("player",liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz])
                     var playerScore = liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
                     var playerInfo = players['pid_'+playerScore.id]
-                    console.log(playerInfo)
+                    // console.log(playerInfo)
                     if(playerInfo.position === "PK"){
+                        console.log("playerScore",playerScore,"playerInfo",playerInfo,"maxKickerPoints",maxKickerPoints)
                         if(mostKickerPoints === undefined || playerScore.score  > mostKickerPoints.score){
                             var playerName = playerInfo.name
                             var franchiseInfo = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id]
