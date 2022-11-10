@@ -29,7 +29,7 @@ $(function() {
                 content += '<tr><td>Week 3</td><td>' +  maxPointsFranchise.name + ' -- ' + maxPointsFranchise.score + '</td></tr>';
                 break;
             case 4: 
-                week4(i,getLiveStats(formattedWeek),franchiseDatabase,playerDatabase);
+                // week4(i,getLiveStats(formattedWeek),franchiseDatabase,playerDatabase);
                 break;
             case 5:
                 var maxKickerPoints = mostPlayerPoints(week,franchiseDatabase,playerDatabase,"PK","smashBrosMostKickerPoints");
@@ -40,7 +40,7 @@ $(function() {
                 content += '<tr><td>Week 5</td><td>' +  maxDefPoints.franchiseName + ' -- ' + maxDefPoints.playerName + ' -- ' + maxDefPoints.score + '</td></tr>';
                 break;
             default:
-                if(console)console.log("well this isn't good")
+                if(console)console.log("well this isn't good "+formattedWeek)
         }
     }
     $('#weekly-challenges-box').append(content);
