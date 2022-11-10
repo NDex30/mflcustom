@@ -7,8 +7,8 @@ $(function() {
             minimumIntegerDigits: 2,
             useGrouping: false
         })
-        let liveScoring = {};
-        let liveStats = [];
+        const liveScoring = {};
+        const liveStats = [];
         const d = new Date();
         let ms = d.getMilliseconds();
         $.get( "https://www80.myfantasyleague.com/fflnetdynamic2022/live_stats_"+formattedWeek+".txt?RANDOM="+ms, function( data ) {
