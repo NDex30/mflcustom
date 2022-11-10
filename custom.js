@@ -1,6 +1,7 @@
 $(function() {
 //  console.log(localStorage.getItem("cache_weeklyResults-3_2022_58663_1665792000"));
 //  console.log(franchiseDatabase);
+    var content = "<table>";
     //starts at week3
     for(i = 3;i < 5;i++) {
         let formattedWeek = i.toLocaleString('en-US', {
@@ -34,7 +35,8 @@ $(function() {
         // });
         switch(i) {
             case 3:
-                console.log(mostTeamPoints(getLiveScoring(i),franchiseDatabase));
+                var maxPointsFranchise = mostTeamPoints(getLiveScoring(i),franchiseDatabase);
+                content += '<tr><td>Week 3</td><td>' +  maxPointsFranchise.name + ' ' + maxPointsFranchise.score + '</td></tr>';
                 break;
             case 4: 
                 week4(getLiveScoring(i),getLiveStats(formattedWeek),franchiseDatabase,playerDatabase);
@@ -44,6 +46,7 @@ $(function() {
         }
         // console.log("nickdebug",liveScoring,liveStats);
     }
+    $('#weekly-challenges-box').append(content);
 // console.log($.get("https://www80.myfantasyleague.com/fflnetdynamic2022/live_stats_idp_08.txt?RANDOM="+ms));
 });
 
