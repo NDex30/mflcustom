@@ -100,9 +100,14 @@ function week3(liveScoring,franchises) {
     var maxScoreFranchise;
     console.log(franchises,maxScoreFranchise);
     for(x in liveScoring.liveScoring.matchup) {
-        console.log(liveScoring.liveScoring.matchup[x])
+        //console.log(liveScoring.liveScoring.matchup[x])
+        for(y in liveScoring.liveScoring.matchup[x].franchise){
+            if(maxScoreFranchise === undefined || liveScoring.liveScoring.matchup[x].franchise[y].score > maxScoreFranchise.score){
+                maxScoreFranchise = liveScoring.liveScoring.matchup[x].franchise[y]
+            }
+        }
     }
-
+    console.log(maxScoreFranchise);
 }
 
 function week4(liveScoring,liveStats,franchises,players) {
