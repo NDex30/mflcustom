@@ -26,18 +26,18 @@ $(function() {
         switch(i) {
             case 3:
                 var maxPointsFranchise = mostTeamPoints(i,franchiseDatabase);
-                content += '<tr><td>Week 3</td><td>' +  maxPointsFranchise.name + ' -- ' + maxPointsFranchise.score + '</td></tr>';
+                content += '<tr><td>Week '+i+'</td><td>' +  maxPointsFranchise.name + ' -- ' + maxPointsFranchise.score + '</td></tr>';
                 break;
             case 4: 
                 // week4(i,getLiveStats(formattedWeek),franchiseDatabase,playerDatabase);
                 break;
             case 5:
                 var maxKickerPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,"PK","smashBrosMostKickerPoints");
-                content += '<tr><td>Week 5</td><td>' +  maxKickerPoints.franchiseName + ' -- ' + maxKickerPoints.playerName + ' -- ' + maxKickerPoints.score + '</td></tr>';
+                content += '<tr><td>Week '+i+'</td><td>' +  maxKickerPoints.franchiseName + ' -- ' + maxKickerPoints.playerName + ' -- ' + maxKickerPoints.score + '</td></tr>';
                 break;
             case 8:
                 var maxDefPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,"Def","smashBrosMostDefensePoints")
-                content += '<tr><td>Week 5</td><td>' +  maxDefPoints.franchiseName + ' -- ' + maxDefPoints.playerName + ' -- ' + maxDefPoints.score + '</td></tr>';
+                content += '<tr><td>Week '+i+'</td><td>' +  maxDefPoints.franchiseName + ' -- ' + maxDefPoints.playerName + ' -- ' + maxDefPoints.score + '</td></tr>';
                 break;
             default:
                 if(console)console.log("well this isn't good "+formattedWeek)
