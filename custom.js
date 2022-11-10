@@ -62,7 +62,10 @@ function getLiveStats(formattedWeek) {
         dataType: 'text',
         success: function( data ) {
             const lines = data.split("\n");
-            console.log("lines",lines,"text",data)
+            // console.log("lines",lines,"text",data)
+            for(x in lines){
+                console.log(lines[x])
+            }
             liveStats = data
         }
     }).fail(function() {
