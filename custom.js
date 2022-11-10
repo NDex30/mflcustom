@@ -137,7 +137,7 @@ function week4(liveScoring,liveStats,franchises,players) {
 
 function mostKickerPoints(liveScoring,franchises,players) {
     var mostKickerPoints;
-    console.log("franchines",franchines);
+    console.log("franchises",franchises);
     console.log("players",players)
     for(x in liveScoring.liveScoring.matchup) {
         for(y in liveScoring.liveScoring.matchup[x].franchise){
