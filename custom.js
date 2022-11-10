@@ -98,7 +98,10 @@ Week 16 = Most Team Points (Non-playoff Team)
 */
 function week3(liveScoring,franchises) {
     var maxScoreFranchise;
-    console.log(liveScoring.liveScoring.matchup,franchises,maxScoreFranchise);
+    console.log(franchises,maxScoreFranchise);
+    for(x in liveScoring.liveScoring.matchup) {
+        console.log(liveScoring.liveScoring.matchup[x])
+    }
 
 }
 
