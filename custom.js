@@ -105,11 +105,14 @@ Week 15 = Most Team Points (Non-playoff Team)
 Week 16 = Most Team Points (Non-playoff Team)
 */
 function mostTeamPoints(liveScoring,franchises) {
-    const storageKey = "smashBrosMostTeamPoints"
-    if (localStorage.getItem(storageKey) !== null) {
-        return JSON.parse(localStorage.getItem(storageKey))
-    }
+    const storageKey = "smashBrosMostTeamPoints";
     var maxScoreFranchise;
+    if (localStorage.getItem(storageKey) !== null) {
+        maxScoreFranchise = JSON.parse(localStorage.getItem(storageKey));
+        console.log(maxScoreFranchise);
+        return maxScoreFranchise;
+    }
+    
     console.log(franchises,maxScoreFranchise);
     for(x in liveScoring.liveScoring.matchup) {
         //console.log(liveScoring.liveScoring.matchup[x])
