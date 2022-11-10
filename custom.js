@@ -30,7 +30,7 @@ $(function() {
                 break;
             case 4: 
                 var maxAllPurposeYards = mostAllPurposeYards(i,formattedWeek,franchiseDatabase,playerDatabase);
-                console.log(maxAllPurposeYards);
+                console.log("MAX ALL PURPOSE YARDS",maxAllPurposeYards);
                 // content += '<tr><td>Week '+i+'</td><td>' +  mostAllPurposeYards.franchiseName + ' -- ' + mostAllPurposeYards.playerName + ' -- ' + mostAllPurposeYards.score + '</td></tr>';
                 break;
             case 5:
@@ -62,7 +62,7 @@ function getLiveStats(formattedWeek) {
         dataType: 'text',
         success: function( data ) {
             const lines = data.split("\n");
-            console.log(lines)
+            console.log("lines",lines,"text",data)
             liveStats = data
         }
     }).fail(function() {
