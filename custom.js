@@ -44,7 +44,8 @@ $(function() {
                 break;
             case 5:
                 var maxKickerPoints = mostKickerPoints(getLiveScoring(i),franchiseDatabase,playerDatabase);
-                content += '<tr><td>Week 5</td><td>' +  maxKickerPoints.name + ' -- ' + maxKickerPoints.score + '</td></tr>';
+                console.log(maxKickerPoints)
+                // content += '<tr><td>Week 5</td><td>' +  maxKickerPoints.name + ' -- ' + maxKickerPoints.score + '</td></tr>';
                 break;
             default:
                 if(console)console.log("well this isn't good")
