@@ -120,7 +120,7 @@ function mostTeamPoints(liveScoring,franchises) {
         ...maxScoreFranchise,
         ...franchises["fid_"+maxScoreFranchise.id],
     }
-    localStorage.setItem(storageKey,maxTeamPoints)
+    localStorage.setItem(storageKey,JSON.stringify(maxTeamPoints))
     return maxTeamPoints;
 }
 
