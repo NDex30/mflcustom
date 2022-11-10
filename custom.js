@@ -34,7 +34,7 @@ $(function() {
         // });
         switch(i) {
             case 3:
-                week3(liveScoring,franchiseDatabase);
+                week3(getLiveScoring(i),franchiseDatabase);
             case 4: 
                 week4(getLiveScoring(i),getLiveStats(formattedWeek),franchiseDatabase,playerDatabase);
             default:
