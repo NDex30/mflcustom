@@ -118,7 +118,7 @@ function mostTeamPoints(liveScoring,franchises) {
     for(x in liveScoring.liveScoring.matchup) {
         //console.log(liveScoring.liveScoring.matchup[x])
         for(y in liveScoring.liveScoring.matchup[x].franchise){
-            if(maxScoreFranchise === undefined || liveScoring.liveScoring.matchup[x].franchise[y].score > maxScoreFranchise.score){
+            if(maxScoreFranchise === undefined || parseFloat(liveScoring.liveScoring.matchup[x].franchise[y].score) > parseFloat(maxScoreFranchise.score)){
                 maxScoreFranchise = liveScoring.liveScoring.matchup[x].franchise[y]
             }
         }
@@ -152,7 +152,7 @@ function mostKickerPoints(liveScoring,franchises,players) {
                     // console.log(playerInfo)
                     if(playerInfo.position === "PK"){
                         console.log("playerScore",playerScore,"playerInfo",playerInfo,"mostKickerPoints",mostKickerPoints)
-                        if(mostKickerPoints === undefined || playerScore.score  > mostKickerPoints.score){
+                        if(mostKickerPoints === undefined || parseFloat(playerScore.score)  > parseFloat(mostKickerPoints.score)){
                             // if(console)console.log("pointsCompare",playerScore.score  > mostKickerPoints.score)
                             var playerName = playerInfo.name
                             var franchiseName = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id].name
