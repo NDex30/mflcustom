@@ -29,7 +29,8 @@ $(function() {
                 content += '<tr><td>Week '+i+'</td><td>' +  maxPointsFranchise.name + ' -- ' + maxPointsFranchise.score + '</td></tr>';
                 break;
             case 4: 
-                // week4(i,getLiveStats(formattedWeek),franchiseDatabase,playerDatabase);
+                var mostAllPurposeYards = mostAllPurposeYards(i,formattedWeek,franchiseDatabase,playerDatabase);
+                // content += '<tr><td>Week '+i+'</td><td>' +  mostAllPurposeYards.franchiseName + ' -- ' + mostAllPurposeYards.playerName + ' -- ' + mostAllPurposeYards.score + '</td></tr>';
                 break;
             case 5:
                 var maxKickerPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,"PK","smashBrosMostKickerPoints");
@@ -59,6 +60,8 @@ function getLiveStats(formattedWeek) {
         url: "https://www80.myfantasyleague.com/fflnetdynamic2022/live_stats_"+formattedWeek+".txt?RANDOM="+ms,
         dataType: 'text',
         success: function( data ) {
+            const lines = data.split("\n");
+            console.log(lines)
             liveStats = data
         }
     }).fail(function() {
@@ -74,7 +77,6 @@ function getLiveScoring(week) {
         url: "https://www80.myfantasyleague.com/2022/export?TYPE=liveScoring&L=58663&W="+week+"&JSON=1",
         dataType: 'json',
         success: function( data ) {
-            // if(console)console.log("nickdebug3",data)
             liveScoring = data
         }
     }).fail(function() {
@@ -107,10 +109,6 @@ function mostTeamPoints(week,franchises) {
     return maxTeamPoints;
 }
 
-function week4(liveScoring,liveStats,franchises,players) {
-
-}
-
 function mostPlayerPoints(week,franchises,players,position,storageKey) {
     var mostPlayerPoints;
     if (localStorage.getItem(storageKey) !== null) {
@@ -141,4 +139,9 @@ function mostPlayerPoints(week,franchises,players,position,storageKey) {
     }
     localStorage.setItem(storageKey,JSON.stringify(mostPlayerPoints))
     return mostPlayerPoints;
+}
+
+function mostAllPurposeYards(week,formattedWeek,franchises,players) {
+   const liveStates = getLiveStats(formattedWeek);
+//    const liveScoring = getLiveScoring(week);
 }
