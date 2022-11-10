@@ -133,16 +133,19 @@ function week4(liveScoring,liveStats,franchises,players) {
 }
 
 function mostKickerPoints(liveScoring,franchises,players) {
-    var maxScoreFranchise;
-    console.log(franchises,maxScoreFranchise);
+    var mostKickerPoints;
+    console.log("franchines",franchines);
+    console.log("players",players)
     for(x in liveScoring.liveScoring.matchup) {
         for(y in liveScoring.liveScoring.matchup[x].franchise){
-            console.log(liveScoring.liveScoring.matchup[x].franchise[y])
+            // console.log(liveScoring.liveScoring.matchup[x].franchise[y])
             for(z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
-                console.log("players",liveScoring.liveScoring.matchup[x].franchise[y].players[z]);
+                for(zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]){
+                    console.log("player",liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz])
+                };
             }
-            if(maxScoreFranchise === undefined || liveScoring.liveScoring.matchup[x].franchise[y].score > maxScoreFranchise.score){
-                maxScoreFranchise = liveScoring.liveScoring.matchup[x].franchise[y]
+            if(mostKickerPoints === undefined || liveScoring.liveScoring.matchup[x].franchise[y].score > mostKickerPoints.score){
+                mostKickerPoints = liveScoring.liveScoring.matchup[x].franchise[y]
             }
         }
     }
