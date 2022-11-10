@@ -39,6 +39,10 @@ $(function() {
                 var maxDefPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,"Def","smashBrosMostDefensePoints")
                 content += '<tr><td>Week '+i+'</td><td>' +  maxDefPoints.franchiseName + ' -- ' + maxDefPoints.playerName + ' -- ' + maxDefPoints.score + '</td></tr>';
                 break;
+            case 10:
+                var maxTEPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,"TE","smashBrosMostDefensePoints")
+                content += '<tr><td>Week '+i+'</td><td>' +  maxDefPoints.franchiseName + ' -- ' + maxDefPoints.playerName + ' -- ' + maxDefPoints.score + '</td></tr>';
+                break;
             default:
                 if(console)console.log("well this isn't good "+formattedWeek)
         }
