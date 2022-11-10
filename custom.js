@@ -23,17 +23,22 @@ $(function() {
             minimumIntegerDigits: 2,
             useGrouping: false
         })
+        const liveScoring = getLiveScoring(i);
         switch(i) {
             case 3:
-                var maxPointsFranchise = mostTeamPoints(getLiveScoring(i),franchiseDatabase);
+                var maxPointsFranchise = mostTeamPoints(liveScoring,franchiseDatabase);
                 content += '<tr><td>Week 3</td><td>' +  maxPointsFranchise.name + ' -- ' + maxPointsFranchise.score + '</td></tr>';
                 break;
             case 4: 
-                week4(getLiveScoring(i),getLiveStats(formattedWeek),franchiseDatabase,playerDatabase);
+                week4(liveScoring,getLiveStats(formattedWeek),franchiseDatabase,playerDatabase);
                 break;
             case 5:
-                var maxKickerPoints = mostKickerPoints(getLiveScoring(i),franchiseDatabase,playerDatabase);
+                var maxKickerPoints = mostKickerPoints(liveScoring,franchiseDatabase,playerDatabase);
                 content += '<tr><td>Week 5</td><td>' +  maxKickerPoints.franchiseName + ' -- ' + maxKickerPoints.playerName + ' -- ' + maxKickerPoints.score + '</td></tr>';
+                break;
+            case 8:
+                var maxDefPoints = mostDefensePoints(liveScoring,franchiseDatabase,playerDatabase)
+                content += '<tr><td>Week 5</td><td>' +  maxDefPoints.franchiseName + ' -- ' + maxDefPoints.playerName + ' -- ' + maxDefPoints.score + '</td></tr>';
                 break;
             default:
                 if(console)console.log("well this isn't good")
@@ -132,4 +137,37 @@ function mostKickerPoints(liveScoring,franchises,players) {
     }
     localStorage.setItem(storageKey,JSON.stringify(mostKickerPoints))
     return mostKickerPoints;
+}
+
+function mostDefensePoints(liveScoring,franchises,players) {
+    const storageKey = "smashBrosMostDefensePoints";
+    var mostDefPoints;
+    // if (localStorage.getItem(storageKey) !== null) {
+    //     mostDefPoints = JSON.parse(localStorage.getItem(storageKey));
+    //     return mostDefPoints;
+    // }
+    console.log(players)
+    for(x in liveScoring.liveScoring.matchup) {
+        for(y in liveScoring.liveScoring.matchup[x].franchise){
+            for(z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
+                for(zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]){
+                    var playerScore = liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
+                    var playerInfo = players['pid_'+playerScore.id]
+                    if(playerInfo.position === "DEF"){
+                        if(mostDefPoints === undefined || parseFloat(playerScore.score)  > parseFloat(mostDefPoints.score)){
+                            var playerName = playerInfo.name
+                            var franchiseName = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id].name
+                            mostDefPoints = {
+                                playerName,
+                                ...playerScore,
+                                franchiseName,
+                            };
+                        }
+                    }
+                };
+            }
+        }
+    }
+    localStorage.setItem(storageKey,JSON.stringify(mostDefPoints))
+    return mostDefPoints;
 }
