@@ -23,21 +23,20 @@ $(function() {
             minimumIntegerDigits: 2,
             useGrouping: false
         })
-        const liveScoring = getLiveScoring(i);
         switch(i) {
             case 3:
-                var maxPointsFranchise = mostTeamPoints(liveScoring,franchiseDatabase);
+                var maxPointsFranchise = mostTeamPoints(i,franchiseDatabase);
                 content += '<tr><td>Week 3</td><td>' +  maxPointsFranchise.name + ' -- ' + maxPointsFranchise.score + '</td></tr>';
                 break;
             case 4: 
-                week4(liveScoring,getLiveStats(formattedWeek),franchiseDatabase,playerDatabase);
+                week4(i,getLiveStats(formattedWeek),franchiseDatabase,playerDatabase);
                 break;
             case 5:
-                var maxKickerPoints = mostPlayerPoints(liveScoring,franchiseDatabase,playerDatabase,"PK","smashBrosMostKickerPoints");
+                var maxKickerPoints = mostPlayerPoints(week,franchiseDatabase,playerDatabase,"PK","smashBrosMostKickerPoints");
                 content += '<tr><td>Week 5</td><td>' +  maxKickerPoints.franchiseName + ' -- ' + maxKickerPoints.playerName + ' -- ' + maxKickerPoints.score + '</td></tr>';
                 break;
             case 8:
-                var maxDefPoints = mostPlayerPoints(liveScoring,franchiseDatabase,playerDatabase,"Def","smashBrosMostDefensePoints")
+                var maxDefPoints = mostPlayerPoints(week,franchiseDatabase,playerDatabase,"Def","smashBrosMostDefensePoints")
                 content += '<tr><td>Week 5</td><td>' +  maxDefPoints.franchiseName + ' -- ' + maxDefPoints.playerName + ' -- ' + maxDefPoints.score + '</td></tr>';
                 break;
             default:
@@ -80,13 +79,14 @@ function getLiveScoring(week) {
     return liveScoring
 }
 
-function mostTeamPoints(liveScoring,franchises) {
+function mostTeamPoints(week,franchises) {
     const storageKey = "smashBrosMostTeamPoints";
     var maxScoreFranchise;
     if (localStorage.getItem(storageKey) !== null) {
         maxScoreFranchise = JSON.parse(localStorage.getItem(storageKey));
         return maxScoreFranchise;
     }
+    const liveScoring = getLiveScoring(week);
     for(x in liveScoring.liveScoring.matchup) {
         for(y in liveScoring.liveScoring.matchup[x].franchise){
             if(maxScoreFranchise === undefined || parseFloat(liveScoring.liveScoring.matchup[x].franchise[y].score) > parseFloat(maxScoreFranchise.score)){
@@ -107,12 +107,13 @@ function week4(liveScoring,liveStats,franchises,players) {
 
 }
 
-function mostPlayerPoints(liveScoring,franchises,players,position,storageKey) {
+function mostPlayerPoints(week,franchises,players,position,storageKey) {
     var mostPlayerPoints;
     if (localStorage.getItem(storageKey) !== null) {
         mostPlayerPoints = JSON.parse(localStorage.getItem(storageKey));
         return mostPlayerPoints;
     }
+    const liveScoring = getLiveScoring(week);
     for(x in liveScoring.liveScoring.matchup) {
         for(y in liveScoring.liveScoring.matchup[x].franchise){
             for(z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
