@@ -35,8 +35,10 @@ $(function() {
         switch(i) {
             case 3:
                 week3(getLiveScoring(i),franchiseDatabase);
+                break;
             case 4: 
                 week4(getLiveScoring(i),getLiveStats(formattedWeek),franchiseDatabase,playerDatabase);
+                break;
             default:
                 if(console)console.log("well this isn't good")
         }
@@ -95,7 +97,9 @@ Week 15 = Most Team Points (Non-playoff Team)
 Week 16 = Most Team Points (Non-playoff Team)
 */
 function week3(liveScoring,franchises) {
-    console.log(liveScoring.liveScoring,franchises)
+    var maxScoreFranchise;
+    console.log(liveScoring.liveScoring.matchup,franchises,maxScoreFranchise);
+
 }
 
 function week4(liveScoring,liveStats,franchises,players) {
