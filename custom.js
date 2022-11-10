@@ -53,7 +53,7 @@ $(function() {
 });
 
 function getLiveStats(formattedWeek) {
-    var liveStats;
+    var liveStats = {};
     const d = new Date();
     let ms = d.getMilliseconds();
     $.ajax({
