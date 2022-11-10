@@ -1,7 +1,6 @@
 $(function() {
-//  console.log(franchiseDatabase);
-    console.log("current week",real_ls_week);
-    var content = "<table>";
+    //  console.log(franchiseDatabase);
+    // console.log("current week",real_ls_week);
     /*
         Week 3 = Most Team Points (Matty - 147.48)
         Week 4 = Most All-Purpose Yards
@@ -18,6 +17,7 @@ $(function() {
         Week 15 = Most Team Points (Non-playoff Team)
         Week 16 = Most Team Points (Non-playoff Team)
     */
+    var content = "<table>";
     for(i = 3;i < real_ls_week;i++) {
         let formattedWeek = i.toLocaleString('en-US', {
             minimumIntegerDigits: 2,
@@ -108,11 +108,10 @@ function week4(liveScoring,liveStats,franchises,players) {
 }
 
 function mostPlayerPoints(liveScoring,franchises,players,position,storageKey) {
-    // const storageKey = "smashBrosMostKickerPoints";
-    var mostKickerPoints;
+    var mostPlayerPoints;
     if (localStorage.getItem(storageKey) !== null) {
-        mostKickerPoints = JSON.parse(localStorage.getItem(storageKey));
-        return mostKickerPoints;
+        mostPlayerPoints = JSON.parse(localStorage.getItem(storageKey));
+        return mostPlayerPoints;
     }
     for(x in liveScoring.liveScoring.matchup) {
         for(y in liveScoring.liveScoring.matchup[x].franchise){
@@ -121,10 +120,10 @@ function mostPlayerPoints(liveScoring,franchises,players,position,storageKey) {
                     var playerScore = liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
                     var playerInfo = players['pid_'+playerScore.id]
                     if(playerInfo.position === position){
-                        if(mostKickerPoints === undefined || parseFloat(playerScore.score)  > parseFloat(mostKickerPoints.score)){
+                        if(mostPlayerPoints === undefined || parseFloat(playerScore.score)  > parseFloat(mostPlayerPoints.score)){
                             var playerName = playerInfo.name
                             var franchiseName = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id].name
-                            mostKickerPoints = {
+                            mostPlayerPoints = {
                                 playerName,
                                 ...playerScore,
                                 franchiseName,
@@ -135,39 +134,6 @@ function mostPlayerPoints(liveScoring,franchises,players,position,storageKey) {
             }
         }
     }
-    localStorage.setItem(storageKey,JSON.stringify(mostKickerPoints))
-    return mostKickerPoints;
-}
-
-function mostDefensePoints(liveScoring,franchises,players) {
-    const storageKey = "smashBrosMostDefensePoints";
-    var mostDefPoints;
-    if (localStorage.getItem(storageKey) !== null) {
-        mostDefPoints = JSON.parse(localStorage.getItem(storageKey));
-        return mostDefPoints;
-    }
-    console.log(players)
-    for(x in liveScoring.liveScoring.matchup) {
-        for(y in liveScoring.liveScoring.matchup[x].franchise){
-            for(z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
-                for(zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]){
-                    var playerScore = liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
-                    var playerInfo = players['pid_'+playerScore.id]
-                    if(playerInfo.position === "Def"){
-                        if(mostDefPoints === undefined || parseFloat(playerScore.score)  > parseFloat(mostDefPoints.score)){
-                            var playerName = playerInfo.name
-                            var franchiseName = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id].name
-                            mostDefPoints = {
-                                playerName,
-                                ...playerScore,
-                                franchiseName,
-                            };
-                        }
-                    }
-                };
-            }
-        }
-    }
-    localStorage.setItem(storageKey,JSON.stringify(mostDefPoints))
-    return mostDefPoints;
+    localStorage.setItem(storageKey,JSON.stringify(mostPlayerPoints))
+    return mostPlayerPoints;
 }
