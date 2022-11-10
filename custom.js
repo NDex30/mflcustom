@@ -1,9 +1,10 @@
 $(function() {
 //  console.log(localStorage.getItem("cache_weeklyResults-3_2022_58663_1665792000"));
 //  console.log(franchiseDatabase);
+    console.log("current week",real_ls_week);
     var content = "<table>";
     //starts at week3
-    for(i = 3;i < 5;i++) {
+    for(i = 3;i < real_ls_week;i++) {
         let formattedWeek = i.toLocaleString('en-US', {
             minimumIntegerDigits: 2,
             useGrouping: false
@@ -36,7 +37,7 @@ $(function() {
         switch(i) {
             case 3:
                 var maxPointsFranchise = mostTeamPoints(getLiveScoring(i),franchiseDatabase);
-                content += '<tr><td>Week 3</td><td>' +  maxPointsFranchise.name + ' ' + maxPointsFranchise.score + '</td></tr>';
+                content += '<tr><td>Week 3</td><td>' +  maxPointsFranchise.name + ' -- ' + maxPointsFranchise.score + '</td></tr>';
                 break;
             case 4: 
                 week4(getLiveScoring(i),getLiveStats(formattedWeek),franchiseDatabase,playerDatabase);
@@ -100,6 +101,10 @@ Week 15 = Most Team Points (Non-playoff Team)
 Week 16 = Most Team Points (Non-playoff Team)
 */
 function mostTeamPoints(liveScoring,franchises) {
+    const storageKey = "smashBrosMostTeamPoints"
+    if (localStorage.getItem(storageKey) === null) {
+        return JSON.parse(localStorage.getItem(storageKey))
+    }
     var maxScoreFranchise;
     console.log(franchises,maxScoreFranchise);
     for(x in liveScoring.liveScoring.matchup) {
@@ -115,9 +120,14 @@ function mostTeamPoints(liveScoring,franchises) {
         ...maxScoreFranchise,
         ...franchises["fid_"+maxScoreFranchise.id],
     }
+    localStorage.setItem(storageKey,maxTeamPoints)
     return maxTeamPoints;
 }
 
 function week4(liveScoring,liveStats,franchises,players) {
+
+}
+
+function mostKickerPoints(liveScoring,franchises,players) {
 
 }
