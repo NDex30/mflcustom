@@ -42,6 +42,10 @@ $(function() {
             case 4: 
                 week4(getLiveScoring(i),getLiveStats(formattedWeek),franchiseDatabase,playerDatabase);
                 break;
+            case 5:
+                var maxKickerPoints = mostKickerPoints(getLiveScoring(i),franchiseDatabase,playerDatabase);
+                content += '<tr><td>Week 5</td><td>' +  maxKickerPoints.name + ' -- ' + maxKickerPoints.score + '</td></tr>';
+                break;
             default:
                 if(console)console.log("well this isn't good")
         }
@@ -129,5 +133,17 @@ function week4(liveScoring,liveStats,franchises,players) {
 }
 
 function mostKickerPoints(liveScoring,franchises,players) {
-
+    var maxScoreFranchise;
+    console.log(franchises,maxScoreFranchise);
+    for(x in liveScoring.liveScoring.matchup) {
+        for(y in liveScoring.liveScoring.matchup[x].franchise){
+            console.log(liveScoring.liveScoring.matchup[x].franchise[y])
+            for(z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
+                console.log("players",liveScoring.liveScoring.matchup[x].franchise[y].players[z]);
+            }
+            if(maxScoreFranchise === undefined || liveScoring.liveScoring.matchup[x].franchise[y].score > maxScoreFranchise.score){
+                maxScoreFranchise = liveScoring.liveScoring.matchup[x].franchise[y]
+            }
+        }
+    }
 }
