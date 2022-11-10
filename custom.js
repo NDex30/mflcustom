@@ -147,7 +147,7 @@ function mostPlayerPoints(week,franchises,players,position,storageKey) {
 }
 
 function mostAllPurposeYards(week,formattedWeek,franchises,players) {
-   const liveStates = getLiveStats(formattedWeek);
+   const liveStats = getLiveStats(formattedWeek);
    const liveScoring = getLiveScoring(week);
    var mostAllPurposeYards;
    for(x in liveScoring.liveScoring.matchup) {
