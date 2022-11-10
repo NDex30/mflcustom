@@ -154,11 +154,11 @@ function mostKickerPoints(liveScoring,franchises,players) {
                         console.log("playerScore",playerScore,"playerInfo",playerInfo,"mostKickerPoints",mostKickerPoints)
                         if(mostKickerPoints === undefined || playerScore.score  > mostKickerPoints.score){
                             var playerName = playerInfo.name
-                            var franchiseInfo = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id]
+                            var franchiseName = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id].name
                             mostKickerPoints = {
                                 playerName,
                                 ...playerScore,
-                                ...franchiseInfo
+                                franchiseName,
                             }
                         }
                     }
