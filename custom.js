@@ -150,16 +150,32 @@ function mostAllPurposeYards(week,formattedWeek,franchises,players) {
    const liveStats = getLiveStats(formattedWeek);
    const liveScoring = getLiveScoring(week);
    var mostAllPurposeYards;
+   var re = new RegExp("^([a-z0-9]{5,})$");
    for(x in liveScoring.liveScoring.matchup) {
         for(y in liveScoring.liveScoring.matchup[x].franchise){
+            var totalFranchiseYards = 0;
             for(z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
                 for(zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]){
                     var playerScore = liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
                     var playerInfo = players['pid_'+playerScore.id]
                     var playerStats = liveStats[playerScore.id]
+                    for(yy in playerStats) {
+                        if (re.test(playerStats[yy])){
+                            var rushCatchYards = playerStats[yy].replace(/[^0-9]/g, '');
+                            totalFranchiseYards += parseInt(rushCatchYards);
+                        }
+                        // if(playerStats[yy].includes("CY")){
+                            
+                        // }
+                        // if(playerStats[yy].includes("CY")){
+                        //     var catchYards = playerStats[yy].replace(/[^0-9]/g, '');
+                        //     totalFranchiseYards += parseInt(catchYards);
+                        // }
+                    }
                     console.log(playerInfo,playerStats)
                 }
             }
+            console.log("totalFranchiseYards",totalFranchiseYards);
         }
     }
     return mostAllPurposeYards;
