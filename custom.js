@@ -65,9 +65,9 @@ function getLiveStats(formattedWeek) {
             // console.log("lines",lines,"text",data)
             for(x in lines){
                 const stats = lines[x].split("|")
-                console.log(stats)
+                liveStats[stats[0]] = stats
+                console.log(liveStats)
             }
-            liveStats = data
         }
     }).fail(function() {
             if(console)console.log( "error" );
