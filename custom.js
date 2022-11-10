@@ -146,10 +146,13 @@ function mostKickerPoints(liveScoring,franchises,players) {
             for(z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
                 for(zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]){
                     console.log("player",liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz])
+                    var pid = liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz].id;
+                    var playerInfo = players['pid_'+pid]
+                    console.log(playerInfo)
+                    if(mostKickerPoints === undefined || liveScoring.liveScoring.matchup[x].franchise[y].score > mostKickerPoints.score){
+                        mostKickerPoints = liveScoring.liveScoring.matchup[x].franchise[y]
+                    }
                 };
-            }
-            if(mostKickerPoints === undefined || liveScoring.liveScoring.matchup[x].franchise[y].score > mostKickerPoints.score){
-                mostKickerPoints = liveScoring.liveScoring.matchup[x].franchise[y]
             }
         }
     }
