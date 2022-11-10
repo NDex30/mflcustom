@@ -153,14 +153,15 @@ function mostKickerPoints(liveScoring,franchises,players) {
                     if(playerInfo.position === "PK"){
                         console.log("playerScore",playerScore,"playerInfo",playerInfo,"mostKickerPoints",mostKickerPoints)
                         if(mostKickerPoints === undefined || playerScore.score  > mostKickerPoints.score){
-                            if(console)console.log("pointsCompare",playerScore.score  > mostKickerPoints.score)
+                            // if(console)console.log("pointsCompare",playerScore.score  > mostKickerPoints.score)
                             var playerName = playerInfo.name
                             var franchiseName = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id].name
                             mostKickerPoints = {
                                 playerName,
                                 ...playerScore,
                                 franchiseName,
-                            }
+                            };
+                            console.log("updated kicker score",mostKickerPoints)
                         }
                     }
                 };
