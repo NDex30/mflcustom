@@ -102,7 +102,7 @@ Week 16 = Most Team Points (Non-playoff Team)
 */
 function mostTeamPoints(liveScoring,franchises) {
     const storageKey = "smashBrosMostTeamPoints"
-    if (localStorage.getItem(storageKey) === null) {
+    if (localStorage.getItem(storageKey) !== null) {
         return JSON.parse(localStorage.getItem(storageKey))
     }
     var maxScoreFranchise;
