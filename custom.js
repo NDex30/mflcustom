@@ -153,7 +153,7 @@ function mostDefensePoints(liveScoring,franchises,players) {
                 for(zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]){
                     var playerScore = liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
                     var playerInfo = players['pid_'+playerScore.id]
-                    if(playerInfo.position === "DEF"){
+                    if(playerInfo.position === "Def"){
                         if(mostDefPoints === undefined || parseFloat(playerScore.score)  > parseFloat(mostDefPoints.score)){
                             var playerName = playerInfo.name
                             var franchiseName = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id].name
