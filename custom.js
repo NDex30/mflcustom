@@ -32,11 +32,11 @@ $(function() {
                 // week4(i,getLiveStats(formattedWeek),franchiseDatabase,playerDatabase);
                 break;
             case 5:
-                var maxKickerPoints = mostPlayerPoints(week,franchiseDatabase,playerDatabase,"PK","smashBrosMostKickerPoints");
+                var maxKickerPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,"PK","smashBrosMostKickerPoints");
                 content += '<tr><td>Week 5</td><td>' +  maxKickerPoints.franchiseName + ' -- ' + maxKickerPoints.playerName + ' -- ' + maxKickerPoints.score + '</td></tr>';
                 break;
             case 8:
-                var maxDefPoints = mostPlayerPoints(week,franchiseDatabase,playerDatabase,"Def","smashBrosMostDefensePoints")
+                var maxDefPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,"Def","smashBrosMostDefensePoints")
                 content += '<tr><td>Week 5</td><td>' +  maxDefPoints.franchiseName + ' -- ' + maxDefPoints.playerName + ' -- ' + maxDefPoints.score + '</td></tr>';
                 break;
             default:
