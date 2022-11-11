@@ -173,7 +173,7 @@ function mostAllPurposeYards(week,formattedWeek,franchises,players) {
                         //     totalFranchiseYards += parseInt(catchYards);
                         // }
                     }
-                    // console.log(playerInfo,playerStats)
+                    console.log(playerInfo,playerStats)
                 }
             }
             if(mostAllPurposeYards === undefined || totalFranchiseYards > parseInt(mostAllPurposeYards.totalFranchiseYards)){
