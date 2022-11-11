@@ -54,7 +54,7 @@ $(function() {
             case 9: 
                 var maxPlayerReceptions = mostPlayerReceptions(i,formattedWeek,franchiseDatabase,playerDatabase,"smashBrosMostPlayerReceptions");
                 // console.log("MAX ALL PURPOSE YARDS",maxAllPurposeYards);
-                content += '<tr><td>Week '+i+'</td><td>' +  maxPlayerReceptions.name + ' -- ' + maxPlayerReceptions.playerName + ' -- ' + maxPlayerReceptions.totalReceptions + '</td></tr>';
+                content += '<tr><td>Week '+i+'</td><td>' +  maxPlayerReceptions.name + ' -- ' + maxPlayerReceptions.playerName + ' -- ' + maxPlayerReceptions.receptions + '</td></tr>';
                 break;
             case 10:
                 var maxTEPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,"TE","smashBrosMostDefensePoints")
@@ -298,10 +298,10 @@ function mostPlayerReceptions(week,formattedWeek,franchises,players,storageKey) 
                     for(yy in playerStats) {
                         if (rcyRegEx.test(playerStats[yy])){
                             var receptions = playerStats[yy].replace(/[^0-9]/g, '');
-                            if(mostPlayerReceptions === undefined || parseInt(receptions) > parseInt(mostPlayerReceptions.totalReceptions)){
+                            if(mostPlayerReceptions === undefined || parseInt(receptions) > parseInt(mostPlayerReceptions.receptions)){
                                 var playerName = playerInfo.name;
                                 mostPlayerReceptions = {
-                                    totalReceptions,
+                                    receptions,
                                     ...franchiseInfo,
                                     playerName,
                                 }
