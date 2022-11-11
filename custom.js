@@ -298,8 +298,7 @@ function mostPlayerReceptions(week,formattedWeek,franchises,players,storageKey) 
                     for(yy in playerStats) {
                         if (rcyRegEx.test(playerStats[yy])){
                             var receptions = playerStats[yy].replace(/[^0-9]/g, '');
-                            totalReceptions += parseInt(receptions);
-                            if(mostPlayerReceptions === undefined || totalReceptions > parseInt(mostPlayerReceptions.totalReceptions)){
+                            if(mostPlayerReceptions === undefined || parseInt(receptions) > parseInt(mostPlayerReceptions.totalReceptions)){
                                 var playerName = playerInfo.name;
                                 mostPlayerReceptions = {
                                     totalReceptions,
