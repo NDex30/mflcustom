@@ -31,7 +31,7 @@ $(function() {
             case 4: 
                 var maxAllPurposeYards = mostAllPurposeYards(i,formattedWeek,franchiseDatabase,playerDatabase,"smashBrosMostAllPurposeYards");
                 console.log("MAX ALL PURPOSE YARDS",maxAllPurposeYards);
-                content += '<tr><td>Week '+i+'</td><td>' +  mostAllPurposeYards.franchiseName + ' -- ' + mostAllPurposeYards.totalFranchiseYards + '</td></tr>';
+                content += '<tr><td>Week '+i+'</td><td>' +  maxAllPurposeYards.franchiseName + ' -- ' + maxAllPurposeYards.totalFranchiseYards + '</td></tr>';
                 break;
             case 5:
                 var maxKickerPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,"PK","smashBrosMostKickerPoints");
