@@ -161,6 +161,7 @@ function mostAllPurposeYards(week,formattedWeek,franchises,players) {
                     var playerStats = liveStats[playerScore.id]
                     for(yy in playerStats) {
                         if (re.test(playerStats[yy])){
+                            console.log("stats: ",playerStats[yy],"player",playerInfo.name)
                             var rushCatchYards = playerStats[yy].replace(/[^0-9]/g, '');
                             totalFranchiseYards += parseInt(rushCatchYards);
                         }
@@ -172,10 +173,15 @@ function mostAllPurposeYards(week,formattedWeek,franchises,players) {
                         //     totalFranchiseYards += parseInt(catchYards);
                         // }
                     }
-                    console.log(playerInfo,playerStats)
+                    // console.log(playerInfo,playerStats)
                 }
             }
-            console.log("totalFranchiseYards",totalFranchiseYards);
+            var franchiseInfo = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id]
+            var franchiseYards = {
+                totalFranchiseYards,
+                ...franchiseInfo,
+            };
+            console.log("totalFranchiseYards",franchiseYards);
         }
     }
     return mostAllPurposeYards;
