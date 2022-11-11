@@ -200,6 +200,7 @@ function longestTouchdownPass(week,formattedWeek,franchises,players,storageKey) 
     var touchDownPassesRegEx = new RegExp("^PS [0-9]{1,3}(?:,[0-9]{1,3})*$");
     for(x in liveScoring.liveScoring.matchup) {
         for(y in liveScoring.liveScoring.matchup[x].franchise){
+            var franchiseInfo = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id]
             for(z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
                 for(zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]){
                     var playerScore = liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
@@ -208,7 +209,18 @@ function longestTouchdownPass(week,formattedWeek,franchises,players,storageKey) 
                     for(yy in playerStats) {
                         if (touchDownPassesRegEx.test(playerStats[yy])){
                             var passingTouchdowns = playerStats[yy].slice(3).split(",");
-                            console.log(playerInfo,playerStats[yy],playerStats[yy].slice(3),passingTouchdowns)
+                            for(pp in passingTouchdowns){
+                                if(longestTouchDownPass === undefined || passingTouchdowns[pp] > longestTouchDownPass.pass){
+                                    var pass = passingTouchdowns[pp];
+                                    var playerName = playerInfo.name
+                                    longestTouchDownPass = {
+                                        pass,
+                                        playerName,
+                                        ...franchiseInfo,
+                                    }
+                                }
+                            }
+                            console.log(playerInfo,playerStats[yy],playerStats[yy].slice(3),passingTouchdowns,longestTouchDownPass)
                             // totalFranchiseYards += parseInt(rushCatchYards);
                         }
                     }
