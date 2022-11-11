@@ -210,7 +210,7 @@ function longestTouchdownPass(week,formattedWeek,franchises,players,storageKey) 
                         if (touchDownPassesRegEx.test(playerStats[yy])){
                             var passingTouchdowns = playerStats[yy].slice(3).split(",");
                             for(pp in passingTouchdowns){
-                                if(longestTouchDownPass === undefined || passingTouchdowns[pp] > longestTouchDownPass.pass){
+                                if(longestTouchDownPass === undefined || parseInt(passingTouchdowns[pp]) > parseInt(longestTouchDownPass.pass)){
                                     var pass = passingTouchdowns[pp];
                                     var playerName = playerInfo.name
                                     longestTouchDownPass = {
