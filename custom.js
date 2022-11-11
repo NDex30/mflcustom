@@ -150,7 +150,7 @@ function mostAllPurposeYards(week,formattedWeek,franchises,players) {
    const liveStats = getLiveStats(formattedWeek);
    const liveScoring = getLiveScoring(week);
    var mostAllPurposeYards;
-   var re = new RegExp("^RCY [0-9]{1,3}$");
+   var rcyRegEx = new RegExp("^RCY [0-9]{1,3}$");
    for(x in liveScoring.liveScoring.matchup) {
         for(y in liveScoring.liveScoring.matchup[x].franchise){
             var totalFranchiseYards = 0;
@@ -160,8 +160,8 @@ function mostAllPurposeYards(week,formattedWeek,franchises,players) {
                     var playerInfo = players['pid_'+playerScore.id]
                     var playerStats = liveStats[playerScore.id]
                     for(yy in playerStats) {
-                        if (re.test(playerStats[yy])){
-                            console.log("stats: ",playerStats[yy],"player",playerInfo.name)
+                        if (rcyRegEx.test(playerStats[yy])){
+                            // console.log("stats: ",playerStats[yy],"player",playerInfo.name)
                             var rushCatchYards = playerStats[yy].replace(/[^0-9]/g, '');
                             totalFranchiseYards += parseInt(rushCatchYards);
                         }
@@ -176,12 +176,13 @@ function mostAllPurposeYards(week,formattedWeek,franchises,players) {
                     // console.log(playerInfo,playerStats)
                 }
             }
-            var franchiseInfo = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id]
-            var franchiseYards = {
-                totalFranchiseYards,
-                ...franchiseInfo,
-            };
-            console.log("totalFranchiseYards",franchiseYards);
+            if(mostAllPurposeYards === undefined || totalFranchiseYards > parseInt(mostAllPurposeYards.totalFranchiseYards)){
+                var franchiseInfo = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id]
+                mostAllPurposeYards = {
+                    totalFranchiseYards,
+                    ...franchiseInfo,
+                }
+            }
         }
     }
     return mostAllPurposeYards;
