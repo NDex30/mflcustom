@@ -30,12 +30,17 @@ $(function() {
                 break;
             case 4: 
                 var maxAllPurposeYards = mostAllPurposeYards(i,formattedWeek,franchiseDatabase,playerDatabase,"smashBrosMostAllPurposeYards");
-                console.log("MAX ALL PURPOSE YARDS",maxAllPurposeYards);
-                content += '<tr><td>Week '+i+'</td><td>' +  maxAllPurposeYards.franchiseName + ' -- ' + maxAllPurposeYards.totalFranchiseYards + '</td></tr>';
+                // console.log("MAX ALL PURPOSE YARDS",maxAllPurposeYards);
+                content += '<tr><td>Week '+i+'</td><td>' +  maxAllPurposeYards.name + ' -- ' + maxAllPurposeYards.totalFranchiseYards + '</td></tr>';
                 break;
             case 5:
                 var maxKickerPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,"PK","smashBrosMostKickerPoints");
                 content += '<tr><td>Week '+i+'</td><td>' +  maxKickerPoints.franchiseName + ' -- ' + maxKickerPoints.playerName + ' -- ' + maxKickerPoints.score + '</td></tr>';
+                break;
+            case 6: 
+                var maxPassTouchdown = longestTouchdownPass(i,formattedWeek,franchiseDatabase,playerDatabase,"smashBrosLongestTouchdownPass");
+                console.log("MAX PASSTOUCHDOWN",maxPassTouchdown);
+                // content += '<tr><td>Week '+i+'</td><td>' +  maxAllPurposeYards.name + ' -- ' + maxAllPurposeYards.totalFranchiseYards + '</td></tr>';
                 break;
             case 8:
                 var maxDefPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,"Def","smashBrosMostDefensePoints")
@@ -182,4 +187,42 @@ function mostAllPurposeYards(week,formattedWeek,franchises,players,storageKey) {
     }
     localStorage.setItem(storageKey,JSON.stringify(mostAllPurposeYards))
     return mostAllPurposeYards;
+}
+
+function longestTouchdownPass(week,formattedWeek,franchises,players,storageKey) {
+    var longestTouchDownPass;
+    // if (localStorage.getItem(storageKey) !== null) {
+    //     mostAllPurposeYards = JSON.parse(localStorage.getItem(storageKey));
+    //     return mostAllPurposeYards;
+    // }
+    const liveStats = getLiveStats(formattedWeek);
+    const liveScoring = getLiveScoring(week);
+    var touchDownPassesRegEx = new RegExp("^PS [0-9]{1,3}(?:,[0-9]{1,3})*$");
+    for(x in liveScoring.liveScoring.matchup) {
+        for(y in liveScoring.liveScoring.matchup[x].franchise){
+            for(z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
+                for(zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]){
+                    var playerScore = liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
+                    var playerInfo = players['pid_'+playerScore.id]
+                    var playerStats = liveStats[playerScore.id]
+                    for(yy in playerStats) {
+                        if (touchDownPassesRegEx.test(playerStats[yy])){
+                            var passingTouchdowns = playerStats[yy].slice(3).split(",");
+                            console.log(playerInfo,playerStats[yy],playerStats[yy].slice(3),passingTouchdowns)
+                            // totalFranchiseYards += parseInt(rushCatchYards);
+                        }
+                    }
+                }
+            }
+            // if(mostAllPurposeYards === undefined || totalFranchiseYards > parseInt(mostAllPurposeYards.totalFranchiseYards)){
+            //     var franchiseInfo = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id]
+            //     mostAllPurposeYards = {
+            //         totalFranchiseYards,
+            //         ...franchiseInfo,
+            //     }
+            // }
+        }
+    }
+    localStorage.setItem(storageKey,JSON.stringify(longestTouchDownPass))
+    return longestTouchDownPass;
 }
