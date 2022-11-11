@@ -148,10 +148,10 @@ function mostPlayerPoints(week,franchises,players,position,storageKey) {
 
 function mostAllPurposeYards(week,formattedWeek,franchises,players) {
    const liveStats = getLiveStats(formattedWeek);
-   console.log(liveStats);
+   //    console.log(liveStats);
    const liveScoring = getLiveScoring(week);
    var mostAllPurposeYards;
-   var rcyRegEx = new RegExp("^RCY [0-9]{1,3}$");
+   var rcyRegEx = new RegExp("^(RCY|KY|UY) [0-9]{1,3}$");
    for(x in liveScoring.liveScoring.matchup) {
         for(y in liveScoring.liveScoring.matchup[x].franchise){
             var totalFranchiseYards = 0;
@@ -174,7 +174,7 @@ function mostAllPurposeYards(week,formattedWeek,franchises,players) {
                         //     totalFranchiseYards += parseInt(catchYards);
                         // }
                     }
-                    console.log(playerInfo,playerStats)
+                    // console.log(playerInfo,playerStats)
                 }
             }
             if(mostAllPurposeYards === undefined || totalFranchiseYards > parseInt(mostAllPurposeYards.totalFranchiseYards)){
