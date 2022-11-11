@@ -51,6 +51,11 @@ $(function() {
                 var maxDefPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,"Def","smashBrosMostDefensePoints")
                 content += '<tr><td>Week '+i+'</td><td>' +  maxDefPoints.franchiseName + ' -- ' + maxDefPoints.playerName + ' -- ' + maxDefPoints.score + '</td></tr>';
                 break;
+            case 9: 
+                var maxPlayerReceptions = mostPlayerReceptions(i,formattedWeek,franchiseDatabase,playerDatabase,"smashBrosMostPlayerReceptions");
+                // console.log("MAX ALL PURPOSE YARDS",maxAllPurposeYards);
+                content += '<tr><td>Week '+i+'</td><td>' +  maxPlayerReceptions.name + ' -- ' + maxPlayerReceptions.playerName + ' -- ' + maxPlayerReceptions.totalReceptions + '</td></tr>';
+                break;
             case 10:
                 var maxTEPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,"TE","smashBrosMostDefensePoints")
                 content += '<tr><td>Week '+i+'</td><td>' +  maxDefPoints.franchiseName + ' -- ' + maxDefPoints.playerName + ' -- ' + maxDefPoints.score + '</td></tr>';
@@ -237,10 +242,10 @@ function longestTouchdownPass(week,formattedWeek,franchises,players,storageKey) 
 
 function mostTeamReceptions(week,formattedWeek,franchises,players,storageKey) {
     var mostTeamReceptions;
-    // if (localStorage.getItem(storageKey) !== null) {
-    //     mostTeamReceptions = JSON.parse(localStorage.getItem(storageKey));
-    //     return mostTeamReceptions;
-    // }
+    if (localStorage.getItem(storageKey) !== null) {
+        mostTeamReceptions = JSON.parse(localStorage.getItem(storageKey));
+        return mostTeamReceptions;
+    }
     const liveStats = getLiveStats(formattedWeek);
     const liveScoring = getLiveScoring(week);
     var rcyRegEx = new RegExp("^CC [0-9]{1,3}$");
@@ -271,4 +276,43 @@ function mostTeamReceptions(week,formattedWeek,franchises,players,storageKey) {
     }
     localStorage.setItem(storageKey,JSON.stringify(mostTeamReceptions))
     return mostTeamReceptions;
+}
+
+function mostPlayerReceptions(week,formattedWeek,franchises,players,storageKey) {
+    var mostPlayerReceptions;
+    // if (localStorage.getItem(storageKey) !== null) {
+    //     mostPlayerReceptions = JSON.parse(localStorage.getItem(storageKey));
+    //     return mostPlayerReceptions;
+    // }
+    const liveStats = getLiveStats(formattedWeek);
+    const liveScoring = getLiveScoring(week);
+    var rcyRegEx = new RegExp("^CC [0-9]{1,3}$");
+    for(x in liveScoring.liveScoring.matchup) {
+        for(y in liveScoring.liveScoring.matchup[x].franchise){
+            var franchiseInfo = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id]
+            for(z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
+                for(zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]){
+                    var playerScore = liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
+                    var playerInfo = players['pid_'+playerScore.id]
+                    var playerStats = liveStats[playerScore.id]
+                    for(yy in playerStats) {
+                        if (rcyRegEx.test(playerStats[yy])){
+                            var receptions = playerStats[yy].replace(/[^0-9]/g, '');
+                            totalReceptions += parseInt(receptions);
+                            if(mostPlayerReceptions === undefined || totalReceptions > parseInt(mostPlayerReceptions.totalReceptions)){
+                                var playerName = playerInfo.name;
+                                mostPlayerReceptions = {
+                                    totalReceptions,
+                                    ...franchiseInfo,
+                                    playerName,
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    localStorage.setItem(storageKey,JSON.stringify(mostPlayerReceptions))
+    return mostPlayerReceptions;
 }
