@@ -150,7 +150,7 @@ function mostAllPurposeYards(week,formattedWeek,franchises,players) {
    const liveStats = getLiveStats(formattedWeek);
    const liveScoring = getLiveScoring(week);
    var mostAllPurposeYards;
-   var re = new RegExp("^([a-z0-9]{5,})$");
+   var re = new RegExp("^RCY [0-9]{1,3}$");
    for(x in liveScoring.liveScoring.matchup) {
         for(y in liveScoring.liveScoring.matchup[x].franchise){
             var totalFranchiseYards = 0;
