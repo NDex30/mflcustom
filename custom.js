@@ -39,8 +39,8 @@ $(function() {
                 break;
             case 6: 
                 var maxPassTouchdown = longestTouchdownPass(i,formattedWeek,franchiseDatabase,playerDatabase,"smashBrosLongestTouchdownPass");
-                console.log("MAX PASSTOUCHDOWN",maxPassTouchdown);
-                // content += '<tr><td>Week '+i+'</td><td>' +  maxAllPurposeYards.name + ' -- ' + maxAllPurposeYards.totalFranchiseYards + '</td></tr>';
+                // console.log("MAX PASSTOUCHDOWN",maxPassTouchdown);
+                content += '<tr><td>Week '+i+'</td><td>' +  maxPassTouchdown.name + ' -- ' + maxKickerPoints.playerName + ' -- ' + maxPassTouchdown.pass + '</td></tr>';
                 break;
             case 8:
                 var maxDefPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,"Def","smashBrosMostDefensePoints")
@@ -220,7 +220,7 @@ function longestTouchdownPass(week,formattedWeek,franchises,players,storageKey) 
                                     }
                                 }
                             }
-                            console.log(playerInfo,playerStats[yy],playerStats[yy].slice(3),passingTouchdowns,longestTouchDownPass)
+                            // console.log(playerInfo,playerStats[yy],playerStats[yy].slice(3),passingTouchdowns,longestTouchDownPass)
                             // totalFranchiseYards += parseInt(rushCatchYards);
                         }
                     }
