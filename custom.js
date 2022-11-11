@@ -148,6 +148,7 @@ function mostPlayerPoints(week,franchises,players,position,storageKey) {
 
 function mostAllPurposeYards(week,formattedWeek,franchises,players) {
    const liveStats = getLiveStats(formattedWeek);
+   console.log(liveStats);
    const liveScoring = getLiveScoring(week);
    var mostAllPurposeYards;
    var rcyRegEx = new RegExp("^RCY [0-9]{1,3}$");
