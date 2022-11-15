@@ -327,7 +327,6 @@ function mostPlayerReceptions(week,formattedWeek,franchises,players,storageKey) 
                     ...playerReceptions[0],
                     playerReceptions,
                 }
-                console.log("undefined",mostPlayerReceptions)
                 continue
             }
             if(parseInt(playerReceptions[0].receptions) > parseInt(mostPlayerReceptions.receptions)){
@@ -336,12 +335,15 @@ function mostPlayerReceptions(week,formattedWeek,franchises,players,storageKey) 
                     ...playerReceptions[0],
                     playerReceptions
                 }
-                console.log("plain greater than",mostPlayerReceptions)
                 continue
             }
             if(parseInt(playerReceptions[0].receptions) == parseInt(mostPlayerReceptions.receptions)){
                 console.log("all equal","mostReceptions",mostPlayerReceptions,"playerReceptions",playerReceptions);
                 for(rr in playerReceptions){
+                    // if incoming is less, break as current placeholder wins
+                    if(parseInt(playerReceptions[rr].receptions) < parseInt(mostPlayerReceptions.playerReceptions[rr].receptions)){
+                        break
+                    }
                     if(parseInt(playerReceptions[rr].receptions) > parseInt(mostPlayerReceptions.playerReceptions[rr].receptions)){
                         mostPlayerReceptions = {
                             ...franchiseInfo,
