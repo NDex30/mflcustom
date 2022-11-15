@@ -321,7 +321,7 @@ function mostPlayerReceptions(week,formattedWeek,franchises,players,storageKey) 
                 continue
             }
             playerReceptions.sort((a,b) => b.receptions - a.receptions);
-            console.log("mostReceptions",mostPlayerReceptions,"playerReceptions",playerReceptions);
+            // console.log("mostReceptions",mostPlayerReceptions,"playerReceptions",playerReceptions);
             if(mostPlayerReceptions === undefined){
                 mostPlayerReceptions = {
                     ...franchiseInfo,
@@ -338,10 +338,18 @@ function mostPlayerReceptions(week,formattedWeek,franchises,players,storageKey) 
                 }
                 continue
             }
-
-            // if(parseInt(playerReceptions[0].receptions) == parseInt(mostPlayerReceptions.receptions)){
-
-            // }
+            if(parseInt(playerReceptions[0].receptions) == parseInt(mostPlayerReceptions.receptions)){
+                for(rr in playerReceptions){
+                    if(playerReceptions[rr].receptions > mostPlayerReceptions.playerReceptions[rr].receptions){
+                        mostPlayerReceptions = {
+                            ...franchiseInfo,
+                            ...playerReceptions[0],
+                            playerReceptions
+                        }
+                        break
+                    }
+                }
+            }
         }
     }
     localStorage.setItem(storageKey,JSON.stringify(mostPlayerReceptions))
