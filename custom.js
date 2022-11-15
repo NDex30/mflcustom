@@ -367,33 +367,37 @@ function mostPlayerReceptions(week,formattedWeek,franchises,players,storageKey) 
 function mostTeamTDS(week,formattedWeek,franchises,players,storageKey) {
     var mostTeamTds;
     // if (localStorage.getItem(storageKey) !== null) {
-    //     mostPlayerReceptions = JSON.parse(localStorage.getItem(storageKey));
-    //     return mostPlayerReceptions;
+    //     mostTeamTds = JSON.parse(localStorage.getItem(storageKey));
+    //     return mostTeamTds;
     // }
     const liveStats = getLiveStats(formattedWeek);
     const liveScoring = getLiveScoring(week);
-    var rcyRegEx = new RegExp("^CC [0-9]{1,3}$");
+    var rcyRegEx = new RegExp("^$TD [0-9]{1,3}$");
     for(x in liveScoring.liveScoring.matchup) {
         for(y in liveScoring.liveScoring.matchup[x].franchise){
-            var franchiseInfo = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id];
+            var totalTDs = 0;
             for(z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
                 for(zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]){
                     var playerScore = liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
                     var playerInfo = players['pid_'+playerScore.id]
                     var playerStats = liveStats[playerScore.id]
-                    var playerName = playerInfo.name;
-                    console.log(playerName,playerStats);
                     for(yy in playerStats) {
-                        // console.log(playerName,playerStats[yy]);
-                        // if (rcyRegEx.test(playerStats[yy])){
-                        //     var receptions = playerStats[yy].replace(/[^0-9]/g, '');
-                        
-                        // }
+                        if (rcyRegEx.test(playerStats[yy])){
+                            var tds = playerStats[yy].replace(/[^0-9]/g, '');
+                            totalTDs += parseInt(tds);
+                        }
                     }
+                }
+            }
+            if(mostTeamTds === undefined || totalTDs > parseInt(mostTeamTds.totalTDs)){
+                var franchiseInfo = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id]
+                mostTeamTds = {
+                    totalTDs,
+                    ...franchiseInfo,
                 }
             }
         }
     }
-    // localStorage.setItem(storageKey,JSON.stringify(mostPlayerReceptions))
+    localStorage.setItem(storageKey,JSON.stringify(mostTeamReceptions))
     return mostTeamTds;
 }
