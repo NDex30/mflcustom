@@ -26,8 +26,8 @@ $(function() {
         switch(i) {
             case 1:
                 //testing ground now
-                var biggestWinMargin = biggestWinMargin(i,franchiseDatabase,"smashedBrosTestJunk");
-                console.log("biggestWinMargin",biggestWinMargin);
+                var maxWinMargin = biggestWinMargin(i,franchiseDatabase,"smashedBrosTestJunk");
+                console.log("biggestWinMargin",maxWinMargin);
                 break;
             case 3:
                 var maxPointsFranchise = mostTeamPoints(i,franchiseDatabase);
@@ -415,10 +415,10 @@ function mostTeamTDS(week,formattedWeek,franchises,players,storageKey) {
 }
 
 function biggestWinMargin(week,franchises,storageKey) {
-    var biggestWinMargin;
+    var maxMargin;
     // if (localStorage.getItem(storageKey) !== null && localStorage.getItem(storageKey) != "undefined") {
-    //     biggestWinMargin = JSON.parse(localStorage.getItem(storageKey));
-    //     return biggestWinMargin;
+    //     maxMargin = JSON.parse(localStorage.getItem(storageKey));
+    //     return maxMargin;
     // }
     const liveScoring = getLiveScoring(week);
     for(x in liveScoring.liveScoring.matchup) {
@@ -435,6 +435,6 @@ function biggestWinMargin(week,franchises,storageKey) {
     //     ...maxScoreFranchise,
     //     ...franchises["fid_"+maxScoreFranchise.id],
     // }
-    // localStorage.setItem(storageKey,JSON.stringify(biggestWinMargin))
-    return biggestWinMargin;
+    // localStorage.setItem(storageKey,JSON.stringify(maxMargin))
+    return maxMargin;
 }
