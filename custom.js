@@ -422,7 +422,26 @@ function biggestWinMargin(week,franchises,storageKey) {
     // }
     const liveScoring = getLiveScoring(week);
     for(x in liveScoring.liveScoring.matchup) {
-        console.log(liveScoring.liveScoring.matchup[x])
+        let f1 = liveScoring.liveScoring.matchup[x].franchise[0];
+        let f2 = liveScoring.liveScoring.matchup[x].franchise[1];
+        if(parseInt(f1.score) > parseInt(f2.score)){
+            let margin = parseInt(f1.score) - parseInt(f2.score);
+            if(maxMargin === undefined || margin > maxMargin.margin){
+                maxMargin = {
+                    margin,
+                    ...franchises["fid_"+f1.id],
+                }
+            }
+        }else {
+            let margin = parseInt(f2.score) - parseInt(f1.score);
+            if(maxMargin === undefined || margin > maxMargin.margin){
+                maxMargin = {
+                    margin,
+                    ...franchises["fid_"+f2.id],
+                }
+            }
+        }
+        console.log(maxMargin)
         // for(y in liveScoring.liveScoring.matchup[x].franchise){
 
         //     if(biggestWinMargin === undefined || parseFloat(liveScoring.liveScoring.matchup[x].franchise[y].score) > parseFloat(biggestWinMargin.score)){
