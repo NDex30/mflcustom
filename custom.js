@@ -26,46 +26,46 @@ $(function() {
         switch(i) {
             case 3:
                 var maxPointsFranchise = mostTeamPoints(i,franchiseDatabase);
-                content += '<tr><td colspan=2>Week '+i+': Most Team Points</td></tr>';
+                content += '<tr><td colspan=2><h3>Week '+i+': Most Team Points</h3></td></tr>';
                 content += '<tr><td>' +  maxPointsFranchise.name + '</td><td>' + maxPointsFranchise.score + '</td></tr>';
                 break;
             case 4: 
                 var maxAllPurposeYards = mostAllPurposeYards(i,formattedWeek,franchiseDatabase,playerDatabase,"smashBrosMostAllPurposeYards");
                 // console.log("MAX ALL PURPOSE YARDS",maxAllPurposeYards);
-                content += '<tr><td colspan=2>Week '+i+': Most All-Purpose Yards</td></tr>';
+                content += '<tr><td colspan=2><h3>Week '+i+': Most All-Purpose Yards</h3></td></tr>';
                 content += '<tr><td>' +  maxAllPurposeYards.name + '</td><td>' + maxAllPurposeYards.totalFranchiseYards + '</td></tr>';
                 break;
             case 5:
                 var maxKickerPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,"PK","smashBrosMostKickerPoints");
-                content += '<tr><td colspan=2>Week '+i+': Most Kicker Points</td></tr>';
+                content += '<tr><td colspan=2><h3>Week '+i+': Most Kicker Points</h3></td></tr>';
                 content += '<tr><td>' +  maxKickerPoints.franchiseName + '</td><td>' + maxKickerPoints.playerName + ' -- ' + maxKickerPoints.score + '</td></tr>';
                 break;
             case 6: 
                 var maxPassTouchdown = longestTouchdownPass(i,formattedWeek,franchiseDatabase,playerDatabase,"smashBrosLongestTouchdownPass");
                 // console.log("MAX PASSTOUCHDOWN",maxPassTouchdown);
-                content += '<tr><td colspan=2>Week '+i+': Longest QB TD</td></tr>';
+                content += '<tr><td colspan=2><h3>Week '+i+': Longest QB TD</h3></td></tr>';
                 content += '<tr><td>' +  maxPassTouchdown.name + '</td><td>' + maxPassTouchdown.playerName + ' -- ' + maxPassTouchdown.pass + '</td></tr>';
                 break;
             case 7: 
                 var maxTeamReceptions = mostTeamReceptions(i,formattedWeek,franchiseDatabase,playerDatabase,"smashBrosMostTeamReceptions");
                 // console.log("MAX ALL PURPOSE YARDS",maxAllPurposeYards);
-                content += '<tr><td colspan=2>Week '+i+': Most Team Receptions</td></tr>';
+                content += '<tr><td colspan=2><h3>Week '+i+': Most Team Receptions</h3></td></tr>';
                 content += '<tr><td>' +  maxTeamReceptions.name + '</td><td>' + maxTeamReceptions.totalReceptions + '</td></tr>';
                 break;
             case 8:
                 var maxDefPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,"Def","smashBrosMostDefensePoints");
-                content += '<tr><td colspan=2>Week '+i+': Most DEF Points</td></tr>';
+                content += '<tr><td colspan=2><h3>Week '+i+': Most DEF Points</h3></td></tr>';
                 content += '<tr><td>' +  maxDefPoints.franchiseName + '</td><td>' + maxDefPoints.playerName + ' -- ' + maxDefPoints.score + '</td></tr>';
                 break;
             case 9: 
                 var maxPlayerReceptions = mostPlayerReceptions(i,formattedWeek,franchiseDatabase,playerDatabase,"smashBrosMostPlayerReceptions");
                 // console.log("MAX ALL PURPOSE YARDS",maxAllPurposeYards);
-                content += '<tr><td colspan=2>Week '+i+': Most Single Player Receptions</td></tr>';
+                content += '<tr><td colspan=2><h3>Week '+i+': Most Single Player Receptions</h3></td></tr>';
                 content += '<tr><td>' +  maxPlayerReceptions.name + '</td><td>' + maxPlayerReceptions.playerName + ' -- ' + maxPlayerReceptions.receptions + '</td></tr>';
                 break;
             case 10:
                 var maxTEPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,"TE","smashBrosMostDefensePoints");
-                content += '<tr><td colspan=2>Week '+i+': Most Points from Single Tight End</td></tr>';
+                content += '<tr><td colspan=2><h3>Week '+i+': Most Points from Single Tight End</h3></td></tr>';
                 content += '<tr><td>' +  maxDefPoints.franchiseName + '</td><td>' + maxDefPoints.playerName + ' -- ' + maxDefPoints.score + '</td></tr>';
                 break;
             default:
