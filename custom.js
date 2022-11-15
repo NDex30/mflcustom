@@ -24,6 +24,10 @@ $(function() {
             useGrouping: false
         })
         switch(i) {
+            case 1:
+                //testing ground now
+                var mostTeamTDs = mostTeamTDS(i,formattedWeek,franchiseDatabase,playerDatabase,"smashBrosMostAllPurposeYards");
+                console.log("mostTeamTDs",mostTeamTDs);
             case 3:
                 var maxPointsFranchise = mostTeamPoints(i,franchiseDatabase);
                 content += '<tr><td colspan=2><h3>Week '+i+': Most Team Points</h3></td></tr>';
@@ -58,7 +62,7 @@ $(function() {
                 content += '<tr><td>' +  maxDefPoints.franchiseName + '</td><td>' + maxDefPoints.playerName + ' -- ' + maxDefPoints.score + '</td></tr>';
                 break;
             case 9: 
-                var maxPlayerReceptions = mostPlayerReceptions(i,formattedWeek,franchiseDatabase,playerDatabase,"smashBrosMostPlayerReceptions");
+                var maxPlayerReceptions = mostPlayerReceptions(i,formattedWeek,franchiseDatabase,playerDatabase,"smashBrosMostPlayerReceptions2");
                 // console.log("MAX ALL PURPOSE YARDS",maxAllPurposeYards);
                 content += '<tr><td colspan=2><h3>Week '+i+': Most Single Player Receptions</h3></td></tr>';
                 content += '<tr><td>' +  maxPlayerReceptions.name + '</td><td>' + maxPlayerReceptions.playerName + ' -- ' + maxPlayerReceptions.receptions + '</td></tr>';
@@ -289,10 +293,10 @@ function mostTeamReceptions(week,formattedWeek,franchises,players,storageKey) {
 //tie breaker is next highest receiver receptions until one has a higher receptions
 function mostPlayerReceptions(week,formattedWeek,franchises,players,storageKey) {
     var mostPlayerReceptions;
-    // if (localStorage.getItem(storageKey) !== null) {
-    //     mostPlayerReceptions = JSON.parse(localStorage.getItem(storageKey));
-    //     return mostPlayerReceptions;
-    // }
+    if (localStorage.getItem(storageKey) !== null) {
+        mostPlayerReceptions = JSON.parse(localStorage.getItem(storageKey));
+        return mostPlayerReceptions;
+    }
     const liveStats = getLiveStats(formattedWeek);
     const liveScoring = getLiveScoring(week);
     var rcyRegEx = new RegExp("^CC [0-9]{1,3}$");
@@ -338,7 +342,7 @@ function mostPlayerReceptions(week,formattedWeek,franchises,players,storageKey) 
                 continue
             }
             if(parseInt(playerReceptions[0].receptions) == parseInt(mostPlayerReceptions.receptions)){
-                console.log("all equal","mostReceptions",mostPlayerReceptions,"playerReceptions",playerReceptions);
+                // console.log("all equal","mostReceptions",mostPlayerReceptions,"playerReceptions",playerReceptions);
                 for(rr in playerReceptions){
                     // if incoming is less, break as current placeholder wins
                     if(parseInt(playerReceptions[rr].receptions) < parseInt(mostPlayerReceptions.playerReceptions[rr].receptions)){
@@ -358,4 +362,37 @@ function mostPlayerReceptions(week,formattedWeek,franchises,players,storageKey) 
     }
     localStorage.setItem(storageKey,JSON.stringify(mostPlayerReceptions))
     return mostPlayerReceptions;
+}
+
+function mostTeamTDS(week,formattedWeek,franchises,players,storageKey) {
+    var mostTeamTds;
+    // if (localStorage.getItem(storageKey) !== null) {
+    //     mostPlayerReceptions = JSON.parse(localStorage.getItem(storageKey));
+    //     return mostPlayerReceptions;
+    // }
+    const liveStats = getLiveStats(formattedWeek);
+    const liveScoring = getLiveScoring(week);
+    var rcyRegEx = new RegExp("^CC [0-9]{1,3}$");
+    for(x in liveScoring.liveScoring.matchup) {
+        for(y in liveScoring.liveScoring.matchup[x].franchise){
+            var franchiseInfo = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id];
+            for(z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
+                for(zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]){
+                    var playerScore = liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
+                    var playerInfo = players['pid_'+playerScore.id]
+                    var playerStats = liveStats[playerScore.id]
+                    var playerName = playerInfo.name;
+                    for(yy in playerStats) {
+                        console.log(playerName,playerStats[yy]);
+                        // if (rcyRegEx.test(playerStats[yy])){
+                        //     var receptions = playerStats[yy].replace(/[^0-9]/g, '');
+                        
+                        // }
+                    }
+                }
+            }
+        }
+    }
+    // localStorage.setItem(storageKey,JSON.stringify(mostPlayerReceptions))
+    return mostTeamTds;
 }
