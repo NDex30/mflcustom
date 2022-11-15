@@ -382,8 +382,9 @@ function mostTeamTDS(week,formattedWeek,franchises,players,storageKey) {
                     var playerInfo = players['pid_'+playerScore.id]
                     var playerStats = liveStats[playerScore.id]
                     var playerName = playerInfo.name;
+                    console.log(playerName,playerStats);
                     for(yy in playerStats) {
-                        console.log(playerName,playerStats[yy]);
+                        // console.log(playerName,playerStats[yy]);
                         // if (rcyRegEx.test(playerStats[yy])){
                         //     var receptions = playerStats[yy].replace(/[^0-9]/g, '');
                         
