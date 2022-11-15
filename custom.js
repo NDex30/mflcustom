@@ -372,7 +372,7 @@ function mostTeamTDS(week,formattedWeek,franchises,players,storageKey) {
     // }
     const liveStats = getLiveStats(formattedWeek);
     const liveScoring = getLiveScoring(week);
-    var rcyRegEx = new RegExp("^$TD [0-9]{1,3}$");
+    var rcyRegEx = new RegExp("^#TD [0-9]{1,3}$");
     for(x in liveScoring.liveScoring.matchup) {
         for(y in liveScoring.liveScoring.matchup[x].franchise){
             var totalTDs = 0;
