@@ -27,7 +27,8 @@ $(function() {
             case 1:
                 //testing ground now
                 // var nonQBmaxPoints = mostPlayerPoints
-                console.log("mostTeamTDs",mostTeamTDs);
+                // console.log("mostTeamTDs",mostTeamTDs);
+                break;
             case 3:
                 var maxPointsFranchise = mostTeamPoints(i,franchiseDatabase);
                 content += '<tr><td colspan=2><h3>Week '+i+': Most Team Points</h3></td></tr>';
