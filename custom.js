@@ -26,8 +26,8 @@ $(function() {
         switch(i) {
             case 1:
                 //testing ground now
-                var maxNonQBPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,["RB","WR","TE"],"smashBrosTestJunk");
-                console.log("maxNonQBPoints",maxNonQBPoints);
+                var biggestWinMargin = biggestWinMargin(i,franchiseDatabase,"smashedBrosTestJunk");
+                console.log("biggestWinMargin",biggestWinMargin);
                 break;
             case 3:
                 var maxPointsFranchise = mostTeamPoints(i,franchiseDatabase);
@@ -143,7 +143,7 @@ function mostTeamPoints(week,franchises) {
             }
         }
     }
-    console.log(maxScoreFranchise,franchises["fid_"+maxScoreFranchise.id]);
+    // console.log(maxScoreFranchise,franchises["fid_"+maxScoreFranchise.id]);
     let maxTeamPoints = {
         ...maxScoreFranchise,
         ...franchises["fid_"+maxScoreFranchise.id],
@@ -412,4 +412,29 @@ function mostTeamTDS(week,formattedWeek,franchises,players,storageKey) {
     }
     localStorage.setItem(storageKey,JSON.stringify(mostTeamTds))
     return mostTeamTds;
+}
+
+function biggestWinMargin(week,franchises,storageKey) {
+    var biggestWinMargin;
+    // if (localStorage.getItem(storageKey) !== null && localStorage.getItem(storageKey) != "undefined") {
+    //     biggestWinMargin = JSON.parse(localStorage.getItem(storageKey));
+    //     return biggestWinMargin;
+    // }
+    const liveScoring = getLiveScoring(week);
+    for(x in liveScoring.liveScoring.matchup) {
+        console.log(liveScoring.liveScoring.matchup[x])
+        // for(y in liveScoring.liveScoring.matchup[x].franchise){
+
+        //     if(biggestWinMargin === undefined || parseFloat(liveScoring.liveScoring.matchup[x].franchise[y].score) > parseFloat(biggestWinMargin.score)){
+        //         maxScoreFranchise = liveScoring.liveScoring.matchup[x].franchise[y]
+        //     }
+        // }
+    }
+    // console.log(biggestWinMargin,franchises["fid_"+maxScoreFranchise.id]);
+    // let biggestWinMargin = {
+    //     ...maxScoreFranchise,
+    //     ...franchises["fid_"+maxScoreFranchise.id],
+    // }
+    // localStorage.setItem(storageKey,JSON.stringify(biggestWinMargin))
+    return biggestWinMargin;
 }
