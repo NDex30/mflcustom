@@ -26,8 +26,8 @@ $(function() {
         switch(i) {
             case 1:
                 //testing ground now
-                // var nonQBmaxPoints = mostPlayerPoints
-                // console.log("mostTeamTDs",mostTeamTDs);
+                var maxNonQBPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,["RB","WR","TE"],"smashBrosTestJunk");
+                console.log("maxNonQBPoints",maxNonQBPoints);
                 break;
             case 3:
                 var maxPointsFranchise = mostTeamPoints(i,franchiseDatabase);
@@ -77,6 +77,11 @@ $(function() {
                 var maxTeamTDs = mostTeamTDS(i,formattedWeek,franchiseDatabase,playerDatabase,"smashBrosMostTeamTDs");
                 content += '<tr><td colspan=2><h3>Week '+i+': Most Team TDs</h3></td></tr>';
                 content += '<tr><td>' +  maxTeamTDs.franchiseName + '</td><td>' + maxTeamTDs.totalTDs + '</td></tr>';
+                break;
+            case 11:
+                var maxNonQBPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,["RB","WR","TE"],"smashBrosMostNonQBPoints");
+                content += '<tr><td colspan=2><h3>Week '+i+': Player with Most Points (No QB)</h3></td></tr>';
+                content += '<tr><td>' +  maxNonQBPoints.franchiseName + '</td><td>' + maxNonQBPoints.playerName + ' -- ' + maxNonQBPoints.score + '</td></tr>';
                 break;
             default:
                 if(console)console.log("well this isn't good "+formattedWeek)
