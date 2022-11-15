@@ -317,14 +317,30 @@ function mostPlayerReceptions(week,formattedWeek,franchises,players,storageKey) 
                     }
                 }
             }
+            if(playerReceptions.length === 0){
+                continue
+            }
             playerReceptions.sort((a,b) => b.receptions - a.receptions);
-            console.log("franchise info",franchiseInfo,"playerReceptions",playerReceptions);
-            // if(mostPlayerReceptions === undefined || parseInt(receptions) > parseInt(mostPlayerReceptions.receptions)){
-            //     mostPlayerReceptions = {
-            //         receptions,
-            //         ...franchiseInfo,
-            //         playerName,
-            //     }
+            console.log("mostReceptions",mostPlayerReceptions,"playerReceptions",playerReceptions);
+            if(mostPlayerReceptions === undefined){
+                mostPlayerReceptions = {
+                    ...franchiseInfo,
+                    ...playerReceptions[0],
+                    playerReceptions,
+                }
+                continue
+            }
+            if(parseInt(playerReceptions[0].receptions) > parseInt(mostPlayerReceptions.receptions)){
+                mostPlayerReceptions = {
+                    ...franchiseInfo,
+                    ...playerReceptions[0],
+                    playerReceptions
+                }
+                continue
+            }
+
+            // if(parseInt(playerReceptions[0].receptions) == parseInt(mostPlayerReceptions.receptions)){
+
             // }
         }
     }
