@@ -26,8 +26,8 @@ $(function() {
         switch(i) {
             case 1:
                 //testing ground now
-                var maxWinMargin = biggestWinMargin(i,franchiseDatabase,"smashedBrosTestJunk");
-                console.log("biggestWinMargin",maxWinMargin);
+                var maxPlayerAllPurposeYards = mostPlayerAllPurposeYards(i,formattedWeek,franchiseDatabase,playerDatabase,["RB","WR","TE"],"smashBrosTestJunkMost");
+                console.log("maxPlayerAllPurposeYards",maxPlayerAllPurposeYards);
                 break;
             case 3:
                 var maxPointsFranchise = mostTeamPoints(i,franchiseDatabase);
@@ -78,10 +78,15 @@ $(function() {
                 content += '<tr><td colspan=2><h3>Week '+i+': Most Team TDs</h3></td></tr>';
                 content += '<tr><td>' +  maxTeamTDs.franchiseName + '</td><td>' + maxTeamTDs.totalTDs + '</td></tr>';
                 break;
-            case 11:
+            case 12:
                 var maxNonQBPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,["RB","WR","TE"],"smashBrosMostNonQBPoints");
                 content += '<tr><td colspan=2><h3>Week '+i+': Player with Most Points (No QB)</h3></td></tr>';
                 content += '<tr><td>' +  maxNonQBPoints.franchiseName + '</td><td>' + maxNonQBPoints.playerName + ' -- ' + maxNonQBPoints.score + '</td></tr>';
+                break;
+            case 13:
+                var maxWinMargin = biggestWinMargin(i,franchiseDatabase,"smashedBrosGreatestWinMargin");
+                content += '<tr><td colspan=2><h3>Week '+i+': Greatest Win Margin</h3></td></tr>';
+                content += '<tr><td>' +  maxWinMargin.name + '</td><td>' + maxWinMargin.margin + '</td></tr>';
                 break;
             default:
                 if(console)console.log("well this isn't good "+formattedWeek)
@@ -416,10 +421,10 @@ function mostTeamTDS(week,formattedWeek,franchises,players,storageKey) {
 
 function biggestWinMargin(week,franchises,storageKey) {
     var maxMargin;
-    // if (localStorage.getItem(storageKey) !== null && localStorage.getItem(storageKey) != "undefined") {
-    //     maxMargin = JSON.parse(localStorage.getItem(storageKey));
-    //     return maxMargin;
-    // }
+    if (localStorage.getItem(storageKey) !== null && localStorage.getItem(storageKey) != "undefined") {
+        maxMargin = JSON.parse(localStorage.getItem(storageKey));
+        return maxMargin;
+    }
     const liveScoring = getLiveScoring(week);
     for(x in liveScoring.liveScoring.matchup) {
         let f1 = liveScoring.liveScoring.matchup[x].franchise[0];
@@ -441,19 +446,49 @@ function biggestWinMargin(week,franchises,storageKey) {
                 }
             }
         }
-        console.log(maxMargin)
-        // for(y in liveScoring.liveScoring.matchup[x].franchise){
-
-        //     if(biggestWinMargin === undefined || parseFloat(liveScoring.liveScoring.matchup[x].franchise[y].score) > parseFloat(biggestWinMargin.score)){
-        //         maxScoreFranchise = liveScoring.liveScoring.matchup[x].franchise[y]
-        //     }
-        // }
     }
-    // console.log(biggestWinMargin,franchises["fid_"+maxScoreFranchise.id]);
-    // let biggestWinMargin = {
-    //     ...maxScoreFranchise,
-    //     ...franchises["fid_"+maxScoreFranchise.id],
-    // }
-    // localStorage.setItem(storageKey,JSON.stringify(maxMargin))
+    localStorage.setItem(storageKey,JSON.stringify(maxMargin))
     return maxMargin;
+}
+
+function mostPlayerAllPurposeYards(week,formattedWeek,franchises,players,positions,storageKey) {
+    var mostPlayerAllPurposeYards;
+    // if (localStorage.getItem(storageKey) !== null && localStorage.getItem(storageKey) != "undefined") {
+    //     mostPlayerAllPurposeYards = JSON.parse(localStorage.getItem(storageKey));
+    //     return mostPlayerAllPurposeYards;
+    // }
+    const liveStats = getLiveStats(formattedWeek);
+    const liveScoring = getLiveScoring(week);
+    var rcyRegEx = new RegExp("^(RCY|KY|UY) [0-9]{1,3}$");
+    for(x in liveScoring.liveScoring.matchup) {
+        for(y in liveScoring.liveScoring.matchup[x].franchise){
+            for(z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
+                for(zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]){
+                    var playerScore = liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
+                    var playerInfo = players['pid_'+playerScore.id];
+                    var playerStats = liveStats[playerScore.id];
+                    var totalPlayerYards = 0
+                    if(positions.includes(playerInfo.position)){
+                        for(yy in playerStats) {
+                            if (rcyRegEx.test(playerStats[yy])){
+                                var rushCatchYards = playerStats[yy].replace(/[^0-9]/g, '');
+                                totalPlayerYards += parseInt(rushCatchYards);
+                            }
+                        }
+                        if(mostPlayerAllPurposeYards === undefined || totalPlayerYards > parseInt(mostPlayerAllPurposeYards.totalPlayerYards)){
+                            var playerName = playerInfo.name
+                            var franchiseInfo = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id]
+                            mostPlayerAllPurposeYards = {
+                                totalPlayerYards,
+                                ...franchiseInfo,
+                                playerName,
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // localStorage.setItem(storageKey,JSON.stringify(mostPlayerAllPurposeYards))
+    return mostPlayerAllPurposeYards;
 }
