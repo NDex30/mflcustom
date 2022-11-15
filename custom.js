@@ -317,7 +317,7 @@ function mostPlayerReceptions(week,formattedWeek,franchises,players,storageKey) 
                     }
                 }
             }
-            playerReceptions.sort((a,b) => a.receptions > b.receptions);
+            playerReceptions.sort((a,b) => a.receptions - b.receptions);
             console.log("franchise info",franchiseInfo,"playerReceptions",playerReceptions);
             // if(mostPlayerReceptions === undefined || parseInt(receptions) > parseInt(mostPlayerReceptions.receptions)){
             //     mostPlayerReceptions = {
