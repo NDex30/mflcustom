@@ -24,11 +24,6 @@ $(function() {
             useGrouping: false
         })
         switch(i) {
-            case 1:
-                //testing ground now
-                var maxPlayerAllPurposeYards = mostPlayerAllPurposeYards(i,formattedWeek,franchiseDatabase,playerDatabase,["RB","WR","TE"],"smashBrosTestJunkMost");
-                console.log("maxPlayerAllPurposeYards",maxPlayerAllPurposeYards);
-                break;
             case 3:
                 var maxPointsFranchise = mostTeamPoints(i,franchiseDatabase);
                 content += '<tr><td colspan=2><h3>Week '+i+': Most Team Points</h3></td></tr>';
@@ -36,7 +31,6 @@ $(function() {
                 break;
             case 4: 
                 var maxAllPurposeYards = mostAllPurposeYards(i,formattedWeek,franchiseDatabase,playerDatabase,"smashBrosMostAllPurposeYards");
-                // console.log("MAX ALL PURPOSE YARDS",maxAllPurposeYards);
                 content += '<tr><td colspan=2><h3>Week '+i+': Most All-Purpose Yards</h3></td></tr>';
                 content += '<tr><td>' +  maxAllPurposeYards.name + '</td><td>' + maxAllPurposeYards.totalFranchiseYards + '</td></tr>';
                 break;
@@ -47,13 +41,11 @@ $(function() {
                 break;
             case 6: 
                 var maxPassTouchdown = longestTouchdownPass(i,formattedWeek,franchiseDatabase,playerDatabase,"smashBrosLongestTouchdownPass");
-                // console.log("MAX PASSTOUCHDOWN",maxPassTouchdown);
                 content += '<tr><td colspan=2><h3>Week '+i+': Longest QB TD</h3></td></tr>';
                 content += '<tr><td>' +  maxPassTouchdown.name + '</td><td>' + maxPassTouchdown.playerName + ' -- ' + maxPassTouchdown.pass + '</td></tr>';
                 break;
             case 7: 
                 var maxTeamReceptions = mostTeamReceptions(i,formattedWeek,franchiseDatabase,playerDatabase,"smashBrosMostTeamReceptions");
-                // console.log("MAX ALL PURPOSE YARDS",maxAllPurposeYards);
                 content += '<tr><td colspan=2><h3>Week '+i+': Most Team Receptions</h3></td></tr>';
                 content += '<tr><td>' +  maxTeamReceptions.name + '</td><td>' + maxTeamReceptions.totalReceptions + '</td></tr>';
                 break;
@@ -64,14 +56,13 @@ $(function() {
                 break;
             case 9: 
                 var maxPlayerReceptions = mostPlayerReceptions(i,formattedWeek,franchiseDatabase,playerDatabase,"smashBrosMostPlayerReceptions2");
-                // console.log("MAX ALL PURPOSE YARDS",maxAllPurposeYards);
                 content += '<tr><td colspan=2><h3>Week '+i+': Most Single Player Receptions</h3></td></tr>';
                 content += '<tr><td>' +  maxPlayerReceptions.name + '</td><td>' + maxPlayerReceptions.playerName + ' -- ' + maxPlayerReceptions.receptions + '</td></tr>';
                 break;
             case 10:
                 var maxTEPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,["TE"],"smashBrosMostDefensePoints");
                 content += '<tr><td colspan=2><h3>Week '+i+': Most Points from Single Tight End</h3></td></tr>';
-                content += '<tr><td>' +  maxDefPoints.franchiseName + '</td><td>' + maxDefPoints.playerName + ' -- ' + maxDefPoints.score + '</td></tr>';
+                content += '<tr><td>' +  maxTEPoints.franchiseName + '</td><td>' + maxTEPoints.playerName + ' -- ' + maxTEPoints.score + '</td></tr>';
                 break;
             case 11:
                 var maxTeamTDs = mostTeamTDS(i,formattedWeek,franchiseDatabase,playerDatabase,"smashBrosMostTeamTDs");
@@ -87,6 +78,11 @@ $(function() {
                 var maxWinMargin = biggestWinMargin(i,franchiseDatabase,"smashedBrosGreatestWinMargin");
                 content += '<tr><td colspan=2><h3>Week '+i+': Greatest Win Margin</h3></td></tr>';
                 content += '<tr><td>' +  maxWinMargin.name + '</td><td>' + maxWinMargin.margin + '</td></tr>';
+                break;
+            case 13:
+                var maxPlayerAllPurposeYards = mostPlayerAllPurposeYards(i,formattedWeek,franchiseDatabase,playerDatabase,["RB","WR","TE"],"smashBrosMostAllPurposeYards");
+                content += '<tr><td colspan=2><h3>Week '+i+': Player with Most Yards (No QB)</h3></td></tr>';
+                content += '<tr><td>' +  maxPlayerAllPurposeYards.name + '</td><td>' + maxPlayerAllPurposeYards.playerName + ' -- ' + maxPlayerAllPurposeYards.totalPlayerYards + '</td></tr>';
                 break;
             default:
                 if(console)console.log("well this isn't good "+formattedWeek)
@@ -453,10 +449,10 @@ function biggestWinMargin(week,franchises,storageKey) {
 
 function mostPlayerAllPurposeYards(week,formattedWeek,franchises,players,positions,storageKey) {
     var mostPlayerAllPurposeYards;
-    // if (localStorage.getItem(storageKey) !== null && localStorage.getItem(storageKey) != "undefined") {
-    //     mostPlayerAllPurposeYards = JSON.parse(localStorage.getItem(storageKey));
-    //     return mostPlayerAllPurposeYards;
-    // }
+    if (localStorage.getItem(storageKey) !== null && localStorage.getItem(storageKey) != "undefined") {
+        mostPlayerAllPurposeYards = JSON.parse(localStorage.getItem(storageKey));
+        return mostPlayerAllPurposeYards;
+    }
     const liveStats = getLiveStats(formattedWeek);
     const liveScoring = getLiveScoring(week);
     var rcyRegEx = new RegExp("^(RCY|KY|UY) [0-9]{1,3}$");
@@ -489,6 +485,6 @@ function mostPlayerAllPurposeYards(week,formattedWeek,franchises,players,positio
             }
         }
     }
-    // localStorage.setItem(storageKey,JSON.stringify(mostPlayerAllPurposeYards))
+    localStorage.setItem(storageKey,JSON.stringify(mostPlayerAllPurposeYards))
     return mostPlayerAllPurposeYards;
 }
