@@ -120,7 +120,7 @@ function getLiveScoring(week) {
 function mostTeamPoints(week,franchises) {
     const storageKey = "smashBrosMostTeamPoints";
     var maxScoreFranchise;
-    if (localStorage.getItem(storageKey) !== null) {
+    if (localStorage.getItem(storageKey) !== null && localStorage.getItem(storageKey) != "undefined") {
         maxScoreFranchise = JSON.parse(localStorage.getItem(storageKey));
         return maxScoreFranchise;
     }
@@ -143,7 +143,7 @@ function mostTeamPoints(week,franchises) {
 
 function mostPlayerPoints(week,franchises,players,position,storageKey) {
     var mostPlayerPoints;
-    if (localStorage.getItem(storageKey) !== null) {
+    if (localStorage.getItem(storageKey) !== null && localStorage.getItem(storageKey) != "undefined") {
         mostPlayerPoints = JSON.parse(localStorage.getItem(storageKey));
         return mostPlayerPoints;
     }
@@ -213,7 +213,7 @@ function mostAllPurposeYards(week,formattedWeek,franchises,players,storageKey) {
 
 function longestTouchdownPass(week,formattedWeek,franchises,players,storageKey) {
     var longestTouchDownPass;
-    if (localStorage.getItem(storageKey) !== null) {
+    if (localStorage.getItem(storageKey) !== null && localStorage.getItem(storageKey) != "undefined") {
         longestTouchDownPass = JSON.parse(localStorage.getItem(storageKey));
         return longestTouchDownPass;
     }
@@ -254,7 +254,7 @@ function longestTouchdownPass(week,formattedWeek,franchises,players,storageKey) 
 
 function mostTeamReceptions(week,formattedWeek,franchises,players,storageKey) {
     var mostTeamReceptions;
-    if (localStorage.getItem(storageKey) !== null) {
+    if (localStorage.getItem(storageKey) !== null && localStorage.getItem(storageKey) != "undefined") {
         mostTeamReceptions = JSON.parse(localStorage.getItem(storageKey));
         return mostTeamReceptions;
     }
@@ -293,7 +293,7 @@ function mostTeamReceptions(week,formattedWeek,franchises,players,storageKey) {
 //tie breaker is next highest receiver receptions until one has a higher receptions
 function mostPlayerReceptions(week,formattedWeek,franchises,players,storageKey) {
     var mostPlayerReceptions;
-    if (localStorage.getItem(storageKey) !== null) {
+    if (localStorage.getItem(storageKey) !== null && localStorage.getItem(storageKey) != "undefined") {
         mostPlayerReceptions = JSON.parse(localStorage.getItem(storageKey));
         return mostPlayerReceptions;
     }
@@ -366,7 +366,7 @@ function mostPlayerReceptions(week,formattedWeek,franchises,players,storageKey) 
 
 function mostTeamTDS(week,formattedWeek,franchises,players,storageKey) {
     var mostTeamTds;
-    // if (localStorage.getItem(storageKey) !== null) {
+    // if (localStorage.getItem(storageKey) !== null && localStorage.getItem(storageKey) != "undefined") {
     //     mostTeamTds = JSON.parse(localStorage.getItem(storageKey));
     //     return mostTeamTds;
     // }
@@ -389,6 +389,7 @@ function mostTeamTDS(week,formattedWeek,franchises,players,storageKey) {
                     }
                 }
             }
+            console.log("total tds",totalTDs,"mostTotalTeamTDS",mostTeamTds)
             if(mostTeamTds === undefined || totalTDs > parseInt(mostTeamTds.totalTDs)){
                 var franchiseInfo = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id]
                 mostTeamTds = {
@@ -398,6 +399,6 @@ function mostTeamTDS(week,formattedWeek,franchises,players,storageKey) {
             }
         }
     }
-    localStorage.setItem(storageKey,JSON.stringify(mostTeamReceptions))
+    localStorage.setItem(storageKey,JSON.stringify(mostTeamTds))
     return mostTeamTds;
 }
