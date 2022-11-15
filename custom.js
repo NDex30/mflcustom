@@ -340,7 +340,7 @@ function mostPlayerReceptions(week,formattedWeek,franchises,players,storageKey) 
             }
             if(parseInt(playerReceptions[0].receptions) == parseInt(mostPlayerReceptions.receptions)){
                 for(rr in playerReceptions){
-                    if(playerReceptions[rr].receptions > mostPlayerReceptions.playerReceptions[rr].receptions){
+                    if(parseInt(playerReceptions[rr].receptions) > parseInt(mostPlayerReceptions.playerReceptions[rr].receptions)){
                         mostPlayerReceptions = {
                             ...franchiseInfo,
                             ...playerReceptions[0],
