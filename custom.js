@@ -286,6 +286,7 @@ function mostTeamReceptions(week,formattedWeek,franchises,players,storageKey) {
     return mostTeamReceptions;
 }
 
+//tie breaker is next highest receiver receptions until one has a higher receptions
 function mostPlayerReceptions(week,formattedWeek,franchises,players,storageKey) {
     var mostPlayerReceptions;
     // if (localStorage.getItem(storageKey) !== null) {
@@ -297,27 +298,33 @@ function mostPlayerReceptions(week,formattedWeek,franchises,players,storageKey) 
     var rcyRegEx = new RegExp("^CC [0-9]{1,3}$");
     for(x in liveScoring.liveScoring.matchup) {
         for(y in liveScoring.liveScoring.matchup[x].franchise){
-            var franchiseInfo = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id]
+            var franchiseInfo = franchises["fid_"+liveScoring.liveScoring.matchup[x].franchise[y].id];
+            var playerReceptions = [];
             for(z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
                 for(zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]){
                     var playerScore = liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
                     var playerInfo = players['pid_'+playerScore.id]
                     var playerStats = liveStats[playerScore.id]
+                    var playerName = playerInfo.name;
                     for(yy in playerStats) {
                         if (rcyRegEx.test(playerStats[yy])){
                             var receptions = playerStats[yy].replace(/[^0-9]/g, '');
-                            if(mostPlayerReceptions === undefined || parseInt(receptions) > parseInt(mostPlayerReceptions.receptions)){
-                                var playerName = playerInfo.name;
-                                mostPlayerReceptions = {
-                                    receptions,
-                                    ...franchiseInfo,
-                                    playerName,
-                                }
-                            }
+                            playerReceptions.push({
+                                playerName,
+                                receptions
+                            });
                         }
                     }
                 }
             }
+            console.log("franchise info",franchiseInfo,"playerReceptions",playerReceptions);
+            // if(mostPlayerReceptions === undefined || parseInt(receptions) > parseInt(mostPlayerReceptions.receptions)){
+            //     mostPlayerReceptions = {
+            //         receptions,
+            //         ...franchiseInfo,
+            //         playerName,
+            //     }
+            // }
         }
     }
     localStorage.setItem(storageKey,JSON.stringify(mostPlayerReceptions))
