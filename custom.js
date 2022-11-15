@@ -175,7 +175,7 @@ function mostPlayerPoints(week,franchises,players,position,storageKey) {
 
 function mostAllPurposeYards(week,formattedWeek,franchises,players,storageKey) {
     var mostAllPurposeYards;
-    if (localStorage.getItem(storageKey) !== null) {
+    if (localStorage.getItem(storageKey) !== null && localStorage.getItem(storageKey) != "undefined") {
         mostAllPurposeYards = JSON.parse(localStorage.getItem(storageKey));
         return mostAllPurposeYards;
     }
