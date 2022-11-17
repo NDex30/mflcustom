@@ -1,6 +1,5 @@
 $(function() {
     //  console.log(franchiseDatabase);
-    // console.log("current week",real_ls_week);
     /*
         Week 3 = Most Team Points (Matty - 147.48)
         Week 4 = Most All-Purpose Yards
