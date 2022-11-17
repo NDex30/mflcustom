@@ -60,7 +60,7 @@ $(function() {
                 content += '<tr><td>' +  maxPlayerReceptions.name + '</td><td>' + maxPlayerReceptions.playerName + ' -- ' + maxPlayerReceptions.receptions + '</td></tr>';
                 break;
             case 10:
-                var maxTEPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,["TE"],"smashBrosMostDefensePoints");
+                var maxTEPoints = mostPlayerPoints(i,franchiseDatabase,playerDatabase,["TE"],"smashBrosMostTEPoints");
                 content += '<tr><td colspan=2><h3>Week '+i+': Most Points from Single Tight End</h3></td></tr>';
                 content += '<tr><td>' +  maxTEPoints.franchiseName + '</td><td>' + maxTEPoints.playerName + ' -- ' + maxTEPoints.score + '</td></tr>';
                 break;
@@ -80,7 +80,7 @@ $(function() {
                 content += '<tr><td>' +  maxWinMargin.name + '</td><td>' + maxWinMargin.margin + '</td></tr>';
                 break;
             case 13:
-                var maxPlayerAllPurposeYards = mostPlayerAllPurposeYards(i,formattedWeek,franchiseDatabase,playerDatabase,["RB","WR","TE"],"smashBrosMostAllPurposeYards");
+                var maxPlayerAllPurposeYards = mostPlayerAllPurposeYards(i,formattedWeek,franchiseDatabase,playerDatabase,["RB","WR","TE"],"smashBrosMostNonQBYards");
                 content += '<tr><td colspan=2><h3>Week '+i+': Player with Most Yards (No QB)</h3></td></tr>';
                 content += '<tr><td>' +  maxPlayerAllPurposeYards.name + '</td><td>' + maxPlayerAllPurposeYards.playerName + ' -- ' + maxPlayerAllPurposeYards.totalPlayerYards + '</td></tr>';
                 break;
