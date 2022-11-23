@@ -1,11 +1,13 @@
 $(function() {
-    let newWeekFormatted = completedWeek.toLocaleString('en-US', {
+    newWeek = completedWeek+1
+    let newWeekFormatted = newWeek.toLocaleString('en-US', {
         minimumIntegerDigits: 2,
         useGrouping: false
-    })
+    });
+
     //add spreads to confidence pool pickems
     if(qs("O") === "121") {
-        console.log("on confidence probably");
+        console.log("on confidence probably",newWeekFormatted);
         var nflSpreadsByTeamID = getNFLSpreads(newWeekFormatted);
         wrapperTable = $('table caption span').filter(function() {
             return $(this).text().toLowerCase().includes("confidence");
