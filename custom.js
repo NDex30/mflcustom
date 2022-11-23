@@ -65,7 +65,7 @@ function isPositiveInteger(str) {
 
     const num = Number(str);
   
-    if (Number.isInteger(num) && num > 0) {
+    if ( num > 0) {
       return true;
     }
   
