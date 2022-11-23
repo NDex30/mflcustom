@@ -21,6 +21,9 @@ function getNFLSchedule(formattedWeek) {
         url: "https://"+window.location.host+"/fflnetdynamic"+year+"/nfl_sched_"+formattedWeek+".json",
         dataType: 'json',
         success: function( data ) {
+            for(x in data.nflSchedule.matchup){
+                console.log("matchup",data.nflSchedule.matchup[x]);
+            }
             console.log(data);
             // const lines = data.split("\n");
             // for(x in lines){
