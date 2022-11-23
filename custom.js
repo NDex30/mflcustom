@@ -22,7 +22,9 @@ function getNFLSchedule(formattedWeek) {
         dataType: 'json',
         success: function( data ) {
             for(x in data.nflSchedule.matchup){
-                console.log("matchup",data.nflSchedule.matchup[x]);
+                for(y in data.nflSchedule.matchup[x].team) {
+                    console.log("team",data.nflSchedule.matchup[x].team[y]);
+                }
             }
             console.log(data);
             // const lines = data.split("\n");
