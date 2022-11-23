@@ -11,3 +11,6 @@ span.spread.positive {
     margin-left: 10px;
     color: red;
 }
+table#standings {
+    display: table !important;
+}
