@@ -13,7 +13,7 @@ $(function() {
         wrapperTable.find('tr td').each(function() {
             teamID = $(this).find('input[type=radio]').val();
             if(teamID === undefined){ return }
-            $(this).find('label').append('<span class="spread">'+nflSpreadsByTeamID[teamID+'</span>']);
+            $(this).find('label').append('<span class="spread">'+nflSpreadsByTeamID[teamID]+'</span>');
             console.log("cell",this,teamID);
         });
         // ,wrapperTable.css( "background-color", "red" );
