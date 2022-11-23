@@ -1,5 +1,5 @@
 $(function() {
-    newWeek = completedWeek+1
+    let newWeek = completedWeek+1;
     let newWeekFormatted = newWeek.toLocaleString('en-US', {
         minimumIntegerDigits: 2,
         useGrouping: false
@@ -7,7 +7,7 @@ $(function() {
 
     //add spreads to confidence pool pickems
     if(qs("O") === "121") {
-        console.log("on confidence probably",newWeekFormatted);
+        // console.log("on confidence probably",newWeekFormatted);
         var nflSpreadsByTeamID = getNFLSpreads(newWeekFormatted);
         wrapperTable = $('table caption span').filter(function() {
             return $(this).text().toLowerCase().includes("confidence");
@@ -38,7 +38,7 @@ function getNFLSpreads(formattedWeek) {
                     // console.log("team",data.nflSchedule.matchup[x].team[y]);
                 }
             }
-            console.log(data);
+            // console.log(data);
             // const lines = data.split("\n");
             // for(x in lines){
             //     const stats = lines[x].split("|")
