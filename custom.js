@@ -10,13 +10,13 @@ $(function() {
         wrapperTable = $('table caption span').filter(function() {
             return $(this).text().toLowerCase().includes("confidence");
         }).closest('table');
-        console.log("nfl spreads by team id",nflSpreadsByTeamID)
+        // console.log("nfl spreads by team id",nflSpreadsByTeamID)
         wrapperTable.find('tr td').each(function() {
             teamID = $(this).find('input[type=radio]').val();
             if(teamID === undefined){ return }
             isPositive = isPositiveInteger(nflSpreadsByTeamID[teamID]) ? ' positive': '';
             $(this).find('label').append('<span class="spread'+isPositive+'">'+nflSpreadsByTeamID[teamID]+'</span>');
-            console.log("cell",this,teamID,nflSpreadsByTeamID[teamID]);
+            // console.log("cell",this,teamID,nflSpreadsByTeamID[teamID]);
         });
         // ,wrapperTable.css( "background-color", "red" );
         // console.log("table maybe",wrapperTable);
@@ -36,7 +36,7 @@ function getNFLSpreads(formattedWeek) {
                     // console.log("team",data.nflSchedule.matchup[x].team[y]);
                 }
             }
-            // console.log(data);
+            console.log(data);
             // const lines = data.split("\n");
             // for(x in lines){
             //     const stats = lines[x].split("|")
