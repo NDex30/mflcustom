@@ -6,8 +6,10 @@ $(function() {
         wrapperTable = $('table caption span').filter(function() {
             return $(this).text().toLowerCase().includes("confidence");
         }).closest('table');
-        wrapperTable.find('tr').each(function() {
-            console.log(this);
+        wrapperTable.find('tr td').each(function() {
+            teamID = $(this).find('input[type=radio]').val();
+
+            console.log("cell",this,teamID);
         });
         // ,wrapperTable.css( "background-color", "red" );
         // console.log("table maybe",wrapperTable);
