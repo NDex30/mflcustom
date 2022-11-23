@@ -1,5 +1,4 @@
 $(function() {
-    //  console.log(franchiseDatabase);
     /*
         Week 3 = Most Team Points (Matty - 147.48)
         Week 4 = Most All-Purpose Yards
@@ -84,7 +83,7 @@ $(function() {
                 content += '<tr><td>' +  maxPlayerAllPurposeYards.name + '</td><td>' + maxPlayerAllPurposeYards.playerName + ' -- ' + maxPlayerAllPurposeYards.totalPlayerYards + '</td></tr>';
                 break;
             default:
-                if(console)console.log("well this isn't good "+formattedWeek)
+                if(console)console.log("well this isn't good "+formattedWeek);
         }
     }
     $('#weekly-challenges-box').append(content);
@@ -96,19 +95,17 @@ function getLiveStats(formattedWeek) {
     let ms = d.getMilliseconds();
     $.ajax({
         async: false, 
-        url: "https://www80.myfantasyleague.com/fflnetdynamic2022/live_stats_"+formattedWeek+".txt?RANDOM="+ms,
+        url: "https://"+window.location.host+"/fflnetdynamic"+year+"/live_stats_"+formattedWeek+".txt?RANDOM="+ms,
         dataType: 'text',
         success: function( data ) {
             const lines = data.split("\n");
-            // console.log("lines",lines,"text",data)
             for(x in lines){
                 const stats = lines[x].split("|")
                 liveStats[stats[0]] = stats
             }
-            // console.log(liveStats)
         }
     }).fail(function() {
-            if(console)console.log( "error" );
+        if(console)console.log( "error" );
     });
     return liveStats;
 }
@@ -117,13 +114,13 @@ function getLiveScoring(week) {
     var liveScoring;
     $.ajax({
         async: false,
-        url: "https://www80.myfantasyleague.com/2022/export?TYPE=liveScoring&L=58663&W="+week+"&JSON=1",
+        url: "https://"+window.location.host+"/"+year+"/export?TYPE=liveScoring&L="+league_id+"&W="+week+"&JSON=1",
         dataType: 'json',
         success: function( data ) {
             liveScoring = data
         }
     }).fail(function() {
-            if(console)console.log( "error" );
+        if(console)console.log( "error" );
     });
     return liveScoring
 }
