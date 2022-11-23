@@ -10,11 +10,12 @@ $(function() {
         wrapperTable = $('table caption span').filter(function() {
             return $(this).text().toLowerCase().includes("confidence");
         }).closest('table');
+        console.log("nfl spreads by team id",nflSpreadsByTeamID)
         wrapperTable.find('tr td').each(function() {
             teamID = $(this).find('input[type=radio]').val();
             if(teamID === undefined){ return }
             $(this).find('label').append('<span class="spread">'+nflSpreadsByTeamID[teamID]+'</span>');
-            console.log("cell",this,teamID);
+            console.log("cell",this,teamID,nflSpreadsByTeamID[teamID]);
         });
         // ,wrapperTable.css( "background-color", "red" );
         // console.log("table maybe",wrapperTable);
@@ -44,7 +45,7 @@ function getNFLSpreads(formattedWeek) {
     }).fail(function() {
         if(console)console.log( "error" );
     });
-    console.log(nflSpreads);
+    // console.log(nflSpreads);
     return nflSpreads;
 }
 
