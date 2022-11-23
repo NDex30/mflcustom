@@ -14,7 +14,8 @@ $(function() {
         wrapperTable.find('tr td').each(function() {
             teamID = $(this).find('input[type=radio]').val();
             if(teamID === undefined){ return }
-            $(this).find('label').append('<span class="spread">'+nflSpreadsByTeamID[teamID]+'</span>');
+            isPositive = isPositiveInteger(nflSpreadsByTeamID[teamID]) ? ' positive': '';
+            $(this).find('label').append('<span class="spread'+isPositive+'">'+nflSpreadsByTeamID[teamID]+'</span>');
             console.log("cell",this,teamID,nflSpreadsByTeamID[teamID]);
         });
         // ,wrapperTable.css( "background-color", "red" );
@@ -54,3 +55,17 @@ function qs(key) {
     var match = location.search.match(new RegExp("[?&]"+key+"=([^&]+)(&|$)"));
     return match && decodeURIComponent(match[1].replace(/\+/g, " "));
 }
+
+function isPositiveInteger(str) {
+    if (typeof str !== 'string') {
+      return false;
+    }
+
+    const num = Number(str);
+  
+    if (Number.isInteger(num) && num > 0) {
+      return true;
+    }
+  
+    return false;
+  }
