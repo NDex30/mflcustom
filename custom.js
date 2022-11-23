@@ -1,5 +1,9 @@
 $(function() {
+    if(qs("O") === "121") {
+        console.log("on confidence probably");
+    }
     getNFLSchedule("12");
+
     console.log("query search",qs("O"))
 });
 
