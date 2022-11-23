@@ -1,10 +1,9 @@
 $(function() {
+    //add spreads to confidence pool pickems
     if(qs("O") === "121") {
         console.log("on confidence probably");
+        getNFLSchedule("12");
     }
-    getNFLSchedule("12");
-
-    console.log("query search",qs("O"))
 });
 
 function getNFLSchedule(formattedWeek) {
