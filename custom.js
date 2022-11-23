@@ -1,5 +1,6 @@
 $(function() {
     getNFLSchedule("12");
+    console.log("query search",qs("O"))
 });
 
 function getNFLSchedule(formattedWeek) {
@@ -20,4 +21,10 @@ function getNFLSchedule(formattedWeek) {
         if(console)console.log( "error" );
     });
     return nflSchedule;
+}
+
+function qs(key) {
+    key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx meta chars
+    var match = location.search.match(new RegExp("[?&]"+key+"=([^&]+)(&|$)"));
+    return match && decodeURIComponent(match[1].replace(/\+/g, " "));
 }
