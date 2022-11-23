@@ -3,7 +3,9 @@ $(function() {
     if(qs("O") === "121") {
         console.log("on confidence probably");
         getNFLSchedule("12");
-        console.log("table maybe",$( "div:contains('NFL CONFIDENCE POOL PICKS')" ).closest('table'));
+        wrapperTable = $( "div:contains('NFL CONFIDENCE POOL PICKS')" ).closest('table');
+        wrapperTable.css( "background-color", "red" );
+        console.log("table maybe",wrapperTable);
     }
 });
 
