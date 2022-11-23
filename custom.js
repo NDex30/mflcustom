@@ -14,8 +14,8 @@ $(function() {
     }
 });
 
-function getNFLSchedule(formattedWeek) {
-    var nflSchedule = {};
+function getNFLSpreads(formattedWeek) {
+    var nflSpreads = {};
     $.ajax({
         async: false, 
         url: "https://"+window.location.host+"/fflnetdynamic"+year+"/nfl_sched_"+formattedWeek+".json",
@@ -23,10 +23,11 @@ function getNFLSchedule(formattedWeek) {
         success: function( data ) {
             for(x in data.nflSchedule.matchup){
                 for(y in data.nflSchedule.matchup[x].team) {
-                    console.log("team",data.nflSchedule.matchup[x].team[y]);
+                    nflSpreads[data.nflSchedule.matchup[x].team[y].id] = data.nflSchedule.matchup[x].team[y].spread;
+                    // console.log("team",data.nflSchedule.matchup[x].team[y]);
                 }
             }
-            console.log(data);
+            // console.log(data);
             // const lines = data.split("\n");
             // for(x in lines){
             //     const stats = lines[x].split("|")
@@ -36,7 +37,8 @@ function getNFLSchedule(formattedWeek) {
     }).fail(function() {
         if(console)console.log( "error" );
     });
-    return nflSchedule;
+    console.log(nflSpreads);
+    return nflSpreads;
 }
 
 function qs(key) {
