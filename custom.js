@@ -6,8 +6,11 @@ $(function() {
         wrapperTable = $('table caption span').filter(function() {
             return $(this).text().toLowerCase().includes("confidence");
         }).closest('table');
+        wrapperTable.find('tr').each(function() {
+            console.log(this);
+        });
         // ,wrapperTable.css( "background-color", "red" );
-        console.log("table maybe",wrapperTable);
+        // console.log("table maybe",wrapperTable);
     }
 });
 
