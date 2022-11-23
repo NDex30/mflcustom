@@ -3,8 +3,10 @@ $(function() {
     if(qs("O") === "121") {
         console.log("on confidence probably");
         getNFLSchedule("12");
-        wrapperTable = $('span:contains("NFL CONFIDENCE POOL PICKS")');
-        wrapperTable.css( "background-color", "red" );
+        wrapperTable = $('table caption span').filter(function() {
+            return $(this).text().toLowerCase().includes("confidence");
+        }).closest('table');
+        // ,wrapperTable.css( "background-color", "red" );
         console.log("table maybe",wrapperTable);
     }
 });
