@@ -185,6 +185,8 @@ $(function () {
     matchup = $(this).data("matchup");
     $(".matchup-dot").removeClass("active");
     $(this).addClass("active");
+    $(".matchup-box").css("order", 99);
+    $("#" + matchup).css("order", 1);
     console.log("matchup", matchup);
   });
   //   $("#dexscoring").slick({
