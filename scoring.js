@@ -54,7 +54,8 @@ $(function () {
         if (playerInfo.position === "Def") {
           imgSrc =
             'src="https://www.mflscripts.com/ImageDirectory/script-images/nflTeamsvg_2/' +
-            playerInfo.team;
+            playerInfo.team +
+            ".svg";
         } else {
           imgSrc =
             'src="https://www.mflscripts.com/playerImages_80x107/mfl_' +
@@ -66,7 +67,7 @@ $(function () {
             playerScore.id +
             '"><img ' +
             imgSrc +
-            '.png" /></div>'
+            " /></div>"
         );
         playerRow.append(
           '<div class="player-details-box"><div class="player-name"><h3>' +
