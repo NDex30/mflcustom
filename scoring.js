@@ -1,5 +1,9 @@
 $(function () {
   let liveScoring = getLiveScoring(real_ls_week);
+  scoringBox = $("#dexscoring");
+  for (m in liveScoring.liveScoring.matchup) {
+    scoringBox.append('<div id="matchup_' + m + '"></div>');
+  }
   console.log("livescoring", liveScoring);
 });
 
