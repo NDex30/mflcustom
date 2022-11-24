@@ -79,6 +79,7 @@ div.franchise-icon {
 .player-image {
   max-width: 107px;
   flex-grow: 0;
+  align-self: center;
 }
 
 .player-image img {
@@ -88,4 +89,9 @@ div.franchise-icon {
 
 .player-name {
   flex-grow: 1;
+}
+
+.player-team {
+  max-width: 40px;
+  max-height: 40px;
 }

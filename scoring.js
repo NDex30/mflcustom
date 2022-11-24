@@ -58,23 +58,25 @@ $(function () {
             '.png" /></div>'
         );
         playerRow.append(
-          '<div class="player-name">' +
+          '<div class="player-details-box"><div class="player-name">' +
             playerInfo.name +
             '<div class="player-team"><img alt="' +
             playerInfo.team +
             '" src="https://www.mflscripts.com/ImageDirectory/script-images/nflTeamsvg_2/' +
             playerInfo.team +
-            '.svg"></div></div>'
-        );
-        playerRow.append(
-          '<div class="player-stats" id="stats_' + playerScore.id + '"></div>'
-        );
-        playerRow.append(
-          '<div class="player-score" id="score_' +
+            '.svg"></div></div><div class="player-stats" id="stats_' +
             playerScore.id +
-            '">' +
+            '"></div></div>'
+        );
+        // playerRow.append(
+        //   '<div class="player-stats" id="stats_' + playerScore.id + '"></div>'
+        // );
+        playerRow.append(
+          '<div class="player-score-box" id="score_' +
+            playerScore.id +
+            '"><div class="player-live-score">' +
             playerScore.score +
-            '<div class="player-projected-score" id="projected_' +
+            '</div><div class="player-projected-score" id="projected_' +
             playerScore.id +
             '">' +
             projectedScores[playerScore.id] +
