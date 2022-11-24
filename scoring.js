@@ -37,7 +37,11 @@ $(function () {
         let playerScore = franchise.players.player[p];
         var playerInfo = playerDatabase["pid_" + playerScore.id];
         let playerRow = $(
-          '<div class="player-row" id="' + playerScore.id + '"></div>'
+          '<div class="player-row position-order-' +
+            playerInfo.position +
+            '" id="' +
+            playerScore.id +
+            '"></div>'
         );
         playerRow.append(
           '<div class="player-position">' + playerInfo.position + "</div>"
