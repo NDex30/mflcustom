@@ -167,7 +167,11 @@ div.franchise-score {
 }
 .nav-dots > div {
   margin: 0 5px;
+  cursor: pointer;
 }
 .nav-dots i {
   font-size: 1.25rem;
+}
+.nav-dots .active i.fa.fa-circle {
+  color: green;
 }

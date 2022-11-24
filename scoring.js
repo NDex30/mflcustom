@@ -1,5 +1,6 @@
 var xDown = null;
 var yDown = null;
+var dexCurrMatchup = 0;
 
 function getTouches(evt) {
   return (
@@ -168,7 +169,9 @@ $(function () {
       i +
       '" data-matchup="matchup_' +
       i +
-      '"><i class="fa fa-circle" aria-hidden="true"></i></div>';
+      '"' +
+      (i === dexCurrMatchup ? 'class="active"' : "") +
+      '><i class="fa fa-circle" aria-hidden="true"></i></div>';
   }
   dots += "</div>";
   scoringBox.append(dots);
