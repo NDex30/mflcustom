@@ -50,26 +50,25 @@ $(function () {
         playerRow.append(
           '<div class="player-position">' + playerInfo.position + "</div>"
         );
+        let imageBox = $(
+          '<div class="player-image" id="image_' + playerScore.id + '"></div>'
+        );
         let imgSrc = "";
         if (playerInfo.position === "Def") {
           imgSrc =
             '<img src="https://www.mflscripts.com/ImageDirectory/script-images/nflTeamsvg_2/' +
             playerInfo.team +
             ".svg />";
+          imageBox.append($(imgSrc));
         } else {
           imgSrc =
             '<img src="https://www.mflscripts.com/playerImages_80x107/mfl_' +
             playerScore.id +
             ".png />";
+          imageBox.append($(imgSrc));
         }
         console.log("image src", imgSrc);
-        playerRow.append(
-          '<div class="player-image" id="image_' +
-            playerScore.id +
-            '">' +
-            imgSrc +
-            "</div>"
-        );
+        playerRow.append(imageBox);
         playerRow.append(
           '<div class="player-details-box"><div class="player-name"><h3>' +
             playerInfo.name +
