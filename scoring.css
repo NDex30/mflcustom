@@ -11,8 +11,21 @@ div#dexscoring {
   width: 100%;
   display: flex;
   flex-flow: row;
+  flex-shrink: 0;
+  flex-grow: 0;
 }
 
 .franchise-box {
   width: 50%;
+  display: block;
+  position: relative;
+}
+
+div.franchise-icon,
+.franchise-name,
+.franchise-score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
