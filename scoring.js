@@ -23,7 +23,7 @@ $(function () {
         '<div class="franchise-record">' + franchiseInfo.record + "</div>"
       );
       matchupBox.append(franchiseBox);
-      console.log("franchise", franchiseInfo.record);
+      console.log("franchise", franchiseInfo);
     }
   }
   console.log("livescoring", liveScoring);
