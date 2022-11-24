@@ -47,7 +47,7 @@ $(function () {
             playerScore.id +
             '"><img class="articlepicture" src="https://www.mflscripts.com/playerImages_80x107/mfl_' +
             playerScore.id +
-            '.png" alt="Murray, Kyler ARI QB" title="Murray, Kyler ARI QB" width="80" height="107" align="middle" onerror="this.onerror=null;this.src=\'https://www.mflscripts.com/playerImages_80x107/free_agent.png\';"></div>'
+            '.png" /></div>'
         );
         playerRow.append(
           '<div class="player-name">' + playerInfo.name + "</div>"
@@ -55,7 +55,7 @@ $(function () {
         playerRow.append(
           '<div class="player-team"><img src="https://www.mflscripts.com/ImageDirectory/script-images/nflTeamsvg_2/' +
             playerInfo.team +
-            '.svg" class="MFLPlayerPopupNFLTeamLogo">' +
+            '.svg">' +
             playerInfo.team +
             "</div>"
         );
