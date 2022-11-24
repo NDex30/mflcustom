@@ -86,6 +86,7 @@ div.franchise-icon {
 .player-image img {
   max-height: 50px;
   border-radius: 3em;
+  min-width: 38px;
 }
 
 .player-details-box {
@@ -119,4 +120,8 @@ div.franchise-icon {
 .player-projected-score {
   font-size: 0.75rem;
   font-style: italic;
+}
+
+.player-row.position-order-Def .player-team {
+  display: none;
 }
