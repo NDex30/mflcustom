@@ -207,12 +207,12 @@ function handleTouchMove(evt) {
   if (Math.abs(xDiff) > Math.abs(yDiff)) {
     /*most significant*/
     if (xDiff > 0) {
-      alert("swipe left");
+      // alert("swipe left");
       dexCurrMatchup += 1;
       // alert("swipe left " + totalMatchups + " yo");
       /* right swipe */
     } else {
-      alert("swipe right");
+      // alert("swipe right");
       dexCurrMatchup -= 1;
       /* left swipe */
       // alert("swipe right" + totalMatchups + " no");
@@ -238,4 +238,3 @@ function handleTouchMove(evt) {
   xDown = null;
   yDown = null;
 }
-v;
