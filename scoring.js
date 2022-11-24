@@ -30,12 +30,12 @@ function handleTouchMove(evt) {
   if (Math.abs(xDiff) > Math.abs(yDiff)) {
     /*most significant*/
     if (xDiff > 0) {
-      //   alert("swipe left");
+      alert("swipe left " + totalMatchups + " yo");
       /* right swipe */
     } else {
       /* left swipe */
-      //   alert("swipe right");
-      alert(totalMatchups);
+      alert("swipe right" + totalMatchups + " no");
+      // alert(totalMatchups);
     }
   } else {
     if (yDiff > 0) {
