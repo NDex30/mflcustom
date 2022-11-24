@@ -58,9 +58,9 @@ $(function () {
             '.png" /></div>'
         );
         playerRow.append(
-          '<div class="player-details-box"><div class="player-name">' +
+          '<div class="player-details-box"><div class="player-name"><h3>' +
             playerInfo.name +
-            '<div class="player-team"><img alt="' +
+            '</h3><div class="player-team"><img alt="' +
             playerInfo.team +
             '" src="https://www.mflscripts.com/ImageDirectory/script-images/nflTeamsvg_2/' +
             playerInfo.team +

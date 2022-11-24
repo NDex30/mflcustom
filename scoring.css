@@ -89,9 +89,17 @@ div.franchise-icon {
 
 .player-details-box {
   flex-grow: 1;
+  display: flex;
+  flex-flow: column;
+}
+
+.player-name {
+  display: flex;
+  flex-flow: row;
 }
 
 .player-team {
   max-width: 40px;
-  max-height: 40px;
+  max-height: 30px;
+  flex-grow: 1;
 }
