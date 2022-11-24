@@ -50,9 +50,6 @@ div.franchise-icon {
   flex: 1 0 100%;
   flex-flow: row;
 }
-.player-row > div {
-  flex-grow: 1;
-}
 .player-row.position-order-QB {
   order: 1;
 }
@@ -76,13 +73,19 @@ div.franchise-icon {
   align-self: center;
   font-weight: bold;
   padding: 0 0.25em;
+  flex-grow: 0;
 }
 
 .player-image {
   max-width: 107px;
+  flex-grow: 0;
 }
 
 .player-image img {
   max-height: 50px;
   border-radius: 3em;
+}
+
+.player-name {
+  flex-grow: 1;
 }
