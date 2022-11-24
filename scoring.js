@@ -1,5 +1,6 @@
 $(function () {
   let liveScoring = getLiveScoring(real_ls_week);
+  let projectedScores = getProjectedScore(real_ls_week, year, league_id);
   let scoringBox = $("#dexscoring");
   let autoRefresh = false;
   for (m in liveScoring.liveScoring.matchup) {
@@ -64,5 +65,36 @@ $(function () {
       //   console.log("franchise", Object.keys(franchiseInfo));
     }
   }
+  console.log("projected scores", projectedScores);
   console.log("livescoring", liveScoring);
 });
+
+function getProjectedScore(week, year, leagueID) {
+  //https://www80.myfantasyleague.com/2022/export?TYPE=projectedScores&L=58663&PLAYERS=&WEEK=12&JSON=1
+  var projectedStats = {};
+  const d = new Date();
+  let ms = d.getMilliseconds();
+  $.ajax({
+    async: false,
+    url:
+      "https://" +
+      window.location.host +
+      "/" +
+      year +
+      "/export?TYPE=projectedScores&L=" +
+      leagueID +
+      "&WEEK=" +
+      week +
+      "&JSON=1",
+    dataType: "json",
+    success: function (data) {
+      for (p in data.projectedScores.playerScore) {
+        let player = data.projectedScores.playerScore[p];
+        projectedStats[player.id] = player.score;
+      }
+    },
+  }).fail(function () {
+    if (console) console.log("error");
+  });
+  return projectedStats;
+}
