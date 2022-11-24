@@ -136,10 +136,13 @@ div.franchise-score {
   font-size: 1.75rem;
   margin: 10px 0;
 }
+.franchise-box:nth-child(odd) .players {
+  border-right: 1px solid #c2c2c2;
+}
 .franchise-box:nth-child(even) .player-row .player-score-box {
   order: 1;
 }
-.franchise-box:nth-child(even) .player-row .player-details {
+.franchise-box:nth-child(even) .player-row .player-details-box {
   order: 2;
 }
 .franchise-box:nth-child(even) .player-row .player-image {
