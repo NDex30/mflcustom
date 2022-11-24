@@ -58,13 +58,13 @@ $(function () {
           imgSrc =
             '<img src="https://www.mflscripts.com/ImageDirectory/script-images/nflTeamsvg_2/' +
             playerInfo.team +
-            ".svg />";
+            '.svg" />';
           imageBox.append($(imgSrc));
         } else {
           imgSrc =
             '<img src="https://www.mflscripts.com/playerImages_80x107/mfl_' +
             playerScore.id +
-            ".png />";
+            '.png" />';
           imageBox.append($(imgSrc));
         }
         console.log("image src", imgSrc);
