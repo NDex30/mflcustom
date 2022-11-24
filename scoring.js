@@ -161,10 +161,18 @@ $(function () {
       //   console.log("franchise", Object.keys(franchiseInfo));
     }
   }
-  dots = '<div id="nav-dots" class="nav-dots">';
+  dots = '<div id="nav-dots" class="nav-dots"><ul class="dots">';
   for (i = 0; i < liveScoring.liveScoring.matchup.length; i++) {
-    dots += '<div id="dot_' + i + '" data-matchup="matchup_' + i + '"></div>';
+    dots +=
+      '<li id="dot_' +
+      i +
+      '" data-matchup="matchup_' +
+      i +
+      '"><a href="#matchup_' +
+      i +
+      '"></a></li>';
   }
+  dots += "</ul></div>";
   scoringBox.append(dots);
   var group = document.querySelector("#dexscoring");
   group.addEventListener("touchstart", handleTouchStart, false);
