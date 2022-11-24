@@ -43,10 +43,21 @@ $(function () {
           '<div class="player-position">' + playerInfo.position + "</div>"
         );
         playerRow.append(
+          '<div class="player-image" id="image_' +
+            playerScore.id +
+            '"><img class="articlepicture" src="https://www.mflscripts.com/playerImages_80x107/mfl_' +
+            playerScore.id +
+            '.png" alt="Murray, Kyler ARI QB" title="Murray, Kyler ARI QB" width="80" height="107" align="middle" onerror="this.onerror=null;this.src=\'https://www.mflscripts.com/playerImages_80x107/free_agent.png\';"></div>'
+        );
+        playerRow.append(
           '<div class="player-name">' + playerInfo.name + "</div>"
         );
         playerRow.append(
-          '<div class="player-team">' + playerInfo.team + "</div>"
+          '<div class="player-team"><img src="https://www.mflscripts.com/ImageDirectory/script-images/nflTeamsvg_2/' +
+            playerInfo.team +
+            '.svg" class="MFLPlayerPopupNFLTeamLogo">' +
+            playerInfo.team +
+            "</div>"
         );
         playerRow.append(
           '<div class="player-stats" id="stats_' + playerScore.id + '"></div>'
