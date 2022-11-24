@@ -52,6 +52,13 @@ $(function () {
           '<div class="player-stats" id="stats_' + playerScore.id + '"></div>'
         );
         playerRow.append(
+          '<div class="player-projected-score" id="projected_' +
+            playerScore.id +
+            '">' +
+            projectedScores[playerScore.id] +
+            "</div>"
+        );
+        playerRow.append(
           '<div class="player-score" id="score_' +
             playerScore.id +
             '">' +
