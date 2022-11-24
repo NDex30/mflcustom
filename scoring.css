@@ -136,15 +136,15 @@ div.franchise-score {
   font-size: 1.75rem;
   margin: 10px 0;
 }
-.player-row:nth-child(even) .player-score-box {
+.franchise-box:nth-child(even) .player-row .player-score-box {
   order: 1;
 }
-.player-row:nth-child(even) .player-details {
+.franchise-box:nth-child(even) .player-row .player-details {
   order: 2;
 }
-.player-row:nth-child(even) .player-image {
+.franchise-box:nth-child(even) .player-row .player-image {
   order: 3;
 }
-.player-row:nth-child(even) .player-position {
+.franchise-box:nth-child(even) .player-row .player-position {
   order: 4;
 }
