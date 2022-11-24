@@ -1,67 +1,16 @@
 var xDown = null;
 var yDown = null;
 var dexCurrMatchup = 0;
-
-function getTouches(evt) {
-  return (
-    evt.touches || // browser API
-    evt.originalEvent.touches
-  ); // jQuery
-}
-
-function handleTouchStart(evt) {
-  const firstTouch = getTouches(evt)[0];
-  xDown = firstTouch.clientX;
-  yDown = firstTouch.clientY;
-}
-
-function handleTouchMove(evt) {
-  if (!xDown || !yDown) {
-    return;
-  }
-
-  var xUp = evt.touches[0].clientX;
-  var yUp = evt.touches[0].clientY;
-
-  var xDiff = xDown - xUp;
-  var yDiff = yDown - yUp;
-
-  // let matchupId = 0;
-  if (Math.abs(xDiff) > Math.abs(yDiff)) {
-    /*most significant*/
-    if (xDiff > 0) {
-      alert("swipe left");
-      // alert("swipe left " + totalMatchups + " yo");
-      /* right swipe */
-    } else {
-      alert("swipe right");
-      /* left swipe */
-      // alert("swipe right" + totalMatchups + " no");
-      // alert(totalMatchups);
-    }
-  } else {
-    if (yDiff > 0) {
-      /* down swipe */
-    } else {
-      /* up swipe */
-    }
-  }
-  // $(".matchup-dot").removeClass("active");
-  // $("#matchup_" + matchupId).addClass("active");
-  // $(".matchup-box").css("order", 99);
-  // $("#" + matchupId).css("order", 1);
-  /* reset values */
-  xDown = null;
-  yDown = null;
-}
+var autoRefreshDexScore = false;
+var totalMatchups = 0;
 
 $(function () {
   let liveScoring = getLiveScoring(real_ls_week);
   let projectedScores = getProjectedScore(real_ls_week, year, league_id);
   let scoringBox = $("#dexscoring");
-  let autoRefresh = false;
-  var totalMatchups = liveScoring.liveScoring.matchup.length;
+  totalMatchups = liveScoring.liveScoring.matchup.length;
 
+  console.log(totalMatchups);
   for (m in liveScoring.liveScoring.matchup) {
     let matchupBox = $(
       '<div class="matchup-box" id="matchup_' +
@@ -240,3 +189,57 @@ function getProjectedScore(week, year, leagueID) {
   });
   return projectedStats;
 }
+
+function getTouches(evt) {
+  return (
+    evt.touches || // browser API
+    evt.originalEvent.touches
+  ); // jQuery
+}
+
+function handleTouchStart(evt) {
+  const firstTouch = getTouches(evt)[0];
+  xDown = firstTouch.clientX;
+  yDown = firstTouch.clientY;
+}
+
+function handleTouchMove(evt) {
+  if (!xDown || !yDown) {
+    return;
+  }
+
+  var xUp = evt.touches[0].clientX;
+  var yUp = evt.touches[0].clientY;
+
+  var xDiff = xDown - xUp;
+  var yDiff = yDown - yUp;
+
+  // let matchupId = 0;
+  if (Math.abs(xDiff) > Math.abs(yDiff)) {
+    /*most significant*/
+    if (xDiff > 0) {
+      alert("swipe left");
+      // alert("swipe left " + totalMatchups + " yo");
+      /* right swipe */
+    } else {
+      alert("swipe right");
+      /* left swipe */
+      // alert("swipe right" + totalMatchups + " no");
+      // alert(totalMatchups);
+    }
+  } else {
+    if (yDiff > 0) {
+      /* down swipe */
+    } else {
+      /* up swipe */
+    }
+  }
+  // $(".matchup-dot").removeClass("active");
+  // $("#matchup_" + matchupId).addClass("active");
+  // $(".matchup-box").css("order", 99);
+  // $("#" + matchupId).css("order", 1);
+  /* reset values */
+  xDown = null;
+  yDown = null;
+}
+v;
