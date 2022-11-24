@@ -161,16 +161,16 @@ $(function () {
       //   console.log("franchise", Object.keys(franchiseInfo));
     }
   }
-  dots = '<div id="nav-dots" class="nav-dots"><ul class="dots">';
+  dots = '<div id="nav-dots" class="nav-dots">';
   for (i = 0; i < liveScoring.liveScoring.matchup.length; i++) {
     dots +=
-      '<li id="dot_' +
+      '<div id="dot_' +
       i +
       '" data-matchup="matchup_' +
       i +
-      '"><i class="fa fa-circle" aria-hidden="true"></i></li>';
+      '"><i class="fa fa-circle" aria-hidden="true"></i></div>';
   }
-  dots += "</ul></div>";
+  dots += "</div>";
   scoringBox.append(dots);
   var group = document.querySelector("#dexscoring");
   group.addEventListener("touchstart", handleTouchStart, false);
