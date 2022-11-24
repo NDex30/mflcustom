@@ -34,14 +34,16 @@ $(function () {
       franchiseBox.append(playersBox);
       for (p in franchise.players.player) {
         let playerScore = franchise.players.player[p];
+        var playerInfo = playerDatabase["pid_" + playerScore.id];
         let playerRow = $(
           '<div class="player-row" id="' + playerScore.id + '"></div>'
         );
 
         playersBox.append(playerRow);
+        console.log("playerInfo", playerInfo, playerScore);
       }
       matchupBox.append(franchiseBox);
-      console.log("franchise", Object.keys(franchiseInfo));
+      //   console.log("franchise", Object.keys(franchiseInfo));
     }
   }
   console.log("livescoring", liveScoring);
