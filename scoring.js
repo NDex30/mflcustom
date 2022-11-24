@@ -26,15 +26,17 @@ function handleTouchMove(evt) {
   var xDiff = xDown - xUp;
   var yDiff = yDown - yUp;
 
-  let matchupId = 0;
+  // let matchupId = 0;
   if (Math.abs(xDiff) > Math.abs(yDiff)) {
     /*most significant*/
     if (xDiff > 0) {
-      alert("swipe left " + totalMatchups + " yo");
+      alert("swipe left");
+      // alert("swipe left " + totalMatchups + " yo");
       /* right swipe */
     } else {
+      alert("swipe right");
       /* left swipe */
-      alert("swipe right" + totalMatchups + " no");
+      // alert("swipe right" + totalMatchups + " no");
       // alert(totalMatchups);
     }
   } else {
@@ -44,10 +46,10 @@ function handleTouchMove(evt) {
       /* up swipe */
     }
   }
-  $(".matchup-dot").removeClass("active");
-  $("#matchup_" + matchupId).addClass("active");
-  $(".matchup-box").css("order", 99);
-  $("#" + matchupId).css("order", 1);
+  // $(".matchup-dot").removeClass("active");
+  // $("#matchup_" + matchupId).addClass("active");
+  // $(".matchup-box").css("order", 99);
+  // $("#" + matchupId).css("order", 1);
   /* reset values */
   xDown = null;
   yDown = null;
@@ -183,6 +185,7 @@ $(function () {
   }
   dots += "</div>";
   scoringBox.append(dots);
+
   var group = document.querySelector("#dexscoring");
   group.addEventListener("touchstart", handleTouchStart, false);
   group.addEventListener("touchmove", handleTouchMove, false);
