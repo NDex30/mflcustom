@@ -33,7 +33,9 @@ div.franchise-icon,
 div.franchise-icon {
   height: 175px;
 }
-
+div.franchise-score {
+  font-size: 2rem;
+}
 .players {
   display: flex;
   flex-flow: column;
@@ -127,4 +129,22 @@ div.franchise-icon {
 }
 .player-row.position-order-Def .player-team {
   display: none;
+}
+.franchise-name h2 {
+  color: #000;
+  background: none;
+  font-size: 1.75rem;
+  margin: 10px 0;
+}
+.player-row:nth-child(even) .player-score-box {
+  order: 1;
+}
+.player-row:nth-child(even) .player-details {
+  order: 2;
+}
+.player-row:nth-child(even) .player-image {
+  order: 3;
+}
+.player-row:nth-child(even) .player-position {
+  order: 4;
 }

@@ -67,7 +67,6 @@ $(function () {
             '.png" />';
           imageBox.append($(imgSrc));
         }
-        console.log("image src", imgSrc);
         playerRow.append(imageBox);
         playerRow.append(
           '<div class="player-details-box"><div class="player-name"><h3>' +
