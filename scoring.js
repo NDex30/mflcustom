@@ -230,6 +230,7 @@ function handleTouchMove(evt) {
   } else if (dexCurrMatchup < 0) {
     dexCurrMatchup = totalMatchups - 1;
   }
+  alert("dex matchup " + dexCurrMatchup + " now");
   $(".matchup-dot").removeClass("active");
   $("#matchup_" + dexCurrMatchup).addClass("active");
   $(".matchup-box").css("order", 99);
