@@ -156,18 +156,18 @@ div.franchise-score {
 }
 #nav-dots {
   position: absolute;
-  top: 100px;
+  top: 245px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: row;
   flex-grow: 1;
+  left: 0;
+  right: 0;
 }
-.dots {
-  position: relative;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  cursor: default;
+.nav-dots > div {
+  margin: 0 5px;
+}
+.nav-dots i {
+  font-size: 1.25rem;
 }
