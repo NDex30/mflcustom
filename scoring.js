@@ -82,10 +82,19 @@ $(function () {
         // playerRow.append(
         //   '<div class="player-stats" id="stats_' + playerScore.id + '"></div>'
         // );
+        let projectionDiff = "";
+        if (
+          parseFloat(playerScore.score) >
+          parseFloat(projectedScores[playerScore.id])
+        ) {
+          projectionDiff = " beat-projection";
+        }
         playerRow.append(
           '<div class="player-score-box" id="score_' +
             playerScore.id +
-            '"><div class="player-live-score">' +
+            '"><div class="player-live-score' +
+            projectionDiff +
+            '">' +
             playerScore.score +
             '</div><div class="player-projected-score" id="projected_' +
             playerScore.id +
