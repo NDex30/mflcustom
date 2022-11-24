@@ -58,14 +58,13 @@ $(function () {
             '.png" /></div>'
         );
         playerRow.append(
-          '<div class="player-name">' + playerInfo.name + "</div>"
-        );
-        playerRow.append(
-          '<div class="player-team"><img alt="' +
+          '<div class="player-name">' +
+            playerInfo.name +
+            '<div class="player-team"><img alt="' +
             playerInfo.team +
-            ' src="https://www.mflscripts.com/ImageDirectory/script-images/nflTeamsvg_2/' +
+            '" src="https://www.mflscripts.com/ImageDirectory/script-images/nflTeamsvg_2/' +
             playerInfo.team +
-            '.svg"></div>'
+            '.svg"></div></div>'
         );
         playerRow.append(
           '<div class="player-stats" id="stats_' + playerScore.id + '"></div>'
