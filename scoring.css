@@ -1,0 +1,18 @@
+div#dexscoring {
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-flow: row;
+  overflow: hidden;
+}
+
+.matchup-box {
+  flex: none;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+}
+
+.franchise-box {
+  width: 50%;
+}
