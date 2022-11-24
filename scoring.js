@@ -231,10 +231,12 @@ function handleTouchMove(evt) {
     dexCurrMatchup = totalMatchups - 1;
   }
   alert("dex matchup " + dexCurrMatchup + " now");
+
   $(".matchup-dot").removeClass("active");
-  $("#matchup_" + dexCurrMatchup).addClass("active");
+  $("#dot_" + dexCurrMatchup).addClass("active");
   $(".matchup-box").css("order", 99);
-  $("#" + dexCurrMatchup).css("order", 1);
+  $("#matchup_" + dexCurrMatchup).css("order", 1);
+
   /* reset values */
   xDown = null;
   yDown = null;
