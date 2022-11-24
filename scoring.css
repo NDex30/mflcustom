@@ -106,4 +106,17 @@ div.franchise-icon {
   max-width: 25px;
   max-height: 25px;
   flex-grow: 1;
+  align-self: center;
+}
+
+.player-score-box {
+  margin: 0 7px;
+}
+.player-live-score {
+  font-size: 1.25rem;
+  align-self: center;
+}
+.player-projected-score {
+  font-size: 0.75rem;
+  font-style: italic;
 }

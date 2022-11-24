@@ -50,11 +50,22 @@ $(function () {
         playerRow.append(
           '<div class="player-position">' + playerInfo.position + "</div>"
         );
+        let imgSrc = "";
+        if (playerInfo.position === "Def") {
+          imgSrc =
+            'src="https://www.mflscripts.com/ImageDirectory/script-images/nflTeamsvg_2/' +
+            playerInfo.team;
+        } else {
+          imgSrc =
+            'src="https://www.mflscripts.com/playerImages_80x107/mfl_' +
+            playerScore.id +
+            ".png";
+        }
         playerRow.append(
           '<div class="player-image" id="image_' +
             playerScore.id +
-            '"><img src="https://www.mflscripts.com/playerImages_80x107/mfl_' +
-            playerScore.id +
+            '"><img ' +
+            imgSrc +
             '.png" /></div>'
         );
         playerRow.append(
