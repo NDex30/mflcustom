@@ -19,6 +19,7 @@ $(function () {
       franchiseBox.append(
         '<div class="franchise-name"><h2>' + franchiseInfo.name + "</h2></div>"
       );
+      // TODO: Why can't I access the team record here?
       //   franchiseBox.append(
       //     '<div class="franchise-record">' + franchiseInfo.record + "</div>"
       //   );
@@ -29,6 +30,16 @@ $(function () {
           franchise.score +
           "</div>"
       );
+      let playersBox = $('<div class="players"></div>');
+      franchiseBox.append(playersBox);
+      for (p in franchise.players.player) {
+        let playerScore = franchise.players.player[p];
+        let playerRow = $(
+          '<div class="player-row" id="' + playerScore.id + '"></div>'
+        );
+
+        playersBox.append(playerRow);
+      }
       matchupBox.append(franchiseBox);
       console.log("franchise", Object.keys(franchiseInfo));
     }
