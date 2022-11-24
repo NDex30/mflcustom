@@ -232,7 +232,7 @@ function handleTouchMove(evt) {
 
 function refreshScores() {
   console.time("Execution Time");
-  console.log("rereshing scores");
+  // console.log("rereshing scores");
   let liveScoring = getLiveScoring(real_ls_week);
   for (m in liveScoring.liveScoring.matchup) {
     for (f in liveScoring.liveScoring.matchup[m].franchise) {
@@ -240,6 +240,7 @@ function refreshScores() {
       $("#score_" + franchise.id).html(franchise.score);
       for (p in franchise.players.player) {
         let playerScore = franchise.players.player[p];
+        $("#player_score_" + playerScore.id).html(playerScore.score);
       }
     }
   }
