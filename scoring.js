@@ -1,6 +1,6 @@
 $(function () {
   let liveScoring = getLiveScoring(real_ls_week);
-  console.log(liveScoring);
+  console.log("livescoring", liveScoring);
 });
 
 function getLiveScoring(week) {
