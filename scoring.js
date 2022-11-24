@@ -19,15 +19,18 @@ $(function () {
       franchiseBox.append(
         '<div class="franchise-name"><h2>' + franchiseInfo.name + "</h2></div>"
       );
+      //   franchiseBox.append(
+      //     '<div class="franchise-record">' + franchiseInfo.record + "</div>"
+      //   );
       franchiseBox.append(
-        '<div class="franchise-record">' + franchiseInfo.record + "</div>"
+        '<div class="franchise-score" id="score_' +
+          franchise.id +
+          '">' +
+          franchise.score +
+          "</div>"
       );
       matchupBox.append(franchiseBox);
-      console.log(
-        "franchise",
-        Object.keys(franchiseInfo),
-        franchiseInfo.record
-      );
+      console.log("franchise", Object.keys(franchiseInfo));
     }
   }
   console.log("livescoring", liveScoring);
