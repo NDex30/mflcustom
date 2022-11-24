@@ -38,7 +38,25 @@ $(function () {
         let playerRow = $(
           '<div class="player-row" id="' + playerScore.id + '"></div>'
         );
-
+        playerRow.append(
+          '<div class="player-position">' + playerInfo.position + "</div>"
+        );
+        playerRow.append(
+          '<div class="player-name">' + playerInfo.name + "</div>"
+        );
+        playerRow.append(
+          '<div class="player-team">' + playerInfo.team + "</div>"
+        );
+        playerRow.append(
+          '<div class="player-stats" id="stats_' + playerScore.id + '"></div>'
+        );
+        playerRow.append(
+          '<div class="player-score" id="score_' +
+            playerScore.id +
+            '">' +
+            playerScore.score +
+            "</div>"
+        );
         playersBox.append(playerRow);
         console.log("playerInfo", playerInfo, playerScore);
       }
