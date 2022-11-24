@@ -168,9 +168,7 @@ $(function () {
       i +
       '" data-matchup="matchup_' +
       i +
-      '"><a href="#matchup_' +
-      i +
-      '"></a></li>';
+      '"><i class="fas fa-dot-circle"></i></li>';
   }
   dots += "</ul></div>";
   scoringBox.append(dots);
