@@ -116,6 +116,7 @@ $(function () {
     slidesToScroll: 1,
     fade: true,
     cssEase: "linear",
+    arrows: false,
   });
   //   console.log("projected scores", projectedScores);
   //   console.log("livescoring", liveScoring);
