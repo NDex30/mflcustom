@@ -109,8 +109,9 @@ $(function () {
       //   console.log("franchise", Object.keys(franchiseInfo));
     }
   }
-  console.log("projected scores", projectedScores);
-  console.log("livescoring", liveScoring);
+  $("#dexscoring").slick();
+  //   console.log("projected scores", projectedScores);
+  //   console.log("livescoring", liveScoring);
 });
 
 function getProjectedScore(week, year, leagueID) {
