@@ -29,3 +29,44 @@ div.franchise-icon,
   justify-content: center;
   width: 100%;
 }
+
+div.franchise-icon {
+  height: 175px;
+}
+
+.players {
+  display: flex;
+  flex-flow: column;
+}
+
+.franchise-icon img {
+  display: block;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.player-row.position-order-QB {
+  order: 1;
+  flex: 1;
+}
+
+.player-row.position-order-RB {
+  order: 2;
+  flex: 2;
+}
+.player-row.position-order-WR {
+  order: 3;
+  flex: 3;
+}
+.player-row.position-order-TE {
+  order: 4;
+  flex: 4;
+}
+.player-row.position-order-Def {
+  order: 5;
+  flex: 5;
+}
+.player-row.position-order-PK {
+  order: 6;
+  flex: 6;
+}
