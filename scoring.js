@@ -145,17 +145,7 @@ $(function () {
     $(this).addClass("active");
     $(".matchup-box").css("order", 99);
     $("#" + matchup).css("order", 1);
-    // console.log("matchup", matchup);
   });
-  //   $("#dexscoring").slick({
-  //     dots: true,
-  //     infinite: false,
-  //     slidesToShow: 1,
-  //     slidesToScroll: 1,
-  //     fade: true,
-  //     cssEase: "linear",
-  //     arrows: false,
-  //   });
   //   console.log("projected scores", projectedScores);
   //   console.log("livescoring", liveScoring);
 });
@@ -214,15 +204,16 @@ function handleTouchMove(evt) {
   var xDiff = xDown - xUp;
   var yDiff = yDown - yUp;
 
-  // let matchupId = 0;
   if (Math.abs(xDiff) > Math.abs(yDiff)) {
     /*most significant*/
     if (xDiff > 0) {
       alert("swipe left");
+      dexCurrMatchup += 1;
       // alert("swipe left " + totalMatchups + " yo");
       /* right swipe */
     } else {
       alert("swipe right");
+      dexCurrMatchup -= 1;
       /* left swipe */
       // alert("swipe right" + totalMatchups + " no");
       // alert(totalMatchups);
@@ -234,10 +225,15 @@ function handleTouchMove(evt) {
       /* up swipe */
     }
   }
-  // $(".matchup-dot").removeClass("active");
-  // $("#matchup_" + matchupId).addClass("active");
-  // $(".matchup-box").css("order", 99);
-  // $("#" + matchupId).css("order", 1);
+  if (dexCurrMatchup >= totalMatchups) {
+    dexCurrMatchup = 0;
+  } else if (dexCurrMatchup < 0) {
+    dexCurrMatchup = totalMatchups - 1;
+  }
+  $(".matchup-dot").removeClass("active");
+  $("#matchup_" + dexCurrMatchup).addClass("active");
+  $(".matchup-box").css("order", 99);
+  $("#" + dexCurrMatchup).css("order", 1);
   /* reset values */
   xDown = null;
   yDown = null;
