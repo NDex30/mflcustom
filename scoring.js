@@ -115,10 +115,8 @@ $(function () {
             "</div></div>"
         );
         playersBox.append(playerRow);
-        // console.log("playerInfo", playerInfo, playerScore);
       }
       matchupBox.append(franchiseBox);
-      //   console.log("franchise", Object.keys(franchiseInfo));
     }
   }
   dots = '<div id="nav-dots" class="nav-dots">';
@@ -146,8 +144,6 @@ $(function () {
     $(".matchup-box").css("order", 99);
     $("#" + matchup).css("order", 1);
   });
-  //   console.log("projected scores", projectedScores);
-  //   console.log("livescoring", liveScoring);
 });
 
 function getProjectedScore(week, year, leagueID) {
@@ -209,28 +205,18 @@ function handleTouchMove(evt) {
     if (xDiff > 0) {
       // alert("swipe left");
       dexCurrMatchup += 1;
-      // alert("swipe left " + totalMatchups + " yo");
-      /* right swipe */
     } else {
       // alert("swipe right");
       dexCurrMatchup -= 1;
-      /* left swipe */
-      // alert("swipe right" + totalMatchups + " no");
-      // alert(totalMatchups);
     }
   } else {
-    if (yDiff > 0) {
-      /* down swipe */
-    } else {
-      /* up swipe */
-    }
+    return;
   }
   if (dexCurrMatchup >= totalMatchups) {
     dexCurrMatchup = 0;
   } else if (dexCurrMatchup < 0) {
     dexCurrMatchup = totalMatchups - 1;
   }
-  alert("dex matchup " + dexCurrMatchup + " now");
 
   $(".matchup-dot").removeClass("active");
   $("#dot_" + dexCurrMatchup).addClass("active");
