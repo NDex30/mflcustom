@@ -10,7 +10,6 @@ $(function () {
   let scoringBox = $("#dexscoring");
   totalMatchups = liveScoring.liveScoring.matchup.length;
 
-  console.log(totalMatchups);
   for (m in liveScoring.liveScoring.matchup) {
     let matchupBox = $(
       '<div class="matchup-box" id="matchup_' +
@@ -102,11 +101,13 @@ $(function () {
           projectionDiff = " beat-projection";
         }
         playerRow.append(
-          '<div class="player-score-box" id="score_' +
+          '<div class="player-score-box" id="score_box_' +
             playerScore.id +
             '"><div class="player-live-score' +
             projectionDiff +
-            '">' +
+            '" id="player_score_' +
+            playerScore.id +
+            ">" +
             playerScore.score +
             '</div><div class="player-projected-score" id="projected_' +
             playerScore.id +
@@ -144,6 +145,7 @@ $(function () {
     $(".matchup-box").css("order", 99);
     $("#" + matchup).css("order", 1);
   });
+  setInterval(refreshScores, 30000);
 });
 
 function getProjectedScore(week, year, leagueID) {
@@ -226,4 +228,20 @@ function handleTouchMove(evt) {
   /* reset values */
   xDown = null;
   yDown = null;
+}
+
+function refreshScores() {
+  console.time("Execution Time");
+  console.log("rereshing scores");
+  let liveScoring = getLiveScoring(real_ls_week);
+  for (m in liveScoring.liveScoring.matchup) {
+    for (f in liveScoring.liveScoring.matchup[m].franchise) {
+      let franchise = liveScoring.liveScoring.matchup[m].franchise[f];
+      $("#score_" + franchise.id).html(franchise.score);
+      for (p in franchise.players.player) {
+        let playerScore = franchise.players.player[p];
+      }
+    }
+  }
+  console.timeEnd("Execution Time");
 }
