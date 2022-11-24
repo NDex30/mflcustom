@@ -104,24 +104,27 @@ div.franchise-icon {
   margin-left: 7px;
 }
 .player-team {
-  max-width: 25px;
-  max-height: 25px;
+  max-width: 20px;
+  max-height: 20px;
   flex-grow: 1;
   align-self: center;
 }
-
 .player-score-box {
   margin: 0 7px;
+  min-width: 55px;
+  align-self: center;
 }
 .player-live-score {
   font-size: 1.25rem;
   align-self: center;
+  text-align: center;
 }
 .player-projected-score {
   font-size: 0.75rem;
   font-style: italic;
+  align-self: center;
+  text-align: center;
 }
-
 .player-row.position-order-Def .player-team {
   display: none;
 }
