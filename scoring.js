@@ -53,7 +53,7 @@ $(function () {
         playerRow.append(
           '<div class="player-image" id="image_' +
             playerScore.id +
-            '"><img class="articlepicture" src="https://www.mflscripts.com/playerImages_80x107/mfl_' +
+            '"><img src="https://www.mflscripts.com/playerImages_80x107/mfl_' +
             playerScore.id +
             '.png" /></div>'
         );
@@ -61,11 +61,11 @@ $(function () {
           '<div class="player-name">' + playerInfo.name + "</div>"
         );
         playerRow.append(
-          '<div class="player-team"><img src="https://www.mflscripts.com/ImageDirectory/script-images/nflTeamsvg_2/' +
+          '<div class="player-team"><img alt="' +
             playerInfo.team +
-            '.svg">' +
+            ' src="https://www.mflscripts.com/ImageDirectory/script-images/nflTeamsvg_2/' +
             playerInfo.team +
-            "</div>"
+            '.svg"></div>'
         );
         playerRow.append(
           '<div class="player-stats" id="stats_' + playerScore.id + '"></div>'
