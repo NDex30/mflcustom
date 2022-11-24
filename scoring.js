@@ -1,32 +1,14 @@
 $(function () {
   let liveScoring = getLiveScoring(real_ls_week);
   let scoringBox = $("#dexscoring");
+  let autoRefresh = false;
   for (m in liveScoring.liveScoring.matchup) {
-    scoringBox.append('<div id="matchup_' + m + '"></div>');
+    let matchupBox = $('<div id="matchup_' + m + '"></div>');
+    scoringBox.append(matchupBox);
+    for (f in liveScoring.liveScoring.matchup[m].franchise) {
+      let franchise = liveScoring.liveScoring.matchup[m].franchise[f];
+      console.log("franchise", franchise);
+    }
   }
   console.log("livescoring", liveScoring);
 });
-
-// function getLiveScoring(week) {
-//   var liveScoring;
-//   $.ajax({
-//     async: false,
-//     url:
-//       "https://" +
-//       window.location.host +
-//       "/" +
-//       year +
-//       "/export?TYPE=liveScoring&L=" +
-//       league_id +
-//       "&W=" +
-//       week +
-//       "&JSON=1",
-//     dataType: "json",
-//     success: function (data) {
-//       liveScoring = data;
-//     },
-//   }).fail(function () {
-//     if (console) console.log("error");
-//   });
-//   return liveScoring;
-// }
