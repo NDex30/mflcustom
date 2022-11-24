@@ -107,7 +107,7 @@ $(function () {
             projectionDiff +
             '" id="player_score_' +
             playerScore.id +
-            ">" +
+            '">' +
             playerScore.score +
             '</div><div class="player-projected-score" id="projected_' +
             playerScore.id +
