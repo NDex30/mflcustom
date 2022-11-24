@@ -5,7 +5,11 @@ $(function () {
   let autoRefresh = false;
   for (m in liveScoring.liveScoring.matchup) {
     let matchupBox = $(
-      '<div class="matchup-box" id="matchup_' + m + '"></div>'
+      '<div class="matchup-box" id="matchup_' +
+        m +
+        '" style="order: ' +
+        m +
+        '"></div>'
     );
     scoringBox.append(matchupBox);
     for (f in liveScoring.liveScoring.matchup[m].franchise) {
@@ -109,15 +113,16 @@ $(function () {
       //   console.log("franchise", Object.keys(franchiseInfo));
     }
   }
-  $("#dexscoring").slick({
-    dots: true,
-    infinite: false,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    fade: true,
-    cssEase: "linear",
-    arrows: false,
-  });
+
+  //   $("#dexscoring").slick({
+  //     dots: true,
+  //     infinite: false,
+  //     slidesToShow: 1,
+  //     slidesToScroll: 1,
+  //     fade: true,
+  //     cssEase: "linear",
+  //     arrows: false,
+  //   });
   //   console.log("projected scores", projectedScores);
   //   console.log("livescoring", liveScoring);
 });
