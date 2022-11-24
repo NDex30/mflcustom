@@ -28,11 +28,11 @@ function handleTouchMove(evt) {
   if (Math.abs(xDiff) > Math.abs(yDiff)) {
     /*most significant*/
     if (xDiff > 0) {
-      alert("swipe left");
+      //   alert("swipe left");
       /* right swipe */
     } else {
       /* left swipe */
-      alert("swipe right");
+      //   alert("swipe right");
     }
   } else {
     if (yDiff > 0) {
@@ -161,7 +161,11 @@ $(function () {
       //   console.log("franchise", Object.keys(franchiseInfo));
     }
   }
-
+  dots = '<div id="nav-dots" class="nav-dots">';
+  for (i = 0; i < liveScoring.liveScoring.matchup.length; i++) {
+    dots += '<div id="dot_' + i + '" data-matchup="matchup_' + i + '"></div>';
+  }
+  scoringBox.append(dots);
   var group = document.querySelector("#dexscoring");
   group.addEventListener("touchstart", handleTouchStart, false);
   group.addEventListener("touchmove", handleTouchMove, false);
