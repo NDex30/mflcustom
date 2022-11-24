@@ -26,6 +26,7 @@ function handleTouchMove(evt) {
   var xDiff = xDown - xUp;
   var yDiff = yDown - yUp;
 
+  let matchupId = 0;
   if (Math.abs(xDiff) > Math.abs(yDiff)) {
     /*most significant*/
     if (xDiff > 0) {
@@ -34,6 +35,7 @@ function handleTouchMove(evt) {
     } else {
       /* left swipe */
       //   alert("swipe right");
+      alert(totalMatchups);
     }
   } else {
     if (yDiff > 0) {
@@ -42,6 +44,10 @@ function handleTouchMove(evt) {
       /* up swipe */
     }
   }
+  $(".matchup-dot").removeClass("active");
+  $("#matchup_" + matchupId).addClass("active");
+  $(".matchup-box").css("order", 99);
+  $("#" + matchupId).css("order", 1);
   /* reset values */
   xDown = null;
   yDown = null;
@@ -158,7 +164,7 @@ $(function () {
             "</div></div>"
         );
         playersBox.append(playerRow);
-        console.log("playerInfo", playerInfo, playerScore);
+        // console.log("playerInfo", playerInfo, playerScore);
       }
       matchupBox.append(franchiseBox);
       //   console.log("franchise", Object.keys(franchiseInfo));
@@ -187,7 +193,7 @@ $(function () {
     $(this).addClass("active");
     $(".matchup-box").css("order", 99);
     $("#" + matchup).css("order", 1);
-    console.log("matchup", matchup);
+    // console.log("matchup", matchup);
   });
   //   $("#dexscoring").slick({
   //     dots: true,
