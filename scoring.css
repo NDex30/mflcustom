@@ -151,3 +151,6 @@ div.franchise-score {
 .franchise-box:nth-child(even) .player-row .player-position {
   order: 4;
 }
+.player-live-score.beat-projection {
+  color: #04782c;
+}
