@@ -7,7 +7,7 @@ $(function () {
     scoringBox.append(matchupBox);
     for (f in liveScoring.liveScoring.matchup[m].franchise) {
       let franchise = liveScoring.liveScoring.matchup[m].franchise[f];
-      let franchiseInfo = franchises["fid_" + franchise.id];
+      let franchiseInfo = franchiseDatabase["fid_" + franchise.id];
       console.log("franchise", franchiseInfo);
     }
   }
