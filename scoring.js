@@ -109,7 +109,14 @@ $(function () {
       //   console.log("franchise", Object.keys(franchiseInfo));
     }
   }
-  $("#dexscoring").slick();
+  $("#dexscoring").slick({
+    dots: true,
+    infinite: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    fade: true,
+    cssEase: "linear",
+  });
   //   console.log("projected scores", projectedScores);
   //   console.log("livescoring", liveScoring);
 });
