@@ -171,9 +171,9 @@ $(function () {
       i +
       '" data-matchup="matchup_' +
       i +
-      '"' +
-      (i === dexCurrMatchup ? 'class="active"' : "") +
-      '><i class="fa fa-circle" aria-hidden="true"></i></div>';
+      '" class="matchup-dot' +
+      (i === dexCurrMatchup ? " active" : "") +
+      '"><i class="fa fa-circle" aria-hidden="true"></i></div>';
   }
   dots += "</div>";
   scoringBox.append(dots);
@@ -183,6 +183,8 @@ $(function () {
 
   $("#nav-dots > div").click(function (e) {
     matchup = $(this).data("matchup");
+    $(".matchup-dot").removeClass("active");
+    $(this).addClass("active");
     console.log("matchup", matchup);
   });
   //   $("#dexscoring").slick({
