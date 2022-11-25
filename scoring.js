@@ -257,15 +257,16 @@ function getLiveStatsDetails(week) {
         if (splits[0] === "" || splits[0] === undefined) continue;
         let stats = {};
         console.log("get here");
-        // if (catchesRegEx.test(currLine)) {
-        mCatches = currLine.match("CC ([0-9]{1,3})");
-        console.log("mcatches", mCatches);
-        if (mCatches.length > 1) stats["catches"] = mCatches[1];
-
-        mCatchYards = currLine.match("CY ([0-9]{1,3})");
-        console.log("mcatchYds", mCatchYards);
-        if (mCatchYards.length > 1) stats["catchYds"] = mCatchYards[1];
-        // }
+        if (catchesRegEx.test(currLine)) {
+          mCatches = currLine.match(catchesRegEx);
+          console.log("mcatches", mCatches);
+          if (mCatches.length > 1) stats["catches"] = mCatches[1];
+        }
+        if (catchYardsRegex.test(currLine)) {
+          mCatchYards = currLine.match("CY ([0-9]{1,3})");
+          console.log("mcatchYds", mCatchYards);
+          if (mCatchYards.length > 1) stats["catchYds"] = mCatchYards[1];
+        }
         // if (catchYardsRegex.test(currLine)) {
         //   stats["catchYards"] = splits[s].replace(/[^0-9]/g, "");
         // }
