@@ -395,7 +395,7 @@ function formatPlayerStats(playerStats) {
   if (playerStats.rushes !== undefined && playerStats.rushes > 0) {
     statsStr += " " + playerStats.rushes;
     if (playerStats.rushYds !== undefined && playerStats.rushYds > 0) {
-      statsStr += "/" + playerStats.rushYds + "rush Yds";
+      statsStr += "/" + playerStats.rushYds + " Rush Yds";
     }
     if (playerStats.rushTDs !== undefined && playerStats.rushTDs > 0) {
       statsStr += " " + playerStats.rushTDs + " TDs";
@@ -404,7 +404,7 @@ function formatPlayerStats(playerStats) {
   if (playerStats.catches !== undefined && playerStats.catches > 0) {
     statsStr += " " + playerStats.catches;
     if (playerStats.catchYds !== undefined && playerStats.catchYds > 0) {
-      statsStr += "/" + playerStats.catchYds + "rec Yds";
+      statsStr += "/" + playerStats.catchYds + " Rec Yds";
     }
     if (playerStats.catchTDs !== undefined && playerStats.catchTDs > 0) {
       statsStr += " " + playerStats.catchTDs + " TDs";
