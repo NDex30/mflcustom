@@ -202,7 +202,7 @@ function handleTouchMove(evt) {
   var xDiff = xDown - xUp;
   var yDiff = yDown - yUp;
 
-  if (Math.abs(xDiff) > Math.abs(yDiff)) {
+  if (Math.abs(xDiff) > Math.abs(yDiff) && Math.abs(xDiff) > 70) {
     /*most significant*/
     if (xDiff > 0) {
       // alert("swipe left");
