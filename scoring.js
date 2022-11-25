@@ -255,8 +255,8 @@ function getLiveStatsDetails(week) {
         const splits = currLine.split("|");
         if (splits[0] === "" || splits[0] === undefined) continue;
         let stats = {};
+        console.log("catches??", catchesRegEx.test(currLine), currLine);
         if (catchesRegEx.test(currLine)) {
-          console.log("catches??");
           stats["catches"] = currLine.replace(/[^0-9]/g, "");
         }
         liveStats[splits[0]] = stats;
