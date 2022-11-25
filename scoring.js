@@ -404,6 +404,7 @@ function formatPlayerStats(playerStats) {
       statsStr += " " + playerStats.catchTDs + " TDs";
     }
   }
+  return statsStr;
 }
 
 function refreshScores() {
