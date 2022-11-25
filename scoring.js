@@ -302,6 +302,7 @@ function getLiveStatsDetails(week) {
           if (mPassTDs.length > 1) stats["passTDs"] = mPassTDs[1];
         }
         if (Object.keys(stats).length !== 0) liveStats[splits[0]] = stats;
+        if (console) console.log("stats", stats, currLine);
       }
     },
   }).fail(function () {
