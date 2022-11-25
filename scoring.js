@@ -256,14 +256,14 @@ function getLiveStatsDetails(week) {
         console.log("splits", splits, currLine);
         if (splits[0] === "" || splits[0] === undefined) continue;
         let stats = {};
-
+        console.log("get here");
         // if (catchesRegEx.test(currLine)) {
         mCatches = currLine.match(catchesRegEx);
-        console.log(mCatches);
+        console.log("mcatches", mCatches);
         if (mCatches.length > 1) stats["catches"] = mCatches[1];
 
         mCatchYards = currLine.match("CY ([0-9]{1,3})");
-        console.log(mCatchYards);
+        console.log("mcatchYds", mCatchYards);
         if (mCatchYards.length > 1) stats["catchYds"] = mCatchYards[1];
         // }
         // if (catchYardsRegex.test(currLine)) {
