@@ -116,6 +116,10 @@ div.franchise-score {
   flex-grow: 1;
   align-self: center;
 }
+.player-team img {
+  max-width: 20px;
+  max-height: 20px;
+}
 .player-score-box {
   margin: 0 7px;
   min-width: 55px;
