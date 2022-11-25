@@ -175,3 +175,12 @@ div.franchise-score {
 .nav-dots .active i.fa.fa-circle {
   color: green;
 }
+
+@media only screen and (max-width: 760px) {
+  .player-name h3 {
+    font-size: 12px;
+  }
+  .player-team {
+    display: none;
+  }
+}
