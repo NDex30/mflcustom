@@ -253,6 +253,7 @@ function getLiveStatsDetails(week) {
       for (x in lines) {
         const currLine = lines[x];
         const splits = currLine.split("|");
+        console.log("splits", splits, currLine);
         if (splits[0] === "" || splits[0] === undefined) continue;
         let stats = {};
 
