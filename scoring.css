@@ -225,10 +225,10 @@ div.franchise-score {
     margin: 4px 0;
   }
   div.franchise-icon {
-    height: 175px;
+    height: 150px;
   }
   div.franchise-name {
-    height: 75px;
+    height: 50px;
   }
   div.franchise-score {
     height: 50px;
@@ -245,7 +245,7 @@ div.franchise-score {
     margin-left: 3px;
   }
   #nav-dots {
-    top: 290px;
+    top: 275px;
   }
   .nav-dots i {
     font-size: 1rem;
