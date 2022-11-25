@@ -113,11 +113,15 @@ $(function () {
             playerScore.id +
             '">' +
             playerScore.score +
-            '</div><div class="player-projected-score" id="projected_' +
-            playerScore.id +
-            '">' +
-            projectedScores[playerScore.id] +
-            "</div></div>"
+            "</div>" +
+            (projectedScores[playerScore.id] === undefined
+              ? ""
+              : '<div class="player-projected-score" id="projected_' +
+                playerScore.id +
+                '">' +
+                projectedScores[playerScore.id] +
+                "</div>") +
+            "</div>"
         );
         if (playerScore.status === "starter") {
           playersBox.append(playerRow);
