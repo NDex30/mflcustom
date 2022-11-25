@@ -5,7 +5,7 @@ var autoRefreshDexScore = false;
 var totalMatchups = 0;
 
 $(function () {
-  let liveScoring = getLiveScoring(real_ls_week);
+  let liveScoring = getLiveScoringDetails(real_ls_week);
   let projectedScores = getProjectedScore(real_ls_week, year, league_id);
   let scoringBox = $("#dexscoring");
   totalMatchups = liveScoring.liveScoring.matchup.length;
@@ -47,6 +47,9 @@ $(function () {
           "</div>"
       );
       let playersBox = $('<div class="players"></div>');
+      let playersBench = $(
+        '<div id="players-bench" class="players-bench"></div>'
+      );
       franchiseBox.append(playersBox);
       for (p in franchise.players.player) {
         let playerScore = franchise.players.player[p];
@@ -115,8 +118,13 @@ $(function () {
             projectedScores[playerScore.id] +
             "</div></div>"
         );
-        playersBox.append(playerRow);
+        if (playerScore.status === "starter") {
+          playersBox.append(playerRow);
+        } else {
+          playersBench.append(playerRow);
+        }
       }
+      playersBox.append(playersBench);
       matchupBox.append(franchiseBox);
     }
   }
@@ -178,6 +186,30 @@ function getProjectedScore(week, year, leagueID) {
   return projectedStats;
 }
 
+function getLiveScoringDetails(week) {
+  var liveScoring;
+  $.ajax({
+    async: false,
+    url:
+      "https://" +
+      window.location.host +
+      "/" +
+      year +
+      "/export?TYPE=liveScoring&L=" +
+      league_id +
+      "&W=" +
+      week +
+      "&JSON=1&DETAILS=1",
+    dataType: "json",
+    success: function (data) {
+      liveScoring = data;
+    },
+  }).fail(function () {
+    if (console) console.log("error");
+  });
+  return liveScoring;
+}
+
 function getTouches(evt) {
   return (
     evt.touches || // browser API
@@ -233,7 +265,7 @@ function handleTouchMove(evt) {
 function refreshScores() {
   console.time("Execution Time");
   // console.log("rereshing scores");
-  let liveScoring = getLiveScoring(real_ls_week);
+  let liveScoring = getLiveScoringDetails(real_ls_week);
   for (m in liveScoring.liveScoring.matchup) {
     for (f in liveScoring.liveScoring.matchup[m].franchise) {
       let franchise = liveScoring.liveScoring.matchup[m].franchise[f];
