@@ -9,8 +9,7 @@ $(function () {
   let projectedScores = getProjectedScore(real_ls_week, year, league_id);
   let scoringBox = $("#dexscoring");
   totalMatchups = liveScoring.liveScoring.matchup.length;
-
-  getLiveStatsDetails(real_ls_week);
+  console.time("build html");
   for (m in liveScoring.liveScoring.matchup) {
     let matchupBox = $(
       '<div class="matchup-box" id="matchup_' +
@@ -149,7 +148,7 @@ $(function () {
   }
   dots += "</div>";
   scoringBox.append(dots);
-
+  console.timeEnd("build html");
   var group = document.querySelector("#dexscoring");
   group.addEventListener("touchstart", handleTouchStart, false);
   group.addEventListener("touchmove", handleTouchMove, false);
