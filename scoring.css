@@ -72,6 +72,11 @@ div.franchise-score {
 }
 .players-bench {
   order: 7;
+  border-top: 2px solid #c3c3c3;
+  margin: 10px 0;
+}
+.players-bench::before {
+  content: "Bench";
 }
 .players > .player-row.position-order-bench {
   order: 9;
