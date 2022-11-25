@@ -253,10 +253,8 @@ function getLiveStatsDetails(week) {
       for (x in lines) {
         const currLine = lines[x];
         const splits = currLine.split("|");
-        console.log("splits", splits, currLine);
         if (splits[0] === "" || splits[0] === undefined) continue;
         let stats = {};
-        console.log("get here");
         if (catchesRegEx.test(currLine)) {
           mCatches = currLine.match(catchesRegEx);
           if (mCatches.length > 1) stats["catches"] = mCatches[1];
@@ -304,7 +302,7 @@ function getLiveStatsDetails(week) {
   }).fail(function () {
     if (console) console.log("error");
   });
-  console.log("liveStats", liveStats);
+  // console.log("liveStats", liveStats);
   return liveStats;
 }
 
@@ -371,9 +369,47 @@ function handleTouchMove(evt) {
   yDown = null;
 }
 
+function formatPlayerStats(playerStats) {
+  let statsStr = "";
+  if (playerStats.passAttempts !== undefined && playerStats.passAttempts > 0) {
+    statsStr += " " + playerStats.passAttempts;
+    if (
+      playerStats.passComplete !== undefined &&
+      playerStats.passComplete > 0
+    ) {
+      statsStr += "/" + playerStats.passComplete;
+    }
+    if (playerStats.passYds !== undefined && playerStats.passYds > 0) {
+      statsStr += " " + playerStats.passYds + "Pass Yds";
+    }
+    if (playerStats.passTDs !== undefined && playerStats.passTDs > 0) {
+      statsStr += " " + playerStats.passTDs + " TDs";
+    }
+  }
+  if (playerStats.rushes !== undefined && playerStats.rushes > 0) {
+    statsStr += ", " + playerStats.rushes;
+    if (playerStats.rushYds !== undefined && playerStats.rushYds > 0) {
+      statsStr += "/" + playerStats.rushYds + "rush Yds";
+    }
+    if (playerStats.rushTDs !== undefined && playerStats.rushTDs > 0) {
+      statsStr += " " + playerStats.rushTDs + " TDs";
+    }
+  }
+  if (playerStats.catches !== undefined && playerStats.catches > 0) {
+    statsStr += ", " + playerStats.catches;
+    if (playerStats.catchYds !== undefined && playerStats.catchYds > 0) {
+      statsStr += "/" + playerStats.catchYds + "rec Yds";
+    }
+    if (playerStats.catchTDs !== undefined && playerStats.catchTDs > 0) {
+      statsStr += " " + playerStats.catchTDs + " TDs";
+    }
+  }
+}
+
 function refreshScores() {
   console.time("Refresh Scores");
   let liveScoring = getLiveScoringDetails(real_ls_week);
+  let liveStats = getLiveStatsDetails(real_ls_week);
   for (m in liveScoring.liveScoring.matchup) {
     for (f in liveScoring.liveScoring.matchup[m].franchise) {
       let franchise = liveScoring.liveScoring.matchup[m].franchise[f];
@@ -386,6 +422,9 @@ function refreshScores() {
             getPlayingStatusClass(parseInt(playerScore.gameSecondsRemaining))
           );
         $("#player_score_" + playerScore.id).html(playerScore.score);
+        $("#stats_" + playerScore.id).html(
+          formatPlayerStats(liveStats[playerScore.id])
+        );
       }
     }
   }
