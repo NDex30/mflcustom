@@ -388,7 +388,7 @@ function formatPlayerStats(playerStats) {
     }
   }
   if (playerStats.rushes !== undefined && playerStats.rushes > 0) {
-    statsStr += ", " + playerStats.rushes;
+    statsStr += " " + playerStats.rushes;
     if (playerStats.rushYds !== undefined && playerStats.rushYds > 0) {
       statsStr += "/" + playerStats.rushYds + "rush Yds";
     }
@@ -397,7 +397,7 @@ function formatPlayerStats(playerStats) {
     }
   }
   if (playerStats.catches !== undefined && playerStats.catches > 0) {
-    statsStr += ", " + playerStats.catches;
+    statsStr += " " + playerStats.catches;
     if (playerStats.catchYds !== undefined && playerStats.catchYds > 0) {
       statsStr += "/" + playerStats.catchYds + "rec Yds";
     }
@@ -415,7 +415,7 @@ function refreshStats() {
     if ($("#stats_" + playerID).length === 0) continue;
     $("#stats_" + playerID).html(formatPlayerStats(liveStats[playerID]));
   }
-  console.timeEnd("Refresh Scores");
+  console.timeEnd("Refresh Stats");
 }
 function refreshScores() {
   console.time("Refresh Scores");
