@@ -10,6 +10,7 @@ $(function () {
   let scoringBox = $("#dexscoring");
   totalMatchups = liveScoring.liveScoring.matchup.length;
 
+  getLiveStatsDetails(real_ls_week);
   for (m in liveScoring.liveScoring.matchup) {
     let matchupBox = $(
       '<div class="matchup-box" id="matchup_' +
@@ -280,9 +281,43 @@ function handleTouchMove(evt) {
   yDown = null;
 }
 
+function getLiveStatsDetails(week) {
+  var liveStats = {};
+  const d = new Date();
+  let ms = d.getMilliseconds();
+  let formattedWeek = week.toLocaleString("en-US", {
+    minimumIntegerDigits: 2,
+    useGrouping: false,
+  });
+  // var rcyRegEx = new RegExp("^(RCY|KY|UY) [0-9]{1,3}$");
+  $.ajax({
+    async: false,
+    url:
+      "https://" +
+      window.location.host +
+      "/fflnetdynamic" +
+      year +
+      "/live_stats_" +
+      formattedWeek +
+      ".txt?RANDOM=" +
+      ms,
+    dataType: "text",
+    success: function (data) {
+      const lines = data.split("\n");
+      for (x in lines) {
+        const stats = lines[x].split("|");
+        liveStats[stats[0]] = stats;
+      }
+    },
+  }).fail(function () {
+    if (console) console.log("error");
+  });
+  console.log("liveStats", liveStats);
+  return liveStats;
+}
+
 function refreshScores() {
-  console.time("Execution Time");
-  // console.log("rereshing scores");
+  console.time("Refresh Scores");
   let liveScoring = getLiveScoringDetails(real_ls_week);
   for (m in liveScoring.liveScoring.matchup) {
     for (f in liveScoring.liveScoring.matchup[m].franchise) {
@@ -299,5 +334,5 @@ function refreshScores() {
       }
     }
   }
-  console.timeEnd("Execution Time");
+  console.timeEnd("Refresh Scores");
 }
