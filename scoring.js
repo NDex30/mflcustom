@@ -58,6 +58,8 @@ $(function () {
           '<div class="player-row position-order-' +
             // (playerScore.status === "starter" ? playerInfo.position : "bench") +
             playerInfo.position +
+            " " +
+            getPlayingStatusClass(parseInt(playerScore.gameSecondsRemaining)) +
             '" id="' +
             playerScore.id +
             '"></div>'
@@ -215,6 +217,17 @@ function getLiveScoringDetails(week) {
   return liveScoring;
 }
 
+function getPlayingStatusClass(secondsRemaing) {
+  let playingStatus = "";
+  if (secondsRemaing === 3600) {
+    playingStatus = "waiting";
+  } else if (secondsRemaing > 0 && secondsRemaing < 3600) {
+    playingStatus = "playing";
+  } else {
+    playingStatus = "done";
+  }
+  return playingStatus;
+}
 function getTouches(evt) {
   return (
     evt.touches || // browser API
