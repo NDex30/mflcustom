@@ -227,15 +227,15 @@ function getLiveStatsDetails(week) {
     useGrouping: false,
   });
   var catchesRegEx = new RegExp("CC ([0-9]{1,3})");
-  var catchYardsRegex = new RegExp("^(CY) [0-9]{1,3}$");
-  var catchTDsRegex = new RegExp("^(#C) [0-9]{1,3}$");
-  var rushesRegEx = new RegExp("^(RA) [0-9]{1,3}$");
-  var rushYardsRegex = new RegExp("^(RY) [0-9]{1,3}$");
-  var rushTDsRegex = new RegExp("^(#R) [0-9]{1,3}$");
-  var passAttemptsRegEx = new RegExp("^(PA) [0-9]{1,3}$");
-  var passCompleteRegEx = new RegExp("^(PC) [0-9]{1,3}$");
-  var passYardsRegex = new RegExp("^(PY) [0-9]{1,3}$");
-  var passTDsRegex = new RegExp("^(#P) [0-9]{1,3}$");
+  var catchYardsRegex = new RegExp("CY ([0-9]{1,3})");
+  var catchTDsRegex = new RegExp("#C ([0-9]{1,3})");
+  var rushesRegEx = new RegExp("RA ([0-9]{1,3})");
+  var rushYardsRegex = new RegExp("RY ([0-9]{1,3})");
+  var rushTDsRegex = new RegExp("#R ([0-9]{1,3})");
+  var passAttemptsRegEx = new RegExp("PA ([0-9]{1,3})");
+  var passCompleteRegEx = new RegExp("PC ([0-9]{1,3})");
+  var passYardsRegex = new RegExp("PY ([0-9]{1,3})");
+  var passTDsRegex = new RegExp("#P ([0-9]{1,3})");
   $.ajax({
     async: false,
     url:
@@ -259,24 +259,46 @@ function getLiveStatsDetails(week) {
         console.log("get here");
         if (catchesRegEx.test(currLine)) {
           mCatches = currLine.match(catchesRegEx);
-          console.log("mcatches", mCatches);
           if (mCatches.length > 1) stats["catches"] = mCatches[1];
         }
         if (catchYardsRegex.test(currLine)) {
-          mCatchYards = currLine.match("CY ([0-9]{1,3})");
-          console.log("mcatchYds", mCatchYards);
+          mCatchYards = currLine.match(catchYardsRegex);
           if (mCatchYards.length > 1) stats["catchYds"] = mCatchYards[1];
         }
-        // if (catchYardsRegex.test(currLine)) {
-        //   stats["catchYards"] = splits[s].replace(/[^0-9]/g, "");
-        // }
-        // if (catchTDsRegex.test(currLine)) {
-        //   stats["catchTDs"] = splits[s].replace(/[^0-9]/g, "");
-        // }
-        // if (rushesRegEx.test(currLine)) {
-        //   stats["catchTDs"] = splits[s].replace(/[^0-9]/g, "");
-        // }
-        liveStats[splits[0]] = stats;
+        if (catchTDsRegex.test(currLine)) {
+          mCatchTDs = currLine.match(catchTDsRegex);
+          if (mCatchTDs.length > 1) stats["catchTDs"] = mCatchTDs[1];
+        }
+        if (rushesRegEx.test(currLine)) {
+          mRushes = currLine.match(rushesRegEx);
+          if (mRushes.length > 1) stats["rushes"] = mRushes[1];
+        }
+        if (rushYardsRegex.test(currLine)) {
+          mRushYards = currLine.match(rushYardsRegex);
+          if (mRushYards.length > 1) stats["rushYds"] = mRushYards[1];
+        }
+        if (rushTDsRegex.test(currLine)) {
+          mRushTDs = currLine.match(rushTDsRegex);
+          if (mRushTDs.length > 1) stats["rushTDs"] = mRushTDs[1];
+        }
+        if (passAttemptsRegEx.test(currLine)) {
+          mPasses = currLine.match(passAttemptsRegEx);
+          if (mPasses.length > 1) stats["passAttempts"] = mPasses[1];
+        }
+        if (passCompleteRegEx.test(currLine)) {
+          mPassComplete = currLine.match(passCompleteRegEx);
+          if (mPassComplete.length > 1)
+            stats["passComplete"] = mPassComplete[1];
+        }
+        if (passYardsRegex.test(currLine)) {
+          mPassYds = currLine.match(passYardsRegex);
+          if (mPassYds.length > 1) stats["passYds"] = mPassYds[1];
+        }
+        if (passTDsRegex.test(currLine)) {
+          mPassTDs = currLine.match(passTDsRegex);
+          if (mPassTDs.length > 1) stats["passTDs"] = mPassTDs[1];
+        }
+        if (Object.keys(stats).length !== 0) liveStats[splits[0]] = stats;
       }
     },
   }).fail(function () {
