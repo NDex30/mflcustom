@@ -192,4 +192,10 @@ div.franchise-score {
   .player-row {
     height: 60px;
   }
+  .franchise-name h2 {
+    font-size: 1.15rem;
+  }
+  div.franchise-name {
+    height: 100px;
+  }
 }
