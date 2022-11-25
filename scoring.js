@@ -420,7 +420,9 @@ function refreshStats() {
 }
 function refreshScores() {
   console.time("Refresh Scores");
+  console.time("fetch scoring api");
   let liveScoring = getLiveScoringDetails(real_ls_week);
+  console.timeEnd("fetch scoring api");
   for (m in liveScoring.liveScoring.matchup) {
     for (f in liveScoring.liveScoring.matchup[m].franchise) {
       let franchise = liveScoring.liveScoring.matchup[m].franchise[f];
