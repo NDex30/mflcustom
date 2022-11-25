@@ -256,9 +256,10 @@ function getLiveStatsDetails(week) {
         if (splits[0] === "" || splits[0] === undefined) continue;
         let stats = {};
 
-        if (catchesRegEx.test(currLine)) {
-          stats["catches"] = currLine.replace(catchesRegEx, "$1");
-        }
+        // if (catchesRegEx.test(currLine)) {
+        mCatches = currLine.match(catchesRegEx);
+        if (mCatches.length > 1) stats["catches"] = m[1];
+        // }
         // if (catchYardsRegex.test(currLine)) {
         //   stats["catchYards"] = splits[s].replace(/[^0-9]/g, "");
         // }
