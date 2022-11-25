@@ -218,6 +218,56 @@ function getLiveScoringDetails(week) {
   return liveScoring;
 }
 
+function getLiveStatsDetails(week) {
+  var liveStats = {};
+  const d = new Date();
+  let ms = d.getMilliseconds();
+  let formattedWeek = week.toLocaleString("en-US", {
+    minimumIntegerDigits: 2,
+    useGrouping: false,
+  });
+  var catchesRegEx = new RegExp("^(CC) [0-9]{1,3}$");
+  var catchYardsRegex = new RegExp("^(CY) [0-9]{1,3}$");
+  var catchTDsRegex = new RegExp("^(#C) [0-9]{1,3}$");
+  var rushesRegEx = new RegExp("^(RA) [0-9]{1,3}$");
+  var rushYardsRegex = new RegExp("^(RY) [0-9]{1,3}$");
+  var rushTDsRegex = new RegExp("^(#R) [0-9]{1,3}$");
+  var passAttemptsRegEx = new RegExp("^(PA) [0-9]{1,3}$");
+  var passCompleteRegEx = new RegExp("^(PC) [0-9]{1,3}$");
+  var passYardsRegex = new RegExp("^(PY) [0-9]{1,3}$");
+  var passTDsRegex = new RegExp("^(#P) [0-9]{1,3}$");
+  $.ajax({
+    async: false,
+    url:
+      "https://" +
+      window.location.host +
+      "/fflnetdynamic" +
+      year +
+      "/live_stats_" +
+      formattedWeek +
+      ".txt?RANDOM=" +
+      ms,
+    dataType: "text",
+    success: function (data) {
+      const lines = data.split("\n");
+      for (x in lines) {
+        const currLine = lines[x];
+        const splits = currLine.split("|");
+        if (splits[0] === "" || splits[0] === undefined) continue;
+        let stats = {};
+        if (catchesRegEx.test(currLine)) {
+          stats["catches"] = currLine.replace(/[^0-9]/g, "");
+        }
+        liveStats[splits[0]] = stats;
+      }
+    },
+  }).fail(function () {
+    if (console) console.log("error");
+  });
+  console.log("liveStats", liveStats);
+  return liveStats;
+}
+
 function getPlayingStatusClass(secondsRemaing) {
   let playingStatus = "";
   if (secondsRemaing === 3600) {
@@ -279,41 +329,6 @@ function handleTouchMove(evt) {
   /* reset values */
   xDown = null;
   yDown = null;
-}
-
-function getLiveStatsDetails(week) {
-  var liveStats = {};
-  const d = new Date();
-  let ms = d.getMilliseconds();
-  let formattedWeek = week.toLocaleString("en-US", {
-    minimumIntegerDigits: 2,
-    useGrouping: false,
-  });
-  // var rcyRegEx = new RegExp("^(RCY|KY|UY) [0-9]{1,3}$");
-  $.ajax({
-    async: false,
-    url:
-      "https://" +
-      window.location.host +
-      "/fflnetdynamic" +
-      year +
-      "/live_stats_" +
-      formattedWeek +
-      ".txt?RANDOM=" +
-      ms,
-    dataType: "text",
-    success: function (data) {
-      const lines = data.split("\n");
-      for (x in lines) {
-        const stats = lines[x].split("|");
-        liveStats[stats[0]] = stats;
-      }
-    },
-  }).fail(function () {
-    if (console) console.log("error");
-  });
-  console.log("liveStats", liveStats);
-  return liveStats;
 }
 
 function refreshScores() {
