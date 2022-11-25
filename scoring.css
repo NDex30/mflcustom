@@ -70,6 +70,9 @@ div.franchise-score {
 .players > .player-row.position-order-PK {
   order: 6;
 }
+.players > .players-bench {
+  order: 7;
+}
 .players > .player-row.position-order-bench {
   order: 9;
 }
