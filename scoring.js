@@ -257,7 +257,7 @@ function getLiveStatsDetails(week) {
         let stats = {};
 
         if (catchesRegEx.test(currLine)) {
-          stats["catches"] = currLine.match(catchesRegEx);
+          stats["catches"] = currLine.replace(catchesRegEx, "$1");
         }
         // if (catchYardsRegex.test(currLine)) {
         //   stats["catchYards"] = splits[s].replace(/[^0-9]/g, "");
