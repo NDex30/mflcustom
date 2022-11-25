@@ -204,6 +204,10 @@ div.franchise-score {
   color: green;
 }
 
+.player-stats {
+  font-size: 0.9rem;
+}
+
 @media only screen and (max-width: 760px) {
   .player-name h3 {
     font-size: 12px;
@@ -249,5 +253,8 @@ div.franchise-score {
   }
   .nav-dots i {
     font-size: 1rem;
+  }
+  .player-stats {
+    font-size: 0.7rem;
   }
 }
