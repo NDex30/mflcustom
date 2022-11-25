@@ -226,7 +226,7 @@ function getLiveStatsDetails(week) {
     minimumIntegerDigits: 2,
     useGrouping: false,
   });
-  var catchesRegEx = new RegExp("^(CC) [0-9]{1,3}$");
+  var catchesRegEx = new RegExp("CC ([0-9]{1,3})");
   var catchYardsRegex = new RegExp("^(CY) [0-9]{1,3}$");
   var catchTDsRegex = new RegExp("^(#C) [0-9]{1,3}$");
   var rushesRegEx = new RegExp("^(RA) [0-9]{1,3}$");
@@ -255,10 +255,19 @@ function getLiveStatsDetails(week) {
         const splits = currLine.split("|");
         if (splits[0] === "" || splits[0] === undefined) continue;
         let stats = {};
-        console.log("catches??", catchesRegEx.test(currLine), currLine);
+
         if (catchesRegEx.test(currLine)) {
-          stats["catches"] = currLine.replace(/[^0-9]/g, "");
+          stats["catches"] = currLine.match(catchesRegEx);
         }
+        // if (catchYardsRegex.test(currLine)) {
+        //   stats["catchYards"] = splits[s].replace(/[^0-9]/g, "");
+        // }
+        // if (catchTDsRegex.test(currLine)) {
+        //   stats["catchTDs"] = splits[s].replace(/[^0-9]/g, "");
+        // }
+        // if (rushesRegEx.test(currLine)) {
+        //   stats["catchTDs"] = splits[s].replace(/[^0-9]/g, "");
+        // }
         liveStats[splits[0]] = stats;
       }
     },
