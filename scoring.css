@@ -232,7 +232,7 @@ div.franchise-score {
   }
   div.franchise-score {
     height: 50px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
   .player-score-box {
     margin: 0 3px;
@@ -245,7 +245,7 @@ div.franchise-score {
     margin-left: 3px;
   }
   #nav-dots {
-    top: 275px;
+    top: 250px;
   }
   .nav-dots i {
     font-size: 1rem;
