@@ -183,4 +183,10 @@ div.franchise-score {
   .player-team {
     display: none;
   }
+  .player-live-score {
+    font-size: 1rem;
+  }
+  .player-projected-score {
+    font-size: 0.65rem;
+  }
 }
