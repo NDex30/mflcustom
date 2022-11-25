@@ -161,6 +161,7 @@ $(function () {
     $(".matchup-box").css("order", 99);
     $("#" + matchup).css("order", 1);
   });
+  refreshStats();
   setInterval(refreshScores, 30000);
   setInterval(refreshStats, 90000);
 });
@@ -426,6 +427,7 @@ function refreshScores() {
       $("#score_" + franchise.id).html(franchise.score);
       for (p in franchise.players.player) {
         let playerScore = franchise.players.player[p];
+        if (parseInt(playerScore.gameSecondsRemaining) === 3600) continue; // no need to do anything for player that hasn't started
         $("#player_row_" + playerScore.id)
           .removeClass("done waiting playing")
           .addClass(
