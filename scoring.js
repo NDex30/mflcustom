@@ -60,7 +60,7 @@ $(function () {
             playerInfo.position +
             " " +
             getPlayingStatusClass(parseInt(playerScore.gameSecondsRemaining)) +
-            '" id="' +
+            '" id="player_row_' +
             playerScore.id +
             '"></div>'
         );
@@ -290,6 +290,11 @@ function refreshScores() {
       $("#score_" + franchise.id).html(franchise.score);
       for (p in franchise.players.player) {
         let playerScore = franchise.players.player[p];
+        $("#player_row_" + playerScore.id)
+          .removeClass("done waiting playing")
+          .addClass(
+            getPlayingStatusClass(parseInt(playerScore.gameSecondsRemaining))
+          );
         $("#player_score_" + playerScore.id).html(playerScore.score);
       }
     }

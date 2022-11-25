@@ -52,6 +52,12 @@ div.franchise-score {
   flex: 1 0 100%;
   flex-flow: row;
 }
+.player-row.playing {
+  background: rgba(10, 120, 2, 0.2);
+}
+.player-row.done {
+  background: rgba(160, 163, 160, 0.2);
+}
 .player-row.position-order-QB {
   order: 1;
 }
