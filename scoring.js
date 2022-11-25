@@ -9,7 +9,9 @@ $(function () {
   let projectedScores = getProjectedScore(real_ls_week, year, league_id);
   let scoringBox = $("#dexscoring");
   totalMatchups = liveScoring.liveScoring.matchup.length;
-  console.time("build html");
+
+  if (console) console.time("build html");
+
   for (m in liveScoring.liveScoring.matchup) {
     let matchupBox = $(
       '<div class="matchup-box" id="matchup_' +
@@ -148,7 +150,9 @@ $(function () {
   }
   dots += "</div>";
   scoringBox.append(dots);
-  console.timeEnd("build html");
+
+  if (console) console.timeEnd("build html");
+
   var group = document.querySelector("#dexscoring");
   group.addEventListener("touchstart", handleTouchStart, false);
   group.addEventListener("touchmove", handleTouchMove, false);
@@ -303,7 +307,7 @@ function getLiveStatsDetails(week) {
   }).fail(function () {
     if (console) console.log("error");
   });
-  // console.log("liveStats", liveStats);
+
   return liveStats;
 }
 
@@ -409,19 +413,19 @@ function formatPlayerStats(playerStats) {
 }
 
 function refreshStats() {
-  console.time("Refresh Stats");
+  if (console) console.time("Refresh Stats");
   let liveStats = getLiveStatsDetails(real_ls_week);
   for (playerID in liveStats) {
     if ($("#stats_" + playerID).length === 0) continue;
     $("#stats_" + playerID).html(formatPlayerStats(liveStats[playerID]));
   }
-  console.timeEnd("Refresh Stats");
+  if (console) console.timeEnd("Refresh Stats");
 }
 function refreshScores() {
-  console.time("Refresh Scores");
-  console.time("fetch scoring api");
+  if (console) console.time("Refresh Scores");
+  if (console) console.time("fetch scoring api");
   let liveScoring = getLiveScoringDetails(real_ls_week);
-  console.timeEnd("fetch scoring api");
+  if (console) console.timeEnd("fetch scoring api");
   for (m in liveScoring.liveScoring.matchup) {
     for (f in liveScoring.liveScoring.matchup[m].franchise) {
       let franchise = liveScoring.liveScoring.matchup[m].franchise[f];
@@ -438,5 +442,5 @@ function refreshScores() {
       }
     }
   }
-  console.timeEnd("Refresh Scores");
+  if (console) console.timeEnd("Refresh Scores");
 }
