@@ -161,7 +161,7 @@ $(function () {
     $(".matchup-box").css("order", 99);
     $("#" + matchup).css("order", 1);
   });
-  setInterval(refreshScores, 30000);
+  setInterval(refreshScores, 90000);
 });
 
 function getProjectedScore(week, year, leagueID) {
