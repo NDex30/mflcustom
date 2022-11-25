@@ -219,7 +219,7 @@ function handleTouchMove(evt) {
   } else if (dexCurrMatchup < 0) {
     dexCurrMatchup = totalMatchups - 1;
   }
-  alert("move x " + xDiff + " y diff " + yDiff);
+  // alert("move x " + xDiff + " y diff " + yDiff);
   $(".matchup-dot").removeClass("active");
   $("#dot_" + dexCurrMatchup).addClass("active");
   $(".matchup-box").css("order", 99);
