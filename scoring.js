@@ -231,16 +231,16 @@ function getLiveStatsDetails(week) {
     minimumIntegerDigits: 2,
     useGrouping: false,
   });
-  var catchesRegEx = new RegExp("CC ([0-9]{1,3})");
-  var catchYardsRegex = new RegExp("CY ([0-9]{1,3})");
-  var catchTDsRegex = new RegExp("#C ([0-9]{1,3})");
-  var rushesRegEx = new RegExp("RA ([0-9]{1,3})");
-  var rushYardsRegex = new RegExp("RY ([0-9]{1,3})");
-  var rushTDsRegex = new RegExp("#R ([0-9]{1,3})");
-  var passAttemptsRegEx = new RegExp("PA ([0-9]{1,3})");
-  var passCompleteRegEx = new RegExp("PC ([0-9]{1,3})");
-  var passYardsRegex = new RegExp("PY ([0-9]{1,3})");
-  var passTDsRegex = new RegExp("#P ([0-9]{1,3})");
+  var catchesRegEx = new RegExp("\\|CC ([0-9]{1,3})");
+  var catchYardsRegex = new RegExp("\\|CY ([0-9]{1,3})");
+  var catchTDsRegex = new RegExp("\\|#C ([0-9]{1,3})");
+  var rushesRegEx = new RegExp("\\|RA ([0-9]{1,3})");
+  var rushYardsRegex = new RegExp("\\|RY ([0-9]{1,3})");
+  var rushTDsRegex = new RegExp("\\|#R ([0-9]{1,3})");
+  var passAttemptsRegEx = new RegExp("\\|PA ([0-9]{1,3})");
+  var passCompleteRegEx = new RegExp("\\|PC ([0-9]{1,3})");
+  var passYardsRegex = new RegExp("\\|PY ([0-9]{1,3})");
+  var passTDsRegex = new RegExp("\\|#P ([0-9]{1,3})");
   $.ajax({
     async: false,
     url:
