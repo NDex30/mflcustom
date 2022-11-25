@@ -198,4 +198,14 @@ div.franchise-score {
   div.franchise-name {
     height: 100px;
   }
+  .player-score-box {
+    margin: 0 3px;
+  }
+  .player-image {
+    max-width: 80xpx;
+    margin: 0 5px;
+  }
+  .player-name h3 {
+    margin-left: 3px;
+  }
 }
