@@ -222,6 +222,7 @@ div.franchise-score {
   }
   .franchise-name h2 {
     font-size: 1.15rem;
+    margin: 4px 0;
   }
   div.franchise-icon {
     height: 175px;
@@ -231,6 +232,7 @@ div.franchise-score {
   }
   div.franchise-score {
     height: 50px;
+    padding-bottom: 15px;
   }
   .player-score-box {
     margin: 0 3px;
@@ -241,5 +243,11 @@ div.franchise-score {
   }
   .player-name h3 {
     margin-left: 3px;
+  }
+  #nav-dots {
+    top: 310px;
+  }
+  .nav-dots i {
+    font-size: 1rem;
   }
 }
