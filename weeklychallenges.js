@@ -254,7 +254,8 @@ $(function () {
           "</td></tr>";
         break;
       default:
-        if (console) console.log("well this isn't good " + formattedWeek);
+        if (console)
+          console.log("no weekly challenge this week " + formattedWeek);
     }
   }
   $("#weekly-challenges-box").append(content);
