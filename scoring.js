@@ -258,7 +258,7 @@ function getLiveStatsDetails(week) {
         let stats = {};
         console.log("get here");
         // if (catchesRegEx.test(currLine)) {
-        mCatches = currLine.match(catchesRegEx);
+        mCatches = currLine.match("CC ([0-9]{1,3})");
         console.log("mcatches", mCatches);
         if (mCatches.length > 1) stats["catches"] = mCatches[1];
 
