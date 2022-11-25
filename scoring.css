@@ -189,4 +189,7 @@ div.franchise-score {
   .player-projected-score {
     font-size: 0.65rem;
   }
+  .player-row {
+    height: 60px;
+  }
 }
