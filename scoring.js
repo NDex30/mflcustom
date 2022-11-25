@@ -56,7 +56,8 @@ $(function () {
         var playerInfo = playerDatabase["pid_" + playerScore.id];
         let playerRow = $(
           '<div class="player-row position-order-' +
-            (playerScore.status === "starter" ? playerInfo.position : "bench") +
+            // (playerScore.status === "starter" ? playerInfo.position : "bench") +
+            playerInfo.position +
             '" id="' +
             playerScore.id +
             '"></div>'

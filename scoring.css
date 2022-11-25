@@ -52,25 +52,25 @@ div.franchise-score {
   flex: 1 0 100%;
   flex-flow: row;
 }
-.players > .player-row.position-order-QB {
+.player-row.position-order-QB {
   order: 1;
 }
-.players > .player-row.position-order-RB {
+.player-row.position-order-RB {
   order: 2;
 }
-.players > .player-row.position-order-WR {
+.player-row.position-order-WR {
   order: 3;
 }
-.players > .player-row.position-order-TE {
+.player-row.position-order-TE {
   order: 4;
 }
-.players > .player-row.position-order-Def {
+.player-row.position-order-Def {
   order: 5;
 }
-.players > .player-row.position-order-PK {
+.player-row.position-order-PK {
   order: 6;
 }
-.players > .players-bench {
+.players-bench {
   order: 7;
 }
 .players > .player-row.position-order-bench {
