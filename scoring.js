@@ -161,7 +161,8 @@ $(function () {
     $(".matchup-box").css("order", 99);
     $("#" + matchup).css("order", 1);
   });
-  setInterval(refreshScores, 90000);
+  setInterval(refreshScores, 30000);
+  setInterval(refreshStats, 90000);
 });
 
 function getProjectedScore(week, year, leagueID) {
@@ -407,10 +408,18 @@ function formatPlayerStats(playerStats) {
   return statsStr;
 }
 
+function refreshStats() {
+  console.time("Refresh Stats");
+  let liveStats = getLiveStatsDetails(real_ls_week);
+  for (playerID in liveStats) {
+    if ($("#stats_" + playerID).length === 0) continue;
+    $("#stats_" + playerID).html(formatPlayerStats(liveStats[playerID]));
+  }
+  console.timeEnd("Refresh Scores");
+}
 function refreshScores() {
   console.time("Refresh Scores");
   let liveScoring = getLiveScoringDetails(real_ls_week);
-  let liveStats = getLiveStatsDetails(real_ls_week);
   for (m in liveScoring.liveScoring.matchup) {
     for (f in liveScoring.liveScoring.matchup[m].franchise) {
       let franchise = liveScoring.liveScoring.matchup[m].franchise[f];
@@ -423,9 +432,6 @@ function refreshScores() {
             getPlayingStatusClass(parseInt(playerScore.gameSecondsRemaining))
           );
         $("#player_score_" + playerScore.id).html(playerScore.score);
-        $("#stats_" + playerScore.id).html(
-          formatPlayerStats(liveStats[playerScore.id])
-        );
       }
     }
   }
