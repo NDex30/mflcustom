@@ -56,8 +56,8 @@ $(function () {
       for (p in franchise.players.player) {
         let playerScore = franchise.players.player[p];
         var playerInfo = playerDatabase["pid_" + playerScore.id];
-        if (console)
-          console.log("player info", playerInfo, "player stats", playerScore);
+        // if (console)
+        //   console.log("player info", playerInfo, "player stats", playerScore);
         let playerRow = $(
           '<div class="player-row position-order-' +
             // (playerScore.status === "starter" ? playerInfo.position : "bench") +
