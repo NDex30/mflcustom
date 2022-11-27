@@ -460,8 +460,8 @@ function formatPlayerStats(playerStats) {
 function refreshGameScore() {
   if (console) console.time("Refresh Game Scores");
   let gameScores = getNFLSchedule(real_ls_week);
-  console.log(gameScores);
-  for (x in gameScores.matchup) {
+  // console.log(gameScores);
+  for (x in gameScores.nflSchedule.matchup) {
     console.log(gameScores.nflSchedule.matchup[x]);
   }
   if (console) console.timeEnd("Refresh Game Scores");
