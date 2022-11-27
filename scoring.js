@@ -464,14 +464,18 @@ function refreshGameScore() {
   for (x in gameScores.nflSchedule.matchup) {
     console.log(gameScores.nflSchedule.matchup[x]);
     let matchup = gameScores.nflSchedule.matchup[x];
-    if (matchup.status === "FINAL") {
-      $(".game-status." + matchup.team[0].id).html(
-        (matchup.team[0].isHome === "1" ? "" : "@") + matchup.team[1].id
-      );
-      $(".game-status." + matchup.team[1].id).html(
-        (matchup.team[1].isHome === "1" ? "" : "@") + matchup.team[0].id
-      );
-    }
+    let team1 =
+      (matchup.team[0].isHome === "1" ? "" : "@") + matchup.team[1].id;
+    if (matchup.status !== "SCHED")
+      team1 += " " + matchup.team[0].score + " - " + matchup.team[1].score;
+
+    let team2 =
+      (matchup.team[1].isHome === "1" ? "" : "@") + matchup.team[0].id;
+    if (matchup.status !== "SCHED")
+      team2 += " " + matchup.team[1].score + " - " + matchup.team[0].score;
+
+    $(".game-status." + matchup.team[0].id).html(team1);
+    $(".game-status." + matchup.team[1].id).html(team2);
     // for(y in matchup.team){
 
     // }
