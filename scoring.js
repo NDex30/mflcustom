@@ -64,6 +64,8 @@ $(function () {
             playerInfo.position +
             " " +
             getPlayingStatusClass(parseInt(playerScore.gameSecondsRemaining)) +
+            " " +
+            playerInfo.team +
             '" id="player_row_' +
             playerScore.id +
             '"></div>'
