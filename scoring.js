@@ -56,6 +56,8 @@ $(function () {
       for (p in franchise.players.player) {
         let playerScore = franchise.players.player[p];
         var playerInfo = playerDatabase["pid_" + playerScore.id];
+        if (console)
+          console.log("player info", playerInfo, "player stats", playerScore);
         let playerRow = $(
           '<div class="player-row position-order-' +
             // (playerScore.status === "starter" ? playerInfo.position : "bench") +
@@ -223,6 +225,31 @@ function getLiveScoringDetails(week) {
   return liveScoring;
 }
 
+function getNFLSchedule(week) {
+  var nflSchedule;
+  let formattedWeek = week.toLocaleString("en-US", {
+    minimumIntegerDigits: 2,
+    useGrouping: false,
+  });
+  $.ajax({
+    async: false,
+    url:
+      "https://" +
+      window.location.host +
+      "/fflnetdynamic" +
+      year +
+      "/nfl_sched_" +
+      formattedWeek +
+      ".json",
+    dataType: "json",
+    success: function (data) {
+      nflSchedule = data;
+    },
+  }).fail(function () {
+    if (console) console.log("error");
+  });
+  return nflSchedule;
+}
 function getLiveStatsDetails(week) {
   var liveStats = {};
   const d = new Date();
@@ -302,7 +329,7 @@ function getLiveStatsDetails(week) {
           if (mPassTDs.length > 1) stats["passTDs"] = mPassTDs[1];
         }
         if (Object.keys(stats).length !== 0) liveStats[splits[0]] = stats;
-        if (console) console.log("stats", stats, currLine);
+        // if (console) console.log("stats", stats, currLine);
       }
     },
   }).fail(function () {
