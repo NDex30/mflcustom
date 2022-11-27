@@ -212,6 +212,7 @@ div.franchise-score {
   .player-name h3 {
     font-size: 11px;
     font-weight: normal;
+    /* text-transform: capitalize; */
   }
   .player-team {
     display: none;
@@ -223,18 +224,18 @@ div.franchise-score {
     font-size: 0.5rem;
   }
   .player-row {
-    height: 70px;
+    height: 75px;
   }
   .franchise-name h2 {
     font-size: 1.15rem;
     margin: 4px 0;
   }
-  div.franchise-icon {
+  /* div.franchise-icon {
     height: 150px;
   }
   div.franchise-name {
     height: 50px;
-  }
+  } */
   div.franchise-score {
     height: 50px;
     margin-bottom: 20px;
@@ -243,7 +244,8 @@ div.franchise-score {
     margin: 0 3px;
   }
   .player-image {
-    max-width: 80xpx;
+    max-width: 60px;
+    max-height: 60px;
     margin: 0 5px;
   }
   .player-name h3 {
