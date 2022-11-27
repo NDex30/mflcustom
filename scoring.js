@@ -471,7 +471,7 @@ function refreshGameScore() {
       (matchup.team[1].isHome === "1" ? "" : "@") + matchup.team[0].id;
 
     if (matchup.status == "SCHED") {
-      var kickoff = new Date(parseInt(matchup.team[0].kickoff) * 1000);
+      var kickoff = new Date(parseInt(matchup.kickoff) * 1000);
       console.log("kickoff ", kickoff);
     } else {
       team1 += " " + matchup.team[0].score + " - " + matchup.team[1].score;
