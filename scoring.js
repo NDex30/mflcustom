@@ -459,7 +459,7 @@ function refreshGameScore() {
   if (console) console.time("Refresh Game Scores");
   let gameScores = getNFLSchedule(real_ls_week);
   for (x in gameScores.matchup) {
-    console.log(gameScores.matchup[x]);
+    console.log(gameScores.nflSchedule.matchup[x]);
   }
   if (console) console.timeEnd("Refresh Game Scores");
 }
