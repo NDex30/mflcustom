@@ -210,7 +210,8 @@ div.franchise-score {
 
 @media only screen and (max-width: 760px) {
   .player-name h3 {
-    font-size: 12px;
+    font-size: 11px;
+    font-weight: normal;
   }
   .player-team {
     display: none;
@@ -219,10 +220,10 @@ div.franchise-score {
     font-size: 1rem;
   }
   .player-projected-score {
-    font-size: 0.65rem;
+    font-size: 0.5rem;
   }
   .player-row {
-    height: 60px;
+    height: 70px;
   }
   .franchise-name h2 {
     font-size: 1.15rem;
@@ -255,6 +256,6 @@ div.franchise-score {
     font-size: 1rem;
   }
   .player-stats {
-    font-size: 0.5rem;
+    font-size: 0.4rem;
   }
 }
