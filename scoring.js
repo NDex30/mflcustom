@@ -176,6 +176,7 @@ $(function () {
     $("#" + matchup).css("order", 1);
   });
   refreshStats();
+  refreshGameScore();
   setInterval(refreshScores, 30000);
   setInterval(refreshStats, 90000);
 });
@@ -454,7 +455,14 @@ function formatPlayerStats(playerStats) {
   }
   return statsStr;
 }
-
+function refreshGameScore() {
+  if (console) console.time("Refresh Game Scores");
+  let gameScores = getNFLSchedule(real_ls_week);
+  for (x in gameScores.matchup) {
+    console.log(gameScores.matchup[x]);
+  }
+  if (console) console.timeEnd("Refresh Game Scores");
+}
 function refreshStats() {
   if (console) console.time("Refresh Stats");
   let liveStats = getLiveStatsDetails(real_ls_week);
