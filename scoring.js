@@ -472,18 +472,20 @@ function refreshGameScore() {
 
     if (matchup.status == "SCHED") {
       var kickoff = new Date(parseInt(matchup.kickoff) * 1000);
-      let options = {
+      let kickoffFormat = new Intl.DateTimeFormat("default", {
         weekday: "short",
-        // year: "numeric",
-        // month: "long",
         day: "numeric",
         timeZoneName: "short",
-      };
-      console.log(
-        "kickoff ",
-        kickoff,
-        new Intl.DateTimeFormat("en-US", options).format(kickoff)
-      );
+        hour: "numeric",
+        minute: "numeric",
+      }).format(kickoff);
+      // console.log(
+      //   "kickoff ",
+      //   kickoff,
+      //   new Intl.DateTimeFormat("default", options).format(kickoff)
+      // );
+      team1 += " " + kickoffFormat;
+      team2 += " " + kickoffFormat;
     } else {
       team1 += " " + matchup.team[0].score + " - " + matchup.team[1].score;
       team2 += " " + matchup.team[1].score + " - " + matchup.team[0].score;
