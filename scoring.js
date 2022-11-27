@@ -94,7 +94,12 @@ $(function () {
         playerRow.append(
           '<div class="player-details-box"><div class="player-name"><h3>' +
             formatPlayerName(playerInfo.name) +
-            '</h3><div class="player-team"><img alt="' +
+            "</h3>" +
+            " " +
+            '<div class="mobile-player-position">' +
+            playerInfo.position +
+            "</div>" +
+            '<div class="player-team"><img alt="' +
             playerInfo.team +
             '" src="https://www.mflscripts.com/ImageDirectory/script-images/nflTeamsvg_2/' +
             playerInfo.team +

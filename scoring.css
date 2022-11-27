@@ -207,6 +207,9 @@ div.franchise-score {
 .player-stats {
   font-size: 0.9rem;
 }
+.mobile-player-position {
+  display: none;
+}
 
 @media only screen and (max-width: 760px) {
   .player-name h3 {
@@ -259,5 +262,11 @@ div.franchise-score {
   }
   .player-stats {
     font-size: 0.4rem;
+  }
+  .player-position {
+    display: none;
+  }
+  .mobile-player-position {
+    display: block;
   }
 }
