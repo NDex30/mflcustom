@@ -474,11 +474,19 @@ function refreshGameScore() {
     if (matchup.status !== "SCHED")
       team2 += " " + matchup.team[1].score + " - " + matchup.team[0].score;
 
+    if (matchup.status !== "SCHED" && matchup.status !== "FINAL") {
+      $(".player-row." + matchup.team[0].id).removeClass(
+        "on-offense in-redzone"
+      );
+      if (matchup.team[0].hasPossession === "1") {
+        $(".player-row." + matchup.team[0].id).addClass("on-offense");
+        if (matchup.team[0].inRedZone === "1") {
+          $(".player-row." + matchup.team[0].id).addClass("in-redzone");
+        }
+      }
+    }
     $(".game-status." + matchup.team[0].id).html(team1);
     $(".game-status." + matchup.team[1].id).html(team2);
-    // for(y in matchup.team){
-
-    // }
   }
   if (console) console.timeEnd("Refresh Game Scores");
 }
