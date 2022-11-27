@@ -93,7 +93,7 @@ $(function () {
         playerRow.append(imageBox);
         playerRow.append(
           '<div class="player-details-box"><div class="player-name"><h3>' +
-            playerInfo.name +
+            formatPlayerName(playerInfo.name) +
             '</h3><div class="player-team"><img alt="' +
             playerInfo.team +
             '" src="https://www.mflscripts.com/ImageDirectory/script-images/nflTeamsvg_2/' +
@@ -254,6 +254,7 @@ function getNFLSchedule(week) {
   });
   return nflSchedule;
 }
+
 function getLiveStatsDetails(week) {
   var liveStats = {};
   const d = new Date();
@@ -343,6 +344,11 @@ function getLiveStatsDetails(week) {
   return liveStats;
 }
 
+function formatPlayerName(name) {
+  let nameSplit = name.split(",");
+  if (nameSplit.length < 2) return name;
+  return nameSplit[1] + " " + nameSplit[0];
+}
 function getPlayingStatusClass(secondsRemaing) {
   let playingStatus = "";
   if (secondsRemaing === 3600) {
