@@ -466,14 +466,17 @@ function refreshGameScore() {
     let matchup = gameScores.nflSchedule.matchup[x];
     let team1 =
       (matchup.team[0].isHome === "1" ? "" : "@") + matchup.team[1].id;
-    if (matchup.status !== "SCHED")
-      team1 += " " + matchup.team[0].score + " - " + matchup.team[1].score;
 
     let team2 =
       (matchup.team[1].isHome === "1" ? "" : "@") + matchup.team[0].id;
-    if (matchup.status !== "SCHED")
-      team2 += " " + matchup.team[1].score + " - " + matchup.team[0].score;
 
+    if (matchup.status == "SCHED") {
+      var kickoff = new Date(parseInt(matchup.team[0].kickoff));
+      console.log("kickoff ", kickoff);
+    } else {
+      team1 += " " + matchup.team[0].score + " - " + matchup.team[1].score;
+      team2 += " " + matchup.team[1].score + " - " + matchup.team[0].score;
+    }
     if (matchup.status !== "SCHED" && matchup.status !== "FINAL") {
       $(".player-row." + matchup.team[0].id).removeClass(
         "on-offense in-redzone"
@@ -485,6 +488,7 @@ function refreshGameScore() {
         }
       }
     }
+
     $(".game-status." + matchup.team[0].id).html(team1);
     $(".game-status." + matchup.team[1].id).html(team2);
   }
