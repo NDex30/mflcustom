@@ -474,16 +474,12 @@ function refreshGameScore() {
       var kickoff = new Date(parseInt(matchup.kickoff) * 1000);
       let kickoffFormat = new Intl.DateTimeFormat("default", {
         weekday: "short",
-        day: "numeric",
+        // day: "numeric",
         timeZoneName: "short",
         hour: "numeric",
         minute: "numeric",
       }).format(kickoff);
-      // console.log(
-      //   "kickoff ",
-      //   kickoff,
-      //   new Intl.DateTimeFormat("default", options).format(kickoff)
-      // );
+
       team1 += " " + kickoffFormat;
       team2 += " " + kickoffFormat;
     } else {
