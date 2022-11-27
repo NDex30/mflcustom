@@ -463,6 +463,18 @@ function refreshGameScore() {
   // console.log(gameScores);
   for (x in gameScores.nflSchedule.matchup) {
     console.log(gameScores.nflSchedule.matchup[x]);
+    let matchup = gameScores.nflSchedule.matchup[x];
+    if (matchup.status === "FINAL") {
+      $(".game-status." + matchup.team[0].id).html(
+        (matchup.team[0].isHome === "1" ? "" : "@") + matchup.team[1].id
+      );
+      $(".game-status." + matchup.team[1].id).html(
+        (matchup.team[1].isHome === "1" ? "" : "@") + matchup.team[0].id
+      );
+    }
+    // for(y in matchup.team){
+
+    // }
   }
   if (console) console.timeEnd("Refresh Game Scores");
 }
