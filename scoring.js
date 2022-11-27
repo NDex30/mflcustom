@@ -177,8 +177,10 @@ $(function () {
   });
   refreshStats();
   refreshGameScore();
+
   setInterval(refreshScores, 30000);
   setInterval(refreshStats, 90000);
+  setInterval(refreshGameScore, 60000);
 });
 
 function getProjectedScore(week, year, leagueID) {
@@ -458,6 +460,7 @@ function formatPlayerStats(playerStats) {
 function refreshGameScore() {
   if (console) console.time("Refresh Game Scores");
   let gameScores = getNFLSchedule(real_ls_week);
+  console.log(gameScores);
   for (x in gameScores.matchup) {
     console.log(gameScores.nflSchedule.matchup[x]);
   }
