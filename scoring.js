@@ -98,7 +98,9 @@ $(function () {
             playerInfo.team +
             '" src="https://www.mflscripts.com/ImageDirectory/script-images/nflTeamsvg_2/' +
             playerInfo.team +
-            '.svg"></div></div><div class="player-stats" id="stats_' +
+            '.svg"></div></div><div class="game-status "' +
+            playerInfo.team +
+            '"></div><div class="player-stats" id="stats_' +
             playerScore.id +
             '"></div></div>'
         );
