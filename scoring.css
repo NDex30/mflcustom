@@ -210,6 +210,9 @@ div.franchise-score {
 .mobile-player-position {
   display: none;
 }
+.game-status {
+  font-size: 0.8rem;
+}
 
 @media only screen and (max-width: 760px) {
   .player-name h3 {
@@ -261,12 +264,16 @@ div.franchise-score {
     font-size: 1rem;
   }
   .player-stats {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
+  }
+  .game-status {
+    font-size: 0.5rem;
   }
   .player-position {
     display: none;
   }
   .mobile-player-position {
     display: block;
+    font-size: 0.75rem;
   }
 }

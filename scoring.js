@@ -486,7 +486,7 @@ function refreshGameScore() {
       team1 += " " + matchup.team[0].score + " - " + matchup.team[1].score;
       team2 += " " + matchup.team[1].score + " - " + matchup.team[0].score;
     }
-    if (matchup.status !== "SCHED" && matchup.status !== "FINAL") {
+    if (matchup.status === "INPROG") {
       $(".player-row." + matchup.team[0].id).removeClass(
         "on-offense in-redzone"
       );
@@ -497,7 +497,10 @@ function refreshGameScore() {
         }
       }
     }
-
+    if (matchup.status === "FINAL") {
+      team1 += " Final";
+      team2 += " Final";
+    }
     $(".game-status." + matchup.team[0].id).html(team1);
     $(".game-status." + matchup.team[1].id).html(team2);
   }
