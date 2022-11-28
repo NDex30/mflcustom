@@ -100,19 +100,20 @@ div.franchise-score {
   font-weight: bold;
   padding: 0 0.25em;
   flex-grow: 0;
+  width: 30px;
 }
 
 .player-image {
-  max-width: 107px;
+  width: 40px;
   flex-grow: 0;
   align-self: center;
   margin: 0 7px;
 }
 
 .player-image img {
-  max-height: 50px;
+  height: 50px;
   border-radius: 3em;
-  min-width: 38px;
+  width: 40px;
 }
 
 .player-details-box {
@@ -127,7 +128,8 @@ div.franchise-score {
 }
 .player-name h3 {
   color: #000;
-  margin-left: 7px;
+  margin: 0;
+  padding: 0;
 }
 .player-team {
   max-width: 20px;
