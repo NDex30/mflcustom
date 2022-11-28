@@ -179,6 +179,7 @@ $(function () {
   });
   refreshStats();
   refreshGameScore();
+  refreshScores();
 
   setInterval(refreshScores, 30000);
   setInterval(refreshStats, 90000);
@@ -529,7 +530,7 @@ function refreshScores() {
       for (p in franchise.players.player) {
         let playerScore = franchise.players.player[p];
         let timeRemaining = parseInt(playerScore.gameSecondsRemaining);
-        console.log("player score", playerScore, timeRemaining);
+        // console.log("player score", playerScore, timeRemaining);
         if (timeRemaining === 3600) continue; // no need to do anything for player that hasn't started
         if (timeRemaining > 0) {
           let minutes = Math.floor(timeRemaining / 60);
@@ -538,7 +539,7 @@ function refreshScores() {
           $("#game-time-" + playerScore.id).html(
             quarter + "Q " + minutes + ":" + seconds
           );
-          console.log("quarter", quarter, minutes, seconds);
+          // console.log("quarter", quarter, minutes, seconds);
         }
         $("#player_row_" + playerScore.id)
           .removeClass("done waiting playing")
