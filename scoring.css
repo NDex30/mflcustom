@@ -51,7 +51,7 @@ div.franchise-score {
   flex: 1 0 100%;
   flex-flow: row;
   padding: 4px 0;
-  flex-basis: 70px;
+  flex-basis: 75px;
 }
 .player-row.playing {
   background: rgba(10, 120, 2, 0.2);
@@ -214,10 +214,13 @@ div.franchise-score {
 .mobile-player-position {
   display: none;
 }
-.game-status {
+.game-info > div {
   font-size: 0.8rem;
 }
-
+.game-info {
+  display: flex;
+  flex-flow: row nowrap;
+}
 @media only screen and (max-width: 760px) {
   .player-name h3 {
     font-size: 11px;
@@ -235,9 +238,9 @@ div.franchise-score {
   .player-projected-score {
     font-size: 0.5rem;
   }
-  .player-row {
+  /* .player-row {
     height: 75px;
-  }
+  } */
   .franchise-name h2 {
     font-size: 1.15rem;
     margin: 4px 0;
@@ -269,7 +272,7 @@ div.franchise-score {
   .player-stats {
     font-size: 0.5rem;
   }
-  .game-status {
+  .game-info > div {
     font-size: 0.5rem;
   }
   .player-position {
