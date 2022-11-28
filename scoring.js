@@ -105,6 +105,8 @@ $(function () {
             playerInfo.team +
             '.svg"></div></div><div class="game-status ' +
             playerInfo.team +
+            '"></div><div id="game-time-' +
+            playerScore.id +
             '"></div><div class="player-stats" id="stats_' +
             playerScore.id +
             '"></div></div>'
@@ -526,11 +528,16 @@ function refreshScores() {
       $("#score_" + franchise.id).html(franchise.score);
       for (p in franchise.players.player) {
         let playerScore = franchise.players.player[p];
-        if (parseInt(playerScore.gameSecondsRemaining) === 3600) continue; // no need to do anything for player that hasn't started
         let timeRemaining = parseInt(playerScore.gameSecondsRemaining);
-        let minutes = Math.floor(timeRemaining / 60);
-        let seconds = timeRemaining - minutes * 60;
-        let quarter = Math.ceil((3600 - timeRemaining) / 60 / 15);
+        if (timeRemaining === 3600) continue; // no need to do anything for player that hasn't started
+        if (timeRemaining > 0) {
+          let minutes = Math.floor(timeRemaining / 60);
+          let seconds = timeRemaining - minutes * 60;
+          let quarter = Math.ceil((3600 - timeRemaining) / 60 / 15);
+          $("#game-time-" + playerScore.id).html(
+            quarter + "Q " + minutes + ":" + seconds
+          );
+        }
         console.log("quarter", quarter, minutes, seconds);
         $("#player_row_" + playerScore.id)
           .removeClass("done waiting playing")
