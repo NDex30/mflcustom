@@ -464,7 +464,7 @@ function refreshGameScore() {
   let gameScores = getNFLSchedule(real_ls_week);
   // console.log(gameScores);
   for (x in gameScores.nflSchedule.matchup) {
-    console.log(gameScores.nflSchedule.matchup[x]);
+    // console.log(gameScores.nflSchedule.matchup[x]);
     let matchup = gameScores.nflSchedule.matchup[x];
     let team1 =
       (matchup.team[0].isHome === "1" ? "" : "@") + matchup.team[1].id;
@@ -537,8 +537,8 @@ function refreshScores() {
           $("#game-time-" + playerScore.id).html(
             quarter + "Q " + minutes + ":" + seconds
           );
+          console.log("quarter", quarter, minutes, seconds);
         }
-        console.log("quarter", quarter, minutes, seconds);
         $("#player_row_" + playerScore.id)
           .removeClass("done waiting playing")
           .addClass(
