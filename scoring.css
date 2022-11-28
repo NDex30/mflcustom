@@ -277,7 +277,7 @@ div.franchise-score {
     display: none;
   }
   .mobile-player-position {
-    display: block;
+    display: none;
     font-size: 11px;
     margin: 0 3px;
   }
