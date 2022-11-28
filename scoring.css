@@ -47,7 +47,6 @@ div.franchise-score {
   max-height: 150px;
 }
 .player-row {
-  height: 50px;
   display: flex;
   flex: 1 0 100%;
   flex-flow: row;
@@ -263,7 +262,7 @@ div.franchise-score {
     margin-left: 3px;
   }
   #nav-dots {
-    top: 250px;
+    top: 270px;
   }
   .nav-dots i {
     font-size: 1rem;
@@ -279,6 +278,7 @@ div.franchise-score {
   }
   .mobile-player-position {
     display: block;
-    font-size: 0.75rem;
+    font-size: 11px;
+    margin: 0 3px;
   }
 }
