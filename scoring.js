@@ -529,6 +529,7 @@ function refreshScores() {
       for (p in franchise.players.player) {
         let playerScore = franchise.players.player[p];
         let timeRemaining = parseInt(playerScore.gameSecondsRemaining);
+        console.log("player score", playerScore, timeRemaining);
         if (timeRemaining === 3600) continue; // no need to do anything for player that hasn't started
         if (timeRemaining > 0) {
           let minutes = Math.floor(timeRemaining / 60);
