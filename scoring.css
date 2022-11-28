@@ -51,6 +51,8 @@ div.franchise-score {
   display: flex;
   flex: 1 0 100%;
   flex-flow: row;
+  padding: 4px 0;
+  flex-basis: 70px;
 }
 .player-row.playing {
   background: rgba(10, 120, 2, 0.2);
@@ -136,6 +138,7 @@ div.franchise-score {
   max-height: 20px;
   flex-grow: 1;
   align-self: center;
+  margin-left: 6px;
 }
 .player-team img {
   max-width: 20px;
@@ -240,10 +243,10 @@ div.franchise-score {
   }
   /* div.franchise-icon {
     height: 150px;
-  }
+  }*/
   div.franchise-name {
     height: 50px;
-  } */
+  }
   div.franchise-score {
     height: 50px;
     margin-bottom: 20px;
