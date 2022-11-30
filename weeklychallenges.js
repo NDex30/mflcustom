@@ -16,7 +16,7 @@ $(function () {
         Week 16 = Most Team Points (Non-playoff Team)
     */
   var content = '<table align="center" cellpadding="2" width="100%">';
-  for (i = 0; i < real_ls_week; i++) {
+  for (i = 0; i =< completedWeek; i++) {
     let formattedWeek = i.toLocaleString("en-US", {
       minimumIntegerDigits: 2,
       useGrouping: false,
