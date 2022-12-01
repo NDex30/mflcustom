@@ -14,3 +14,9 @@ span.spread.positive {
 table#standings,table#standings tbody {
     display: table !important;
 }
+#weekly-challenges-box h3 {
+    color: #333;
+    font-size: 0.875rem;
+    margin: 5px 0 0;
+    padding: 0;
+}
