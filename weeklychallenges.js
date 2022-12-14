@@ -231,7 +231,7 @@ $(function () {
           maxWinMargin.margin +
           "</td></tr>";
         break;
-      case 13:
+      case 14:
         var maxPlayerAllPurposeYards = mostPlayerAllPurposeYards(
           i,
           formattedWeek,
