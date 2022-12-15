@@ -94,7 +94,7 @@ $(function () {
         playerRow.append(
           '<div class="player-details-box"><div class="player-name"><h3>' +
             '<a href="player?L=' +
-            leagueID +
+            league_id +
             "&amp;P=" +
             playerScore.id +
             '" target="new" title="View Player News">' +
