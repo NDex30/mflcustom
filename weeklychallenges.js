@@ -16,7 +16,6 @@ $(function () {
         Week 16 = Most Team Points (Non-playoff Team)
     */
   var content = '<table align="center" cellpadding="2" width="100%">';
-  console.log(mostTeamPoints(15, franchiseDatabase, true, ""));
   for (i = 0; i <= completedWeek; i++) {
     let formattedWeek = i.toLocaleString("en-US", {
       minimumIntegerDigits: 2,
@@ -369,7 +368,6 @@ function mostTeamPoints(week, franchises, isPlayoff, storageKey) {
   const liveScoring = getLiveScoring(week);
   if (isPlayoff) {
     for (x in liveScoring.liveScoring.franchise) {
-      console.log("nickdebug2", liveScoring.liveScoring.franchise[x]);
       if (
         maxScoreFranchise === undefined ||
         parseFloat(liveScoring.liveScoring.franchise[x].score) >
@@ -380,7 +378,6 @@ function mostTeamPoints(week, franchises, isPlayoff, storageKey) {
     }
   } else {
     for (x in liveScoring.liveScoring.matchup) {
-      console.log("nickdebug1", liveScoring.liveScoring.matchup[x]);
       for (y in liveScoring.liveScoring.matchup[x].franchise) {
         if (
           maxScoreFranchise === undefined ||
@@ -734,7 +731,7 @@ function mostTeamTDS(week, formattedWeek, franchises, players, storageKey) {
           }
         }
       }
-      console.log("total tds", totalTDs, "mostTotalTeamTDS", mostTeamTds);
+      // console.log("total tds", totalTDs, "mostTotalTeamTDS", mostTeamTds);
       if (
         mostTeamTds === undefined ||
         totalTDs > parseInt(mostTeamTds.totalTDs)
