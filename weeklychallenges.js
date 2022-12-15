@@ -16,7 +16,7 @@ $(function () {
         Week 16 = Most Team Points (Non-playoff Team)
     */
   var content = '<table align="center" cellpadding="2" width="100%">';
-  console.log(mostTeamPoints(15, franchiseDatabase, false, ""));
+  console.log(mostTeamPoints(15, franchiseDatabase, true, ""));
   for (i = 0; i <= completedWeek; i++) {
     let formattedWeek = i.toLocaleString("en-US", {
       minimumIntegerDigits: 2,
@@ -368,7 +368,7 @@ function mostTeamPoints(week, franchises, isPlayoff, storageKey) {
   }
   const liveScoring = getLiveScoring(week);
   for (x in liveScoring.liveScoring.matchup) {
-    console.log(liveScoring.liveScoring.matchup[x]);
+    console.log("nickdebug1", liveScoring.liveScoring.matchup[x]);
     if (isPlayoff && liveScoring.liveScoring.matchup[x].length > 1) {
       continue;
     }
