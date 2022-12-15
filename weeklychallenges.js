@@ -16,6 +16,7 @@ $(function () {
         Week 16 = Most Team Points (Non-playoff Team)
     */
   var content = '<table align="center" cellpadding="2" width="100%">';
+  console.log(mostTeamPoints(15, franchiseDatabase, false, ""));
   for (i = 0; i <= completedWeek; i++) {
     let formattedWeek = i.toLocaleString("en-US", {
       minimumIntegerDigits: 2,
@@ -23,7 +24,12 @@ $(function () {
     });
     switch (i) {
       case 3:
-        var maxPointsFranchise = mostTeamPoints(i, franchiseDatabase);
+        let maxPointsFranchise = mostTeamPoints(
+          i,
+          franchiseDatabase,
+          false,
+          "smashBrosMostTeamPoints"
+        );
         content +=
           "<tr><td colspan=2><h3>Week " +
           i +
@@ -253,6 +259,42 @@ $(function () {
           maxPlayerAllPurposeYards.totalPlayerYards +
           "</td></tr>";
         break;
+      case 15:
+        let maxPointsFranchise15 = mostTeamPoints(
+          i,
+          franchiseDatabase,
+          true,
+          "smashBrosMostTeamPoints15"
+        );
+        content +=
+          "<tr><td colspan=2><h3>Week " +
+          i +
+          ": Most Team Points</h3></td></tr>";
+        content +=
+          "<tr><td>" +
+          maxPointsFranchise15.name +
+          "</td><td>" +
+          maxPointsFranchise15.score +
+          "</td></tr>";
+        break;
+      case 16:
+        let maxPointsFranchise16 = mostTeamPoints(
+          i,
+          franchiseDatabase,
+          true,
+          "smashBrosMostTeamPoints16"
+        );
+        content +=
+          "<tr><td colspan=2><h3>Week " +
+          i +
+          ": Most Team Points</h3></td></tr>";
+        content +=
+          "<tr><td>" +
+          maxPointsFranchise16.name +
+          "</td><td>" +
+          maxPointsFranchise16.score +
+          "</td></tr>";
+        break;
       default:
         if (console)
           console.log("no weekly challenge this week " + formattedWeek);
@@ -314,10 +356,10 @@ function getLiveScoring(week) {
   return liveScoring;
 }
 
-function mostTeamPoints(week, franchises) {
-  const storageKey = "smashBrosMostTeamPoints";
+function mostTeamPoints(week, franchises, isPlayoff, storageKey) {
   var maxScoreFranchise;
   if (
+    storageKey !== "" &&
     localStorage.getItem(storageKey) !== null &&
     localStorage.getItem(storageKey) != "undefined"
   ) {
@@ -326,6 +368,10 @@ function mostTeamPoints(week, franchises) {
   }
   const liveScoring = getLiveScoring(week);
   for (x in liveScoring.liveScoring.matchup) {
+    console.log(liveScoring.liveScoring.matchup[x]);
+    if (isPlayoff && liveScoring.liveScoring.matchup[x].length > 1) {
+      continue;
+    }
     for (y in liveScoring.liveScoring.matchup[x].franchise) {
       if (
         maxScoreFranchise === undefined ||
@@ -341,7 +387,8 @@ function mostTeamPoints(week, franchises) {
     ...maxScoreFranchise,
     ...franchises["fid_" + maxScoreFranchise.id],
   };
-  localStorage.setItem(storageKey, JSON.stringify(maxTeamPoints));
+  if (storageKey !== "")
+    localStorage.setItem(storageKey, JSON.stringify(maxTeamPoints));
   return maxTeamPoints;
 }
 
