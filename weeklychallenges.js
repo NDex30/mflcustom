@@ -367,18 +367,28 @@ function mostTeamPoints(week, franchises, isPlayoff, storageKey) {
     return maxScoreFranchise;
   }
   const liveScoring = getLiveScoring(week);
-  for (x in liveScoring.liveScoring.matchup) {
-    console.log("nickdebug1", liveScoring.liveScoring.matchup[x]);
-    if (isPlayoff && liveScoring.liveScoring.matchup[x].length > 1) {
-      continue;
-    }
-    for (y in liveScoring.liveScoring.matchup[x].franchise) {
+  if (isPlayoff) {
+    for (x in liveScoring.liveScoring.franchise) {
+      console.log("nickdebug2", liveScoring.liveScoring.franchise[x]);
       if (
         maxScoreFranchise === undefined ||
-        parseFloat(liveScoring.liveScoring.matchup[x].franchise[y].score) >
+        parseFloat(liveScoring.liveScoring.franchise[x].score) >
           parseFloat(maxScoreFranchise.score)
       ) {
-        maxScoreFranchise = liveScoring.liveScoring.matchup[x].franchise[y];
+        maxScoreFranchise = liveScoring.liveScoring.franchise[x];
+      }
+    }
+  } else {
+    for (x in liveScoring.liveScoring.matchup) {
+      console.log("nickdebug1", liveScoring.liveScoring.matchup[x]);
+      for (y in liveScoring.liveScoring.matchup[x].franchise) {
+        if (
+          maxScoreFranchise === undefined ||
+          parseFloat(liveScoring.liveScoring.matchup[x].franchise[y].score) >
+            parseFloat(maxScoreFranchise.score)
+        ) {
+          maxScoreFranchise = liveScoring.liveScoring.matchup[x].franchise[y];
+        }
       }
     }
   }
