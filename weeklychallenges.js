@@ -1,6 +1,8 @@
 $(function () {
   /*
-        Week 3 = Most Team Points (Matty - 147.48)
+        Week 1 = Most RB Points 
+        Week 2 = Most QB Points 
+        Week 3 = Most Team Points 
         Week 4 = Most All-Purpose Yards
         Week 5 = Most Kicker Points
         Week 6 = Longest QB TD
@@ -22,6 +24,48 @@ $(function () {
       useGrouping: false,
     });
     switch (i) {
+      case 1:
+        var maxRBPoints = mostPlayerPoints(
+          i,
+          franchiseDatabase,
+          playerDatabase,
+          ["RB"],
+          "smashBrosMostRBPoints"
+        );
+        content +=
+          "<tr><td colspan=2><h3>Week " +
+          i +
+          ": Most Points from Single Running Back</h3></td></tr>";
+        content +=
+          "<tr><td>" +
+          maxRBPoints.franchiseName +
+          "</td><td>" +
+          maxRBPoints.playerName +
+          " -- " +
+          maxRBPoints.score +
+          "</td></tr>";
+        break;
+      case 2:
+        var maxQBPoints = mostPlayerPoints(
+          i,
+          franchiseDatabase,
+          playerDatabase,
+          ["QB"],
+          "smashBrosMostQBPoints"
+        );
+        content +=
+          "<tr><td colspan=2><h3>Week " +
+          i +
+          ": Most Points from Single QuarterBack</h3></td></tr>";
+        content +=
+          "<tr><td>" +
+          maxQBPoints.franchiseName +
+          "</td><td>" +
+          maxQBPoints.playerName +
+          " -- " +
+          maxQBPoints.score +
+          "</td></tr>";
+        break;
       case 3:
         let maxPointsFranchise = mostTeamPoints(
           i,
