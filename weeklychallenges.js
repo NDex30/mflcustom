@@ -69,12 +69,13 @@ $(function () {
           "smashBrosMostRBPoints"
         );
         $("#wc_week" + i).html(
-          "<span>" +
+          '<span class="franchise-name">' +
             maxRBPoints.franchiseName +
-            " " +
+            '</span><span class="player-name">' +
             maxRBPoints.playerName +
-            " " +
-            maxRBPoints.score
+            '</span><span class="wc_score">' +
+            maxRBPoints.score +
+            "</span>"
         );
         // content +=
         //   "<tr><td colspan=2><h3>Week " +
@@ -97,18 +98,27 @@ $(function () {
           ["QB"],
           "smashBrosMostQBPoints"
         );
-        content +=
-          "<tr><td colspan=2><h3>Week " +
-          i +
-          ": Most Points from Single QuarterBack</h3></td></tr>";
-        content +=
-          "<tr><td>" +
-          maxQBPoints.franchiseName +
-          "</td><td>" +
-          maxQBPoints.playerName +
-          " -- " +
-          maxQBPoints.score +
-          "</td></tr>";
+        $("#wc_week" + i).html(
+          '<span class="franchise-name">' +
+            maxQBPoints.franchiseName +
+            '</span><span class="player-name">' +
+            maxQBPoints.playerName +
+            '</span><span class="wc_score">' +
+            maxQBPoints.score +
+            "</span>"
+        );
+        // content +=
+        //   "<tr><td colspan=2><h3>Week " +
+        //   i +
+        //   ": Most Points from Single QuarterBack</h3></td></tr>";
+        // content +=
+        //   "<tr><td>" +
+        //   maxQBPoints.franchiseName +
+        //   "</td><td>" +
+        //   maxQBPoints.playerName +
+        //   " -- " +
+        //   maxQBPoints.score +
+        //   "</td></tr>";
         break;
       case 3:
         let maxPointsFranchise = mostTeamPoints(
@@ -117,16 +127,23 @@ $(function () {
           false,
           "smashBrosMostTeamPoints"
         );
-        content +=
-          "<tr><td colspan=2><h3>Week " +
-          i +
-          ": Most Team Points</h3></td></tr>";
-        content +=
-          "<tr><td>" +
-          maxPointsFranchise.name +
-          "</td><td>" +
-          maxPointsFranchise.score +
-          "</td></tr>";
+        $("#wc_week" + i).html(
+          '<span class="franchise-name">' +
+            maxPointsFranchise.franchiseName +
+            '</span><span class="wc_score">' +
+            maxPointsFranchise.score +
+            "</span>"
+        );
+        // content +=
+        //   "<tr><td colspan=2><h3>Week " +
+        //   i +
+        //   ": Most Team Points</h3></td></tr>";
+        // content +=
+        //   "<tr><td>" +
+        //   maxPointsFranchise.name +
+        //   "</td><td>" +
+        //   maxPointsFranchise.score +
+        //   "</td></tr>";
         break;
       case 4:
         var maxAllPurposeYards = mostAllPurposeYards(
@@ -136,16 +153,23 @@ $(function () {
           playerDatabase,
           "smashBrosMostAllPurposeYards"
         );
-        content +=
-          "<tr><td colspan=2><h3>Week " +
-          i +
-          ": Most All-Purpose Yards</h3></td></tr>";
-        content +=
-          "<tr><td>" +
-          maxAllPurposeYards.name +
-          "</td><td>" +
-          maxAllPurposeYards.totalFranchiseYards +
-          "</td></tr>";
+        $("#wc_week" + i).html(
+          '<span class="franchise-name">' +
+            maxAllPurposeYards.name +
+            '</span><span class="wc_score">' +
+            maxAllPurposeYards.totalFranchiseYards +
+            "</span>"
+        );
+        // content +=
+        //   "<tr><td colspan=2><h3>Week " +
+        //   i +
+        //   ": Most All-Purpose Yards</h3></td></tr>";
+        // content +=
+        //   "<tr><td>" +
+        //   maxAllPurposeYards.name +
+        //   "</td><td>" +
+        //   maxAllPurposeYards.totalFranchiseYards +
+        //   "</td></tr>";
         break;
       case 5:
         var maxKickerPoints = mostPlayerPoints(
@@ -155,18 +179,27 @@ $(function () {
           ["PK"],
           "smashBrosMostKickerPoints"
         );
-        content +=
-          "<tr><td colspan=2><h3>Week " +
-          i +
-          ": Most Kicker Points</h3></td></tr>";
-        content +=
-          "<tr><td>" +
-          maxKickerPoints.franchiseName +
-          "</td><td>" +
-          maxKickerPoints.playerName +
-          " -- " +
-          maxKickerPoints.score +
-          "</td></tr>";
+        $("#wc_week" + i).html(
+          '<span class="franchise-name">' +
+            maxKickerPoints.franchiseName +
+            '</span><span class="player-name">' +
+            maxKickerPoints.playerName +
+            '</span><span class="wc_score">' +
+            maxKickerPoints.score +
+            "</span>"
+        );
+        // content +=
+        //   "<tr><td colspan=2><h3>Week " +
+        //   i +
+        //   ": Most Kicker Points</h3></td></tr>";
+        // content +=
+        //   "<tr><td>" +
+        //   maxKickerPoints.franchiseName +
+        //   "</td><td>" +
+        //   maxKickerPoints.playerName +
+        //   " -- " +
+        //   maxKickerPoints.score +
+        //   "</td></tr>";
         break;
       case 6:
         var maxPassTouchdown = longestTouchdownPass(
@@ -176,16 +209,25 @@ $(function () {
           playerDatabase,
           "smashBrosLongestTouchdownPass"
         );
-        content +=
-          "<tr><td colspan=2><h3>Week " + i + ": Longest QB TD</h3></td></tr>";
-        content +=
-          "<tr><td>" +
-          maxPassTouchdown.name +
-          "</td><td>" +
-          maxPassTouchdown.playerName +
-          " -- " +
-          maxPassTouchdown.pass +
-          "</td></tr>";
+        $("#wc_week" + i).html(
+          '<span class="franchise-name">' +
+            maxPassTouchdown.name +
+            '</span><span class="player-name">' +
+            maxPassTouchdown.playerName +
+            '</span><span class="wc_score">' +
+            maxPassTouchdown.pass +
+            "</span>"
+        );
+        // content +=
+        //   "<tr><td colspan=2><h3>Week " + i + ": Longest QB TD</h3></td></tr>";
+        // content +=
+        //   "<tr><td>" +
+        //   maxPassTouchdown.name +
+        //   "</td><td>" +
+        //   maxPassTouchdown.playerName +
+        //   " -- " +
+        //   maxPassTouchdown.pass +
+        //   "</td></tr>";
         break;
       case 7:
         var maxTeamReceptions = mostTeamReceptions(
@@ -195,16 +237,23 @@ $(function () {
           playerDatabase,
           "smashBrosMostTeamReceptions"
         );
-        content +=
-          "<tr><td colspan=2><h3>Week " +
-          i +
-          ": Most Team Receptions</h3></td></tr>";
-        content +=
-          "<tr><td>" +
-          maxTeamReceptions.name +
-          "</td><td>" +
-          maxTeamReceptions.totalReceptions +
-          "</td></tr>";
+        $("#wc_week" + i).html(
+          '<span class="franchise-name">' +
+            maxTeamReceptions.name +
+            '</span><span class="wc_score">' +
+            maxTeamReceptions.totalReceptions +
+            "</span>"
+        );
+        // content +=
+        //   "<tr><td colspan=2><h3>Week " +
+        //   i +
+        //   ": Most Team Receptions</h3></td></tr>";
+        // content +=
+        //   "<tr><td>" +
+        //   maxTeamReceptions.name +
+        //   "</td><td>" +
+        //   maxTeamReceptions.totalReceptions +
+        //   "</td></tr>";
         break;
       case 8:
         var maxDefPoints = mostPlayerPoints(
@@ -214,18 +263,27 @@ $(function () {
           ["Def"],
           "smashBrosMostDefensePoints"
         );
-        content +=
-          "<tr><td colspan=2><h3>Week " +
-          i +
-          ": Most DEF Points</h3></td></tr>";
-        content +=
-          "<tr><td>" +
-          maxDefPoints.franchiseName +
-          "</td><td>" +
-          maxDefPoints.playerName +
-          " -- " +
-          maxDefPoints.score +
-          "</td></tr>";
+        $("#wc_week" + i).html(
+          '<span class="franchise-name">' +
+            maxDefPoints.franchiseName +
+            '</span><span class="player-name">' +
+            maxDefPoints.playerName +
+            '</span><span class="wc_score">' +
+            maxDefPoints.score +
+            "</span>"
+        );
+        // content +=
+        //   "<tr><td colspan=2><h3>Week " +
+        //   i +
+        //   ": Most DEF Points</h3></td></tr>";
+        // content +=
+        //   "<tr><td>" +
+        //   maxDefPoints.franchiseName +
+        //   "</td><td>" +
+        //   maxDefPoints.playerName +
+        //   " -- " +
+        //   maxDefPoints.score +
+        //   "</td></tr>";
         break;
       case 9:
         var maxPlayerReceptions = mostPlayerReceptions(
@@ -235,18 +293,27 @@ $(function () {
           playerDatabase,
           "smashBrosMostPlayerReceptions2"
         );
-        content +=
-          "<tr><td colspan=2><h3>Week " +
-          i +
-          ": Most Single Player Receptions</h3></td></tr>";
-        content +=
-          "<tr><td>" +
-          maxPlayerReceptions.name +
-          "</td><td>" +
-          maxPlayerReceptions.playerName +
-          " -- " +
-          maxPlayerReceptions.receptions +
-          "</td></tr>";
+        $("#wc_week" + i).html(
+          '<span class="franchise-name">' +
+            maxPlayerReceptions.name +
+            '</span><span class="player-name">' +
+            maxPlayerReceptions.playerName +
+            '</span><span class="wc_score">' +
+            maxPlayerReceptions.receptions +
+            "</span>"
+        );
+        // content +=
+        //   "<tr><td colspan=2><h3>Week " +
+        //   i +
+        //   ": Most Single Player Receptions</h3></td></tr>";
+        // content +=
+        //   "<tr><td>" +
+        //   maxPlayerReceptions.name +
+        //   "</td><td>" +
+        //   maxPlayerReceptions.playerName +
+        //   " -- " +
+        //   maxPlayerReceptions.receptions +
+        //   "</td></tr>";
         break;
       case 10:
         var maxTEPoints = mostPlayerPoints(
@@ -256,18 +323,27 @@ $(function () {
           ["TE"],
           "smashBrosMostTEPoints"
         );
-        content +=
-          "<tr><td colspan=2><h3>Week " +
-          i +
-          ": Most Points from Single Tight End</h3></td></tr>";
-        content +=
-          "<tr><td>" +
-          maxTEPoints.franchiseName +
-          "</td><td>" +
-          maxTEPoints.playerName +
-          " -- " +
-          maxTEPoints.score +
-          "</td></tr>";
+        $("#wc_week" + i).html(
+          '<span class="franchise-name">' +
+            maxTEPoints.franchiseName +
+            '</span><span class="player-name">' +
+            maxTEPoints.playerName +
+            '</span><span class="wc_score">' +
+            maxTEPoints.score +
+            "</span>"
+        );
+        // content +=
+        //   "<tr><td colspan=2><h3>Week " +
+        //   i +
+        //   ": Most Points from Single Tight End</h3></td></tr>";
+        // content +=
+        //   "<tr><td>" +
+        //   maxTEPoints.franchiseName +
+        //   "</td><td>" +
+        //   maxTEPoints.playerName +
+        //   " -- " +
+        //   maxTEPoints.score +
+        //   "</td></tr>";
         break;
       case 11:
         var maxTeamTDs = mostTeamTDS(
@@ -277,14 +353,21 @@ $(function () {
           playerDatabase,
           "smashBrosMostTeamTDs2"
         );
-        content +=
-          "<tr><td colspan=2><h3>Week " + i + ": Most Team TDs</h3></td></tr>";
-        content +=
-          "<tr><td>" +
-          maxTeamTDs.name +
-          "</td><td>" +
-          maxTeamTDs.totalTDs +
-          "</td></tr>";
+        $("#wc_week" + i).html(
+          '<span class="franchise-name">' +
+            maxTeamTDs.name +
+            '</span><span class="wc_score">' +
+            maxTeamTDs.totalTDs +
+            "</span>"
+        );
+        // content +=
+        //   "<tr><td colspan=2><h3>Week " + i + ": Most Team TDs</h3></td></tr>";
+        // content +=
+        //   "<tr><td>" +
+        //   maxTeamTDs.name +
+        //   "</td><td>" +
+        //   maxTeamTDs.totalTDs +
+        //   "</td></tr>";
         break;
       case 12:
         var maxNonQBPoints = mostPlayerPoints(
@@ -294,18 +377,27 @@ $(function () {
           ["RB", "WR", "TE"],
           "smashBrosMostNonQBPoints"
         );
-        content +=
-          "<tr><td colspan=2><h3>Week " +
-          i +
-          ": Player with Most Points (No QB)</h3></td></tr>";
-        content +=
-          "<tr><td>" +
-          maxNonQBPoints.franchiseName +
-          "</td><td>" +
-          maxNonQBPoints.playerName +
-          " -- " +
-          maxNonQBPoints.score +
-          "</td></tr>";
+        $("#wc_week" + i).html(
+          '<span class="franchise-name">' +
+            maxNonQBPoints.franchiseName +
+            '</span><span class="player-name">' +
+            maxNonQBPoints.playerName +
+            '</span><span class="wc_score">' +
+            maxNonQBPoints.score +
+            "</span>"
+        );
+        // content +=
+        //   "<tr><td colspan=2><h3>Week " +
+        //   i +
+        //   ": Player with Most Points (No QB)</h3></td></tr>";
+        // content +=
+        //   "<tr><td>" +
+        //   maxNonQBPoints.franchiseName +
+        //   "</td><td>" +
+        //   maxNonQBPoints.playerName +
+        //   " -- " +
+        //   maxNonQBPoints.score +
+        //   "</td></tr>";
         break;
       case 13:
         var maxWinMargin = biggestWinMargin(
@@ -313,16 +405,23 @@ $(function () {
           franchiseDatabase,
           "smashedBrosGreatestWinMargin"
         );
-        content +=
-          "<tr><td colspan=2><h3>Week " +
-          i +
-          ": Greatest Win Margin</h3></td></tr>";
-        content +=
-          "<tr><td>" +
-          maxWinMargin.name +
-          "</td><td>" +
-          maxWinMargin.margin +
-          "</td></tr>";
+        $("#wc_week" + i).html(
+          '<span class="franchise-name">' +
+            maxWinMargin.name +
+            '</span><span class="wc_score">' +
+            maxWinMargin.margin +
+            "</span>"
+        );
+        // content +=
+        //   "<tr><td colspan=2><h3>Week " +
+        //   i +
+        //   ": Greatest Win Margin</h3></td></tr>";
+        // content +=
+        //   "<tr><td>" +
+        //   maxWinMargin.name +
+        //   "</td><td>" +
+        //   maxWinMargin.margin +
+        //   "</td></tr>";
         break;
       case 14:
         var maxPlayerAllPurposeYards = mostPlayerAllPurposeYards(
@@ -333,18 +432,27 @@ $(function () {
           ["RB", "WR", "TE"],
           "smashBrosMostNonQBYards"
         );
-        content +=
-          "<tr><td colspan=2><h3>Week " +
-          i +
-          ": Player with Most Yards (No QB)</h3></td></tr>";
-        content +=
-          "<tr><td>" +
-          maxPlayerAllPurposeYards.name +
-          "</td><td>" +
-          maxPlayerAllPurposeYards.playerName +
-          " -- " +
-          maxPlayerAllPurposeYards.totalPlayerYards +
-          "</td></tr>";
+        $("#wc_week" + i).html(
+          '<span class="franchise-name">' +
+            maxPlayerAllPurposeYards.name +
+            '</span><span class="player-name">' +
+            maxPlayerAllPurposeYards.playerName +
+            '</span><span class="wc_score">' +
+            maxPlayerAllPurposeYards.totalPlayerYards +
+            "</span>"
+        );
+        // content +=
+        //   "<tr><td colspan=2><h3>Week " +
+        //   i +
+        //   ": Player with Most Yards (No QB)</h3></td></tr>";
+        // content +=
+        //   "<tr><td>" +
+        //   maxPlayerAllPurposeYards.name +
+        //   "</td><td>" +
+        //   maxPlayerAllPurposeYards.playerName +
+        //   " -- " +
+        //   maxPlayerAllPurposeYards.totalPlayerYards +
+        //   "</td></tr>";
         break;
       case 15:
         let maxPointsFranchise15 = mostTeamPoints(
@@ -353,16 +461,23 @@ $(function () {
           true,
           "smashBrosMostTeamPoints15"
         );
-        content +=
-          "<tr><td colspan=2><h3>Week " +
-          i +
-          ": Most Team Points</h3></td></tr>";
-        content +=
-          "<tr><td>" +
-          maxPointsFranchise15.name +
-          "</td><td>" +
-          maxPointsFranchise15.score +
-          "</td></tr>";
+        $("#wc_week" + i).html(
+          '<span class="franchise-name">' +
+            maxPointsFranchise15.name +
+            '</span><span class="wc_score">' +
+            maxPointsFranchise15.score +
+            "</span>"
+        );
+        // content +=
+        //   "<tr><td colspan=2><h3>Week " +
+        //   i +
+        //   ": Most Team Points</h3></td></tr>";
+        // content +=
+        //   "<tr><td>" +
+        //   maxPointsFranchise15.name +
+        //   "</td><td>" +
+        //   maxPointsFranchise15.score +
+        //   "</td></tr>";
         break;
       case 16:
         let maxPointsFranchise16 = mostTeamPoints(
@@ -371,16 +486,23 @@ $(function () {
           true,
           "smashBrosMostTeamPoints16"
         );
-        content +=
-          "<tr><td colspan=2><h3>Week " +
-          i +
-          ": Most Team Points</h3></td></tr>";
-        content +=
-          "<tr><td>" +
-          maxPointsFranchise16.name +
-          "</td><td>" +
-          maxPointsFranchise16.score +
-          "</td></tr>";
+        $("#wc_week" + i).html(
+          '<span class="franchise-name">' +
+            maxPointsFranchise16.name +
+            '</span><span class="wc_score">' +
+            maxPointsFranchise16.score +
+            "</span>"
+        );
+        // content +=
+        //   "<tr><td colspan=2><h3>Week " +
+        //   i +
+        //   ": Most Team Points</h3></td></tr>";
+        // content +=
+        //   "<tr><td>" +
+        //   maxPointsFranchise16.name +
+        //   "</td><td>" +
+        //   maxPointsFranchise16.score +
+        //   "</td></tr>";
         break;
       default:
         if (console)
