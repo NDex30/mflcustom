@@ -241,7 +241,7 @@ $(function () {
   }
   newContent += "</table>";
   $("#weekly-challenges-box").append(newContent);
-  if (console) console.log(challenges, newContent);
+  // if (console) console.log(challenges, newContent);
   // var content = '<table align="center" cellpadding="2" width="100%">';
   // content +=
   //   '<tr><td colspan=2><h3>Week 1: Most Points from Single Running Back</h3></td></tr><tr><td><div id="wc_week1"></div></td></tr>';
