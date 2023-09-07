@@ -17,7 +17,43 @@ $(function () {
         Week 15 = Most Team Points (Non-playoff Team)
         Week 16 = Most Team Points (Non-playoff Team)
     */
+  //Build display
+
   var content = '<table align="center" cellpadding="2" width="100%">';
+  content +=
+    '<tr><td colspan=2><h3>Week 1: Most Points from Single Running Back</h3></td></tr><tr><td><div id="wc_week1"></div></td></tr>';
+  content +=
+    '<tr><td colspan=2><h3>Week 2: Most Points from Single QuarterBack</h3></td></tr><tr><td><div id="wc_week2"></div></td></tr>';
+  content +=
+    '<tr><td colspan=2><h3>Week 3: Most Team Points</h3></td></tr><tr><td><div id="wc_week3"></div></td></tr>';
+  content +=
+    '<tr><td colspan=2><h3>Week 4: Most All-Purpose Yards</h3></td></tr><tr><td><div id="wc_week4"></div></td></tr>';
+  content +=
+    '<tr><td colspan=2><h3>Week 5: Most Kicker Points</h3></td></tr><tr><td><div id="wc_week5"></div></td></tr>';
+  content +=
+    '<tr><td colspan=2><h3>Week 6: Longest QB TD</h3></td></tr><tr><td><div id="wc_week6"></div></td></tr>';
+  content +=
+    '<tr><td colspan=2><h3>Week 7: Most Team Receptions</h3></td></tr><tr><td><div id="wc_week7"></div></td></tr>';
+  content +=
+    '<tr><td colspan=2><h3>Week 8: Most DEF Points</h3></td></tr><tr><td><div id="wc_week8"></div></td></tr>';
+  content +=
+    '<tr><td colspan=2><h3>Week 9: Most Single Player Receptions</h3></td></tr><tr><td><div id="wc_week9"></div></td></tr>';
+  content +=
+    '<tr><td colspan=2><h3>Week 10: Most Points from Single Tight End</h3></td></tr><tr><td><div id="wc_week10"></div></td></tr>';
+  content +=
+    '<tr><td colspan=2><h3>Week 11: Most Team TDs</h3></td></tr><tr><td><div id="wc_week11"></div></td></tr>';
+  content +=
+    '<tr><td colspan=2><h3>Week 12: Player with Most Points (No QB)</h3></td></tr><tr><td><div id="wc_week12"></div></td></tr>';
+  content +=
+    '<tr><td colspan=2><h3>Week 13: Greatest Win Margin</h3></td></tr><tr><td><div id="wc_week13"></div></td></tr>';
+  content +=
+    '<tr><td colspan=2><h3>Week 14: Player with Most Yards (No QB)</h3></td></tr><tr><td><div id="wc_week14"></div></td></tr>';
+  content +=
+    '<tr><td colspan=2><h3>Week 15: Most Team Points</h3></td></tr><tr><td><div id="wc_week15"></div></td></tr>';
+  content +=
+    '<tr><td colspan=2><h3>Week 16: Most Team Points</h3></td></tr><tr><td><div id="wc_week16"></div></td></tr>';
+  content += "</table";
+
   for (i = 0; i <= completedWeek; i++) {
     let formattedWeek = i.toLocaleString("en-US", {
       minimumIntegerDigits: 2,
@@ -32,18 +68,26 @@ $(function () {
           ["RB"],
           "smashBrosMostRBPoints"
         );
-        content +=
-          "<tr><td colspan=2><h3>Week " +
-          i +
-          ": Most Points from Single Running Back</h3></td></tr>";
-        content +=
-          "<tr><td>" +
-          maxRBPoints.franchiseName +
-          "</td><td>" +
-          maxRBPoints.playerName +
-          " -- " +
-          maxRBPoints.score +
-          "</td></tr>";
+        $("#wc_week" + i).html(
+          "<span>" +
+            maxRBPoints.franchiseName +
+            " " +
+            maxRBPoints.playerName +
+            " " +
+            maxRBPoints.score
+        );
+        // content +=
+        //   "<tr><td colspan=2><h3>Week " +
+        //   i +
+        //   ": Most Points from Single Running Back</h3></td></tr>";
+        // content +=
+        //   "<tr><td>" +
+        //   maxRBPoints.franchiseName +
+        //   "</td><td>" +
+        //   maxRBPoints.playerName +
+        //   " -- " +
+        //   maxRBPoints.score +
+        //   "</td></tr>";
         break;
       case 2:
         var maxQBPoints = mostPlayerPoints(
