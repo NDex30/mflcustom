@@ -22,11 +22,71 @@ $(function () {
     {
       name: "Most Points from Single Running Back",
       challenge() {
-        return mostTeamPointsHTML(
+        return mostPlayerPointsHTML(
           1,
           franchiseDatabase,
-          true,
-          "smashBrosMostTeamPoints15"
+          playerDatabase,
+          ["RB"],
+          "smashBrosMostRBPoints"
+        );
+      },
+    },
+    {
+      name: "Most Points from Single QuarterBack",
+      challenge() {
+        return mostPlayerPointsHTML(
+          2,
+          franchiseDatabase,
+          playerDatabase,
+          ["QB"],
+          "smashBrosMostQBPoints"
+        );
+      },
+    },
+    {
+      name: "Most Team Points",
+      challenge() {
+        return mostTeamPointsHTML(
+          3,
+          franchiseDatabase,
+          false,
+          "smashBrosMostTeamPoints"
+        );
+      },
+    },
+    {
+      name: "Most All-Purpose Yards",
+      challenge() {
+        return mostAllPurposeYardsHTML(
+          4,
+          formattedWeek,
+          franchiseDatabase,
+          playerDatabase,
+          "smashBrosMostAllPurposeYards"
+        );
+      },
+    },
+    {
+      name: "Most Kicker Points",
+      challenge() {
+        return mostPlayerPointsHTML(
+          5,
+          franchiseDatabase,
+          playerDatabase,
+          ["PK"],
+          "smashBrosMostKickerPoints"
+        );
+      },
+    },
+    {
+      name: "Longest QB TD",
+      challenge() {
+        return longestTouchdownPassHTML(
+          6,
+          formattedWeek,
+          franchiseDatabase,
+          playerDatabase,
+          "smashBrosLongestTouchdownPass"
         );
       },
     },
