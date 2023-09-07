@@ -21,6 +21,7 @@ $(function () {
   let challenges = [
     {
       name: "Most Points from Single Running Back",
+      week: 1,
       challenge() {
         return mostPlayerPointsHTML(
           1,
@@ -33,6 +34,7 @@ $(function () {
     },
     {
       name: "Most Points from Single QuarterBack",
+      week: 2,
       challenge() {
         return mostPlayerPointsHTML(
           2,
@@ -45,6 +47,7 @@ $(function () {
     },
     {
       name: "Most Team Points",
+      week: 3,
       challenge() {
         return mostTeamPointsHTML(
           3,
@@ -56,6 +59,7 @@ $(function () {
     },
     {
       name: "Most All-Purpose Yards",
+      week: 4,
       challenge() {
         return mostAllPurposeYardsHTML(
           4,
@@ -68,6 +72,7 @@ $(function () {
     },
     {
       name: "Most Kicker Points",
+      week: 5,
       challenge() {
         return mostPlayerPointsHTML(
           5,
@@ -80,6 +85,7 @@ $(function () {
     },
     {
       name: "Longest QB TD",
+      week: 6,
       challenge() {
         return longestTouchdownPassHTML(
           6,
@@ -87,6 +93,133 @@ $(function () {
           franchiseDatabase,
           playerDatabase,
           "smashBrosLongestTouchdownPass"
+        );
+      },
+    },
+    {
+      name: "Most Team Receptions",
+      week: 7,
+      challenge() {
+        return lmostTeamReceptionsHTML(
+          7,
+          formattedWeek,
+          franchiseDatabase,
+          playerDatabase,
+          "smashBrosMostTeamReceptions"
+        );
+      },
+    },
+    {
+      name: "Most DEF Points",
+      week: 8,
+      challenge() {
+        return mostPlayerPointsHTML(
+          8,
+          franchiseDatabase,
+          playerDatabase,
+          ["Def"],
+          "smashBrosMostDefensePoints"
+        );
+      },
+    },
+    {
+      name: "Most Single Player Receptions",
+      week: 9,
+      challenge() {
+        return mostPlayerReceptionsHTML(
+          9,
+          formattedWeek,
+          franchiseDatabase,
+          playerDatabase,
+          "smashBrosMostPlayerReceptions2"
+        );
+      },
+    },
+    {
+      name: "Most Points from Single Tight End",
+      week: 10,
+      challenge() {
+        return mostPlayerPointsHTML(
+          10,
+          franchiseDatabase,
+          playerDatabase,
+          ["TE"],
+          "smashBrosMostTEPoints"
+        );
+      },
+    },
+    {
+      name: "Most Team TDs",
+      week: 11,
+      challenge() {
+        return mostTeamTDSHTML(
+          11,
+          formattedWeek,
+          franchiseDatabase,
+          playerDatabase,
+          "smashBrosMostTeamTDs2"
+        );
+      },
+    },
+    {
+      name: "Player with Most Points (No QB)",
+      week: 12,
+      challenge() {
+        return mostPlayerPointsHTML(
+          12,
+          franchiseDatabase,
+          playerDatabase,
+          ["RB", "WR", "TE"],
+          "smashBrosMostNonQBPoints"
+        );
+      },
+    },
+    {
+      name: "Greatest Win Margin",
+      week: 13,
+      challenge() {
+        return biggestWinMarginHTML(
+          13,
+          franchiseDatabase,
+          "smashedBrosGreatestWinMargin"
+        );
+      },
+    },
+    {
+      name: "Player with Most Yards (No QB)",
+      week: 14,
+      challenge() {
+        return mostPlayerAllPurposeYardsHTML(
+          14,
+          formattedWeek,
+          franchiseDatabase,
+          playerDatabase,
+          ["RB", "WR", "TE"],
+          "smashBrosMostNonQBYards"
+        );
+      },
+    },
+    {
+      name: "Most Team Points",
+      week: 15,
+      challenge() {
+        return mostTeamPointsHTML(
+          15,
+          franchiseDatabase,
+          true,
+          "smashBrosMostTeamPoints15"
+        );
+      },
+    },
+    {
+      name: "Most Team Points",
+      week: 16,
+      challenge() {
+        return mostTeamPointsHTML(
+          16,
+          franchiseDatabase,
+          true,
+          "smashBrosMostTeamPoints16"
         );
       },
     },
