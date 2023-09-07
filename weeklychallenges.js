@@ -20,11 +20,36 @@ $(function () {
   //Build display
   let challenges = [
     {
-      name: "Most Points from Single Running Back",
+      name: "Most Team Points",
       week: 1,
       challenge() {
-        return mostPlayerPointsHTML(
+        return mostTeamPointsHTML(
           1,
+          franchiseDatabase,
+          false,
+          "smashBrosMostTeamPoints"
+        );
+      },
+    },
+    {
+      name: "Most All-Purpose Yards",
+      week: 2,
+      challenge() {
+        return mostAllPurposeYardsHTML(
+          2,
+          formattedWeek,
+          franchiseDatabase,
+          playerDatabase,
+          "smashBrosMostAllPurposeYards"
+        );
+      },
+    },
+    {
+      name: "Most Points from Single Running Back",
+      week: 3,
+      challenge() {
+        return mostPlayerPointsHTML(
+          3,
           franchiseDatabase,
           playerDatabase,
           ["RB"],
@@ -34,39 +59,14 @@ $(function () {
     },
     {
       name: "Most Points from Single QuarterBack",
-      week: 2,
+      week: 4,
       challenge() {
         return mostPlayerPointsHTML(
-          2,
+          4,
           franchiseDatabase,
           playerDatabase,
           ["QB"],
           "smashBrosMostQBPoints"
-        );
-      },
-    },
-    {
-      name: "Most Team Points",
-      week: 3,
-      challenge() {
-        return mostTeamPointsHTML(
-          3,
-          franchiseDatabase,
-          false,
-          "smashBrosMostTeamPoints"
-        );
-      },
-    },
-    {
-      name: "Most All-Purpose Yards",
-      week: 4,
-      challenge() {
-        return mostAllPurposeYardsHTML(
-          4,
-          formattedWeek,
-          franchiseDatabase,
-          playerDatabase,
-          "smashBrosMostAllPurposeYards"
         );
       },
     },
