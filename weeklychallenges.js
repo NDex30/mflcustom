@@ -18,7 +18,19 @@ $(function () {
         Week 16 = Most Team Points (Non-playoff Team)
     */
   //Build display
+  let challenges = [
+    {
+      name: "Most Points from Single Running Back",
+      fn: mostTeamPointsHTML(
+        1,
+        franchiseDatabase,
+        true,
+        "smashBrosMostTeamPoints15"
+      ),
+    },
+  ];
 
+  if (console) console.log(challenges);
   var content = '<table align="center" cellpadding="2" width="100%">';
   content +=
     '<tr><td colspan=2><h3>Week 1: Most Points from Single Running Back</h3></td></tr><tr><td><div id="wc_week1"></div></td></tr>';
