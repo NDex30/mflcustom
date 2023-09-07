@@ -53,7 +53,9 @@ $(function () {
   content +=
     '<tr><td colspan=2><h3>Week 16: Most Team Points</h3></td></tr><tr><td><div id="wc_week16"></div></td></tr>';
   content += "</table";
+  $("#weekly-challenges-box").append(content);
 
+  let challengeHtml = "";
   for (i = 0; i <= completedWeek; i++) {
     let formattedWeek = i.toLocaleString("en-US", {
       minimumIntegerDigits: 2,
@@ -61,22 +63,29 @@ $(function () {
     });
     switch (i) {
       case 1:
-        var maxRBPoints = mostPlayerPoints(
+        challengeHtml = mostPlayerPointsHTML(
           i,
           franchiseDatabase,
           playerDatabase,
           ["RB"],
           "smashBrosMostRBPoints"
         );
-        $("#wc_week" + i).html(
-          '<span class="franchise-name">' +
-            maxRBPoints.franchiseName +
-            '</span><span class="player-name">' +
-            maxRBPoints.playerName +
-            '</span><span class="wc_score">' +
-            maxRBPoints.score +
-            "</span>"
-        );
+        // var maxRBPoints = mostPlayerPoints(
+        //   i,
+        //   franchiseDatabase,
+        //   playerDatabase,
+        //   ["RB"],
+        //   "smashBrosMostRBPoints"
+        // );
+        // $("#wc_week" + i).html(
+        //   '<span class="franchise-name">' +
+        //     maxRBPoints.franchiseName +
+        //     '</span><span class="player-name">' +
+        //     maxRBPoints.playerName +
+        //     '</span><span class="wc_score">' +
+        //     maxRBPoints.score +
+        //     "</span>"
+        // );
         // content +=
         //   "<tr><td colspan=2><h3>Week " +
         //   i +
@@ -91,22 +100,29 @@ $(function () {
         //   "</td></tr>";
         break;
       case 2:
-        var maxQBPoints = mostPlayerPoints(
+        challengeHtml = mostPlayerPointsHTML(
           i,
           franchiseDatabase,
           playerDatabase,
           ["QB"],
           "smashBrosMostQBPoints"
         );
-        $("#wc_week" + i).html(
-          '<span class="franchise-name">' +
-            maxQBPoints.franchiseName +
-            '</span><span class="player-name">' +
-            maxQBPoints.playerName +
-            '</span><span class="wc_score">' +
-            maxQBPoints.score +
-            "</span>"
-        );
+        // var maxQBPoints = mostPlayerPoints(
+        //   i,
+        //   franchiseDatabase,
+        //   playerDatabase,
+        //   ["QB"],
+        //   "smashBrosMostQBPoints"
+        // );
+        // $("#wc_week" + i).html(
+        //   '<span class="franchise-name">' +
+        //     maxQBPoints.franchiseName +
+        //     '</span><span class="player-name">' +
+        //     maxQBPoints.playerName +
+        //     '</span><span class="wc_score">' +
+        //     maxQBPoints.score +
+        //     "</span>"
+        // );
         // content +=
         //   "<tr><td colspan=2><h3>Week " +
         //   i +
@@ -121,19 +137,25 @@ $(function () {
         //   "</td></tr>";
         break;
       case 3:
-        let maxPointsFranchise = mostTeamPoints(
+        challengeHtml = mostTeamPointsHTML(
           i,
           franchiseDatabase,
           false,
           "smashBrosMostTeamPoints"
         );
-        $("#wc_week" + i).html(
-          '<span class="franchise-name">' +
-            maxPointsFranchise.franchiseName +
-            '</span><span class="wc_score">' +
-            maxPointsFranchise.score +
-            "</span>"
-        );
+        // let maxPointsFranchise = mostTeamPoints(
+        //   i,
+        //   franchiseDatabase,
+        //   false,
+        //   "smashBrosMostTeamPoints"
+        // );
+        // $("#wc_week" + i).html(
+        //   '<span class="franchise-name">' +
+        //     maxPointsFranchise.franchiseName +
+        //     '</span><span class="wc_score">' +
+        //     maxPointsFranchise.score +
+        //     "</span>"
+        // );
         // content +=
         //   "<tr><td colspan=2><h3>Week " +
         //   i +
@@ -146,20 +168,27 @@ $(function () {
         //   "</td></tr>";
         break;
       case 4:
-        var maxAllPurposeYards = mostAllPurposeYards(
+        challengeHtml = mostAllPurposeYardsHTML(
           i,
           formattedWeek,
           franchiseDatabase,
           playerDatabase,
           "smashBrosMostAllPurposeYards"
         );
-        $("#wc_week" + i).html(
-          '<span class="franchise-name">' +
-            maxAllPurposeYards.name +
-            '</span><span class="wc_score">' +
-            maxAllPurposeYards.totalFranchiseYards +
-            "</span>"
-        );
+        // var maxAllPurposeYards = mostAllPurposeYards(
+        //   i,
+        //   formattedWeek,
+        //   franchiseDatabase,
+        //   playerDatabase,
+        //   "smashBrosMostAllPurposeYards"
+        // );
+        // $("#wc_week" + i).html(
+        //   '<span class="franchise-name">' +
+        //     maxAllPurposeYards.name +
+        //     '</span><span class="wc_score">' +
+        //     maxAllPurposeYards.totalFranchiseYards +
+        //     "</span>"
+        // );
         // content +=
         //   "<tr><td colspan=2><h3>Week " +
         //   i +
@@ -172,22 +201,29 @@ $(function () {
         //   "</td></tr>";
         break;
       case 5:
-        var maxKickerPoints = mostPlayerPoints(
+        challengeHtml = mostPlayerPointsHTML(
           i,
           franchiseDatabase,
           playerDatabase,
           ["PK"],
           "smashBrosMostKickerPoints"
         );
-        $("#wc_week" + i).html(
-          '<span class="franchise-name">' +
-            maxKickerPoints.franchiseName +
-            '</span><span class="player-name">' +
-            maxKickerPoints.playerName +
-            '</span><span class="wc_score">' +
-            maxKickerPoints.score +
-            "</span>"
-        );
+        // var maxKickerPoints = mostPlayerPoints(
+        //   i,
+        //   franchiseDatabase,
+        //   playerDatabase,
+        //   ["PK"],
+        //   "smashBrosMostKickerPoints"
+        // );
+        // $("#wc_week" + i).html(
+        //   '<span class="franchise-name">' +
+        //     maxKickerPoints.franchiseName +
+        //     '</span><span class="player-name">' +
+        //     maxKickerPoints.playerName +
+        //     '</span><span class="wc_score">' +
+        //     maxKickerPoints.score +
+        //     "</span>"
+        // );
         // content +=
         //   "<tr><td colspan=2><h3>Week " +
         //   i +
@@ -202,22 +238,29 @@ $(function () {
         //   "</td></tr>";
         break;
       case 6:
-        var maxPassTouchdown = longestTouchdownPass(
+        challengeHtml = longestTouchdownPassHTML(
           i,
           formattedWeek,
           franchiseDatabase,
           playerDatabase,
           "smashBrosLongestTouchdownPass"
         );
-        $("#wc_week" + i).html(
-          '<span class="franchise-name">' +
-            maxPassTouchdown.name +
-            '</span><span class="player-name">' +
-            maxPassTouchdown.playerName +
-            '</span><span class="wc_score">' +
-            maxPassTouchdown.pass +
-            "</span>"
-        );
+        // var maxPassTouchdown = longestTouchdownPass(
+        //   i,
+        //   formattedWeek,
+        //   franchiseDatabase,
+        //   playerDatabase,
+        //   "smashBrosLongestTouchdownPass"
+        // );
+        // $("#wc_week" + i).html(
+        //   '<span class="franchise-name">' +
+        //     maxPassTouchdown.name +
+        //     '</span><span class="player-name">' +
+        //     maxPassTouchdown.playerName +
+        //     '</span><span class="wc_score">' +
+        //     maxPassTouchdown.pass +
+        //     "</span>"
+        // );
         // content +=
         //   "<tr><td colspan=2><h3>Week " + i + ": Longest QB TD</h3></td></tr>";
         // content +=
@@ -230,20 +273,27 @@ $(function () {
         //   "</td></tr>";
         break;
       case 7:
-        var maxTeamReceptions = mostTeamReceptions(
+        challengeHtml = mostTeamReceptionsHTML(
           i,
           formattedWeek,
           franchiseDatabase,
           playerDatabase,
           "smashBrosMostTeamReceptions"
         );
-        $("#wc_week" + i).html(
-          '<span class="franchise-name">' +
-            maxTeamReceptions.name +
-            '</span><span class="wc_score">' +
-            maxTeamReceptions.totalReceptions +
-            "</span>"
-        );
+        // var maxTeamReceptions = mostTeamReceptions(
+        //   i,
+        //   formattedWeek,
+        //   franchiseDatabase,
+        //   playerDatabase,
+        //   "smashBrosMostTeamReceptions"
+        // );
+        // $("#wc_week" + i).html(
+        //   '<span class="franchise-name">' +
+        //     maxTeamReceptions.name +
+        //     '</span><span class="wc_score">' +
+        //     maxTeamReceptions.totalReceptions +
+        //     "</span>"
+        // );
         // content +=
         //   "<tr><td colspan=2><h3>Week " +
         //   i +
@@ -256,22 +306,29 @@ $(function () {
         //   "</td></tr>";
         break;
       case 8:
-        var maxDefPoints = mostPlayerPoints(
+        challengeHtml = mostPlayerPointsHTML(
           i,
           franchiseDatabase,
           playerDatabase,
           ["Def"],
           "smashBrosMostDefensePoints"
         );
-        $("#wc_week" + i).html(
-          '<span class="franchise-name">' +
-            maxDefPoints.franchiseName +
-            '</span><span class="player-name">' +
-            maxDefPoints.playerName +
-            '</span><span class="wc_score">' +
-            maxDefPoints.score +
-            "</span>"
-        );
+        // var maxDefPoints = mostPlayerPoints(
+        //   i,
+        //   franchiseDatabase,
+        //   playerDatabase,
+        //   ["Def"],
+        //   "smashBrosMostDefensePoints"
+        // );
+        // $("#wc_week" + i).html(
+        //   '<span class="franchise-name">' +
+        //     maxDefPoints.franchiseName +
+        //     '</span><span class="player-name">' +
+        //     maxDefPoints.playerName +
+        //     '</span><span class="wc_score">' +
+        //     maxDefPoints.score +
+        //     "</span>"
+        // );
         // content +=
         //   "<tr><td colspan=2><h3>Week " +
         //   i +
@@ -286,22 +343,29 @@ $(function () {
         //   "</td></tr>";
         break;
       case 9:
-        var maxPlayerReceptions = mostPlayerReceptions(
+        challengeHtml = mostPlayerReceptionsHTML(
           i,
           formattedWeek,
           franchiseDatabase,
           playerDatabase,
           "smashBrosMostPlayerReceptions2"
         );
-        $("#wc_week" + i).html(
-          '<span class="franchise-name">' +
-            maxPlayerReceptions.name +
-            '</span><span class="player-name">' +
-            maxPlayerReceptions.playerName +
-            '</span><span class="wc_score">' +
-            maxPlayerReceptions.receptions +
-            "</span>"
-        );
+        // var maxPlayerReceptions = mostPlayerReceptions(
+        //   i,
+        //   formattedWeek,
+        //   franchiseDatabase,
+        //   playerDatabase,
+        //   "smashBrosMostPlayerReceptions2"
+        // );
+        // $("#wc_week" + i).html(
+        //   '<span class="franchise-name">' +
+        //     maxPlayerReceptions.name +
+        //     '</span><span class="player-name">' +
+        //     maxPlayerReceptions.playerName +
+        //     '</span><span class="wc_score">' +
+        //     maxPlayerReceptions.receptions +
+        //     "</span>"
+        // );
         // content +=
         //   "<tr><td colspan=2><h3>Week " +
         //   i +
@@ -316,22 +380,29 @@ $(function () {
         //   "</td></tr>";
         break;
       case 10:
-        var maxTEPoints = mostPlayerPoints(
+        challengeHtml = mostPlayerPointsHTML(
           i,
           franchiseDatabase,
           playerDatabase,
           ["TE"],
           "smashBrosMostTEPoints"
         );
-        $("#wc_week" + i).html(
-          '<span class="franchise-name">' +
-            maxTEPoints.franchiseName +
-            '</span><span class="player-name">' +
-            maxTEPoints.playerName +
-            '</span><span class="wc_score">' +
-            maxTEPoints.score +
-            "</span>"
-        );
+        // var maxTEPoints = mostPlayerPoints(
+        //   i,
+        //   franchiseDatabase,
+        //   playerDatabase,
+        //   ["TE"],
+        //   "smashBrosMostTEPoints"
+        // );
+        // $("#wc_week" + i).html(
+        //   '<span class="franchise-name">' +
+        //     maxTEPoints.franchiseName +
+        //     '</span><span class="player-name">' +
+        //     maxTEPoints.playerName +
+        //     '</span><span class="wc_score">' +
+        //     maxTEPoints.score +
+        //     "</span>"
+        // );
         // content +=
         //   "<tr><td colspan=2><h3>Week " +
         //   i +
@@ -346,20 +417,27 @@ $(function () {
         //   "</td></tr>";
         break;
       case 11:
-        var maxTeamTDs = mostTeamTDS(
+        challengeHtml = mostTeamTDSHTML(
           i,
           formattedWeek,
           franchiseDatabase,
           playerDatabase,
           "smashBrosMostTeamTDs2"
         );
-        $("#wc_week" + i).html(
-          '<span class="franchise-name">' +
-            maxTeamTDs.name +
-            '</span><span class="wc_score">' +
-            maxTeamTDs.totalTDs +
-            "</span>"
-        );
+        // var maxTeamTDs = mostTeamTDS(
+        //   i,
+        //   formattedWeek,
+        //   franchiseDatabase,
+        //   playerDatabase,
+        //   "smashBrosMostTeamTDs2"
+        // );
+        // $("#wc_week" + i).html(
+        //   '<span class="franchise-name">' +
+        //     maxTeamTDs.name +
+        //     '</span><span class="wc_score">' +
+        //     maxTeamTDs.totalTDs +
+        //     "</span>"
+        // );
         // content +=
         //   "<tr><td colspan=2><h3>Week " + i + ": Most Team TDs</h3></td></tr>";
         // content +=
@@ -370,22 +448,29 @@ $(function () {
         //   "</td></tr>";
         break;
       case 12:
-        var maxNonQBPoints = mostPlayerPoints(
+        challengeHtml = mostPlayerPointsHTML(
           i,
           franchiseDatabase,
           playerDatabase,
           ["RB", "WR", "TE"],
           "smashBrosMostNonQBPoints"
         );
-        $("#wc_week" + i).html(
-          '<span class="franchise-name">' +
-            maxNonQBPoints.franchiseName +
-            '</span><span class="player-name">' +
-            maxNonQBPoints.playerName +
-            '</span><span class="wc_score">' +
-            maxNonQBPoints.score +
-            "</span>"
-        );
+        // var maxNonQBPoints = mostPlayerPoints(
+        //   i,
+        //   franchiseDatabase,
+        //   playerDatabase,
+        //   ["RB", "WR", "TE"],
+        //   "smashBrosMostNonQBPoints"
+        // );
+        // $("#wc_week" + i).html(
+        //   '<span class="franchise-name">' +
+        //     maxNonQBPoints.franchiseName +
+        //     '</span><span class="player-name">' +
+        //     maxNonQBPoints.playerName +
+        //     '</span><span class="wc_score">' +
+        //     maxNonQBPoints.score +
+        //     "</span>"
+        // );
         // content +=
         //   "<tr><td colspan=2><h3>Week " +
         //   i +
@@ -400,18 +485,23 @@ $(function () {
         //   "</td></tr>";
         break;
       case 13:
-        var maxWinMargin = biggestWinMargin(
+        challengeHtml = biggestWinMarginHTML(
           i,
           franchiseDatabase,
           "smashedBrosGreatestWinMargin"
         );
-        $("#wc_week" + i).html(
-          '<span class="franchise-name">' +
-            maxWinMargin.name +
-            '</span><span class="wc_score">' +
-            maxWinMargin.margin +
-            "</span>"
-        );
+        // var maxWinMargin = biggestWinMargin(
+        //   i,
+        //   franchiseDatabase,
+        //   "smashedBrosGreatestWinMargin"
+        // );
+        // $("#wc_week" + i).html(
+        //   '<span class="franchise-name">' +
+        //     maxWinMargin.name +
+        //     '</span><span class="wc_score">' +
+        //     maxWinMargin.margin +
+        //     "</span>"
+        // );
         // content +=
         //   "<tr><td colspan=2><h3>Week " +
         //   i +
@@ -424,7 +514,7 @@ $(function () {
         //   "</td></tr>";
         break;
       case 14:
-        var maxPlayerAllPurposeYards = mostPlayerAllPurposeYards(
+        challengeHtml = mostPlayerAllPurposeYardsHTML(
           i,
           formattedWeek,
           franchiseDatabase,
@@ -432,15 +522,23 @@ $(function () {
           ["RB", "WR", "TE"],
           "smashBrosMostNonQBYards"
         );
-        $("#wc_week" + i).html(
-          '<span class="franchise-name">' +
-            maxPlayerAllPurposeYards.name +
-            '</span><span class="player-name">' +
-            maxPlayerAllPurposeYards.playerName +
-            '</span><span class="wc_score">' +
-            maxPlayerAllPurposeYards.totalPlayerYards +
-            "</span>"
-        );
+        // var maxPlayerAllPurposeYards = mostPlayerAllPurposeYards(
+        //   i,
+        //   formattedWeek,
+        //   franchiseDatabase,
+        //   playerDatabase,
+        //   ["RB", "WR", "TE"],
+        //   "smashBrosMostNonQBYards"
+        // );
+        // $("#wc_week" + i).html(
+        //   '<span class="franchise-name">' +
+        //     maxPlayerAllPurposeYards.name +
+        //     '</span><span class="player-name">' +
+        //     maxPlayerAllPurposeYards.playerName +
+        //     '</span><span class="wc_score">' +
+        //     maxPlayerAllPurposeYards.totalPlayerYards +
+        //     "</span>"
+        // );
         // content +=
         //   "<tr><td colspan=2><h3>Week " +
         //   i +
@@ -455,19 +553,25 @@ $(function () {
         //   "</td></tr>";
         break;
       case 15:
-        let maxPointsFranchise15 = mostTeamPoints(
+        challengeHtml = mostTeamPointsHTML(
           i,
           franchiseDatabase,
           true,
           "smashBrosMostTeamPoints15"
         );
-        $("#wc_week" + i).html(
-          '<span class="franchise-name">' +
-            maxPointsFranchise15.name +
-            '</span><span class="wc_score">' +
-            maxPointsFranchise15.score +
-            "</span>"
-        );
+        // let maxPointsFranchise15 = mostTeamPoints(
+        //   i,
+        //   franchiseDatabase,
+        //   true,
+        //   "smashBrosMostTeamPoints15"
+        // );
+        // $("#wc_week" + i).html(
+        //   '<span class="franchise-name">' +
+        //     maxPointsFranchise15.name +
+        //     '</span><span class="wc_score">' +
+        //     maxPointsFranchise15.score +
+        //     "</span>"
+        // );
         // content +=
         //   "<tr><td colspan=2><h3>Week " +
         //   i +
@@ -480,19 +584,25 @@ $(function () {
         //   "</td></tr>";
         break;
       case 16:
-        let maxPointsFranchise16 = mostTeamPoints(
+        challengeHtml = mostTeamPointsHTML(
           i,
           franchiseDatabase,
           true,
           "smashBrosMostTeamPoints16"
         );
-        $("#wc_week" + i).html(
-          '<span class="franchise-name">' +
-            maxPointsFranchise16.name +
-            '</span><span class="wc_score">' +
-            maxPointsFranchise16.score +
-            "</span>"
-        );
+        // let maxPointsFranchise16 = mostTeamPoints(
+        //   i,
+        //   franchiseDatabase,
+        //   true,
+        //   "smashBrosMostTeamPoints16"
+        // );
+        // $("#wc_week" + i).html(
+        //   '<span class="franchise-name">' +
+        //     maxPointsFranchise16.name +
+        //     '</span><span class="wc_score">' +
+        //     maxPointsFranchise16.score +
+        //     "</span>"
+        // );
         // content +=
         //   "<tr><td colspan=2><h3>Week " +
         //   i +
@@ -507,9 +617,11 @@ $(function () {
       default:
         if (console)
           console.log("no weekly challenge this week " + formattedWeek);
+        return;
     }
   }
-  $("#weekly-challenges-box").append(content);
+
+  $("#wc_week" + i).html(challengeHtml);
 });
 
 function getLiveStats(formattedWeek) {
@@ -609,6 +721,62 @@ function mostTeamPoints(week, franchises, isPlayoff, storageKey) {
   return maxTeamPoints;
 }
 
+function mostTeamPointsHTML(week, franchises, isPlayoff, storageKey) {
+  var maxScoreFranchise;
+  if (
+    storageKey !== "" &&
+    localStorage.getItem(storageKey) !== null &&
+    localStorage.getItem(storageKey) != "undefined"
+  ) {
+    maxScoreFranchise = JSON.parse(localStorage.getItem(storageKey));
+    return (
+      '<span class="franchise-name">' +
+      maxScoreFranchise.franchiseName +
+      '</span><span class="wc_score">' +
+      maxScoreFranchise.score +
+      "</span>"
+    );
+  }
+  const liveScoring = getLiveScoring(week);
+  if (isPlayoff) {
+    for (x in liveScoring.liveScoring.franchise) {
+      if (
+        maxScoreFranchise === undefined ||
+        parseFloat(liveScoring.liveScoring.franchise[x].score) >
+          parseFloat(maxScoreFranchise.score)
+      ) {
+        maxScoreFranchise = liveScoring.liveScoring.franchise[x];
+      }
+    }
+  } else {
+    for (x in liveScoring.liveScoring.matchup) {
+      for (y in liveScoring.liveScoring.matchup[x].franchise) {
+        if (
+          maxScoreFranchise === undefined ||
+          parseFloat(liveScoring.liveScoring.matchup[x].franchise[y].score) >
+            parseFloat(maxScoreFranchise.score)
+        ) {
+          maxScoreFranchise = liveScoring.liveScoring.matchup[x].franchise[y];
+        }
+      }
+    }
+  }
+  // console.log(maxScoreFranchise,franchises["fid_"+maxScoreFranchise.id]);
+  let maxTeamPoints = {
+    ...maxScoreFranchise,
+    ...franchises["fid_" + maxScoreFranchise.id],
+  };
+  if (storageKey !== "")
+    localStorage.setItem(storageKey, JSON.stringify(maxTeamPoints));
+  return (
+    '<span class="franchise-name">' +
+    maxTeamPoints.franchiseName +
+    '</span><span class="wc_score">' +
+    maxTeamPoints.score +
+    "</span>"
+  );
+}
+
 function mostPlayerPoints(week, franchises, players, positions, storageKey) {
   var mostPlayerPoints;
   if (
@@ -649,6 +817,70 @@ function mostPlayerPoints(week, franchises, players, positions, storageKey) {
   }
   localStorage.setItem(storageKey, JSON.stringify(mostPlayerPoints));
   return mostPlayerPoints;
+}
+
+function mostPlayerPointsHTML(
+  week,
+  franchises,
+  players,
+  positions,
+  storageKey
+) {
+  var mostPlayerPoints;
+  if (
+    localStorage.getItem(storageKey) !== null &&
+    localStorage.getItem(storageKey) != "undefined"
+  ) {
+    mostPlayerPoints = JSON.parse(localStorage.getItem(storageKey));
+    return (
+      '<span class="franchise-name">' +
+      mostPlayerPoints.franchiseName +
+      '</span><span class="player-name">' +
+      mostPlayerPoints.playerName +
+      '</span><span class="wc_score">' +
+      mostPlayerPoints.score +
+      "</span>"
+    );
+  }
+  const liveScoring = getLiveScoring(week);
+  for (x in liveScoring.liveScoring.matchup) {
+    for (y in liveScoring.liveScoring.matchup[x].franchise) {
+      for (z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
+        for (zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]) {
+          var playerScore =
+            liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
+          var playerInfo = players["pid_" + playerScore.id];
+          if (positions.includes(playerInfo.position)) {
+            if (
+              mostPlayerPoints === undefined ||
+              parseFloat(playerScore.score) > parseFloat(mostPlayerPoints.score)
+            ) {
+              var playerName = playerInfo.name;
+              var franchiseName =
+                franchises[
+                  "fid_" + liveScoring.liveScoring.matchup[x].franchise[y].id
+                ].name;
+              mostPlayerPoints = {
+                playerName,
+                ...playerScore,
+                franchiseName,
+              };
+            }
+          }
+        }
+      }
+    }
+  }
+  localStorage.setItem(storageKey, JSON.stringify(mostPlayerPoints));
+  return (
+    '<span class="franchise-name">' +
+    mostPlayerPoints.franchiseName +
+    '</span><span class="player-name">' +
+    mostPlayerPoints.playerName +
+    '</span><span class="wc_score">' +
+    mostPlayerPoints.score +
+    "</span>"
+  );
 }
 
 function mostAllPurposeYards(
@@ -703,6 +935,72 @@ function mostAllPurposeYards(
   }
   localStorage.setItem(storageKey, JSON.stringify(mostAllPurposeYards));
   return mostAllPurposeYards;
+}
+
+function mostAllPurposeYardsHTML(
+  week,
+  formattedWeek,
+  franchises,
+  players,
+  storageKey
+) {
+  var mostAllPurposeYards;
+  if (
+    localStorage.getItem(storageKey) !== null &&
+    localStorage.getItem(storageKey) != "undefined"
+  ) {
+    mostAllPurposeYards = JSON.parse(localStorage.getItem(storageKey));
+    return (
+      '<span class="franchise-name">' +
+      mostAllPurposeYards.name +
+      '</span><span class="wc_score">' +
+      mostAllPurposeYards.totalFranchiseYards +
+      "</span>"
+    );
+  }
+  const liveStats = getLiveStats(formattedWeek);
+  const liveScoring = getLiveScoring(week);
+  var rcyRegEx = new RegExp("^(RCY|KY|UY) [0-9]{1,3}$");
+  for (x in liveScoring.liveScoring.matchup) {
+    for (y in liveScoring.liveScoring.matchup[x].franchise) {
+      var totalFranchiseYards = 0;
+      for (z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
+        for (zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]) {
+          var playerScore =
+            liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
+          var playerInfo = players["pid_" + playerScore.id];
+          var playerStats = liveStats[playerScore.id];
+          for (yy in playerStats) {
+            if (rcyRegEx.test(playerStats[yy])) {
+              var rushCatchYards = playerStats[yy].replace(/[^0-9]/g, "");
+              totalFranchiseYards += parseInt(rushCatchYards);
+            }
+          }
+        }
+      }
+      if (
+        mostAllPurposeYards === undefined ||
+        totalFranchiseYards > parseInt(mostAllPurposeYards.totalFranchiseYards)
+      ) {
+        var franchiseInfo =
+          franchises[
+            "fid_" + liveScoring.liveScoring.matchup[x].franchise[y].id
+          ];
+        mostAllPurposeYards = {
+          totalFranchiseYards,
+          ...franchiseInfo,
+        };
+      }
+    }
+  }
+  localStorage.setItem(storageKey, JSON.stringify(mostAllPurposeYards));
+  return (
+    '<span class="franchise-name">' +
+    mostAllPurposeYards.name +
+    '</span><span class="wc_score">' +
+    mostAllPurposeYards.totalFranchiseYards +
+    "</span>"
+  );
 }
 
 function longestTouchdownPass(
@@ -761,6 +1059,78 @@ function longestTouchdownPass(
   return longestTouchDownPass;
 }
 
+function longestTouchdownPassHTML(
+  week,
+  formattedWeek,
+  franchises,
+  players,
+  storageKey
+) {
+  var longestTouchDownPass;
+  if (
+    localStorage.getItem(storageKey) !== null &&
+    localStorage.getItem(storageKey) != "undefined"
+  ) {
+    longestTouchDownPass = JSON.parse(localStorage.getItem(storageKey));
+    return (
+      '<span class="franchise-name">' +
+      longestTouchDownPass.name +
+      '</span><span class="player-name">' +
+      longestTouchDownPass.playerName +
+      '</span><span class="wc_score">' +
+      longestTouchDownPass.pass +
+      "</span>"
+    );
+  }
+  const liveStats = getLiveStats(formattedWeek);
+  const liveScoring = getLiveScoring(week);
+  var touchDownPassesRegEx = new RegExp("^PS [0-9]{1,3}(?:,[0-9]{1,3})*$");
+  for (x in liveScoring.liveScoring.matchup) {
+    for (y in liveScoring.liveScoring.matchup[x].franchise) {
+      var franchiseInfo =
+        franchises["fid_" + liveScoring.liveScoring.matchup[x].franchise[y].id];
+      for (z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
+        for (zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]) {
+          var playerScore =
+            liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
+          var playerInfo = players["pid_" + playerScore.id];
+          var playerStats = liveStats[playerScore.id];
+          for (yy in playerStats) {
+            if (touchDownPassesRegEx.test(playerStats[yy])) {
+              var passingTouchdowns = playerStats[yy].slice(3).split(",");
+              for (pp in passingTouchdowns) {
+                if (
+                  longestTouchDownPass === undefined ||
+                  parseInt(passingTouchdowns[pp]) >
+                    parseInt(longestTouchDownPass.pass)
+                ) {
+                  var pass = passingTouchdowns[pp];
+                  var playerName = playerInfo.name;
+                  longestTouchDownPass = {
+                    pass,
+                    playerName,
+                    ...franchiseInfo,
+                  };
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  localStorage.setItem(storageKey, JSON.stringify(longestTouchDownPass));
+  return (
+    '<span class="franchise-name">' +
+    longestTouchDownPass.name +
+    '</span><span class="player-name">' +
+    longestTouchDownPass.playerName +
+    '</span><span class="wc_score">' +
+    longestTouchDownPass.pass +
+    "</span>"
+  );
+}
+
 function mostTeamReceptions(
   week,
   formattedWeek,
@@ -813,6 +1183,72 @@ function mostTeamReceptions(
   }
   localStorage.setItem(storageKey, JSON.stringify(mostTeamReceptions));
   return mostTeamReceptions;
+}
+
+function mostTeamReceptionsHTML(
+  week,
+  formattedWeek,
+  franchises,
+  players,
+  storageKey
+) {
+  var mostTeamReceptions;
+  if (
+    localStorage.getItem(storageKey) !== null &&
+    localStorage.getItem(storageKey) != "undefined"
+  ) {
+    mostTeamReceptions = JSON.parse(localStorage.getItem(storageKey));
+    return (
+      '<span class="franchise-name">' +
+      mostTeamReceptions.name +
+      '</span><span class="wc_score">' +
+      mostTeamReceptions.totalReceptions +
+      "</span>"
+    );
+  }
+  const liveStats = getLiveStats(formattedWeek);
+  const liveScoring = getLiveScoring(week);
+  var rcyRegEx = new RegExp("^CC [0-9]{1,3}$");
+  for (x in liveScoring.liveScoring.matchup) {
+    for (y in liveScoring.liveScoring.matchup[x].franchise) {
+      var totalReceptions = 0;
+      for (z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
+        for (zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]) {
+          var playerScore =
+            liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
+          var playerInfo = players["pid_" + playerScore.id];
+          var playerStats = liveStats[playerScore.id];
+          for (yy in playerStats) {
+            if (rcyRegEx.test(playerStats[yy])) {
+              var receptions = playerStats[yy].replace(/[^0-9]/g, "");
+              totalReceptions += parseInt(receptions);
+            }
+          }
+        }
+      }
+      if (
+        mostTeamReceptions === undefined ||
+        totalReceptions > parseInt(mostTeamReceptions.totalReceptions)
+      ) {
+        var franchiseInfo =
+          franchises[
+            "fid_" + liveScoring.liveScoring.matchup[x].franchise[y].id
+          ];
+        mostTeamReceptions = {
+          totalReceptions,
+          ...franchiseInfo,
+        };
+      }
+    }
+  }
+  localStorage.setItem(storageKey, JSON.stringify(mostTeamReceptions));
+  return (
+    '<span class="franchise-name">' +
+    mostTeamReceptions.name +
+    '</span><span class="wc_score">' +
+    mostTeamReceptions.totalReceptions +
+    "</span>"
+  );
 }
 
 //tie breaker is next highest receiver receptions until one has a higher receptions
@@ -912,6 +1348,119 @@ function mostPlayerReceptions(
   return mostPlayerReceptions;
 }
 
+//tie breaker is next highest receiver receptions until one has a higher receptions
+function mostPlayerReceptionsHTML(
+  week,
+  formattedWeek,
+  franchises,
+  players,
+  storageKey
+) {
+  var mostPlayerReceptions;
+  if (
+    localStorage.getItem(storageKey) !== null &&
+    localStorage.getItem(storageKey) != "undefined"
+  ) {
+    mostPlayerReceptions = JSON.parse(localStorage.getItem(storageKey));
+    return (
+      '<span class="franchise-name">' +
+      mostPlayerReceptions.name +
+      '</span><span class="player-name">' +
+      mostPlayerReceptions.playerName +
+      '</span><span class="wc_score">' +
+      mostPlayerReceptions.receptions +
+      "</span>"
+    );
+  }
+  const liveStats = getLiveStats(formattedWeek);
+  const liveScoring = getLiveScoring(week);
+  var rcyRegEx = new RegExp("^CC [0-9]{1,3}$");
+  for (x in liveScoring.liveScoring.matchup) {
+    for (y in liveScoring.liveScoring.matchup[x].franchise) {
+      var franchiseInfo =
+        franchises["fid_" + liveScoring.liveScoring.matchup[x].franchise[y].id];
+      var playerReceptions = [];
+      for (z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
+        for (zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]) {
+          var playerScore =
+            liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
+          var playerInfo = players["pid_" + playerScore.id];
+          var playerStats = liveStats[playerScore.id];
+          var playerName = playerInfo.name;
+          for (yy in playerStats) {
+            if (rcyRegEx.test(playerStats[yy])) {
+              var receptions = playerStats[yy].replace(/[^0-9]/g, "");
+              playerReceptions.push({
+                playerName,
+                receptions,
+              });
+            }
+          }
+        }
+      }
+      if (playerReceptions.length === 0) {
+        continue;
+      }
+      playerReceptions.sort((a, b) => b.receptions - a.receptions);
+      if (mostPlayerReceptions === undefined) {
+        mostPlayerReceptions = {
+          ...franchiseInfo,
+          ...playerReceptions[0],
+          playerReceptions,
+        };
+        continue;
+      }
+      if (
+        parseInt(playerReceptions[0].receptions) >
+        parseInt(mostPlayerReceptions.receptions)
+      ) {
+        mostPlayerReceptions = {
+          ...franchiseInfo,
+          ...playerReceptions[0],
+          playerReceptions,
+        };
+        continue;
+      }
+      if (
+        parseInt(playerReceptions[0].receptions) ==
+        parseInt(mostPlayerReceptions.receptions)
+      ) {
+        // console.log("all equal","mostReceptions",mostPlayerReceptions,"playerReceptions",playerReceptions);
+        for (rr in playerReceptions) {
+          // if incoming is less, break as current placeholder wins
+          if (
+            parseInt(playerReceptions[rr].receptions) <
+            parseInt(mostPlayerReceptions.playerReceptions[rr].receptions)
+          ) {
+            break;
+          }
+          if (
+            parseInt(playerReceptions[rr].receptions) >
+            parseInt(mostPlayerReceptions.playerReceptions[rr].receptions)
+          ) {
+            mostPlayerReceptions = {
+              ...franchiseInfo,
+              ...playerReceptions[0],
+              playerReceptions,
+            };
+            break;
+          }
+        }
+      }
+    }
+  }
+  localStorage.setItem(storageKey, JSON.stringify(mostPlayerReceptions));
+  return (
+    '<span class="franchise-name">' +
+    mostPlayerReceptions.name +
+    '</span><span class="player-name">' +
+    mostPlayerReceptions.playerName +
+    '</span><span class="wc_score">' +
+    mostPlayerReceptions.receptions +
+    "</span>"
+  );
+}
+
 function mostTeamTDS(week, formattedWeek, franchises, players, storageKey) {
   var mostTeamTds;
   if (
@@ -961,6 +1510,67 @@ function mostTeamTDS(week, formattedWeek, franchises, players, storageKey) {
   return mostTeamTds;
 }
 
+function mostTeamTDSHTML(week, formattedWeek, franchises, players, storageKey) {
+  var mostTeamTds;
+  if (
+    localStorage.getItem(storageKey) !== null &&
+    localStorage.getItem(storageKey) != "undefined"
+  ) {
+    mostTeamTds = JSON.parse(localStorage.getItem(storageKey));
+    return (
+      '<span class="franchise-name">' +
+      mostTeamTds.name +
+      '</span><span class="wc_score">' +
+      mostTeamTds.totalTDs +
+      "</span>"
+    );
+  }
+  const liveStats = getLiveStats(formattedWeek);
+  const liveScoring = getLiveScoring(week);
+  var rcyRegEx = new RegExp("^#TD [0-9]{1,3}$");
+  for (x in liveScoring.liveScoring.matchup) {
+    for (y in liveScoring.liveScoring.matchup[x].franchise) {
+      var totalTDs = 0;
+      for (z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
+        for (zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]) {
+          var playerScore =
+            liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
+          var playerInfo = players["pid_" + playerScore.id];
+          var playerStats = liveStats[playerScore.id];
+          for (yy in playerStats) {
+            if (rcyRegEx.test(playerStats[yy])) {
+              var tds = playerStats[yy].replace(/[^0-9]/g, "");
+              totalTDs += parseInt(tds);
+            }
+          }
+        }
+      }
+      // console.log("total tds", totalTDs, "mostTotalTeamTDS", mostTeamTds);
+      if (
+        mostTeamTds === undefined ||
+        totalTDs > parseInt(mostTeamTds.totalTDs)
+      ) {
+        var franchiseInfo =
+          franchises[
+            "fid_" + liveScoring.liveScoring.matchup[x].franchise[y].id
+          ];
+        mostTeamTds = {
+          totalTDs,
+          ...franchiseInfo,
+        };
+      }
+    }
+  }
+  localStorage.setItem(storageKey, JSON.stringify(mostTeamTds));
+  return (
+    '<span class="franchise-name">' +
+    mostTeamTds.name +
+    '</span><span class="wc_score">' +
+    mostTeamTds.totalTDs +
+    "</span>"
+  );
+}
+
 function biggestWinMargin(week, franchises, storageKey) {
   var maxMargin;
   if (
@@ -994,6 +1604,53 @@ function biggestWinMargin(week, franchises, storageKey) {
   }
   localStorage.setItem(storageKey, JSON.stringify(maxMargin));
   return maxMargin;
+}
+
+function biggestWinMarginHTML(week, franchises, storageKey) {
+  var maxMargin;
+  if (
+    localStorage.getItem(storageKey) !== null &&
+    localStorage.getItem(storageKey) != "undefined"
+  ) {
+    maxMargin = JSON.parse(localStorage.getItem(storageKey));
+    return (
+      '<span class="franchise-name">' +
+      maxMargin.name +
+      '</span><span class="wc_score">' +
+      maxMargin.margin +
+      "</span>"
+    );
+  }
+  const liveScoring = getLiveScoring(week);
+  for (x in liveScoring.liveScoring.matchup) {
+    let f1 = liveScoring.liveScoring.matchup[x].franchise[0];
+    let f2 = liveScoring.liveScoring.matchup[x].franchise[1];
+    if (parseInt(f1.score) > parseInt(f2.score)) {
+      let margin = parseInt(f1.score) - parseInt(f2.score);
+      if (maxMargin === undefined || margin > maxMargin.margin) {
+        maxMargin = {
+          margin,
+          ...franchises["fid_" + f1.id],
+        };
+      }
+    } else {
+      let margin = parseInt(f2.score) - parseInt(f1.score);
+      if (maxMargin === undefined || margin > maxMargin.margin) {
+        maxMargin = {
+          margin,
+          ...franchises["fid_" + f2.id],
+        };
+      }
+    }
+  }
+  localStorage.setItem(storageKey, JSON.stringify(maxMargin));
+  return (
+    '<span class="franchise-name">' +
+    maxMargin.name +
+    '</span><span class="wc_score">' +
+    maxMargin.margin +
+    "</span>"
+  );
 }
 
 function mostPlayerAllPurposeYards(
@@ -1054,4 +1711,80 @@ function mostPlayerAllPurposeYards(
   }
   localStorage.setItem(storageKey, JSON.stringify(mostPlayerAllPurposeYards));
   return mostPlayerAllPurposeYards;
+}
+
+function mostPlayerAllPurposeYardsHTML(
+  week,
+  formattedWeek,
+  franchises,
+  players,
+  positions,
+  storageKey
+) {
+  var mostPlayerAllPurposeYards;
+  if (
+    localStorage.getItem(storageKey) !== null &&
+    localStorage.getItem(storageKey) != "undefined"
+  ) {
+    mostPlayerAllPurposeYards = JSON.parse(localStorage.getItem(storageKey));
+    return (
+      '<span class="franchise-name">' +
+      mostPlayerAllPurposeYards.name +
+      '</span><span class="player-name">' +
+      mostPlayerAllPurposeYards.playerName +
+      '</span><span class="wc_score">' +
+      mostPlayerAllPurposeYards.totalPlayerYards +
+      "</span>"
+    );
+  }
+  const liveStats = getLiveStats(formattedWeek);
+  const liveScoring = getLiveScoring(week);
+  var rcyRegEx = new RegExp("^(RCY|KY|UY) [0-9]{1,3}$");
+  for (x in liveScoring.liveScoring.matchup) {
+    for (y in liveScoring.liveScoring.matchup[x].franchise) {
+      for (z in liveScoring.liveScoring.matchup[x].franchise[y].players) {
+        for (zz in liveScoring.liveScoring.matchup[x].franchise[y].players[z]) {
+          var playerScore =
+            liveScoring.liveScoring.matchup[x].franchise[y].players[z][zz];
+          var playerInfo = players["pid_" + playerScore.id];
+          var playerStats = liveStats[playerScore.id];
+          var totalPlayerYards = 0;
+          if (positions.includes(playerInfo.position)) {
+            for (yy in playerStats) {
+              if (rcyRegEx.test(playerStats[yy])) {
+                var rushCatchYards = playerStats[yy].replace(/[^0-9]/g, "");
+                totalPlayerYards += parseInt(rushCatchYards);
+              }
+            }
+            if (
+              mostPlayerAllPurposeYards === undefined ||
+              totalPlayerYards >
+                parseInt(mostPlayerAllPurposeYards.totalPlayerYards)
+            ) {
+              var playerName = playerInfo.name;
+              var franchiseInfo =
+                franchises[
+                  "fid_" + liveScoring.liveScoring.matchup[x].franchise[y].id
+                ];
+              mostPlayerAllPurposeYards = {
+                totalPlayerYards,
+                ...franchiseInfo,
+                playerName,
+              };
+            }
+          }
+        }
+      }
+    }
+  }
+  localStorage.setItem(storageKey, JSON.stringify(mostPlayerAllPurposeYards));
+  return (
+    '<span class="franchise-name">' +
+    mostPlayerAllPurposeYards.name +
+    '</span><span class="player-name">' +
+    mostPlayerAllPurposeYards.playerName +
+    '</span><span class="wc_score">' +
+    mostPlayerAllPurposeYards.totalPlayerYards +
+    "</span>"
+  );
 }
