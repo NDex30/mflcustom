@@ -224,8 +224,23 @@ $(function () {
       },
     },
   ];
-
-  if (console) console.log(challenges);
+  let newContent = '<table align="center" cellpadding="2" width="100%">';
+  for (x in challenges) {
+    newContent +=
+      "<tr><td colspan=2><h3>Week " +
+      challenges[x].week +
+      ": " +
+      challenges[x].name +
+      "</h3></td></tr>";
+    if (challenges[x].week <= completedWeek) {
+      newContent +=
+        '<tr><td><div id="wc_week1">' +
+        challenges[x].challenge() +
+        "</div></td></tr>";
+    }
+  }
+  newContent += "</table>";
+  if (console) console.log(challenges, newContent);
   var content = '<table align="center" cellpadding="2" width="100%">';
   content +=
     '<tr><td colspan=2><h3>Week 1: Most Points from Single Running Back</h3></td></tr><tr><td><div id="wc_week1"></div></td></tr>';
