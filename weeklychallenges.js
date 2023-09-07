@@ -240,610 +240,611 @@ $(function () {
     }
   }
   newContent += "</table>";
+  $("#weekly-challenges-box").append(newContent);
   if (console) console.log(challenges, newContent);
-  var content = '<table align="center" cellpadding="2" width="100%">';
-  content +=
-    '<tr><td colspan=2><h3>Week 1: Most Points from Single Running Back</h3></td></tr><tr><td><div id="wc_week1"></div></td></tr>';
-  content +=
-    '<tr><td colspan=2><h3>Week 2: Most Points from Single QuarterBack</h3></td></tr><tr><td><div id="wc_week2"></div></td></tr>';
-  content +=
-    '<tr><td colspan=2><h3>Week 3: Most Team Points</h3></td></tr><tr><td><div id="wc_week3"></div></td></tr>';
-  content +=
-    '<tr><td colspan=2><h3>Week 4: Most All-Purpose Yards</h3></td></tr><tr><td><div id="wc_week4"></div></td></tr>';
-  content +=
-    '<tr><td colspan=2><h3>Week 5: Most Kicker Points</h3></td></tr><tr><td><div id="wc_week5"></div></td></tr>';
-  content +=
-    '<tr><td colspan=2><h3>Week 6: Longest QB TD</h3></td></tr><tr><td><div id="wc_week6"></div></td></tr>';
-  content +=
-    '<tr><td colspan=2><h3>Week 7: Most Team Receptions</h3></td></tr><tr><td><div id="wc_week7"></div></td></tr>';
-  content +=
-    '<tr><td colspan=2><h3>Week 8: Most DEF Points</h3></td></tr><tr><td><div id="wc_week8"></div></td></tr>';
-  content +=
-    '<tr><td colspan=2><h3>Week 9: Most Single Player Receptions</h3></td></tr><tr><td><div id="wc_week9"></div></td></tr>';
-  content +=
-    '<tr><td colspan=2><h3>Week 10: Most Points from Single Tight End</h3></td></tr><tr><td><div id="wc_week10"></div></td></tr>';
-  content +=
-    '<tr><td colspan=2><h3>Week 11: Most Team TDs</h3></td></tr><tr><td><div id="wc_week11"></div></td></tr>';
-  content +=
-    '<tr><td colspan=2><h3>Week 12: Player with Most Points (No QB)</h3></td></tr><tr><td><div id="wc_week12"></div></td></tr>';
-  content +=
-    '<tr><td colspan=2><h3>Week 13: Greatest Win Margin</h3></td></tr><tr><td><div id="wc_week13"></div></td></tr>';
-  content +=
-    '<tr><td colspan=2><h3>Week 14: Player with Most Yards (No QB)</h3></td></tr><tr><td><div id="wc_week14"></div></td></tr>';
-  content +=
-    '<tr><td colspan=2><h3>Week 15: Most Team Points</h3></td></tr><tr><td><div id="wc_week15"></div></td></tr>';
-  content +=
-    '<tr><td colspan=2><h3>Week 16: Most Team Points</h3></td></tr><tr><td><div id="wc_week16"></div></td></tr>';
-  content += "</table";
-  $("#weekly-challenges-box").append(content);
+  // var content = '<table align="center" cellpadding="2" width="100%">';
+  // content +=
+  //   '<tr><td colspan=2><h3>Week 1: Most Points from Single Running Back</h3></td></tr><tr><td><div id="wc_week1"></div></td></tr>';
+  // content +=
+  //   '<tr><td colspan=2><h3>Week 2: Most Points from Single QuarterBack</h3></td></tr><tr><td><div id="wc_week2"></div></td></tr>';
+  // content +=
+  //   '<tr><td colspan=2><h3>Week 3: Most Team Points</h3></td></tr><tr><td><div id="wc_week3"></div></td></tr>';
+  // content +=
+  //   '<tr><td colspan=2><h3>Week 4: Most All-Purpose Yards</h3></td></tr><tr><td><div id="wc_week4"></div></td></tr>';
+  // content +=
+  //   '<tr><td colspan=2><h3>Week 5: Most Kicker Points</h3></td></tr><tr><td><div id="wc_week5"></div></td></tr>';
+  // content +=
+  //   '<tr><td colspan=2><h3>Week 6: Longest QB TD</h3></td></tr><tr><td><div id="wc_week6"></div></td></tr>';
+  // content +=
+  //   '<tr><td colspan=2><h3>Week 7: Most Team Receptions</h3></td></tr><tr><td><div id="wc_week7"></div></td></tr>';
+  // content +=
+  //   '<tr><td colspan=2><h3>Week 8: Most DEF Points</h3></td></tr><tr><td><div id="wc_week8"></div></td></tr>';
+  // content +=
+  //   '<tr><td colspan=2><h3>Week 9: Most Single Player Receptions</h3></td></tr><tr><td><div id="wc_week9"></div></td></tr>';
+  // content +=
+  //   '<tr><td colspan=2><h3>Week 10: Most Points from Single Tight End</h3></td></tr><tr><td><div id="wc_week10"></div></td></tr>';
+  // content +=
+  //   '<tr><td colspan=2><h3>Week 11: Most Team TDs</h3></td></tr><tr><td><div id="wc_week11"></div></td></tr>';
+  // content +=
+  //   '<tr><td colspan=2><h3>Week 12: Player with Most Points (No QB)</h3></td></tr><tr><td><div id="wc_week12"></div></td></tr>';
+  // content +=
+  //   '<tr><td colspan=2><h3>Week 13: Greatest Win Margin</h3></td></tr><tr><td><div id="wc_week13"></div></td></tr>';
+  // content +=
+  //   '<tr><td colspan=2><h3>Week 14: Player with Most Yards (No QB)</h3></td></tr><tr><td><div id="wc_week14"></div></td></tr>';
+  // content +=
+  //   '<tr><td colspan=2><h3>Week 15: Most Team Points</h3></td></tr><tr><td><div id="wc_week15"></div></td></tr>';
+  // content +=
+  //   '<tr><td colspan=2><h3>Week 16: Most Team Points</h3></td></tr><tr><td><div id="wc_week16"></div></td></tr>';
+  // content += "</table";
+  // $("#weekly-challenges-box").append(content);
 
-  let challengeHtml = "";
-  for (i = 0; i <= completedWeek; i++) {
-    let formattedWeek = i.toLocaleString("en-US", {
-      minimumIntegerDigits: 2,
-      useGrouping: false,
-    });
-    switch (i) {
-      case 1:
-        challengeHtml = mostPlayerPointsHTML(
-          i,
-          franchiseDatabase,
-          playerDatabase,
-          ["RB"],
-          "smashBrosMostRBPoints"
-        );
-        // var maxRBPoints = mostPlayerPoints(
-        //   i,
-        //   franchiseDatabase,
-        //   playerDatabase,
-        //   ["RB"],
-        //   "smashBrosMostRBPoints"
-        // );
-        // $("#wc_week" + i).html(
-        //   '<span class="franchise-name">' +
-        //     maxRBPoints.franchiseName +
-        //     '</span><span class="player-name">' +
-        //     maxRBPoints.playerName +
-        //     '</span><span class="wc_score">' +
-        //     maxRBPoints.score +
-        //     "</span>"
-        // );
-        // content +=
-        //   "<tr><td colspan=2><h3>Week " +
-        //   i +
-        //   ": Most Points from Single Running Back</h3></td></tr>";
-        // content +=
-        //   "<tr><td>" +
-        //   maxRBPoints.franchiseName +
-        //   "</td><td>" +
-        //   maxRBPoints.playerName +
-        //   " -- " +
-        //   maxRBPoints.score +
-        //   "</td></tr>";
-        break;
-      case 2:
-        challengeHtml = mostPlayerPointsHTML(
-          i,
-          franchiseDatabase,
-          playerDatabase,
-          ["QB"],
-          "smashBrosMostQBPoints"
-        );
-        // var maxQBPoints = mostPlayerPoints(
-        //   i,
-        //   franchiseDatabase,
-        //   playerDatabase,
-        //   ["QB"],
-        //   "smashBrosMostQBPoints"
-        // );
-        // $("#wc_week" + i).html(
-        //   '<span class="franchise-name">' +
-        //     maxQBPoints.franchiseName +
-        //     '</span><span class="player-name">' +
-        //     maxQBPoints.playerName +
-        //     '</span><span class="wc_score">' +
-        //     maxQBPoints.score +
-        //     "</span>"
-        // );
-        // content +=
-        //   "<tr><td colspan=2><h3>Week " +
-        //   i +
-        //   ": Most Points from Single QuarterBack</h3></td></tr>";
-        // content +=
-        //   "<tr><td>" +
-        //   maxQBPoints.franchiseName +
-        //   "</td><td>" +
-        //   maxQBPoints.playerName +
-        //   " -- " +
-        //   maxQBPoints.score +
-        //   "</td></tr>";
-        break;
-      case 3:
-        challengeHtml = mostTeamPointsHTML(
-          i,
-          franchiseDatabase,
-          false,
-          "smashBrosMostTeamPoints"
-        );
-        // let maxPointsFranchise = mostTeamPoints(
-        //   i,
-        //   franchiseDatabase,
-        //   false,
-        //   "smashBrosMostTeamPoints"
-        // );
-        // $("#wc_week" + i).html(
-        //   '<span class="franchise-name">' +
-        //     maxPointsFranchise.franchiseName +
-        //     '</span><span class="wc_score">' +
-        //     maxPointsFranchise.score +
-        //     "</span>"
-        // );
-        // content +=
-        //   "<tr><td colspan=2><h3>Week " +
-        //   i +
-        //   ": Most Team Points</h3></td></tr>";
-        // content +=
-        //   "<tr><td>" +
-        //   maxPointsFranchise.name +
-        //   "</td><td>" +
-        //   maxPointsFranchise.score +
-        //   "</td></tr>";
-        break;
-      case 4:
-        challengeHtml = mostAllPurposeYardsHTML(
-          i,
-          formattedWeek,
-          franchiseDatabase,
-          playerDatabase,
-          "smashBrosMostAllPurposeYards"
-        );
-        // var maxAllPurposeYards = mostAllPurposeYards(
-        //   i,
-        //   formattedWeek,
-        //   franchiseDatabase,
-        //   playerDatabase,
-        //   "smashBrosMostAllPurposeYards"
-        // );
-        // $("#wc_week" + i).html(
-        //   '<span class="franchise-name">' +
-        //     maxAllPurposeYards.name +
-        //     '</span><span class="wc_score">' +
-        //     maxAllPurposeYards.totalFranchiseYards +
-        //     "</span>"
-        // );
-        // content +=
-        //   "<tr><td colspan=2><h3>Week " +
-        //   i +
-        //   ": Most All-Purpose Yards</h3></td></tr>";
-        // content +=
-        //   "<tr><td>" +
-        //   maxAllPurposeYards.name +
-        //   "</td><td>" +
-        //   maxAllPurposeYards.totalFranchiseYards +
-        //   "</td></tr>";
-        break;
-      case 5:
-        challengeHtml = mostPlayerPointsHTML(
-          i,
-          franchiseDatabase,
-          playerDatabase,
-          ["PK"],
-          "smashBrosMostKickerPoints"
-        );
-        // var maxKickerPoints = mostPlayerPoints(
-        //   i,
-        //   franchiseDatabase,
-        //   playerDatabase,
-        //   ["PK"],
-        //   "smashBrosMostKickerPoints"
-        // );
-        // $("#wc_week" + i).html(
-        //   '<span class="franchise-name">' +
-        //     maxKickerPoints.franchiseName +
-        //     '</span><span class="player-name">' +
-        //     maxKickerPoints.playerName +
-        //     '</span><span class="wc_score">' +
-        //     maxKickerPoints.score +
-        //     "</span>"
-        // );
-        // content +=
-        //   "<tr><td colspan=2><h3>Week " +
-        //   i +
-        //   ": Most Kicker Points</h3></td></tr>";
-        // content +=
-        //   "<tr><td>" +
-        //   maxKickerPoints.franchiseName +
-        //   "</td><td>" +
-        //   maxKickerPoints.playerName +
-        //   " -- " +
-        //   maxKickerPoints.score +
-        //   "</td></tr>";
-        break;
-      case 6:
-        challengeHtml = longestTouchdownPassHTML(
-          i,
-          formattedWeek,
-          franchiseDatabase,
-          playerDatabase,
-          "smashBrosLongestTouchdownPass"
-        );
-        // var maxPassTouchdown = longestTouchdownPass(
-        //   i,
-        //   formattedWeek,
-        //   franchiseDatabase,
-        //   playerDatabase,
-        //   "smashBrosLongestTouchdownPass"
-        // );
-        // $("#wc_week" + i).html(
-        //   '<span class="franchise-name">' +
-        //     maxPassTouchdown.name +
-        //     '</span><span class="player-name">' +
-        //     maxPassTouchdown.playerName +
-        //     '</span><span class="wc_score">' +
-        //     maxPassTouchdown.pass +
-        //     "</span>"
-        // );
-        // content +=
-        //   "<tr><td colspan=2><h3>Week " + i + ": Longest QB TD</h3></td></tr>";
-        // content +=
-        //   "<tr><td>" +
-        //   maxPassTouchdown.name +
-        //   "</td><td>" +
-        //   maxPassTouchdown.playerName +
-        //   " -- " +
-        //   maxPassTouchdown.pass +
-        //   "</td></tr>";
-        break;
-      case 7:
-        challengeHtml = mostTeamReceptionsHTML(
-          i,
-          formattedWeek,
-          franchiseDatabase,
-          playerDatabase,
-          "smashBrosMostTeamReceptions"
-        );
-        // var maxTeamReceptions = mostTeamReceptions(
-        //   i,
-        //   formattedWeek,
-        //   franchiseDatabase,
-        //   playerDatabase,
-        //   "smashBrosMostTeamReceptions"
-        // );
-        // $("#wc_week" + i).html(
-        //   '<span class="franchise-name">' +
-        //     maxTeamReceptions.name +
-        //     '</span><span class="wc_score">' +
-        //     maxTeamReceptions.totalReceptions +
-        //     "</span>"
-        // );
-        // content +=
-        //   "<tr><td colspan=2><h3>Week " +
-        //   i +
-        //   ": Most Team Receptions</h3></td></tr>";
-        // content +=
-        //   "<tr><td>" +
-        //   maxTeamReceptions.name +
-        //   "</td><td>" +
-        //   maxTeamReceptions.totalReceptions +
-        //   "</td></tr>";
-        break;
-      case 8:
-        challengeHtml = mostPlayerPointsHTML(
-          i,
-          franchiseDatabase,
-          playerDatabase,
-          ["Def"],
-          "smashBrosMostDefensePoints"
-        );
-        // var maxDefPoints = mostPlayerPoints(
-        //   i,
-        //   franchiseDatabase,
-        //   playerDatabase,
-        //   ["Def"],
-        //   "smashBrosMostDefensePoints"
-        // );
-        // $("#wc_week" + i).html(
-        //   '<span class="franchise-name">' +
-        //     maxDefPoints.franchiseName +
-        //     '</span><span class="player-name">' +
-        //     maxDefPoints.playerName +
-        //     '</span><span class="wc_score">' +
-        //     maxDefPoints.score +
-        //     "</span>"
-        // );
-        // content +=
-        //   "<tr><td colspan=2><h3>Week " +
-        //   i +
-        //   ": Most DEF Points</h3></td></tr>";
-        // content +=
-        //   "<tr><td>" +
-        //   maxDefPoints.franchiseName +
-        //   "</td><td>" +
-        //   maxDefPoints.playerName +
-        //   " -- " +
-        //   maxDefPoints.score +
-        //   "</td></tr>";
-        break;
-      case 9:
-        challengeHtml = mostPlayerReceptionsHTML(
-          i,
-          formattedWeek,
-          franchiseDatabase,
-          playerDatabase,
-          "smashBrosMostPlayerReceptions2"
-        );
-        // var maxPlayerReceptions = mostPlayerReceptions(
-        //   i,
-        //   formattedWeek,
-        //   franchiseDatabase,
-        //   playerDatabase,
-        //   "smashBrosMostPlayerReceptions2"
-        // );
-        // $("#wc_week" + i).html(
-        //   '<span class="franchise-name">' +
-        //     maxPlayerReceptions.name +
-        //     '</span><span class="player-name">' +
-        //     maxPlayerReceptions.playerName +
-        //     '</span><span class="wc_score">' +
-        //     maxPlayerReceptions.receptions +
-        //     "</span>"
-        // );
-        // content +=
-        //   "<tr><td colspan=2><h3>Week " +
-        //   i +
-        //   ": Most Single Player Receptions</h3></td></tr>";
-        // content +=
-        //   "<tr><td>" +
-        //   maxPlayerReceptions.name +
-        //   "</td><td>" +
-        //   maxPlayerReceptions.playerName +
-        //   " -- " +
-        //   maxPlayerReceptions.receptions +
-        //   "</td></tr>";
-        break;
-      case 10:
-        challengeHtml = mostPlayerPointsHTML(
-          i,
-          franchiseDatabase,
-          playerDatabase,
-          ["TE"],
-          "smashBrosMostTEPoints"
-        );
-        // var maxTEPoints = mostPlayerPoints(
-        //   i,
-        //   franchiseDatabase,
-        //   playerDatabase,
-        //   ["TE"],
-        //   "smashBrosMostTEPoints"
-        // );
-        // $("#wc_week" + i).html(
-        //   '<span class="franchise-name">' +
-        //     maxTEPoints.franchiseName +
-        //     '</span><span class="player-name">' +
-        //     maxTEPoints.playerName +
-        //     '</span><span class="wc_score">' +
-        //     maxTEPoints.score +
-        //     "</span>"
-        // );
-        // content +=
-        //   "<tr><td colspan=2><h3>Week " +
-        //   i +
-        //   ": Most Points from Single Tight End</h3></td></tr>";
-        // content +=
-        //   "<tr><td>" +
-        //   maxTEPoints.franchiseName +
-        //   "</td><td>" +
-        //   maxTEPoints.playerName +
-        //   " -- " +
-        //   maxTEPoints.score +
-        //   "</td></tr>";
-        break;
-      case 11:
-        challengeHtml = mostTeamTDSHTML(
-          i,
-          formattedWeek,
-          franchiseDatabase,
-          playerDatabase,
-          "smashBrosMostTeamTDs2"
-        );
-        // var maxTeamTDs = mostTeamTDS(
-        //   i,
-        //   formattedWeek,
-        //   franchiseDatabase,
-        //   playerDatabase,
-        //   "smashBrosMostTeamTDs2"
-        // );
-        // $("#wc_week" + i).html(
-        //   '<span class="franchise-name">' +
-        //     maxTeamTDs.name +
-        //     '</span><span class="wc_score">' +
-        //     maxTeamTDs.totalTDs +
-        //     "</span>"
-        // );
-        // content +=
-        //   "<tr><td colspan=2><h3>Week " + i + ": Most Team TDs</h3></td></tr>";
-        // content +=
-        //   "<tr><td>" +
-        //   maxTeamTDs.name +
-        //   "</td><td>" +
-        //   maxTeamTDs.totalTDs +
-        //   "</td></tr>";
-        break;
-      case 12:
-        challengeHtml = mostPlayerPointsHTML(
-          i,
-          franchiseDatabase,
-          playerDatabase,
-          ["RB", "WR", "TE"],
-          "smashBrosMostNonQBPoints"
-        );
-        // var maxNonQBPoints = mostPlayerPoints(
-        //   i,
-        //   franchiseDatabase,
-        //   playerDatabase,
-        //   ["RB", "WR", "TE"],
-        //   "smashBrosMostNonQBPoints"
-        // );
-        // $("#wc_week" + i).html(
-        //   '<span class="franchise-name">' +
-        //     maxNonQBPoints.franchiseName +
-        //     '</span><span class="player-name">' +
-        //     maxNonQBPoints.playerName +
-        //     '</span><span class="wc_score">' +
-        //     maxNonQBPoints.score +
-        //     "</span>"
-        // );
-        // content +=
-        //   "<tr><td colspan=2><h3>Week " +
-        //   i +
-        //   ": Player with Most Points (No QB)</h3></td></tr>";
-        // content +=
-        //   "<tr><td>" +
-        //   maxNonQBPoints.franchiseName +
-        //   "</td><td>" +
-        //   maxNonQBPoints.playerName +
-        //   " -- " +
-        //   maxNonQBPoints.score +
-        //   "</td></tr>";
-        break;
-      case 13:
-        challengeHtml = biggestWinMarginHTML(
-          i,
-          franchiseDatabase,
-          "smashedBrosGreatestWinMargin"
-        );
-        // var maxWinMargin = biggestWinMargin(
-        //   i,
-        //   franchiseDatabase,
-        //   "smashedBrosGreatestWinMargin"
-        // );
-        // $("#wc_week" + i).html(
-        //   '<span class="franchise-name">' +
-        //     maxWinMargin.name +
-        //     '</span><span class="wc_score">' +
-        //     maxWinMargin.margin +
-        //     "</span>"
-        // );
-        // content +=
-        //   "<tr><td colspan=2><h3>Week " +
-        //   i +
-        //   ": Greatest Win Margin</h3></td></tr>";
-        // content +=
-        //   "<tr><td>" +
-        //   maxWinMargin.name +
-        //   "</td><td>" +
-        //   maxWinMargin.margin +
-        //   "</td></tr>";
-        break;
-      case 14:
-        challengeHtml = mostPlayerAllPurposeYardsHTML(
-          i,
-          formattedWeek,
-          franchiseDatabase,
-          playerDatabase,
-          ["RB", "WR", "TE"],
-          "smashBrosMostNonQBYards"
-        );
-        // var maxPlayerAllPurposeYards = mostPlayerAllPurposeYards(
-        //   i,
-        //   formattedWeek,
-        //   franchiseDatabase,
-        //   playerDatabase,
-        //   ["RB", "WR", "TE"],
-        //   "smashBrosMostNonQBYards"
-        // );
-        // $("#wc_week" + i).html(
-        //   '<span class="franchise-name">' +
-        //     maxPlayerAllPurposeYards.name +
-        //     '</span><span class="player-name">' +
-        //     maxPlayerAllPurposeYards.playerName +
-        //     '</span><span class="wc_score">' +
-        //     maxPlayerAllPurposeYards.totalPlayerYards +
-        //     "</span>"
-        // );
-        // content +=
-        //   "<tr><td colspan=2><h3>Week " +
-        //   i +
-        //   ": Player with Most Yards (No QB)</h3></td></tr>";
-        // content +=
-        //   "<tr><td>" +
-        //   maxPlayerAllPurposeYards.name +
-        //   "</td><td>" +
-        //   maxPlayerAllPurposeYards.playerName +
-        //   " -- " +
-        //   maxPlayerAllPurposeYards.totalPlayerYards +
-        //   "</td></tr>";
-        break;
-      case 15:
-        challengeHtml = mostTeamPointsHTML(
-          i,
-          franchiseDatabase,
-          true,
-          "smashBrosMostTeamPoints15"
-        );
-        // let maxPointsFranchise15 = mostTeamPoints(
-        //   i,
-        //   franchiseDatabase,
-        //   true,
-        //   "smashBrosMostTeamPoints15"
-        // );
-        // $("#wc_week" + i).html(
-        //   '<span class="franchise-name">' +
-        //     maxPointsFranchise15.name +
-        //     '</span><span class="wc_score">' +
-        //     maxPointsFranchise15.score +
-        //     "</span>"
-        // );
-        // content +=
-        //   "<tr><td colspan=2><h3>Week " +
-        //   i +
-        //   ": Most Team Points</h3></td></tr>";
-        // content +=
-        //   "<tr><td>" +
-        //   maxPointsFranchise15.name +
-        //   "</td><td>" +
-        //   maxPointsFranchise15.score +
-        //   "</td></tr>";
-        break;
-      case 16:
-        challengeHtml = mostTeamPointsHTML(
-          i,
-          franchiseDatabase,
-          true,
-          "smashBrosMostTeamPoints16"
-        );
-        // let maxPointsFranchise16 = mostTeamPoints(
-        //   i,
-        //   franchiseDatabase,
-        //   true,
-        //   "smashBrosMostTeamPoints16"
-        // );
-        // $("#wc_week" + i).html(
-        //   '<span class="franchise-name">' +
-        //     maxPointsFranchise16.name +
-        //     '</span><span class="wc_score">' +
-        //     maxPointsFranchise16.score +
-        //     "</span>"
-        // );
-        // content +=
-        //   "<tr><td colspan=2><h3>Week " +
-        //   i +
-        //   ": Most Team Points</h3></td></tr>";
-        // content +=
-        //   "<tr><td>" +
-        //   maxPointsFranchise16.name +
-        //   "</td><td>" +
-        //   maxPointsFranchise16.score +
-        //   "</td></tr>";
-        break;
-      default:
-        if (console)
-          console.log("no weekly challenge this week " + formattedWeek);
-        return;
-    }
-  }
+  // let challengeHtml = "";
+  // for (i = 0; i <= completedWeek; i++) {
+  //   let formattedWeek = i.toLocaleString("en-US", {
+  //     minimumIntegerDigits: 2,
+  //     useGrouping: false,
+  //   });
+  //   switch (i) {
+  //     case 1:
+  //       challengeHtml = mostPlayerPointsHTML(
+  //         i,
+  //         franchiseDatabase,
+  //         playerDatabase,
+  //         ["RB"],
+  //         "smashBrosMostRBPoints"
+  //       );
+  //       // var maxRBPoints = mostPlayerPoints(
+  //       //   i,
+  //       //   franchiseDatabase,
+  //       //   playerDatabase,
+  //       //   ["RB"],
+  //       //   "smashBrosMostRBPoints"
+  //       // );
+  //       // $("#wc_week" + i).html(
+  //       //   '<span class="franchise-name">' +
+  //       //     maxRBPoints.franchiseName +
+  //       //     '</span><span class="player-name">' +
+  //       //     maxRBPoints.playerName +
+  //       //     '</span><span class="wc_score">' +
+  //       //     maxRBPoints.score +
+  //       //     "</span>"
+  //       // );
+  //       // content +=
+  //       //   "<tr><td colspan=2><h3>Week " +
+  //       //   i +
+  //       //   ": Most Points from Single Running Back</h3></td></tr>";
+  //       // content +=
+  //       //   "<tr><td>" +
+  //       //   maxRBPoints.franchiseName +
+  //       //   "</td><td>" +
+  //       //   maxRBPoints.playerName +
+  //       //   " -- " +
+  //       //   maxRBPoints.score +
+  //       //   "</td></tr>";
+  //       break;
+  //     case 2:
+  //       challengeHtml = mostPlayerPointsHTML(
+  //         i,
+  //         franchiseDatabase,
+  //         playerDatabase,
+  //         ["QB"],
+  //         "smashBrosMostQBPoints"
+  //       );
+  //       // var maxQBPoints = mostPlayerPoints(
+  //       //   i,
+  //       //   franchiseDatabase,
+  //       //   playerDatabase,
+  //       //   ["QB"],
+  //       //   "smashBrosMostQBPoints"
+  //       // );
+  //       // $("#wc_week" + i).html(
+  //       //   '<span class="franchise-name">' +
+  //       //     maxQBPoints.franchiseName +
+  //       //     '</span><span class="player-name">' +
+  //       //     maxQBPoints.playerName +
+  //       //     '</span><span class="wc_score">' +
+  //       //     maxQBPoints.score +
+  //       //     "</span>"
+  //       // );
+  //       // content +=
+  //       //   "<tr><td colspan=2><h3>Week " +
+  //       //   i +
+  //       //   ": Most Points from Single QuarterBack</h3></td></tr>";
+  //       // content +=
+  //       //   "<tr><td>" +
+  //       //   maxQBPoints.franchiseName +
+  //       //   "</td><td>" +
+  //       //   maxQBPoints.playerName +
+  //       //   " -- " +
+  //       //   maxQBPoints.score +
+  //       //   "</td></tr>";
+  //       break;
+  //     case 3:
+  //       challengeHtml = mostTeamPointsHTML(
+  //         i,
+  //         franchiseDatabase,
+  //         false,
+  //         "smashBrosMostTeamPoints"
+  //       );
+  //       // let maxPointsFranchise = mostTeamPoints(
+  //       //   i,
+  //       //   franchiseDatabase,
+  //       //   false,
+  //       //   "smashBrosMostTeamPoints"
+  //       // );
+  //       // $("#wc_week" + i).html(
+  //       //   '<span class="franchise-name">' +
+  //       //     maxPointsFranchise.franchiseName +
+  //       //     '</span><span class="wc_score">' +
+  //       //     maxPointsFranchise.score +
+  //       //     "</span>"
+  //       // );
+  //       // content +=
+  //       //   "<tr><td colspan=2><h3>Week " +
+  //       //   i +
+  //       //   ": Most Team Points</h3></td></tr>";
+  //       // content +=
+  //       //   "<tr><td>" +
+  //       //   maxPointsFranchise.name +
+  //       //   "</td><td>" +
+  //       //   maxPointsFranchise.score +
+  //       //   "</td></tr>";
+  //       break;
+  //     case 4:
+  //       challengeHtml = mostAllPurposeYardsHTML(
+  //         i,
+  //         formattedWeek,
+  //         franchiseDatabase,
+  //         playerDatabase,
+  //         "smashBrosMostAllPurposeYards"
+  //       );
+  //       // var maxAllPurposeYards = mostAllPurposeYards(
+  //       //   i,
+  //       //   formattedWeek,
+  //       //   franchiseDatabase,
+  //       //   playerDatabase,
+  //       //   "smashBrosMostAllPurposeYards"
+  //       // );
+  //       // $("#wc_week" + i).html(
+  //       //   '<span class="franchise-name">' +
+  //       //     maxAllPurposeYards.name +
+  //       //     '</span><span class="wc_score">' +
+  //       //     maxAllPurposeYards.totalFranchiseYards +
+  //       //     "</span>"
+  //       // );
+  //       // content +=
+  //       //   "<tr><td colspan=2><h3>Week " +
+  //       //   i +
+  //       //   ": Most All-Purpose Yards</h3></td></tr>";
+  //       // content +=
+  //       //   "<tr><td>" +
+  //       //   maxAllPurposeYards.name +
+  //       //   "</td><td>" +
+  //       //   maxAllPurposeYards.totalFranchiseYards +
+  //       //   "</td></tr>";
+  //       break;
+  //     case 5:
+  //       challengeHtml = mostPlayerPointsHTML(
+  //         i,
+  //         franchiseDatabase,
+  //         playerDatabase,
+  //         ["PK"],
+  //         "smashBrosMostKickerPoints"
+  //       );
+  //       // var maxKickerPoints = mostPlayerPoints(
+  //       //   i,
+  //       //   franchiseDatabase,
+  //       //   playerDatabase,
+  //       //   ["PK"],
+  //       //   "smashBrosMostKickerPoints"
+  //       // );
+  //       // $("#wc_week" + i).html(
+  //       //   '<span class="franchise-name">' +
+  //       //     maxKickerPoints.franchiseName +
+  //       //     '</span><span class="player-name">' +
+  //       //     maxKickerPoints.playerName +
+  //       //     '</span><span class="wc_score">' +
+  //       //     maxKickerPoints.score +
+  //       //     "</span>"
+  //       // );
+  //       // content +=
+  //       //   "<tr><td colspan=2><h3>Week " +
+  //       //   i +
+  //       //   ": Most Kicker Points</h3></td></tr>";
+  //       // content +=
+  //       //   "<tr><td>" +
+  //       //   maxKickerPoints.franchiseName +
+  //       //   "</td><td>" +
+  //       //   maxKickerPoints.playerName +
+  //       //   " -- " +
+  //       //   maxKickerPoints.score +
+  //       //   "</td></tr>";
+  //       break;
+  //     case 6:
+  //       challengeHtml = longestTouchdownPassHTML(
+  //         i,
+  //         formattedWeek,
+  //         franchiseDatabase,
+  //         playerDatabase,
+  //         "smashBrosLongestTouchdownPass"
+  //       );
+  //       // var maxPassTouchdown = longestTouchdownPass(
+  //       //   i,
+  //       //   formattedWeek,
+  //       //   franchiseDatabase,
+  //       //   playerDatabase,
+  //       //   "smashBrosLongestTouchdownPass"
+  //       // );
+  //       // $("#wc_week" + i).html(
+  //       //   '<span class="franchise-name">' +
+  //       //     maxPassTouchdown.name +
+  //       //     '</span><span class="player-name">' +
+  //       //     maxPassTouchdown.playerName +
+  //       //     '</span><span class="wc_score">' +
+  //       //     maxPassTouchdown.pass +
+  //       //     "</span>"
+  //       // );
+  //       // content +=
+  //       //   "<tr><td colspan=2><h3>Week " + i + ": Longest QB TD</h3></td></tr>";
+  //       // content +=
+  //       //   "<tr><td>" +
+  //       //   maxPassTouchdown.name +
+  //       //   "</td><td>" +
+  //       //   maxPassTouchdown.playerName +
+  //       //   " -- " +
+  //       //   maxPassTouchdown.pass +
+  //       //   "</td></tr>";
+  //       break;
+  //     case 7:
+  //       challengeHtml = mostTeamReceptionsHTML(
+  //         i,
+  //         formattedWeek,
+  //         franchiseDatabase,
+  //         playerDatabase,
+  //         "smashBrosMostTeamReceptions"
+  //       );
+  //       // var maxTeamReceptions = mostTeamReceptions(
+  //       //   i,
+  //       //   formattedWeek,
+  //       //   franchiseDatabase,
+  //       //   playerDatabase,
+  //       //   "smashBrosMostTeamReceptions"
+  //       // );
+  //       // $("#wc_week" + i).html(
+  //       //   '<span class="franchise-name">' +
+  //       //     maxTeamReceptions.name +
+  //       //     '</span><span class="wc_score">' +
+  //       //     maxTeamReceptions.totalReceptions +
+  //       //     "</span>"
+  //       // );
+  //       // content +=
+  //       //   "<tr><td colspan=2><h3>Week " +
+  //       //   i +
+  //       //   ": Most Team Receptions</h3></td></tr>";
+  //       // content +=
+  //       //   "<tr><td>" +
+  //       //   maxTeamReceptions.name +
+  //       //   "</td><td>" +
+  //       //   maxTeamReceptions.totalReceptions +
+  //       //   "</td></tr>";
+  //       break;
+  //     case 8:
+  //       challengeHtml = mostPlayerPointsHTML(
+  //         i,
+  //         franchiseDatabase,
+  //         playerDatabase,
+  //         ["Def"],
+  //         "smashBrosMostDefensePoints"
+  //       );
+  //       // var maxDefPoints = mostPlayerPoints(
+  //       //   i,
+  //       //   franchiseDatabase,
+  //       //   playerDatabase,
+  //       //   ["Def"],
+  //       //   "smashBrosMostDefensePoints"
+  //       // );
+  //       // $("#wc_week" + i).html(
+  //       //   '<span class="franchise-name">' +
+  //       //     maxDefPoints.franchiseName +
+  //       //     '</span><span class="player-name">' +
+  //       //     maxDefPoints.playerName +
+  //       //     '</span><span class="wc_score">' +
+  //       //     maxDefPoints.score +
+  //       //     "</span>"
+  //       // );
+  //       // content +=
+  //       //   "<tr><td colspan=2><h3>Week " +
+  //       //   i +
+  //       //   ": Most DEF Points</h3></td></tr>";
+  //       // content +=
+  //       //   "<tr><td>" +
+  //       //   maxDefPoints.franchiseName +
+  //       //   "</td><td>" +
+  //       //   maxDefPoints.playerName +
+  //       //   " -- " +
+  //       //   maxDefPoints.score +
+  //       //   "</td></tr>";
+  //       break;
+  //     case 9:
+  //       challengeHtml = mostPlayerReceptionsHTML(
+  //         i,
+  //         formattedWeek,
+  //         franchiseDatabase,
+  //         playerDatabase,
+  //         "smashBrosMostPlayerReceptions2"
+  //       );
+  //       // var maxPlayerReceptions = mostPlayerReceptions(
+  //       //   i,
+  //       //   formattedWeek,
+  //       //   franchiseDatabase,
+  //       //   playerDatabase,
+  //       //   "smashBrosMostPlayerReceptions2"
+  //       // );
+  //       // $("#wc_week" + i).html(
+  //       //   '<span class="franchise-name">' +
+  //       //     maxPlayerReceptions.name +
+  //       //     '</span><span class="player-name">' +
+  //       //     maxPlayerReceptions.playerName +
+  //       //     '</span><span class="wc_score">' +
+  //       //     maxPlayerReceptions.receptions +
+  //       //     "</span>"
+  //       // );
+  //       // content +=
+  //       //   "<tr><td colspan=2><h3>Week " +
+  //       //   i +
+  //       //   ": Most Single Player Receptions</h3></td></tr>";
+  //       // content +=
+  //       //   "<tr><td>" +
+  //       //   maxPlayerReceptions.name +
+  //       //   "</td><td>" +
+  //       //   maxPlayerReceptions.playerName +
+  //       //   " -- " +
+  //       //   maxPlayerReceptions.receptions +
+  //       //   "</td></tr>";
+  //       break;
+  //     case 10:
+  //       challengeHtml = mostPlayerPointsHTML(
+  //         i,
+  //         franchiseDatabase,
+  //         playerDatabase,
+  //         ["TE"],
+  //         "smashBrosMostTEPoints"
+  //       );
+  //       // var maxTEPoints = mostPlayerPoints(
+  //       //   i,
+  //       //   franchiseDatabase,
+  //       //   playerDatabase,
+  //       //   ["TE"],
+  //       //   "smashBrosMostTEPoints"
+  //       // );
+  //       // $("#wc_week" + i).html(
+  //       //   '<span class="franchise-name">' +
+  //       //     maxTEPoints.franchiseName +
+  //       //     '</span><span class="player-name">' +
+  //       //     maxTEPoints.playerName +
+  //       //     '</span><span class="wc_score">' +
+  //       //     maxTEPoints.score +
+  //       //     "</span>"
+  //       // );
+  //       // content +=
+  //       //   "<tr><td colspan=2><h3>Week " +
+  //       //   i +
+  //       //   ": Most Points from Single Tight End</h3></td></tr>";
+  //       // content +=
+  //       //   "<tr><td>" +
+  //       //   maxTEPoints.franchiseName +
+  //       //   "</td><td>" +
+  //       //   maxTEPoints.playerName +
+  //       //   " -- " +
+  //       //   maxTEPoints.score +
+  //       //   "</td></tr>";
+  //       break;
+  //     case 11:
+  //       challengeHtml = mostTeamTDSHTML(
+  //         i,
+  //         formattedWeek,
+  //         franchiseDatabase,
+  //         playerDatabase,
+  //         "smashBrosMostTeamTDs2"
+  //       );
+  //       // var maxTeamTDs = mostTeamTDS(
+  //       //   i,
+  //       //   formattedWeek,
+  //       //   franchiseDatabase,
+  //       //   playerDatabase,
+  //       //   "smashBrosMostTeamTDs2"
+  //       // );
+  //       // $("#wc_week" + i).html(
+  //       //   '<span class="franchise-name">' +
+  //       //     maxTeamTDs.name +
+  //       //     '</span><span class="wc_score">' +
+  //       //     maxTeamTDs.totalTDs +
+  //       //     "</span>"
+  //       // );
+  //       // content +=
+  //       //   "<tr><td colspan=2><h3>Week " + i + ": Most Team TDs</h3></td></tr>";
+  //       // content +=
+  //       //   "<tr><td>" +
+  //       //   maxTeamTDs.name +
+  //       //   "</td><td>" +
+  //       //   maxTeamTDs.totalTDs +
+  //       //   "</td></tr>";
+  //       break;
+  //     case 12:
+  //       challengeHtml = mostPlayerPointsHTML(
+  //         i,
+  //         franchiseDatabase,
+  //         playerDatabase,
+  //         ["RB", "WR", "TE"],
+  //         "smashBrosMostNonQBPoints"
+  //       );
+  //       // var maxNonQBPoints = mostPlayerPoints(
+  //       //   i,
+  //       //   franchiseDatabase,
+  //       //   playerDatabase,
+  //       //   ["RB", "WR", "TE"],
+  //       //   "smashBrosMostNonQBPoints"
+  //       // );
+  //       // $("#wc_week" + i).html(
+  //       //   '<span class="franchise-name">' +
+  //       //     maxNonQBPoints.franchiseName +
+  //       //     '</span><span class="player-name">' +
+  //       //     maxNonQBPoints.playerName +
+  //       //     '</span><span class="wc_score">' +
+  //       //     maxNonQBPoints.score +
+  //       //     "</span>"
+  //       // );
+  //       // content +=
+  //       //   "<tr><td colspan=2><h3>Week " +
+  //       //   i +
+  //       //   ": Player with Most Points (No QB)</h3></td></tr>";
+  //       // content +=
+  //       //   "<tr><td>" +
+  //       //   maxNonQBPoints.franchiseName +
+  //       //   "</td><td>" +
+  //       //   maxNonQBPoints.playerName +
+  //       //   " -- " +
+  //       //   maxNonQBPoints.score +
+  //       //   "</td></tr>";
+  //       break;
+  //     case 13:
+  //       challengeHtml = biggestWinMarginHTML(
+  //         i,
+  //         franchiseDatabase,
+  //         "smashedBrosGreatestWinMargin"
+  //       );
+  //       // var maxWinMargin = biggestWinMargin(
+  //       //   i,
+  //       //   franchiseDatabase,
+  //       //   "smashedBrosGreatestWinMargin"
+  //       // );
+  //       // $("#wc_week" + i).html(
+  //       //   '<span class="franchise-name">' +
+  //       //     maxWinMargin.name +
+  //       //     '</span><span class="wc_score">' +
+  //       //     maxWinMargin.margin +
+  //       //     "</span>"
+  //       // );
+  //       // content +=
+  //       //   "<tr><td colspan=2><h3>Week " +
+  //       //   i +
+  //       //   ": Greatest Win Margin</h3></td></tr>";
+  //       // content +=
+  //       //   "<tr><td>" +
+  //       //   maxWinMargin.name +
+  //       //   "</td><td>" +
+  //       //   maxWinMargin.margin +
+  //       //   "</td></tr>";
+  //       break;
+  //     case 14:
+  //       challengeHtml = mostPlayerAllPurposeYardsHTML(
+  //         i,
+  //         formattedWeek,
+  //         franchiseDatabase,
+  //         playerDatabase,
+  //         ["RB", "WR", "TE"],
+  //         "smashBrosMostNonQBYards"
+  //       );
+  //       // var maxPlayerAllPurposeYards = mostPlayerAllPurposeYards(
+  //       //   i,
+  //       //   formattedWeek,
+  //       //   franchiseDatabase,
+  //       //   playerDatabase,
+  //       //   ["RB", "WR", "TE"],
+  //       //   "smashBrosMostNonQBYards"
+  //       // );
+  //       // $("#wc_week" + i).html(
+  //       //   '<span class="franchise-name">' +
+  //       //     maxPlayerAllPurposeYards.name +
+  //       //     '</span><span class="player-name">' +
+  //       //     maxPlayerAllPurposeYards.playerName +
+  //       //     '</span><span class="wc_score">' +
+  //       //     maxPlayerAllPurposeYards.totalPlayerYards +
+  //       //     "</span>"
+  //       // );
+  //       // content +=
+  //       //   "<tr><td colspan=2><h3>Week " +
+  //       //   i +
+  //       //   ": Player with Most Yards (No QB)</h3></td></tr>";
+  //       // content +=
+  //       //   "<tr><td>" +
+  //       //   maxPlayerAllPurposeYards.name +
+  //       //   "</td><td>" +
+  //       //   maxPlayerAllPurposeYards.playerName +
+  //       //   " -- " +
+  //       //   maxPlayerAllPurposeYards.totalPlayerYards +
+  //       //   "</td></tr>";
+  //       break;
+  //     case 15:
+  //       challengeHtml = mostTeamPointsHTML(
+  //         i,
+  //         franchiseDatabase,
+  //         true,
+  //         "smashBrosMostTeamPoints15"
+  //       );
+  //       // let maxPointsFranchise15 = mostTeamPoints(
+  //       //   i,
+  //       //   franchiseDatabase,
+  //       //   true,
+  //       //   "smashBrosMostTeamPoints15"
+  //       // );
+  //       // $("#wc_week" + i).html(
+  //       //   '<span class="franchise-name">' +
+  //       //     maxPointsFranchise15.name +
+  //       //     '</span><span class="wc_score">' +
+  //       //     maxPointsFranchise15.score +
+  //       //     "</span>"
+  //       // );
+  //       // content +=
+  //       //   "<tr><td colspan=2><h3>Week " +
+  //       //   i +
+  //       //   ": Most Team Points</h3></td></tr>";
+  //       // content +=
+  //       //   "<tr><td>" +
+  //       //   maxPointsFranchise15.name +
+  //       //   "</td><td>" +
+  //       //   maxPointsFranchise15.score +
+  //       //   "</td></tr>";
+  //       break;
+  //     case 16:
+  //       challengeHtml = mostTeamPointsHTML(
+  //         i,
+  //         franchiseDatabase,
+  //         true,
+  //         "smashBrosMostTeamPoints16"
+  //       );
+  //       // let maxPointsFranchise16 = mostTeamPoints(
+  //       //   i,
+  //       //   franchiseDatabase,
+  //       //   true,
+  //       //   "smashBrosMostTeamPoints16"
+  //       // );
+  //       // $("#wc_week" + i).html(
+  //       //   '<span class="franchise-name">' +
+  //       //     maxPointsFranchise16.name +
+  //       //     '</span><span class="wc_score">' +
+  //       //     maxPointsFranchise16.score +
+  //       //     "</span>"
+  //       // );
+  //       // content +=
+  //       //   "<tr><td colspan=2><h3>Week " +
+  //       //   i +
+  //       //   ": Most Team Points</h3></td></tr>";
+  //       // content +=
+  //       //   "<tr><td>" +
+  //       //   maxPointsFranchise16.name +
+  //       //   "</td><td>" +
+  //       //   maxPointsFranchise16.score +
+  //       //   "</td></tr>";
+  //       break;
+  //     default:
+  //       if (console)
+  //         console.log("no weekly challenge this week " + formattedWeek);
+  //       return;
+  //   }
+  // }
 
-  $("#wc_week" + i).html(challengeHtml);
+  // $("#wc_week" + i).html(challengeHtml);
 });
 
 function getLiveStats(formattedWeek) {
