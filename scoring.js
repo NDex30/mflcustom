@@ -248,20 +248,10 @@ function getLiveScoringDetails(week) {
 
 function getNFLSchedule(week) {
   var nflSchedule;
-  let formattedWeek = week.toLocaleString("en-US", {
-    minimumIntegerDigits: 2,
-    useGrouping: false,
-  });
+  let formattedWeek = week.toLocaleString("en-US", {minimumIntegerDigits: 2,useGrouping: false,});
   $.ajax({
     async: false,
-    url:
-      "https://" +
-      window.location.host +
-      "/fflnetdynamic" +
-      year +
-      "/nfl_sched_" +
-      formattedWeek +
-      ".json",
+    url: `${baseURLDynamic}/fflnetdynamic${year}/nfl_sched_${week}.json`,
     dataType: "json",
     success: function (data) {
       nflSchedule = data;
