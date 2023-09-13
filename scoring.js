@@ -4,19 +4,14 @@ var dexCurrMatchup = 0;
 var autoRefreshDexScore = false;
 var totalMatchups = 0;
 
-function checkArrayThenExecute() {
-  let liveScoring = getLiveScoringDetails();
-  let projectedScores = getProjectedScore();
+$(function () {
+  let liveScoring = getLiveScoringDetails(real_ls_week);
+  let projectedScores = getProjectedScore(real_ls_week, year, league_id);
   let scoringBox = $("#dexscoring");
   totalMatchups = liveScoring.liveScoring.matchup.length;
 
-  // Create a mapping object for "fid" to "record"
-  let fidToRecordMap = {};
-  for (let standings of reportStandings_ar) {
-    fidToRecordMap[standings.fid] = standings.record;
-  }
-
   if (console) console.time("build html");
+
   for (m in liveScoring.liveScoring.matchup) {
     let matchupBox = $(
       '<div class="matchup-box" id="matchup_' +
@@ -42,14 +37,10 @@ function checkArrayThenExecute() {
       franchiseBox.append(
         '<div class="franchise-name"><h2>' + franchiseInfo.name + "</h2></div>"
       );
-
-      // Append the record from the mapping
-      franchiseBox.append(
-        '<div class="franchise-record">' +
-          fidToRecordMap[franchise.id] +
-          "</div>"
-      );
-
+      // TODO: Why can't I access the team record here?
+      //   franchiseBox.append(
+      //     '<div class="franchise-record">' + franchiseInfo.record + "</div>"
+      //   );
       franchiseBox.append(
         '<div class="franchise-score" id="score_' +
           franchise.id +
@@ -65,8 +56,11 @@ function checkArrayThenExecute() {
       for (p in franchise.players.player) {
         let playerScore = franchise.players.player[p];
         var playerInfo = playerDatabase["pid_" + playerScore.id];
+        // if (console)
+        //   console.log("player info", playerInfo, "player stats", playerScore);
         let playerRow = $(
           '<div class="player-row position-order-' +
+            // (playerScore.status === "starter" ? playerInfo.position : "bench") +
             playerInfo.position +
             " " +
             getPlayingStatusClass(parseInt(playerScore.gameSecondsRemaining)) +
@@ -123,6 +117,9 @@ function checkArrayThenExecute() {
             playerScore.id +
             '"></div></div>'
         );
+        // playerRow.append(
+        //   '<div class="player-stats" id="stats_' + playerScore.id + '"></div>'
+        // );
         let projectionDiff = "";
         if (
           parseFloat(playerScore.score) >
@@ -157,9 +154,6 @@ function checkArrayThenExecute() {
       }
       playersBox.append(playersBench);
       matchupBox.append(franchiseBox);
-      try {
-        MFLPlayerPopupNewsIcon("dexscoring");
-      } catch (er) {}
     }
   }
   dots = '<div id="nav-dots" class="nav-dots">';
@@ -175,10 +169,13 @@ function checkArrayThenExecute() {
   }
   dots += "</div>";
   scoringBox.append(dots);
+
   if (console) console.timeEnd("build html");
+
   var group = document.querySelector("#dexscoring");
   group.addEventListener("touchstart", handleTouchStart, false);
   group.addEventListener("touchmove", handleTouchMove, false);
+
   $("#nav-dots > div").click(function (e) {
     matchup = $(this).data("matchup");
     $(".matchup-dot").removeClass("active");
@@ -189,16 +186,29 @@ function checkArrayThenExecute() {
   refreshStats();
   refreshGameScore();
   refreshScores();
+
   setInterval(refreshScores, 30000);
   setInterval(refreshStats, 90000);
   setInterval(refreshGameScore, 60000);
-}
+});
 
-function getProjectedScore() {
+function getProjectedScore(week, year, leagueID) {
+  //https://www80.myfantasyleague.com/2022/export?TYPE=projectedScores&L=58663&PLAYERS=&WEEK=12&JSON=1
   var projectedStats = {};
+  const d = new Date();
+  let ms = d.getMilliseconds();
   $.ajax({
     async: false,
-    url: `${baseURLDynamic}/${year}/export?TYPE=projectedScores&L=${league_id}&WEEK=${real_ls_week}&JSON=1`,
+    url:
+      "https://" +
+      window.location.host +
+      "/" +
+      year +
+      "/export?TYPE=projectedScores&L=" +
+      leagueID +
+      "&WEEK=" +
+      week +
+      "&JSON=1",
     dataType: "json",
     success: function (data) {
       for (p in data.projectedScores.playerScore) {
@@ -212,11 +222,20 @@ function getProjectedScore() {
   return projectedStats;
 }
 
-function getLiveScoringDetails() {
+function getLiveScoringDetails(week) {
   var liveScoring;
   $.ajax({
     async: false,
-    url: `${baseURLDynamic}/${year}/export?TYPE=liveScoring&L=${league_id}&WEEK=${real_ls_week}&JSON=1&DETAILS=1`,
+    url:
+      "https://" +
+      window.location.host +
+      "/" +
+      year +
+      "/export?TYPE=liveScoring&L=" +
+      league_id +
+      "&W=" +
+      week +
+      "&JSON=1&DETAILS=1",
     dataType: "json",
     success: function (data) {
       liveScoring = data;
@@ -227,15 +246,12 @@ function getLiveScoringDetails() {
   return liveScoring;
 }
 
-function getNFLSchedule() {
+function getNFLSchedule(week) {
   var nflSchedule;
-  let formattedWeek = real_ls_week.toLocaleString("en-US", {
-    minimumIntegerDigits: 2,
-    useGrouping: false,
-  });
+  let formattedWeek = week.toLocaleString("en-US", {minimumIntegerDigits: 2,useGrouping: false,});
   $.ajax({
     async: false,
-    url: `${baseURLDynamic}/fflnetdynamic${year}/nfl_sched_${real_ls_week}.json`,
+    url: `${baseURLDynamic}/fflnetdynamic${year}/nfl_sched_${week}.json`,
     dataType: "json",
     success: function (data) {
       nflSchedule = data;
@@ -246,11 +262,11 @@ function getNFLSchedule() {
   return nflSchedule;
 }
 
-function getLiveStatsDetails() {
+function getLiveStatsDetails(week) {
   var liveStats = {};
   const d = new Date();
   let ms = d.getMilliseconds();
-  let formattedWeek = real_ls_week.toLocaleString("en-US", {
+  let formattedWeek = week.toLocaleString("en-US", {
     minimumIntegerDigits: 2,
     useGrouping: false,
   });
@@ -266,7 +282,15 @@ function getLiveStatsDetails() {
   var passTDsRegex = new RegExp("\\|#P ([0-9]{1,3})");
   $.ajax({
     async: false,
-    url: `${baseURLDynamic}/fflnetdynamic${year}/live_stats_${formattedWeek}.txt?RANDOM=${ms}`,
+    url:
+      "https://" +
+      window.location.host +
+      "/fflnetdynamic" +
+      year +
+      "/live_stats_" +
+      formattedWeek +
+      ".txt?RANDOM=" +
+      ms,
     dataType: "text",
     success: function (data) {
       const lines = data.split("\n");
@@ -323,6 +347,7 @@ function getLiveStatsDetails() {
   }).fail(function () {
     if (console) console.log("error");
   });
+
   return liveStats;
 }
 
@@ -331,7 +356,6 @@ function formatPlayerName(name) {
   if (nameSplit.length < 2) return name;
   return nameSplit[1] + " " + nameSplit[0];
 }
-
 function getPlayingStatusClass(secondsRemaing) {
   let playingStatus = "";
   if (secondsRemaing === 3600) {
@@ -343,12 +367,11 @@ function getPlayingStatusClass(secondsRemaing) {
   }
   return playingStatus;
 }
-
 function getTouches(evt) {
   return (
     evt.touches || // browser API
     evt.originalEvent.touches
-  );
+  ); // jQuery
 }
 
 function handleTouchStart(evt) {
@@ -361,15 +384,20 @@ function handleTouchMove(evt) {
   if (!xDown || !yDown) {
     return;
   }
+
   var xUp = evt.touches[0].clientX;
   var yUp = evt.touches[0].clientY;
+
   var xDiff = xDown - xUp;
   var yDiff = yDown - yUp;
+
   if (Math.abs(xDiff) > Math.abs(yDiff) && Math.abs(xDiff) > 70) {
     /*most significant*/
     if (xDiff > 0) {
+      // alert("swipe left");
       dexCurrMatchup += 1;
     } else {
+      // alert("swipe right");
       dexCurrMatchup -= 1;
     }
   } else {
@@ -380,10 +408,13 @@ function handleTouchMove(evt) {
   } else if (dexCurrMatchup < 0) {
     dexCurrMatchup = totalMatchups - 1;
   }
+  // alert("move x " + xDiff + " y diff " + yDiff);
   $(".matchup-dot").removeClass("active");
   $("#dot_" + dexCurrMatchup).addClass("active");
   $(".matchup-box").css("order", 99);
   $("#matchup_" + dexCurrMatchup).css("order", 1);
+
+  /* reset values */
   xDown = null;
   yDown = null;
 }
@@ -425,25 +456,29 @@ function formatPlayerStats(playerStats) {
   }
   return statsStr;
 }
-
 function refreshGameScore() {
   if (console) console.time("Refresh Game Scores");
-  let gameScores = getNFLSchedule();
+  let gameScores = getNFLSchedule(real_ls_week);
+  // console.log(gameScores);
   for (x in gameScores.nflSchedule.matchup) {
     // console.log(gameScores.nflSchedule.matchup[x]);
     let matchup = gameScores.nflSchedule.matchup[x];
     let team1 =
       (matchup.team[0].isHome === "1" ? "" : "@") + matchup.team[1].id;
+
     let team2 =
       (matchup.team[1].isHome === "1" ? "" : "@") + matchup.team[0].id;
+
     if (matchup.status == "SCHED") {
       var kickoff = new Date(parseInt(matchup.kickoff) * 1000);
       let kickoffFormat = new Intl.DateTimeFormat("default", {
         weekday: "short",
+        // day: "numeric",
         timeZoneName: "short",
         hour: "numeric",
         minute: "numeric",
       }).format(kickoff);
+
       team1 += " " + kickoffFormat;
       team2 += " " + kickoffFormat;
     } else {
@@ -470,21 +505,19 @@ function refreshGameScore() {
   }
   if (console) console.timeEnd("Refresh Game Scores");
 }
-
 function refreshStats() {
   if (console) console.time("Refresh Stats");
-  let liveStats = getLiveStatsDetails();
+  let liveStats = getLiveStatsDetails(real_ls_week);
   for (playerID in liveStats) {
     if ($("#stats_" + playerID).length === 0) continue;
     $("#stats_" + playerID).html(formatPlayerStats(liveStats[playerID]));
   }
   if (console) console.timeEnd("Refresh Stats");
 }
-
 function refreshScores() {
   if (console) console.time("Refresh Scores");
   if (console) console.time("fetch scoring api");
-  let liveScoring = getLiveScoringDetails();
+  let liveScoring = getLiveScoringDetails(real_ls_week);
   if (console) console.timeEnd("fetch scoring api");
   for (m in liveScoring.liveScoring.matchup) {
     for (f in liveScoring.liveScoring.matchup[m].franchise) {
@@ -493,6 +526,7 @@ function refreshScores() {
       for (p in franchise.players.player) {
         let playerScore = franchise.players.player[p];
         let timeRemaining = parseInt(playerScore.gameSecondsRemaining);
+        // console.log("player score", playerScore, timeRemaining);
         if (timeRemaining === 3600) continue; // no need to do anything for player that hasn't started
         if (timeRemaining > 0) {
           let minutes = Math.floor(timeRemaining / 60);
@@ -501,6 +535,7 @@ function refreshScores() {
           $("#game-time-" + playerScore.id).html(
             quarter + "Q " + minutes + ":" + seconds
           );
+          // console.log("quarter", quarter, minutes, seconds);
         }
         $("#player_row_" + playerScore.id)
           .removeClass("done waiting playing")
@@ -513,16 +548,3 @@ function refreshScores() {
   }
   if (console) console.timeEnd("Refresh Scores");
 }
-
-const checkArrayInterval = setInterval(function () {
-  if (real_ls_week > 0) {
-    if (reportStandings_ar && reportStandings_ar.length > 0) {
-      checkArrayThenExecute();
-      clearInterval(checkArrayInterval);
-    } else {
-      console.log("Waiting for reportStandings_ar to be filled...");
-    }
-  } else {
-    clearInterval(checkArrayInterval); // Clear the interval if real_ls_week is not greater than 0
-  }
-}, 100);
