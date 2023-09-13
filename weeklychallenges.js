@@ -954,7 +954,7 @@ function mostTeamPointsHTML(week, franchises, isPlayoff, storageKey) {
     maxScoreFranchise = JSON.parse(localStorage.getItem(storageKey));
     return (
       '<span class="franchise-name">' +
-      maxScoreFranchise.franchiseName +
+      maxScoreFranchise.name +
       '</span><span class="wc_score">' +
       maxScoreFranchise.score +
       "</span>"
@@ -993,7 +993,7 @@ function mostTeamPointsHTML(week, franchises, isPlayoff, storageKey) {
     localStorage.setItem(storageKey, JSON.stringify(maxTeamPoints));
   return (
     '<span class="franchise-name">' +
-    maxTeamPoints.franchiseName +
+    maxTeamPoints.name +
     '</span><span class="wc_score">' +
     maxTeamPoints.score +
     "</span>"
