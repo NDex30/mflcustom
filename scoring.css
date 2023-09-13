@@ -23,7 +23,8 @@ div#dexscoring {
 
 div.franchise-icon,
 .franchise-name,
-.franchise-score {
+.franchise-score,
+.franchise-record {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -167,6 +168,9 @@ div.franchise-score {
   background: none;
   font-size: 1.75rem;
   margin: 10px 0;
+}
+.franchise-record {
+  font-size: 1.2rem;
 }
 .franchise-box:nth-child(odd) .players {
   border-right: 1px solid #c2c2c2;
