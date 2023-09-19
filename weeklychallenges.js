@@ -37,7 +37,7 @@ $(function () {
       challenge() {
         return mostAllPurposeYardsHTML(
           2,
-          formattedWeek,
+          "02",
           franchiseDatabase,
           playerDatabase,
           "smashBrosMostAllPurposeYards"
@@ -89,7 +89,7 @@ $(function () {
       challenge() {
         return longestTouchdownPassHTML(
           6,
-          formattedWeek,
+          "06",
           franchiseDatabase,
           playerDatabase,
           "smashBrosLongestTouchdownPass"
@@ -102,7 +102,7 @@ $(function () {
       challenge() {
         return lmostTeamReceptionsHTML(
           7,
-          formattedWeek,
+          "07",
           franchiseDatabase,
           playerDatabase,
           "smashBrosMostTeamReceptions"
@@ -128,7 +128,7 @@ $(function () {
       challenge() {
         return mostPlayerReceptionsHTML(
           9,
-          formattedWeek,
+          "09",
           franchiseDatabase,
           playerDatabase,
           "smashBrosMostPlayerReceptions2"
@@ -154,7 +154,7 @@ $(function () {
       challenge() {
         return mostTeamTDSHTML(
           11,
-          formattedWeek,
+          "11",
           franchiseDatabase,
           playerDatabase,
           "smashBrosMostTeamTDs2"
@@ -191,7 +191,7 @@ $(function () {
       challenge() {
         return mostPlayerAllPurposeYardsHTML(
           14,
-          formattedWeek,
+          "14",
           franchiseDatabase,
           playerDatabase,
           ["RB", "WR", "TE"],
