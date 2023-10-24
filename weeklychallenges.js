@@ -100,7 +100,7 @@ $(function () {
       name: "Most Team Receptions",
       week: 7,
       challenge() {
-        return lmostTeamReceptionsHTML(
+        return mostTeamReceptionsHTML(
           7,
           "07",
           franchiseDatabase,
