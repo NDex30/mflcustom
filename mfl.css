@@ -20,3 +20,22 @@ table#standings,table#standings tbody {
     margin: 5px 0 0;
     padding: 0;
 }
+.weekly-box {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+.weekly-box .franchise-name {
+    flex: 1 1 auto;
+    /* display: inline; */
+}
+.weekly-box .player-name {
+    flex-wrap: nowrap;
+    display: inline-flex;
+    white-space: nowrap;
+}
+.weekly-box .wc_score {
+    padding: 0 10px;
+}
