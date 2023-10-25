@@ -234,7 +234,7 @@ $(function () {
       "</h3></td></tr>";
     if (challenges[x].week <= completedWeek) {
       newContent +=
-        '<tr><td><div id="wc_week1">' +
+        '<tr><td><div class="weekly-box" id="wc_week'+challenges[x].week+'">' +
         challenges[x].challenge() +
         "</div></td></tr>";
     }
