@@ -939,8 +939,10 @@ function mostTeamPoints(week, franchises, isPlayoff, storageKey) {
     ...maxScoreFranchise,
     ...franchises["fid_" + maxScoreFranchise.id],
   };
-  if (storageKey !== "")
+  if (storageKey !== ""){
+    if(console)console.log("most team points",storageKey,"val",JSON.stringify(maxTeamPoints));
     localStorage.setItem(storageKey, JSON.stringify(maxTeamPoints));
+  }
   return maxTeamPoints;
 }
 
@@ -989,8 +991,10 @@ function mostTeamPointsHTML(week, franchises, isPlayoff, storageKey) {
     ...maxScoreFranchise,
     ...franchises["fid_" + maxScoreFranchise.id],
   };
-  if (storageKey !== "")
+  if (storageKey !== ""){
+    if(console)console.log("most team points html",storageKey,"val",JSON.stringify(maxTeamPoints));
     localStorage.setItem(storageKey, JSON.stringify(maxTeamPoints));
+  }
   return (
     '<span class="franchise-name">' +
     maxTeamPoints.name +
