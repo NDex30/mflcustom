@@ -992,8 +992,8 @@ function mostTeamPointsHTML(week, franchises, isPlayoff, storageKey) {
     name: franchises["fid_" + maxScoreFranchise.id].name,
   };
   if (storageKey !== ""){
-    if(console)console.log("most team points html",storageKey,"val",JSON.stringify(maxScoreFranchise));
-    localStorage.setItem(storageKey, JSON.stringify(maxScoreFranchise));
+    if(console)console.log("most team points html",storageKey,"val",JSON.stringify(maxTeamPoints));
+    localStorage.setItem(storageKey, JSON.stringify(maxTeamPoints));
   }
   return (
     '<span class="franchise-name">' +
