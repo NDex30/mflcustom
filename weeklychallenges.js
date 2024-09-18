@@ -989,7 +989,7 @@ function mostTeamPointsHTML(week, franchises, isPlayoff, storageKey) {
   // console.log(maxScoreFranchise,franchises["fid_"+maxScoreFranchise.id]);
   let maxTeamPoints = {
     score: maxScoreFranchise.score,
-    ...franchises["fid_" + maxScoreFranchise.id],
+    name: franchises["fid_" + maxScoreFranchise.id].name,
   };
   if (storageKey !== ""){
     if(console)console.log("most team points html",storageKey,"val",JSON.stringify(maxScoreFranchise));
