@@ -27,7 +27,7 @@ $(function () {
           1,
           franchiseDatabase,
           false,
-          "smashBrosMostTeamPoints"
+          "smashBrosMostTeamPoints" + year
         );
       },
     },
@@ -40,7 +40,7 @@ $(function () {
           "02",
           franchiseDatabase,
           playerDatabase,
-          "smashBrosMostAllPurposeYards"
+          "smashBrosMostAllPurposeYards" + year
         );
       },
     },
@@ -53,7 +53,7 @@ $(function () {
           franchiseDatabase,
           playerDatabase,
           ["RB"],
-          "smashBrosMostRBPoints"
+          "smashBrosMostRBPoints" + year
         );
       },
     },
@@ -66,7 +66,7 @@ $(function () {
           franchiseDatabase,
           playerDatabase,
           ["QB"],
-          "smashBrosMostQBPoints"
+          "smashBrosMostQBPoints" + year
         );
       },
     },
@@ -79,7 +79,7 @@ $(function () {
           franchiseDatabase,
           playerDatabase,
           ["PK"],
-          "smashBrosMostKickerPoints"
+          "smashBrosMostKickerPoints" + year
         );
       },
     },
@@ -92,7 +92,7 @@ $(function () {
           "06",
           franchiseDatabase,
           playerDatabase,
-          "smashBrosLongestTouchdownPass"
+          "smashBrosLongestTouchdownPass" + year
         );
       },
     },
@@ -105,7 +105,7 @@ $(function () {
           "07",
           franchiseDatabase,
           playerDatabase,
-          "smashBrosMostTeamReceptions"
+          "smashBrosMostTeamReceptions" + year
         );
       },
     },
@@ -118,7 +118,7 @@ $(function () {
           franchiseDatabase,
           playerDatabase,
           ["Def"],
-          "smashBrosMostDefensePoints"
+          "smashBrosMostDefensePoints" + year
         );
       },
     },
@@ -131,7 +131,7 @@ $(function () {
           "09",
           franchiseDatabase,
           playerDatabase,
-          "smashBrosMostPlayerReceptions2"
+          "smashBrosMostPlayerReceptions2" + year
         );
       },
     },
@@ -144,7 +144,7 @@ $(function () {
           franchiseDatabase,
           playerDatabase,
           ["TE"],
-          "smashBrosMostTEPoints"
+          "smashBrosMostTEPoints" + year
         );
       },
     },
@@ -157,7 +157,7 @@ $(function () {
           "11",
           franchiseDatabase,
           playerDatabase,
-          "smashBrosMostTeamTDs2"
+          "smashBrosMostTeamTDs2" + year
         );
       },
     },
@@ -170,7 +170,7 @@ $(function () {
           franchiseDatabase,
           playerDatabase,
           ["RB", "WR", "TE"],
-          "smashBrosMostNonQBPoints"
+          "smashBrosMostNonQBPoints" + year
         );
       },
     },
@@ -181,7 +181,7 @@ $(function () {
         return biggestWinMarginHTML(
           13,
           franchiseDatabase,
-          "smashedBrosGreatestWinMargin"
+          "smashedBrosGreatestWinMargin" + year
         );
       },
     },
@@ -195,7 +195,7 @@ $(function () {
           franchiseDatabase,
           playerDatabase,
           ["RB", "WR", "TE"],
-          "smashBrosMostNonQBYards"
+          "smashBrosMostNonQBYards" + year
         );
       },
     },
@@ -207,7 +207,7 @@ $(function () {
           15,
           franchiseDatabase,
           true,
-          "smashBrosMostTeamPoints15"
+          "smashBrosMostTeamPoints15" + year
         );
       },
     },
@@ -219,7 +219,7 @@ $(function () {
           16,
           franchiseDatabase,
           true,
-          "smashBrosMostTeamPoints16"
+          "smashBrosMostTeamPoints16" + year
         );
       },
     },
