@@ -1,0 +1,2656 @@
+{
+  "Week 1: Most Team Points": [
+    {
+      "franchiseId": "0007",
+      "name": "Zamby the Milf Slayer",
+      "score": 164.85
+    },
+    {
+      "franchiseId": "0001",
+      "name": "lol touchdowns",
+      "score": 147.5
+    },
+    {
+      "franchiseId": "0004",
+      "name": "Don't Call It A Comeback!",
+      "score": 137.45
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "score": 135.3
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Bow to your champion!",
+      "score": 132.44
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Muscly Arm Paper Boys",
+      "score": 128.5
+    },
+    {
+      "franchiseId": "0002",
+      "name": "La Muerte Peluda",
+      "score": 122.3
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Marked Safe from Apple Picking",
+      "score": 120.4
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Keenan’s Gypsy Tears",
+      "score": 119.2
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "score": 110.6
+    }
+  ],
+  "Week 2: Most All-Purpose Yards": [
+    {
+      "franchiseId": "0006",
+      "name": "Keenan’s Gypsy Tears",
+      "yards": 686
+    },
+    {
+      "franchiseId": "0002",
+      "name": "La Muerte Peluda",
+      "yards": 630
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Bow to your champion!",
+      "yards": 610
+    },
+    {
+      "franchiseId": "0001",
+      "name": "lol touchdowns",
+      "yards": 592
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Muscly Arm Paper Boys",
+      "yards": 573
+    },
+    {
+      "franchiseId": "0007",
+      "name": "Zamby the Milf Slayer",
+      "yards": 568
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Marked Safe from Apple Picking",
+      "yards": 555
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "yards": 507
+    },
+    {
+      "franchiseId": "0004",
+      "name": "Don't Call It A Comeback!",
+      "yards": 463
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "yards": 356
+    }
+  ],
+  "Week 3: Most Points from Single Running Back": [
+    {
+      "playerId": "13604",
+      "playerName": "Barkley, Saquon",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "score": 33.6
+    },
+    {
+      "playerId": "15710",
+      "playerName": "Williams, Kyren",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 31.6
+    },
+    {
+      "playerId": "12626",
+      "playerName": "Henry, Derrick",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 30.4
+    },
+    {
+      "playerId": "14802",
+      "playerName": "Taylor, Jonathan",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "score": 26.5
+    },
+    {
+      "playerId": "13319",
+      "playerName": "Jones, Aaron",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 25.8
+    },
+    {
+      "playerId": "16169",
+      "playerName": "Charbonnet, Zach",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 25.7
+    },
+    {
+      "playerId": "14071",
+      "playerName": "Montgomery, David",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 21.2
+    },
+    {
+      "playerId": "14798",
+      "playerName": "Moss, Zack",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "score": 20.7
+    },
+    {
+      "playerId": "14080",
+      "playerName": "Singletary, Devin",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "score": 18.8
+    },
+    {
+      "playerId": "15715",
+      "playerName": "Cook, James",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 18.7
+    },
+    {
+      "playerId": "15708",
+      "playerName": "Hall, Breece",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 18.3
+    },
+    {
+      "playerId": "16162",
+      "playerName": "Gibbs, Jahmyr",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 16.3
+    },
+    {
+      "playerId": "13132",
+      "playerName": "Kamara, Alvin",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 15.7
+    },
+    {
+      "playerId": "16161",
+      "playerName": "Robinson, Bijan",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 13.2
+    },
+    {
+      "playerId": "15253",
+      "playerName": "Etienne, Travis",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "score": 12.5
+    },
+    {
+      "playerId": "15972",
+      "playerName": "Mason, Jordan",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 10.8
+    },
+    {
+      "playerId": "15716",
+      "playerName": "Robinson, Brian",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 10.7
+    },
+    {
+      "playerId": "16167",
+      "playerName": "Achane, De'Von",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 10.08
+    },
+    {
+      "playerId": "15721",
+      "playerName": "White, Rachaad",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "score": 8.5
+    },
+    {
+      "playerId": "14797",
+      "playerName": "Swift, D'Andre",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 6.2
+    },
+    {
+      "playerId": "14085",
+      "playerName": "Pollard, Tony",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 5.9
+    },
+    {
+      "playerId": "14073",
+      "playerName": "Jacobs, Josh",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "score": 5.8
+    },
+    {
+      "playerId": "13146",
+      "playerName": "Conner, James",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "score": 3.5
+    },
+    {
+      "playerId": "15259",
+      "playerName": "Stevenson, Rhamondre",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "score": 0.3
+    }
+  ],
+  "Week 4: Most Points from Single QuarterBack": [
+    {
+      "playerId": "13590",
+      "playerName": "Mayfield, Baker",
+      "position": "QB",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "score": 32.35
+    },
+    {
+      "playerId": "16150",
+      "playerName": "Stroud, C.J.",
+      "position": "QB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 26.95
+    },
+    {
+      "playerId": "16581",
+      "playerName": "Daniels, Jayden",
+      "position": "QB",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 26.35
+    },
+    {
+      "playerId": "13593",
+      "playerName": "Jackson, Lamar",
+      "position": "QB",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "score": 25.2
+    },
+    {
+      "playerId": "14777",
+      "playerName": "Burrow, Joe",
+      "position": "QB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 18.6
+    },
+    {
+      "playerId": "14783",
+      "playerName": "Hurts, Jalen",
+      "position": "QB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 17.9
+    },
+    {
+      "playerId": "13116",
+      "playerName": "Mahomes, Patrick",
+      "position": "QB",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "score": 15.45
+    },
+    {
+      "playerId": "13113",
+      "playerName": "Watson, Deshaun",
+      "position": "QB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 14
+    },
+    {
+      "playerId": "14056",
+      "playerName": "Murray, Kyler",
+      "position": "QB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 11.4
+    },
+    {
+      "playerId": "13589",
+      "playerName": "Allen, Josh",
+      "position": "QB",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "score": 9.1
+    }
+  ],
+  "Week 5: Most Kicker Points": [
+    {
+      "playerId": "12860",
+      "playerName": "Fairbairn, Ka'imi",
+      "position": "PK",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 17.6
+    },
+    {
+      "playerId": "13403",
+      "playerName": "Koo, Younghoe",
+      "position": "PK",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "score": 16.4
+    },
+    {
+      "playerId": "13354",
+      "playerName": "Butker, Harrison",
+      "position": "PK",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 14.2
+    },
+    {
+      "playerId": "10976",
+      "playerName": "Tucker, Justin",
+      "position": "PK",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "score": 13.6
+    },
+    {
+      "playerId": "13832",
+      "playerName": "Sanders, Jason",
+      "position": "PK",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "score": 12.3
+    },
+    {
+      "playerId": "14258",
+      "playerName": "Seibert, Austin",
+      "position": "PK",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 10
+    },
+    {
+      "playerId": "16414",
+      "playerName": "Aubrey, Brandon",
+      "position": "PK",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 9.8
+    },
+    {
+      "playerId": "14983",
+      "playerName": "Bass, Tyler",
+      "position": "PK",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 9.1
+    },
+    {
+      "playerId": "16286",
+      "playerName": "Moody, Jake",
+      "position": "PK",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "score": 8
+    },
+    {
+      "playerId": "11936",
+      "playerName": "Boswell, Chris",
+      "position": "PK",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 6.1
+    }
+  ],
+  "Week 6: Longest QB TD": [
+    {
+      "playerId": "13590",
+      "playerName": "Mayfield, Baker",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "passYards": 55
+    },
+    {
+      "playerId": "14783",
+      "playerName": "Hurts, Jalen",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "passYards": 45
+    },
+    {
+      "playerId": "14782",
+      "playerName": "Love, Jordan",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "passYards": 44
+    },
+    {
+      "playerId": "13590",
+      "playerName": "Mayfield, Baker",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "passYards": 36
+    },
+    {
+      "playerId": "14783",
+      "playerName": "Hurts, Jalen",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "passYards": 22
+    },
+    {
+      "playerId": "14782",
+      "playerName": "Love, Jordan",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "passYards": 20
+    },
+    {
+      "playerId": "13593",
+      "playerName": "Jackson, Lamar",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "passYards": 13
+    },
+    {
+      "playerId": "13589",
+      "playerName": "Allen, Josh",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "passYards": 12
+    },
+    {
+      "playerId": "16150",
+      "playerName": "Stroud, C.J.",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "passYards": 10
+    },
+    {
+      "playerId": "16150",
+      "playerName": "Stroud, C.J.",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "passYards": 10
+    },
+    {
+      "playerId": "14782",
+      "playerName": "Love, Jordan",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "passYards": 10
+    },
+    {
+      "playerId": "13589",
+      "playerName": "Allen, Josh",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "passYards": 8
+    },
+    {
+      "playerId": "13590",
+      "playerName": "Mayfield, Baker",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "passYards": 8
+    },
+    {
+      "playerId": "16581",
+      "playerName": "Daniels, Jayden",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "passYards": 7
+    },
+    {
+      "playerId": "16581",
+      "playerName": "Daniels, Jayden",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "passYards": 6
+    },
+    {
+      "playerId": "14782",
+      "playerName": "Love, Jordan",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "passYards": 5
+    },
+    {
+      "playerId": "13590",
+      "playerName": "Mayfield, Baker",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "passYards": 4
+    },
+    {
+      "playerId": "10700",
+      "playerName": "Cousins, Kirk",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "passYards": 3
+    },
+    {
+      "playerId": "16150",
+      "playerName": "Stroud, C.J.",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "passYards": 2
+    }
+  ],
+  "Week 7: Most Team Receptions": [
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 30
+    },
+    {
+      "franchiseId": "0002",
+      "name": "La Muerte Peluda",
+      "receptions": 29
+    },
+    {
+      "franchiseId": "0001",
+      "name": "lol touchdowns",
+      "receptions": 29
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Muscly Arm Paper Boys",
+      "receptions": 27
+    },
+    {
+      "franchiseId": "0007",
+      "name": "Zamby the Milf Slayer",
+      "receptions": 21
+    },
+    {
+      "franchiseId": "0004",
+      "name": "Don't Call It A Comeback!",
+      "receptions": 18
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Bow to your champion!",
+      "receptions": 18
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Marked Safe from Apple Picking",
+      "receptions": 16
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Keenan’s Gypsy Tears",
+      "receptions": 15
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "receptions": 15
+    }
+  ],
+  "Week 8: Most DEF Points": [
+    {
+      "playerId": "0510",
+      "playerName": "Steelers, Pittsburgh",
+      "position": "Def",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "score": 13
+    },
+    {
+      "playerId": "0501",
+      "playerName": "Bills, Buffalo",
+      "position": "Def",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "score": 9
+    },
+    {
+      "playerId": "0512",
+      "playerName": "Chiefs, Kansas City",
+      "position": "Def",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 9
+    },
+    {
+      "playerId": "0511",
+      "playerName": "Broncos, Denver",
+      "position": "Def",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 9
+    },
+    {
+      "playerId": "0514",
+      "playerName": "Chargers, Los Angeles",
+      "position": "Def",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 8
+    },
+    {
+      "playerId": "0505",
+      "playerName": "Jets, New York",
+      "position": "Def",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 5
+    },
+    {
+      "playerId": "0523",
+      "playerName": "Packers, Green Bay",
+      "position": "Def",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 4
+    },
+    {
+      "playerId": "0507",
+      "playerName": "Browns, Cleveland",
+      "position": "Def",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 2
+    },
+    {
+      "playerId": "0524",
+      "playerName": "Vikings, Minnesota",
+      "position": "Def",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "score": 0
+    },
+    {
+      "playerId": "0531",
+      "playerName": "Ravens, Baltimore",
+      "position": "Def",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "score": 0
+    }
+  ],
+  "Week 9: Most Single Player Receptions": [
+    {
+      "playerId": "11244",
+      "playerName": "Kelce, Travis",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "receptions": 14
+    },
+    {
+      "playerId": "13164",
+      "playerName": "Kupp, Cooper",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "receptions": 11
+    },
+    {
+      "playerId": "16615",
+      "playerName": "Nabers, Malik",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "receptions": 9
+    },
+    {
+      "playerId": "15753",
+      "playerName": "Wilson, Garrett",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "receptions": 9
+    },
+    {
+      "playerId": "16167",
+      "playerName": "Achane, De'Von",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 8
+    },
+    {
+      "playerId": "14832",
+      "playerName": "Lamb, CeeDee",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "receptions": 8
+    },
+    {
+      "playerId": "11232",
+      "playerName": "Hopkins, DeAndre",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "receptions": 8
+    },
+    {
+      "playerId": "14836",
+      "playerName": "Jefferson, Justin",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "receptions": 7
+    },
+    {
+      "playerId": "14833",
+      "playerName": "Jeudy, Jerry",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 7
+    },
+    {
+      "playerId": "15281",
+      "playerName": "Chase, Ja'Marr",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "receptions": 7
+    },
+    {
+      "playerId": "16185",
+      "playerName": "Smith-Njigba, Jaxon",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "receptions": 7
+    },
+    {
+      "playerId": "15287",
+      "playerName": "St. Brown, Amon-Ra",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "receptions": 7
+    },
+    {
+      "playerId": "16161",
+      "playerName": "Robinson, Bijan",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "receptions": 7
+    },
+    {
+      "playerId": "15799",
+      "playerName": "Ferguson, Jake",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "receptions": 7
+    },
+    {
+      "playerId": "13630",
+      "playerName": "Sutton, Courtland",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "receptions": 7
+    },
+    {
+      "playerId": "14797",
+      "playerName": "Swift, D'Andre",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 6
+    },
+    {
+      "playerId": "16204",
+      "playerName": "Dell, Tank",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "receptions": 6
+    },
+    {
+      "playerId": "13132",
+      "playerName": "Kamara, Alvin",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "receptions": 6
+    },
+    {
+      "playerId": "15761",
+      "playerName": "Shakir, Khalil",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "receptions": 6
+    },
+    {
+      "playerId": "16187",
+      "playerName": "Downs, Josh",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "receptions": 6
+    },
+    {
+      "playerId": "16181",
+      "playerName": "Brown, Chase",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "receptions": 5
+    },
+    {
+      "playerId": "16627",
+      "playerName": "McConkey, Ladd",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 5
+    },
+    {
+      "playerId": "15715",
+      "playerName": "Cook, James",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 5
+    },
+    {
+      "playerId": "13192",
+      "playerName": "Njoku, David",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 5
+    },
+    {
+      "playerId": "16641",
+      "playerName": "Bowers, Brock",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "receptions": 5
+    },
+    {
+      "playerId": "14974",
+      "playerName": "Mooney, Darnell",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "receptions": 5
+    },
+    {
+      "playerId": "13189",
+      "playerName": "Engram, Evan",
+      "position": "TE",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "receptions": 5
+    },
+    {
+      "playerId": "13629",
+      "playerName": "Ridley, Calvin",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "receptions": 5
+    },
+    {
+      "playerId": "15259",
+      "playerName": "Stevenson, Rhamondre",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "receptions": 5
+    },
+    {
+      "playerId": "16184",
+      "playerName": "Reed, Jayden",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "receptions": 5
+    },
+    {
+      "playerId": "16190",
+      "playerName": "Flowers, Zay",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 5
+    },
+    {
+      "playerId": "15282",
+      "playerName": "Smith, DeVonta",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "receptions": 4
+    },
+    {
+      "playerId": "16222",
+      "playerName": "Kraft, Tucker",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "receptions": 4
+    },
+    {
+      "playerId": "12801",
+      "playerName": "Hill, Tyreek",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 4
+    },
+    {
+      "playerId": "13635",
+      "playerName": "Moore, D.J.",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 4
+    },
+    {
+      "playerId": "11222",
+      "playerName": "Allen, Keenan",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 4
+    },
+    {
+      "playerId": "16213",
+      "playerName": "Kincaid, Dalton",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "receptions": 4
+    },
+    {
+      "playerId": "15794",
+      "playerName": "McBride, Trey",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "receptions": 3
+    },
+    {
+      "playerId": "14085",
+      "playerName": "Pollard, Tony",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "receptions": 3
+    },
+    {
+      "playerId": "15721",
+      "playerName": "White, Rachaad",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "receptions": 3
+    },
+    {
+      "playerId": "13146",
+      "playerName": "Conner, James",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "receptions": 3
+    },
+    {
+      "playerId": "15711",
+      "playerName": "Walker III, Kenneth",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "receptions": 3
+    },
+    {
+      "playerId": "14802",
+      "playerName": "Taylor, Jonathan",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "receptions": 3
+    },
+    {
+      "playerId": "13604",
+      "playerName": "Barkley, Saquon",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "receptions": 3
+    },
+    {
+      "playerId": "14071",
+      "playerName": "Montgomery, David",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 3
+    },
+    {
+      "playerId": "15757",
+      "playerName": "Robinson, Wan'Dale",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 3
+    },
+    {
+      "playerId": "15708",
+      "playerName": "Hall, Breece",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "receptions": 2
+    },
+    {
+      "playerId": "14109",
+      "playerName": "McLaurin, Terry",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "receptions": 2
+    },
+    {
+      "playerId": "15751",
+      "playerName": "London, Drake",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "receptions": 2
+    },
+    {
+      "playerId": "15256",
+      "playerName": "Williams, Javonte",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "receptions": 2
+    },
+    {
+      "playerId": "14073",
+      "playerName": "Jacobs, Josh",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "receptions": 2
+    },
+    {
+      "playerId": "16214",
+      "playerName": "LaPorta, Sam",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "receptions": 2
+    },
+    {
+      "playerId": "15261",
+      "playerName": "Hubbard, Chuba",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "receptions": 2
+    },
+    {
+      "playerId": "15284",
+      "playerName": "Waddle, Jaylen",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "receptions": 2
+    },
+    {
+      "playerId": "12447",
+      "playerName": "Mostert, Raheem",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "receptions": 2
+    },
+    {
+      "playerId": "14104",
+      "playerName": "Brown, A.J.",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 2
+    },
+    {
+      "playerId": "14842",
+      "playerName": "Pittman, Michael",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "receptions": 1
+    },
+    {
+      "playerId": "16747",
+      "playerName": "Tracy, Tyrone",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "receptions": 1
+    },
+    {
+      "playerId": "16582",
+      "playerName": "Nix, Bo",
+      "position": "QB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 1
+    },
+    {
+      "playerId": "15754",
+      "playerName": "Olave, Chris",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 1
+    },
+    {
+      "playerId": "15329",
+      "playerName": "Pitts, Kyle",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 1
+    },
+    {
+      "playerId": "16162",
+      "playerName": "Gibbs, Jahmyr",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 1
+    },
+    {
+      "playerId": "16211",
+      "playerName": "Nacua, Puka",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 1
+    },
+    {
+      "playerId": "13138",
+      "playerName": "Hunt, Kareem",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "receptions": 1
+    },
+    {
+      "playerId": "15710",
+      "playerName": "Williams, Kyren",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 1
+    },
+    {
+      "playerId": "12626",
+      "playerName": "Henry, Derrick",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 1
+    },
+    {
+      "playerId": "11247",
+      "playerName": "Ertz, Zach",
+      "position": "TE",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 1
+    }
+  ],
+  "Week 10: Most Points from Single Tight End": [
+    {
+      "playerId": "11244",
+      "playerName": "Kelce, Travis",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "score": 20.4
+    },
+    {
+      "playerId": "13671",
+      "playerName": "Andrews, Mark",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 18.8
+    },
+    {
+      "playerId": "16214",
+      "playerName": "LaPorta, Sam",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "score": 15.6
+    },
+    {
+      "playerId": "14138",
+      "playerName": "Hockenson, T.J.",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 15.2
+    },
+    {
+      "playerId": "13299",
+      "playerName": "Kittle, George",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "score": 14.7
+    },
+    {
+      "playerId": "15794",
+      "playerName": "McBride, Trey",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 11.1
+    },
+    {
+      "playerId": "13189",
+      "playerName": "Engram, Evan",
+      "position": "TE",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 10
+    },
+    {
+      "playerId": "15802",
+      "playerName": "Otton, Cade",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 8.5
+    },
+    {
+      "playerId": "13672",
+      "playerName": "Gesicki, Mike",
+      "position": "TE",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 7
+    },
+    {
+      "playerId": "15799",
+      "playerName": "Ferguson, Jake",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "score": 4.4
+    },
+    {
+      "playerId": "16213",
+      "playerName": "Kincaid, Dalton",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "score": 4.4
+    },
+    {
+      "playerId": "15798",
+      "playerName": "Likely, Isaiah",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 0
+    }
+  ],
+  "Week 11: Most Team TDs": [
+    {
+      "franchiseId": "0008",
+      "name": "Bow to your champion!",
+      "tds": 10
+    },
+    {
+      "franchiseId": "0002",
+      "name": "La Muerte Peluda",
+      "tds": 9
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "tds": 8
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "tds": 6
+    },
+    {
+      "franchiseId": "0007",
+      "name": "Zamby the Milf Slayer",
+      "tds": 6
+    },
+    {
+      "franchiseId": "0001",
+      "name": "lol touchdowns",
+      "tds": 6
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Marked Safe from Apple Picking",
+      "tds": 5
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Muscly Arm Paper Boys",
+      "tds": 4
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Keenan’s Gypsy Tears",
+      "tds": 2
+    },
+    {
+      "franchiseId": "0004",
+      "name": "Don't Call It A Comeback!",
+      "tds": 2
+    }
+  ],
+  "Week 12: Player with Most Points (No QB)": [
+    {
+      "playerId": "13604",
+      "playerName": "Barkley, Saquon",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "score": 46.2
+    },
+    {
+      "playerId": "13630",
+      "playerName": "Sutton, Courtland",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "score": 29.7
+    },
+    {
+      "playerId": "14073",
+      "playerName": "Jacobs, Josh",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "score": 28.6
+    },
+    {
+      "playerId": "16598",
+      "playerName": "Irving, Bucky",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 27.2
+    },
+    {
+      "playerId": "13635",
+      "playerName": "Moore, D.J.",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 26.9
+    },
+    {
+      "playerId": "16162",
+      "playerName": "Gibbs, Jahmyr",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 24.9
+    },
+    {
+      "playerId": "11222",
+      "playerName": "Allen, Keenan",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 23.6
+    },
+    {
+      "playerId": "14104",
+      "playerName": "Brown, A.J.",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 22.9
+    },
+    {
+      "playerId": "14085",
+      "playerName": "Pollard, Tony",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 21.9
+    },
+    {
+      "playerId": "14109",
+      "playerName": "McLaurin, Terry",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 21.2
+    },
+    {
+      "playerId": "16211",
+      "playerName": "Nacua, Puka",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 20.7
+    },
+    {
+      "playerId": "16167",
+      "playerName": "Achane, De'Von",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 20.6
+    },
+    {
+      "playerId": "15290",
+      "playerName": "Collins, Nico",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "score": 20.2
+    },
+    {
+      "playerId": "13164",
+      "playerName": "Kupp, Cooper",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 20
+    },
+    {
+      "playerId": "13319",
+      "playerName": "Jones, Aaron",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 19.9
+    },
+    {
+      "playerId": "16185",
+      "playerName": "Smith-Njigba, Jaxon",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "score": 19.7
+    },
+    {
+      "playerId": "14138",
+      "playerName": "Hockenson, T.J.",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 18.4
+    },
+    {
+      "playerId": "14832",
+      "playerName": "Lamb, CeeDee",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "score": 16.8
+    },
+    {
+      "playerId": "15742",
+      "playerName": "Warren, Jaylen",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "score": 16.44
+    },
+    {
+      "playerId": "14071",
+      "playerName": "Montgomery, David",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 16.3
+    },
+    {
+      "playerId": "11247",
+      "playerName": "Ertz, Zach",
+      "position": "TE",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 15.8
+    },
+    {
+      "playerId": "13671",
+      "playerName": "Andrews, Mark",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 15.6
+    },
+    {
+      "playerId": "14842",
+      "playerName": "Pittman, Michael",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 15.6
+    },
+    {
+      "playerId": "15261",
+      "playerName": "Hubbard, Chuba",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "score": 15
+    },
+    {
+      "playerId": "11232",
+      "playerName": "Hopkins, DeAndre",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "score": 14.5
+    },
+    {
+      "playerId": "13629",
+      "playerName": "Ridley, Calvin",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 14.3
+    },
+    {
+      "playerId": "16627",
+      "playerName": "McConkey, Ladd",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 14.3
+    },
+    {
+      "playerId": "12626",
+      "playerName": "Henry, Derrick",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 14
+    },
+    {
+      "playerId": "15711",
+      "playerName": "Walker III, Kenneth",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 13.3
+    },
+    {
+      "playerId": "15287",
+      "playerName": "St. Brown, Amon-Ra",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "score": 12.8
+    },
+    {
+      "playerId": "16615",
+      "playerName": "Nabers, Malik",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 12.4
+    },
+    {
+      "playerId": "11244",
+      "playerName": "Kelce, Travis",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "score": 12.2
+    },
+    {
+      "playerId": "11671",
+      "playerName": "Evans, Mike",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 11.8
+    },
+    {
+      "playerId": "15756",
+      "playerName": "Williams, Jameson",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "score": 11.8
+    },
+    {
+      "playerId": "13138",
+      "playerName": "Hunt, Kareem",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "score": 11.7
+    },
+    {
+      "playerId": "15721",
+      "playerName": "White, Rachaad",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "score": 11.7
+    },
+    {
+      "playerId": "15710",
+      "playerName": "Williams, Kyren",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 11.2
+    },
+    {
+      "playerId": "16190",
+      "playerName": "Flowers, Zay",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 11.2
+    },
+    {
+      "playerId": "16204",
+      "playerName": "Dell, Tank",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "score": 10.2
+    },
+    {
+      "playerId": "15331",
+      "playerName": "Freiermuth, Pat",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 9.9
+    },
+    {
+      "playerId": "13146",
+      "playerName": "Conner, James",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "score": 9.9
+    },
+    {
+      "playerId": "14102",
+      "playerName": "Metcalf, DK",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "score": 9.9
+    },
+    {
+      "playerId": "12801",
+      "playerName": "Hill, Tyreek",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 9.8
+    },
+    {
+      "playerId": "13131",
+      "playerName": "Mixon, Joe",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 9.5
+    },
+    {
+      "playerId": "14797",
+      "playerName": "Swift, D'Andre",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 9.5
+    },
+    {
+      "playerId": "12676",
+      "playerName": "Henry, Hunter",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "score": 9.4
+    },
+    {
+      "playerId": "16747",
+      "playerName": "Tracy, Tyrone",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 9
+    },
+    {
+      "playerId": "14860",
+      "playerName": "Jennings, Jauan",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 9
+    },
+    {
+      "playerId": "16616",
+      "playerName": "Odunze, Rome",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "score": 8.9
+    },
+    {
+      "playerId": "14800",
+      "playerName": "Dobbins, J.K.",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 8.9
+    },
+    {
+      "playerId": "15762",
+      "playerName": "Pickens, George",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "score": 8.8
+    },
+    {
+      "playerId": "13763",
+      "playerName": "Dissly, Will",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "score": 8.7
+    },
+    {
+      "playerId": "13404",
+      "playerName": "Ekeler, Austin",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 8.44
+    },
+    {
+      "playerId": "15779",
+      "playerName": "Doubs, Romeo",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 8.4
+    },
+    {
+      "playerId": "13130",
+      "playerName": "McCaffrey, Christian",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 7.8
+    },
+    {
+      "playerId": "16641",
+      "playerName": "Bowers, Brock",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "score": 7.8
+    },
+    {
+      "playerId": "15254",
+      "playerName": "Harris, Najee",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "score": 7.4
+    },
+    {
+      "playerId": "16184",
+      "playerName": "Reed, Jayden",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "score": 6.4
+    },
+    {
+      "playerId": "13674",
+      "playerName": "Goedert, Dallas",
+      "position": "TE",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 5.9
+    },
+    {
+      "playerId": "16187",
+      "playerName": "Downs, Josh",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "score": 5.86
+    },
+    {
+      "playerId": "14136",
+      "playerName": "Samuel, Deebo",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "score": 5.18
+    },
+    {
+      "playerId": "14836",
+      "playerName": "Jefferson, Justin",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 4.7
+    },
+    {
+      "playerId": "15802",
+      "playerName": "Otton, Cade",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 4
+    },
+    {
+      "playerId": "13192",
+      "playerName": "Njoku, David",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 3.9
+    },
+    {
+      "playerId": "14802",
+      "playerName": "Taylor, Jonathan",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "score": 3.5
+    },
+    {
+      "playerId": "15716",
+      "playerName": "Robinson, Brian",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 3.4
+    },
+    {
+      "playerId": "15259",
+      "playerName": "Stevenson, Rhamondre",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "score": 3.3
+    },
+    {
+      "playerId": "16191",
+      "playerName": "Tillman, Cedric",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 2.8
+    },
+    {
+      "playerId": "15789",
+      "playerName": "Watson, Christian",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 0.4
+    },
+    {
+      "playerId": "16188",
+      "playerName": "Johnston, Quentin",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 0
+    }
+  ],
+  "Week 13: Greatest Win Margin": [
+    {
+      "winnerId": "0010",
+      "winnerName": "Loves-to-eat-butt-crack-Pack",
+      "winnerScore": 185.55,
+      "loserId": "0009",
+      "loserName": "Marked Safe from Apple Picking",
+      "loserScore": 130.45,
+      "margin": 55.1
+    },
+    {
+      "winnerId": "0008",
+      "winnerName": "Bow to your champion!",
+      "winnerScore": 143.5,
+      "loserId": "0007",
+      "loserName": "Zamby the Milf Slayer",
+      "loserScore": 118.12,
+      "margin": 25.38
+    },
+    {
+      "winnerId": "0005",
+      "winnerName": "Muscly Arm Paper Boys",
+      "winnerScore": 149.15,
+      "loserId": "0003",
+      "loserName": "Gordon's Revival",
+      "loserScore": 128.7,
+      "margin": 20.45
+    },
+    {
+      "winnerId": "0002",
+      "winnerName": "La Muerte Peluda",
+      "winnerScore": 155.7,
+      "loserId": "0001",
+      "loserName": "lol touchdowns",
+      "loserScore": 136.86,
+      "margin": 18.84
+    },
+    {
+      "winnerId": "0004",
+      "winnerName": "Don't Call It A Comeback!",
+      "winnerScore": 151.45,
+      "loserId": "0006",
+      "loserName": "Keenan’s Gypsy Tears",
+      "loserScore": 140.7,
+      "margin": 10.75
+    }
+  ],
+  "Week 14: Player with Most Yards (No QB)": [
+    {
+      "playerId": "15281",
+      "playerName": "Chase, Ja'Marr",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "yards": 191
+    },
+    {
+      "playerId": "16211",
+      "playerName": "Nacua, Puka",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 178
+    },
+    {
+      "playerId": "13299",
+      "playerName": "Kittle, George",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "yards": 151
+    },
+    {
+      "playerId": "16186",
+      "playerName": "Addison, Jordan",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 133
+    },
+    {
+      "playerId": "14836",
+      "playerName": "Jefferson, Justin",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 132
+    },
+    {
+      "playerId": "16688",
+      "playerName": "Guerendo, Isaac",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "yards": 128
+    },
+    {
+      "playerId": "14085",
+      "playerName": "Pollard, Tony",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 124
+    },
+    {
+      "playerId": "13604",
+      "playerName": "Barkley, Saquon",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "yards": 124
+    },
+    {
+      "playerId": "16181",
+      "playerName": "Brown, Chase",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "yards": 123
+    },
+    {
+      "playerId": "13146",
+      "playerName": "Conner, James",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "yards": 122
+    },
+    {
+      "playerId": "12801",
+      "playerName": "Hill, Tyreek",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 121
+    },
+    {
+      "playerId": "15753",
+      "playerName": "Wilson, Garrett",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 114
+    },
+    {
+      "playerId": "15721",
+      "playerName": "White, Rachaad",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "yards": 109
+    },
+    {
+      "playerId": "11675",
+      "playerName": "Adams, Davante",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 109
+    },
+    {
+      "playerId": "15761",
+      "playerName": "Shakir, Khalil",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "yards": 106
+    },
+    {
+      "playerId": "11938",
+      "playerName": "Thielen, Adam",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 102
+    },
+    {
+      "playerId": "16161",
+      "playerName": "Robinson, Bijan",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 101
+    },
+    {
+      "playerId": "15710",
+      "playerName": "Williams, Kyren",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 97
+    },
+    {
+      "playerId": "12175",
+      "playerName": "Cooper, Amari",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "yards": 95
+    },
+    {
+      "playerId": "14832",
+      "playerName": "Lamb, CeeDee",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "yards": 94
+    },
+    {
+      "playerId": "13164",
+      "playerName": "Kupp, Cooper",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 92
+    },
+    {
+      "playerId": "14860",
+      "playerName": "Jennings, Jauan",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 90
+    },
+    {
+      "playerId": "16618",
+      "playerName": "Thomas Jr., Brian",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 86
+    },
+    {
+      "playerId": "16185",
+      "playerName": "Smith-Njigba, Jaxon",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "yards": 86
+    },
+    {
+      "playerId": "13319",
+      "playerName": "Jones, Aaron",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 84
+    },
+    {
+      "playerId": "14071",
+      "playerName": "Montgomery, David",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 84
+    },
+    {
+      "playerId": "16747",
+      "playerName": "Tracy, Tyrone",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "yards": 83
+    },
+    {
+      "playerId": "13132",
+      "playerName": "Kamara, Alvin",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 79
+    },
+    {
+      "playerId": "16615",
+      "playerName": "Nabers, Malik",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "yards": 79
+    },
+    {
+      "playerId": "16162",
+      "playerName": "Gibbs, Jahmyr",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 73
+    },
+    {
+      "playerId": "15742",
+      "playerName": "Warren, Jaylen",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "yards": 72
+    },
+    {
+      "playerId": "15253",
+      "playerName": "Etienne, Travis",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "yards": 70
+    },
+    {
+      "playerId": "15794",
+      "playerName": "McBride, Trey",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "yards": 70
+    },
+    {
+      "playerId": "15802",
+      "playerName": "Otton, Cade",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 70
+    },
+    {
+      "playerId": "15751",
+      "playerName": "London, Drake",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "yards": 70
+    },
+    {
+      "playerId": "11671",
+      "playerName": "Evans, Mike",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 69
+    },
+    {
+      "playerId": "16167",
+      "playerName": "Achane, De'Von",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 69
+    },
+    {
+      "playerId": "14127",
+      "playerName": "Meyers, Jakobi",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "yards": 67
+    },
+    {
+      "playerId": "14073",
+      "playerName": "Jacobs, Josh",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "yards": 66
+    },
+    {
+      "playerId": "14833",
+      "playerName": "Jeudy, Jerry",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 64
+    },
+    {
+      "playerId": "15749",
+      "playerName": "Pacheco, Isiah",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "yards": 61
+    },
+    {
+      "playerId": "13629",
+      "playerName": "Ridley, Calvin",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 59
+    },
+    {
+      "playerId": "16214",
+      "playerName": "LaPorta, Sam",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "yards": 54
+    },
+    {
+      "playerId": "15254",
+      "playerName": "Harris, Najee",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "yards": 53
+    },
+    {
+      "playerId": "15287",
+      "playerName": "St. Brown, Amon-Ra",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "yards": 53
+    },
+    {
+      "playerId": "16641",
+      "playerName": "Bowers, Brock",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "Zamby the Milf Slayer",
+      "yards": 52
+    },
+    {
+      "playerId": "16614",
+      "playerName": "Harrison Jr., Marvin",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 49
+    },
+    {
+      "playerId": "14102",
+      "playerName": "Metcalf, DK",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "yards": 49
+    },
+    {
+      "playerId": "15331",
+      "playerName": "Freiermuth, Pat",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "yards": 48
+    },
+    {
+      "playerId": "13610",
+      "playerName": "Chubb, Nick",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "yards": 48
+    },
+    {
+      "playerId": "14138",
+      "playerName": "Hockenson, T.J.",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 45
+    },
+    {
+      "playerId": "11244",
+      "playerName": "Kelce, Travis",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "yards": 45
+    },
+    {
+      "playerId": "14104",
+      "playerName": "Brown, A.J.",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 43
+    },
+    {
+      "playerId": "13192",
+      "playerName": "Njoku, David",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 42
+    },
+    {
+      "playerId": "16616",
+      "playerName": "Odunze, Rome",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "lol touchdowns",
+      "yards": 42
+    },
+    {
+      "playerId": "16222",
+      "playerName": "Kraft, Tucker",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "yards": 41
+    },
+    {
+      "playerId": "14797",
+      "playerName": "Swift, D'Andre",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 40
+    },
+    {
+      "playerId": "16639",
+      "playerName": "Legette, Xavier",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "yards": 39
+    },
+    {
+      "playerId": "15757",
+      "playerName": "Robinson, Wan'Dale",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 38
+    },
+    {
+      "playerId": "15282",
+      "playerName": "Smith, DeVonta",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "yards": 37
+    },
+    {
+      "playerId": "13189",
+      "playerName": "Engram, Evan",
+      "position": "TE",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 33
+    },
+    {
+      "playerId": "11232",
+      "playerName": "Hopkins, DeAndre",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Marked Safe from Apple Picking",
+      "yards": 32
+    },
+    {
+      "playerId": "11222",
+      "playerName": "Allen, Keenan",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 30
+    },
+    {
+      "playerId": "15715",
+      "playerName": "Cook, James",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 29
+    },
+    {
+      "playerId": "13672",
+      "playerName": "Gesicki, Mike",
+      "position": "TE",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 24
+    },
+    {
+      "playerId": "14835",
+      "playerName": "Higgins, Tee",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 23
+    },
+    {
+      "playerId": "16598",
+      "playerName": "Irving, Bucky",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 18
+    },
+    {
+      "playerId": "15762",
+      "playerName": "Pickens, George",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "yards": 0
+    },
+    {
+      "playerId": "16184",
+      "playerName": "Reed, Jayden",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Don't Call It A Comeback!",
+      "yards": 0
+    },
+    {
+      "playerId": "16627",
+      "playerName": "McConkey, Ladd",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 0
+    }
+  ],
+  "Week 15: Most Team Points": [
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "score": 165.2
+    },
+    {
+      "franchiseId": "0007",
+      "name": "Zamby the Milf Slayer",
+      "score": 163.65
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Keenan’s Gypsy Tears",
+      "score": 138.5
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Bow to your champion!",
+      "score": 136.4
+    },
+    {
+      "franchiseId": "0004",
+      "name": "Don't Call It A Comeback!",
+      "score": 119.1
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Marked Safe from Apple Picking",
+      "score": 115
+    }
+  ],
+  "Week 16: Most Team Points": [
+    {
+      "franchiseId": "0007",
+      "name": "Zamby the Milf Slayer",
+      "score": 189.4
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Marked Safe from Apple Picking",
+      "score": 156.65
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "score": 150.6
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Bow to your champion!",
+      "score": 141.95
+    },
+    {
+      "franchiseId": "0004",
+      "name": "Don't Call It A Comeback!",
+      "score": 137.05
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Keenan’s Gypsy Tears",
+      "score": 109.1
+    }
+  ]
+}

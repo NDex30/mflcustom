@@ -1,0 +1,2642 @@
+{
+  "Week 1: Most Team Points": [
+    {
+      "franchiseId": "0002",
+      "name": "DaGreatest 2EvaDoIt",
+      "score": 185.3
+    },
+    {
+      "franchiseId": "0007",
+      "name": "Ben a Long Time Coming",
+      "score": 184.2
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Matty",
+      "score": 154.2
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "score": 142.9
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Zamby",
+      "score": 142.45
+    },
+    {
+      "franchiseId": "0004",
+      "name": "DT",
+      "score": 135.25
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Keno",
+      "score": 134.2
+    },
+    {
+      "franchiseId": "0001",
+      "name": "Lou",
+      "score": 133.4
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Quaranteam",
+      "score": 119.95
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Pack",
+      "score": 92.67
+    }
+  ],
+  "Week 2: Most All-Purpose Yards": [
+    {
+      "franchiseId": "0008",
+      "name": "Keno",
+      "yards": 749
+    },
+    {
+      "franchiseId": "0002",
+      "name": "DaGreatest 2EvaDoIt",
+      "yards": 736
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Zamby",
+      "yards": 654
+    },
+    {
+      "franchiseId": "0007",
+      "name": "Ben a Long Time Coming",
+      "yards": 603
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "yards": 539
+    },
+    {
+      "franchiseId": "0004",
+      "name": "DT",
+      "yards": 513
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Matty",
+      "yards": 448
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Pack",
+      "yards": 442
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Quaranteam",
+      "yards": 436
+    },
+    {
+      "franchiseId": "0001",
+      "name": "Lou",
+      "yards": 400
+    }
+  ],
+  "Week 3: Most Points from Single Running Back": [
+    {
+      "playerId": "13132",
+      "playerName": "Kamara, Alvin",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "score": 44.7
+    },
+    {
+      "playerId": "13404",
+      "playerName": "Ekeler, Austin",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 31.3
+    },
+    {
+      "playerId": "14813",
+      "playerName": "Robinson, James",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "score": 30.9
+    },
+    {
+      "playerId": "12626",
+      "playerName": "Henry, Derrick",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "score": 27
+    },
+    {
+      "playerId": "13128",
+      "playerName": "Cook, Dalvin",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 25.9
+    },
+    {
+      "playerId": "13610",
+      "playerName": "Chubb, Nick",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "score": 24
+    },
+    {
+      "playerId": "12164",
+      "playerName": "Davis, Mike",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "score": 23.1
+    },
+    {
+      "playerId": "14087",
+      "playerName": "Henderson, Darrell",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "score": 19
+    },
+    {
+      "playerId": "14803",
+      "playerName": "Edwards-Helaire, Clyde",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "score": 18.4
+    },
+    {
+      "playerId": "12625",
+      "playerName": "Elliott, Ezekiel",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "score": 17.8
+    },
+    {
+      "playerId": "11761",
+      "playerName": "McKinnon, Jerick",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "score": 16.7
+    },
+    {
+      "playerId": "13319",
+      "playerName": "Jones, Aaron",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "score": 16.6
+    },
+    {
+      "playerId": "14080",
+      "playerName": "Singletary, Devin",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "score": 16.1
+    },
+    {
+      "playerId": "12150",
+      "playerName": "Gurley, Todd",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "score": 15.2
+    },
+    {
+      "playerId": "14079",
+      "playerName": "Sanders, Miles",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "score": 14.7
+    },
+    {
+      "playerId": "13138",
+      "playerName": "Hunt, Kareem",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "score": 14.4
+    },
+    {
+      "playerId": "14802",
+      "playerName": "Taylor, Jonathan",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "score": 13.2
+    },
+    {
+      "playerId": "12171",
+      "playerName": "Johnson, David",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "score": 12.6
+    },
+    {
+      "playerId": "13364",
+      "playerName": "Carson, Chris",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "score": 10.6
+    },
+    {
+      "playerId": "14073",
+      "playerName": "Jacobs, Josh",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 9.3
+    },
+    {
+      "playerId": "12630",
+      "playerName": "Drake, Kenyan",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "score": 8.9
+    },
+    {
+      "playerId": "13131",
+      "playerName": "Mixon, Joe",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "score": 8.5
+    },
+    {
+      "playerId": "14800",
+      "playerName": "Dobbins, J.K.",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "score": 8.4
+    },
+    {
+      "playerId": "14071",
+      "playerName": "Montgomery, David",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "score": 7.4
+    },
+    {
+      "playerId": "13129",
+      "playerName": "Fournette, Leonard",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "score": 4.2
+    },
+    {
+      "playerId": "10276",
+      "playerName": "Ingram, Mark",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "score": 3
+    }
+  ],
+  "Week 4: Most Points from Single QuarterBack": [
+    {
+      "playerId": "12620",
+      "playerName": "Prescott, Dak",
+      "position": "QB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 42.3
+    },
+    {
+      "playerId": "5848",
+      "playerName": "Brady, Tom",
+      "position": "QB",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "score": 36.15
+    },
+    {
+      "playerId": "7836",
+      "playerName": "Rodgers, Aaron",
+      "position": "QB",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "score": 32.85
+    },
+    {
+      "playerId": "13589",
+      "playerName": "Allen, Josh",
+      "position": "QB",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "score": 28.3
+    },
+    {
+      "playerId": "13593",
+      "playerName": "Jackson, Lamar",
+      "position": "QB",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "score": 26.95
+    },
+    {
+      "playerId": "10703",
+      "playerName": "Wilson, Russell",
+      "position": "QB",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "score": 24.5
+    },
+    {
+      "playerId": "14056",
+      "playerName": "Murray, Kyler",
+      "position": "QB",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "score": 24.45
+    },
+    {
+      "playerId": "13113",
+      "playerName": "Watson, Deshaun",
+      "position": "QB",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "score": 23.9
+    },
+    {
+      "playerId": "13116",
+      "playerName": "Mahomes, Patrick",
+      "position": "QB",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "score": 22.6
+    },
+    {
+      "playerId": "9099",
+      "playerName": "Ryan, Matt",
+      "position": "QB",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "score": 15.25
+    }
+  ],
+  "Week 5: Most Kicker Points": [
+    {
+      "playerId": "13832",
+      "playerName": "Sanders, Jason",
+      "position": "PK",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "score": 23
+    },
+    {
+      "playerId": "12956",
+      "playerName": "Lutz, Wil",
+      "position": "PK",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "score": 16.7
+    },
+    {
+      "playerId": "10868",
+      "playerName": "Zuerlein, Greg",
+      "position": "PK",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 14.4
+    },
+    {
+      "playerId": "14912",
+      "playerName": "Blankenship, Rodrigo",
+      "position": "PK",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "score": 11.9
+    },
+    {
+      "playerId": "10506",
+      "playerName": "Bailey, Dan",
+      "position": "PK",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "score": 11.8
+    },
+    {
+      "playerId": "13718",
+      "playerName": "Carlson, Daniel",
+      "position": "PK",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "score": 11.1
+    },
+    {
+      "playerId": "10976",
+      "playerName": "Tucker, Justin",
+      "position": "PK",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "score": 10.5
+    },
+    {
+      "playerId": "11936",
+      "playerName": "Boswell, Chris",
+      "position": "PK",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "score": 9.1
+    },
+    {
+      "playerId": "13354",
+      "playerName": "Butker, Harrison",
+      "position": "PK",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "score": 6.2
+    },
+    {
+      "playerId": "10862",
+      "playerName": "Bullock, Randy",
+      "position": "PK",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "score": 3.8
+    }
+  ],
+  "Week 6: Longest QB TD": [
+    {
+      "playerId": "14056",
+      "playerName": "Murray, Kyler",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "passYards": 80
+    },
+    {
+      "playerId": "13113",
+      "playerName": "Watson, Deshaun",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "passYards": 53
+    },
+    {
+      "playerId": "5848",
+      "playerName": "Brady, Tom",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "passYards": 12
+    },
+    {
+      "playerId": "13116",
+      "playerName": "Mahomes, Patrick",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "passYards": 12
+    },
+    {
+      "playerId": "13116",
+      "playerName": "Mahomes, Patrick",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "passYards": 11
+    },
+    {
+      "playerId": "13589",
+      "playerName": "Allen, Josh",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "passYards": 8
+    },
+    {
+      "playerId": "5848",
+      "playerName": "Brady, Tom",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "passYards": 7
+    },
+    {
+      "playerId": "13593",
+      "playerName": "Jackson, Lamar",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "passYards": 7
+    },
+    {
+      "playerId": "14056",
+      "playerName": "Murray, Kyler",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "passYards": 6
+    },
+    {
+      "playerId": "8062",
+      "playerName": "Fitzpatrick, Ryan",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "passYards": 4
+    },
+    {
+      "playerId": "8062",
+      "playerName": "Fitzpatrick, Ryan",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "passYards": 4
+    },
+    {
+      "playerId": "13113",
+      "playerName": "Watson, Deshaun",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "passYards": 4
+    },
+    {
+      "playerId": "13589",
+      "playerName": "Allen, Josh",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "passYards": 4
+    },
+    {
+      "playerId": "8062",
+      "playerName": "Fitzpatrick, Ryan",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "passYards": 3
+    },
+    {
+      "playerId": "9431",
+      "playerName": "Stafford, Matthew",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "passYards": 1
+    },
+    {
+      "playerId": "13113",
+      "playerName": "Watson, Deshaun",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "passYards": 1
+    },
+    {
+      "playerId": "13113",
+      "playerName": "Watson, Deshaun",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "passYards": 1
+    }
+  ],
+  "Week 7: Most Team Receptions": [
+    {
+      "franchiseId": "0007",
+      "name": "Ben a Long Time Coming",
+      "receptions": 43
+    },
+    {
+      "franchiseId": "0002",
+      "name": "DaGreatest 2EvaDoIt",
+      "receptions": 35
+    },
+    {
+      "franchiseId": "0004",
+      "name": "DT",
+      "receptions": 34
+    },
+    {
+      "franchiseId": "0001",
+      "name": "Lou",
+      "receptions": 33
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Quaranteam",
+      "receptions": 32
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Zamby",
+      "receptions": 32
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Keno",
+      "receptions": 31
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "receptions": 22
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Matty",
+      "receptions": 22
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Pack",
+      "receptions": 15
+    }
+  ],
+  "Week 8: Most DEF Points": [
+    {
+      "playerId": "0518",
+      "playerName": "Eagles, Philadelphia",
+      "position": "Def",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "score": 22
+    },
+    {
+      "playerId": "0502",
+      "playerName": "Colts, Indianapolis",
+      "position": "Def",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "score": 16
+    },
+    {
+      "playerId": "0510",
+      "playerName": "Steelers, Pittsburgh",
+      "position": "Def",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "score": 15
+    },
+    {
+      "playerId": "0512",
+      "playerName": "Chiefs, Kansas City",
+      "position": "Def",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "score": 10
+    },
+    {
+      "playerId": "0528",
+      "playerName": "Rams, Los Angeles",
+      "position": "Def",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "score": 8
+    },
+    {
+      "playerId": "0525",
+      "playerName": "Buccaneers, Tampa Bay",
+      "position": "Def",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 6
+    },
+    {
+      "playerId": "0501",
+      "playerName": "Bills, Buffalo",
+      "position": "Def",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "score": 4
+    },
+    {
+      "playerId": "0507",
+      "playerName": "Browns, Cleveland",
+      "position": "Def",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "score": 4
+    },
+    {
+      "playerId": "0521",
+      "playerName": "Bears, Chicago",
+      "position": "Def",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "score": 3
+    },
+    {
+      "playerId": "0514",
+      "playerName": "Chargers, Los Angeles",
+      "position": "Def",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "score": 2
+    }
+  ],
+  "Week 9: Most Single Player Receptions": [
+    {
+      "playerId": "13130",
+      "playerName": "McCaffrey, Christian",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "receptions": 10
+    },
+    {
+      "playerId": "11244",
+      "playerName": "Kelce, Travis",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "receptions": 10
+    },
+    {
+      "playerId": "11675",
+      "playerName": "Adams, Davante",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "receptions": 10
+    },
+    {
+      "playerId": "12186",
+      "playerName": "Diggs, Stefon",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "receptions": 9
+    },
+    {
+      "playerId": "12930",
+      "playerName": "Anderson, Robby",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "receptions": 9
+    },
+    {
+      "playerId": "12801",
+      "playerName": "Hill, Tyreek",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "receptions": 9
+    },
+    {
+      "playerId": "11222",
+      "playerName": "Allen, Keenan",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "receptions": 9
+    },
+    {
+      "playerId": "11783",
+      "playerName": "Brown, John",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "receptions": 8
+    },
+    {
+      "playerId": "14102",
+      "playerName": "Metcalf, DK",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 7
+    },
+    {
+      "playerId": "11678",
+      "playerName": "Robinson, Allen",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 7
+    },
+    {
+      "playerId": "14833",
+      "playerName": "Jeudy, Jerry",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "receptions": 7
+    },
+    {
+      "playerId": "14109",
+      "playerName": "McLaurin, Terry",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "receptions": 7
+    },
+    {
+      "playerId": "13129",
+      "playerName": "Fournette, Leonard",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "receptions": 6
+    },
+    {
+      "playerId": "13156",
+      "playerName": "Smith-Schuster, JuJu",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "receptions": 6
+    },
+    {
+      "playerId": "13319",
+      "playerName": "Jones, Aaron",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "receptions": 5
+    },
+    {
+      "playerId": "13154",
+      "playerName": "Williams, Mike",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "receptions": 5
+    },
+    {
+      "playerId": "14138",
+      "playerName": "Hockenson, T.J.",
+      "position": "TE",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 5
+    },
+    {
+      "playerId": "13633",
+      "playerName": "Kirk, Christian",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "receptions": 5
+    },
+    {
+      "playerId": "13132",
+      "playerName": "Kamara, Alvin",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "receptions": 5
+    },
+    {
+      "playerId": "12647",
+      "playerName": "Fuller, Will",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "receptions": 5
+    },
+    {
+      "playerId": "12652",
+      "playerName": "Thomas, Michael",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "receptions": 5
+    },
+    {
+      "playerId": "10271",
+      "playerName": "Jones, Julio",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "receptions": 5
+    },
+    {
+      "playerId": "12263",
+      "playerName": "Waller, Darren",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "receptions": 5
+    },
+    {
+      "playerId": "14832",
+      "playerName": "Lamb, CeeDee",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "receptions": 4
+    },
+    {
+      "playerId": "7393",
+      "playerName": "Fitzgerald, Larry",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "receptions": 4
+    },
+    {
+      "playerId": "12676",
+      "playerName": "Henry, Hunter",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "receptions": 4
+    },
+    {
+      "playerId": "12187",
+      "playerName": "Lockett, Tyler",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "receptions": 4
+    },
+    {
+      "playerId": "10738",
+      "playerName": "Jones, Marvin",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "receptions": 3
+    },
+    {
+      "playerId": "14071",
+      "playerName": "Montgomery, David",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "receptions": 3
+    },
+    {
+      "playerId": "14836",
+      "playerName": "Jefferson, Justin",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "receptions": 3
+    },
+    {
+      "playerId": "13671",
+      "playerName": "Andrews, Mark",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "receptions": 3
+    },
+    {
+      "playerId": "14852",
+      "playerName": "Gibson, Antonio",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 3
+    },
+    {
+      "playerId": "14105",
+      "playerName": "Brown, Marquise",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 3
+    },
+    {
+      "playerId": "10973",
+      "playerName": "Beasley, Cole",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "receptions": 3
+    },
+    {
+      "playerId": "13163",
+      "playerName": "Godwin, Chris",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "receptions": 3
+    },
+    {
+      "playerId": "11695",
+      "playerName": "Ebron, Eric",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "receptions": 3
+    },
+    {
+      "playerId": "14137",
+      "playerName": "Fant, Noah",
+      "position": "TE",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "receptions": 3
+    },
+    {
+      "playerId": "9988",
+      "playerName": "Brown, Antonio",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "receptions": 3
+    },
+    {
+      "playerId": "14803",
+      "playerName": "Edwards-Helaire, Clyde",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "receptions": 3
+    },
+    {
+      "playerId": "14797",
+      "playerName": "Swift, D'Andre",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "receptions": 3
+    },
+    {
+      "playerId": "13606",
+      "playerName": "Jones, Ronald",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "receptions": 3
+    },
+    {
+      "playerId": "11232",
+      "playerName": "Hopkins, DeAndre",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "receptions": 3
+    },
+    {
+      "playerId": "13726",
+      "playerName": "Edmonds, Chase",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "receptions": 3
+    },
+    {
+      "playerId": "13850",
+      "playerName": "Edwards, Gus",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "receptions": 2
+    },
+    {
+      "playerId": "13128",
+      "playerName": "Cook, Dalvin",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 2
+    },
+    {
+      "playerId": "12150",
+      "playerName": "Gurley, Todd",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "receptions": 2
+    },
+    {
+      "playerId": "14800",
+      "playerName": "Dobbins, J.K.",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "receptions": 2
+    },
+    {
+      "playerId": "11337",
+      "playerName": "Fells, Darren",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "receptions": 2
+    },
+    {
+      "playerId": "11938",
+      "playerName": "Thielen, Adam",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "receptions": 2
+    },
+    {
+      "playerId": "12184",
+      "playerName": "Crowder, Jamison",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "receptions": 2
+    },
+    {
+      "playerId": "12625",
+      "playerName": "Elliott, Ezekiel",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "receptions": 2
+    },
+    {
+      "playerId": "13146",
+      "playerName": "Conner, James",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "receptions": 2
+    },
+    {
+      "playerId": "14815",
+      "playerName": "Dallas, DeeJay",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "receptions": 2
+    },
+    {
+      "playerId": "13193",
+      "playerName": "Smith, Jonnu",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "receptions": 2
+    },
+    {
+      "playerId": "13635",
+      "playerName": "Moore, D.J.",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "receptions": 2
+    },
+    {
+      "playerId": "14802",
+      "playerName": "Taylor, Jonathan",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "receptions": 2
+    },
+    {
+      "playerId": "9902",
+      "playerName": "Gronkowski, Rob",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "receptions": 1
+    },
+    {
+      "playerId": "14073",
+      "playerName": "Jacobs, Josh",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 1
+    },
+    {
+      "playerId": "11257",
+      "playerName": "McDonald, Vance",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "receptions": 1
+    },
+    {
+      "playerId": "14085",
+      "playerName": "Pollard, Tony",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "receptions": 1
+    },
+    {
+      "playerId": "13631",
+      "playerName": "Washington, James",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "receptions": 1
+    },
+    {
+      "playerId": "14122",
+      "playerName": "Slayton, Darius",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "receptions": 1
+    }
+  ],
+  "Week 10: Most Points from Single Tight End": [
+    {
+      "playerId": "9902",
+      "playerName": "Gronkowski, Rob",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "score": 13.1
+    },
+    {
+      "playerId": "13671",
+      "playerName": "Andrews, Mark",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "score": 13.1
+    },
+    {
+      "playerId": "12676",
+      "playerName": "Henry, Hunter",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "score": 13
+    },
+    {
+      "playerId": "13193",
+      "playerName": "Smith, Jonnu",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "score": 9.5
+    },
+    {
+      "playerId": "12678",
+      "playerName": "Higbee, Tyler",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "score": 9
+    },
+    {
+      "playerId": "12263",
+      "playerName": "Waller, Darren",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "score": 6.7
+    },
+    {
+      "playerId": "11695",
+      "playerName": "Ebron, Eric",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "score": 5.8
+    },
+    {
+      "playerId": "14137",
+      "playerName": "Fant, Noah",
+      "position": "TE",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "score": 4.8
+    },
+    {
+      "playerId": "13189",
+      "playerName": "Engram, Evan",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "score": 3.5
+    },
+    {
+      "playerId": "14138",
+      "playerName": "Hockenson, T.J.",
+      "position": "TE",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 3.3
+    },
+    {
+      "playerId": "12677",
+      "playerName": "Hooper, Austin",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "score": 2.1
+    }
+  ],
+  "Week 11: Most Team TDs": [
+    {
+      "franchiseId": "0009",
+      "name": "Zamby",
+      "tds": 7
+    },
+    {
+      "franchiseId": "0002",
+      "name": "DaGreatest 2EvaDoIt",
+      "tds": 6
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "tds": 6
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Pack",
+      "tds": 6
+    },
+    {
+      "franchiseId": "0001",
+      "name": "Lou",
+      "tds": 6
+    },
+    {
+      "franchiseId": "0004",
+      "name": "DT",
+      "tds": 5
+    },
+    {
+      "franchiseId": "0007",
+      "name": "Ben a Long Time Coming",
+      "tds": 5
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Quaranteam",
+      "tds": 5
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Keno",
+      "tds": 3
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Matty",
+      "tds": 3
+    }
+  ],
+  "Week 12: Player with Most Points (No QB)": [
+    {
+      "playerId": "12801",
+      "playerName": "Hill, Tyreek",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "score": 57.9
+    },
+    {
+      "playerId": "12626",
+      "playerName": "Henry, Derrick",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "score": 38.5
+    },
+    {
+      "playerId": "14852",
+      "playerName": "Gibson, Antonio",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 36.6
+    },
+    {
+      "playerId": "12647",
+      "playerName": "Fuller, Will",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "score": 35.1
+    },
+    {
+      "playerId": "11680",
+      "playerName": "Landry, Jarvis",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "score": 28.3
+    },
+    {
+      "playerId": "14102",
+      "playerName": "Metcalf, DK",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 27.7
+    },
+    {
+      "playerId": "14104",
+      "playerName": "Brown, A.J.",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "score": 27.48
+    },
+    {
+      "playerId": "11678",
+      "playerName": "Robinson, Allen",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 27.4
+    },
+    {
+      "playerId": "14813",
+      "playerName": "Robinson, James",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "score": 26.9
+    },
+    {
+      "playerId": "13610",
+      "playerName": "Chubb, Nick",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "score": 26.6
+    },
+    {
+      "playerId": "14836",
+      "playerName": "Jefferson, Justin",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "score": 26
+    },
+    {
+      "playerId": "12630",
+      "playerName": "Drake, Kenyan",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "score": 24.3
+    },
+    {
+      "playerId": "13674",
+      "playerName": "Goedert, Dallas",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "score": 20.5
+    },
+    {
+      "playerId": "12176",
+      "playerName": "Parker, DeVante",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "score": 19.9
+    },
+    {
+      "playerId": "12930",
+      "playerName": "Anderson, Robby",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "score": 19.4
+    },
+    {
+      "playerId": "11675",
+      "playerName": "Adams, Davante",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "score": 18.1
+    },
+    {
+      "playerId": "13135",
+      "playerName": "Gallman, Wayne",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "score": 18.1
+    },
+    {
+      "playerId": "13156",
+      "playerName": "Smith-Schuster, JuJu",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "score": 17.7
+    },
+    {
+      "playerId": "13163",
+      "playerName": "Godwin, Chris",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "score": 17.7
+    },
+    {
+      "playerId": "13622",
+      "playerName": "Hines, Nyheim",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "score": 17.5
+    },
+    {
+      "playerId": "12157",
+      "playerName": "Johnson, Duke",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "score": 17
+    },
+    {
+      "playerId": "13629",
+      "playerName": "Ridley, Calvin",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "score": 17
+    },
+    {
+      "playerId": "13189",
+      "playerName": "Engram, Evan",
+      "position": "TE",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "score": 16.9
+    },
+    {
+      "playerId": "14109",
+      "playerName": "McLaurin, Terry",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "score": 16.2
+    },
+    {
+      "playerId": "11244",
+      "playerName": "Kelce, Travis",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "score": 16.2
+    },
+    {
+      "playerId": "11222",
+      "playerName": "Allen, Keenan",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "score": 16
+    },
+    {
+      "playerId": "11228",
+      "playerName": "Woods, Robert",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "score": 15.8
+    },
+    {
+      "playerId": "14835",
+      "playerName": "Higgins, Tee",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "score": 15.4
+    },
+    {
+      "playerId": "13364",
+      "playerName": "Carson, Chris",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "score": 13.9
+    },
+    {
+      "playerId": "14138",
+      "playerName": "Hockenson, T.J.",
+      "position": "TE",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 13.9
+    },
+    {
+      "playerId": "12676",
+      "playerName": "Henry, Hunter",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "score": 13.7
+    },
+    {
+      "playerId": "11647",
+      "playerName": "Thomas, Logan",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "score": 13.7
+    },
+    {
+      "playerId": "13157",
+      "playerName": "Samuel, Curtis",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "score": 12.7
+    },
+    {
+      "playerId": "11695",
+      "playerName": "Ebron, Eric",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "score": 12.4
+    },
+    {
+      "playerId": "12186",
+      "playerName": "Diggs, Stefon",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "score": 10.9
+    },
+    {
+      "playerId": "12164",
+      "playerName": "Davis, Mike",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "score": 10.9
+    },
+    {
+      "playerId": "10738",
+      "playerName": "Jones, Marvin",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "score": 10.8
+    },
+    {
+      "playerId": "11232",
+      "playerName": "Hopkins, DeAndre",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "score": 10.5
+    },
+    {
+      "playerId": "12447",
+      "playerName": "Mostert, Raheem",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "score": 10.3
+    },
+    {
+      "playerId": "14127",
+      "playerName": "Meyers, Jakobi",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 10.2
+    },
+    {
+      "playerId": "13128",
+      "playerName": "Cook, Dalvin",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 10.2
+    },
+    {
+      "playerId": "13635",
+      "playerName": "Moore, D.J.",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "score": 10.1
+    },
+    {
+      "playerId": "13319",
+      "playerName": "Jones, Aaron",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "score": 10
+    },
+    {
+      "playerId": "13153",
+      "playerName": "Davis, Corey",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "score": 10
+    },
+    {
+      "playerId": "10973",
+      "playerName": "Beasley, Cole",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "score": 9.5
+    },
+    {
+      "playerId": "12677",
+      "playerName": "Hooper, Austin",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "score": 9.3
+    },
+    {
+      "playerId": "12652",
+      "playerName": "Thomas, Michael",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "score": 9.1
+    },
+    {
+      "playerId": "14798",
+      "playerName": "Moss, Zack",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "score": 8.8
+    },
+    {
+      "playerId": "14832",
+      "playerName": "Lamb, CeeDee",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "score": 7.46
+    },
+    {
+      "playerId": "11193",
+      "playerName": "Bernard, Giovani",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "score": 6.9
+    },
+    {
+      "playerId": "14838",
+      "playerName": "Shenault, Laviska",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "score": 6.7
+    },
+    {
+      "playerId": "12263",
+      "playerName": "Waller, Darren",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "score": 6.3
+    },
+    {
+      "playerId": "14079",
+      "playerName": "Sanders, Miles",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "score": 6.2
+    },
+    {
+      "playerId": "13138",
+      "playerName": "Hunt, Kareem",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "score": 6.2
+    },
+    {
+      "playerId": "13132",
+      "playerName": "Kamara, Alvin",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "score": 6.2
+    },
+    {
+      "playerId": "13164",
+      "playerName": "Kupp, Cooper",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "score": 6.1
+    },
+    {
+      "playerId": "13240",
+      "playerName": "Hill, Brian",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "score": 5.5
+    },
+    {
+      "playerId": "14073",
+      "playerName": "Jacobs, Josh",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 5.4
+    },
+    {
+      "playerId": "12187",
+      "playerName": "Lockett, Tyler",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "score": 5.3
+    },
+    {
+      "playerId": "13633",
+      "playerName": "Kirk, Christian",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "score": 5.18
+    },
+    {
+      "playerId": "14803",
+      "playerName": "Edwards-Helaire, Clyde",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "score": 4.9
+    },
+    {
+      "playerId": "13108",
+      "playerName": "McKissic, J.D.",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "score": 4.7
+    },
+    {
+      "playerId": "14075",
+      "playerName": "Harris, Damien",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "score": 4.7
+    },
+    {
+      "playerId": "12650",
+      "playerName": "Boyd, Tyler",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "score": 4.5
+    },
+    {
+      "playerId": "9988",
+      "playerName": "Brown, Antonio",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "score": 3.18
+    },
+    {
+      "playerId": "12625",
+      "playerName": "Elliott, Ezekiel",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "score": 2.9
+    },
+    {
+      "playerId": "13193",
+      "playerName": "Smith, Jonnu",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "score": 0
+    },
+    {
+      "playerId": "12150",
+      "playerName": "Gurley, Todd",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "score": 0
+    },
+    {
+      "playerId": "14800",
+      "playerName": "Dobbins, J.K.",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "score": 0
+    }
+  ],
+  "Week 13: Greatest Win Margin": [
+    {
+      "winnerId": "0001",
+      "winnerName": "Lou",
+      "winnerScore": 169.45,
+      "loserId": "0009",
+      "loserName": "Zamby",
+      "loserScore": 110.35,
+      "margin": 59.1
+    },
+    {
+      "winnerId": "0008",
+      "winnerName": "Keno",
+      "winnerScore": 127.95,
+      "loserId": "0010",
+      "loserName": "Pack",
+      "loserScore": 74.3,
+      "margin": 53.65
+    },
+    {
+      "winnerId": "0004",
+      "winnerName": "DT",
+      "winnerScore": 151.87,
+      "loserId": "0005",
+      "loserName": "Matty",
+      "loserScore": 112.55,
+      "margin": 39.32
+    },
+    {
+      "winnerId": "0007",
+      "winnerName": "Ben a Long Time Coming",
+      "winnerScore": 186.35,
+      "loserId": "0002",
+      "loserName": "DaGreatest 2EvaDoIt",
+      "loserScore": 161.85,
+      "margin": 24.5
+    },
+    {
+      "winnerId": "0006",
+      "winnerName": "Quaranteam",
+      "winnerScore": 126.85,
+      "loserId": "0003",
+      "loserName": "Gordon's Revival",
+      "loserScore": 117.85,
+      "margin": 9
+    }
+  ],
+  "Week 14: Player with Most Yards (No QB)": [
+    {
+      "playerId": "12626",
+      "playerName": "Henry, Derrick",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "yards": 222
+    },
+    {
+      "playerId": "14802",
+      "playerName": "Taylor, Jonathan",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "yards": 165
+    },
+    {
+      "playerId": "14071",
+      "playerName": "Montgomery, David",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "yards": 155
+    },
+    {
+      "playerId": "13404",
+      "playerName": "Ekeler, Austin",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 146
+    },
+    {
+      "playerId": "11232",
+      "playerName": "Hopkins, DeAndre",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "yards": 136
+    },
+    {
+      "playerId": "11244",
+      "playerName": "Kelce, Travis",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "yards": 136
+    },
+    {
+      "playerId": "12186",
+      "playerName": "Diggs, Stefon",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "yards": 131
+    },
+    {
+      "playerId": "13629",
+      "playerName": "Ridley, Calvin",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "yards": 124
+    },
+    {
+      "playerId": "11678",
+      "playerName": "Robinson, Allen",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 123
+    },
+    {
+      "playerId": "11675",
+      "playerName": "Adams, Davante",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "yards": 115
+    },
+    {
+      "playerId": "14104",
+      "playerName": "Brown, A.J.",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "yards": 112
+    },
+    {
+      "playerId": "12801",
+      "playerName": "Hill, Tyreek",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "yards": 111
+    },
+    {
+      "playerId": "13128",
+      "playerName": "Cook, Dalvin",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 110
+    },
+    {
+      "playerId": "13138",
+      "playerName": "Hunt, Kareem",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "yards": 110
+    },
+    {
+      "playerId": "13610",
+      "playerName": "Chubb, Nick",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "yards": 103
+    },
+    {
+      "playerId": "13364",
+      "playerName": "Carson, Chris",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "yards": 98
+    },
+    {
+      "playerId": "12930",
+      "playerName": "Anderson, Robby",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "yards": 97
+    },
+    {
+      "playerId": "13132",
+      "playerName": "Kamara, Alvin",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "yards": 94
+    },
+    {
+      "playerId": "12151",
+      "playerName": "Gordon, Melvin",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 91
+    },
+    {
+      "playerId": "13633",
+      "playerName": "Kirk, Christian",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "yards": 91
+    },
+    {
+      "playerId": "12630",
+      "playerName": "Drake, Kenyan",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "yards": 90
+    },
+    {
+      "playerId": "13108",
+      "playerName": "McKissic, J.D.",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "yards": 86
+    },
+    {
+      "playerId": "13606",
+      "playerName": "Jones, Ronald",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "yards": 84
+    },
+    {
+      "playerId": "12652",
+      "playerName": "Thomas, Michael",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "yards": 84
+    },
+    {
+      "playerId": "14813",
+      "playerName": "Robinson, James",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "yards": 83
+    },
+    {
+      "playerId": "13809",
+      "playerName": "Gage, Russell",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "yards": 82
+    },
+    {
+      "playerId": "12157",
+      "playerName": "Johnson, Duke",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "yards": 79
+    },
+    {
+      "playerId": "13671",
+      "playerName": "Andrews, Mark",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "yards": 78
+    },
+    {
+      "playerId": "13319",
+      "playerName": "Jones, Aaron",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "yards": 75
+    },
+    {
+      "playerId": "12263",
+      "playerName": "Waller, Darren",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "yards": 75
+    },
+    {
+      "playerId": "13135",
+      "playerName": "Gallman, Wayne",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "yards": 73
+    },
+    {
+      "playerId": "14102",
+      "playerName": "Metcalf, DK",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 61
+    },
+    {
+      "playerId": "14832",
+      "playerName": "Lamb, CeeDee",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "yards": 61
+    },
+    {
+      "playerId": "12625",
+      "playerName": "Elliott, Ezekiel",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "yards": 59
+    },
+    {
+      "playerId": "11671",
+      "playerName": "Evans, Mike",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "yards": 56
+    },
+    {
+      "playerId": "13156",
+      "playerName": "Smith-Schuster, JuJu",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "yards": 55
+    },
+    {
+      "playerId": "14800",
+      "playerName": "Dobbins, J.K.",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "yards": 53
+    },
+    {
+      "playerId": "11222",
+      "playerName": "Allen, Keenan",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "yards": 52
+    },
+    {
+      "playerId": "11680",
+      "playerName": "Landry, Jarvis",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "yards": 52
+    },
+    {
+      "playerId": "12187",
+      "playerName": "Lockett, Tyler",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "yards": 52
+    },
+    {
+      "playerId": "12175",
+      "playerName": "Cooper, Amari",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "yards": 51
+    },
+    {
+      "playerId": "14835",
+      "playerName": "Higgins, Tee",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "yards": 49
+    },
+    {
+      "playerId": "14138",
+      "playerName": "Hockenson, T.J.",
+      "position": "TE",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 43
+    },
+    {
+      "playerId": "12650",
+      "playerName": "Boyd, Tyler",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "yards": 43
+    },
+    {
+      "playerId": "11647",
+      "playerName": "Thomas, Logan",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "yards": 43
+    },
+    {
+      "playerId": "14798",
+      "playerName": "Moss, Zack",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "yards": 43
+    },
+    {
+      "playerId": "10973",
+      "playerName": "Beasley, Cole",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "yards": 41
+    },
+    {
+      "playerId": "12676",
+      "playerName": "Henry, Hunter",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "yards": 41
+    },
+    {
+      "playerId": "14208",
+      "playerName": "Johnson, Diontae",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "yards": 40
+    },
+    {
+      "playerId": "14836",
+      "playerName": "Jefferson, Justin",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "yards": 39
+    },
+    {
+      "playerId": "11938",
+      "playerName": "Thielen, Adam",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "yards": 39
+    },
+    {
+      "playerId": "13377",
+      "playerName": "Patrick, Tim",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Ben a Long Time Coming",
+      "yards": 36
+    },
+    {
+      "playerId": "13153",
+      "playerName": "Davis, Corey",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "yards": 34
+    },
+    {
+      "playerId": "13164",
+      "playerName": "Kupp, Cooper",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "yards": 33
+    },
+    {
+      "playerId": "11228",
+      "playerName": "Woods, Robert",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Lou",
+      "yards": 31
+    },
+    {
+      "playerId": "12150",
+      "playerName": "Gurley, Todd",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "yards": 31
+    },
+    {
+      "playerId": "11695",
+      "playerName": "Ebron, Eric",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "yards": 30
+    },
+    {
+      "playerId": "13163",
+      "playerName": "Godwin, Chris",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "yards": 25
+    },
+    {
+      "playerId": "14109",
+      "playerName": "McLaurin, Terry",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "yards": 24
+    },
+    {
+      "playerId": "13193",
+      "playerName": "Smith, Jonnu",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Quaranteam",
+      "yards": 23
+    },
+    {
+      "playerId": "11193",
+      "playerName": "Bernard, Giovani",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "yards": 23
+    },
+    {
+      "playerId": "13646",
+      "playerName": "Gallup, Michael",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "DT",
+      "yards": 23
+    },
+    {
+      "playerId": "13189",
+      "playerName": "Engram, Evan",
+      "position": "TE",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "yards": 18
+    },
+    {
+      "playerId": "13146",
+      "playerName": "Conner, James",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Keno",
+      "yards": 18
+    },
+    {
+      "playerId": "14136",
+      "playerName": "Samuel, Deebo",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 9
+    },
+    {
+      "playerId": "11390",
+      "playerName": "Murray, Latavius",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Zamby",
+      "yards": 7
+    },
+    {
+      "playerId": "9902",
+      "playerName": "Gronkowski, Rob",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "DaGreatest 2EvaDoIt",
+      "yards": 2
+    },
+    {
+      "playerId": "12176",
+      "playerName": "Parker, DeVante",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Matty",
+      "yards": 0
+    },
+    {
+      "playerId": "12677",
+      "playerName": "Hooper, Austin",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "yards": 0
+    },
+    {
+      "playerId": "11674",
+      "playerName": "Cooks, Brandin",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Pack",
+      "yards": 0
+    }
+  ],
+  "Week 15: Most Team Points": [
+    {
+      "franchiseId": "0002",
+      "name": "DaGreatest 2EvaDoIt",
+      "score": 171.75
+    },
+    {
+      "franchiseId": "0004",
+      "name": "DT",
+      "score": 163.8
+    },
+    {
+      "franchiseId": "0007",
+      "name": "Ben a Long Time Coming",
+      "score": 160
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Quaranteam",
+      "score": 152.8
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "score": 146.7
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Keno",
+      "score": 141.85
+    },
+    {
+      "franchiseId": "0001",
+      "name": "Lou",
+      "score": 135.55
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Pack",
+      "score": 134.42
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Zamby",
+      "score": 132.15
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Matty",
+      "score": 100.95
+    }
+  ],
+  "Week 16: Most Team Points": [
+    {
+      "franchiseId": "0009",
+      "name": "Zamby",
+      "score": 177.64
+    },
+    {
+      "franchiseId": "0004",
+      "name": "DT",
+      "score": 155.3
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Pack",
+      "score": 147.74
+    },
+    {
+      "franchiseId": "0001",
+      "name": "Lou",
+      "score": 145.15
+    },
+    {
+      "franchiseId": "0007",
+      "name": "Ben a Long Time Coming",
+      "score": 144.55
+    },
+    {
+      "franchiseId": "0002",
+      "name": "DaGreatest 2EvaDoIt",
+      "score": 143.25
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Matty",
+      "score": 141.4
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "score": 126.2
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Quaranteam",
+      "score": 98.55
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Keno",
+      "score": 98.52
+    }
+  ]
+}

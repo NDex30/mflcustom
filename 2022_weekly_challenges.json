@@ -1,0 +1,2558 @@
+{
+  "Week 1: Most Team Points": [
+    {
+      "franchiseId": "0002",
+      "name": "La Muerte Peluda",
+      "score": 181.75
+    },
+    {
+      "franchiseId": "0001",
+      "name": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 175.4
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Bow to your champion!",
+      "score": 171.45
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Pepperoni Pizza Fucker",
+      "score": 170.4
+    },
+    {
+      "franchiseId": "0007",
+      "name": "My Team Might Stink",
+      "score": 143.85
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "score": 141.65
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Muscly Arm Paper Boys",
+      "score": 130.6
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "score": 107.91
+    },
+    {
+      "franchiseId": "0004",
+      "name": "Dex’s Solid Friend Ol’ Marty",
+      "score": 79.6
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Bye Week",
+      "score": 78.3
+    }
+  ],
+  "Week 2: Most All-Purpose Yards": [
+    {
+      "franchiseId": "0004",
+      "name": "Dex’s Solid Friend Ol’ Marty",
+      "yards": 733
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Pepperoni Pizza Fucker",
+      "yards": 688
+    },
+    {
+      "franchiseId": "0007",
+      "name": "My Team Might Stink",
+      "yards": 568
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "yards": 555
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Bow to your champion!",
+      "yards": 491
+    },
+    {
+      "franchiseId": "0002",
+      "name": "La Muerte Peluda",
+      "yards": 470
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "yards": 470
+    },
+    {
+      "franchiseId": "0001",
+      "name": "Clear eyes, Full hearts, Can’t lose.",
+      "yards": 457
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Muscly Arm Paper Boys",
+      "yards": 378
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Bye Week",
+      "yards": 346
+    }
+  ],
+  "Week 3: Most Points from Single Running Back": [
+    {
+      "playerId": "12626",
+      "playerName": "Henry, Derrick",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "score": 25.3
+    },
+    {
+      "playerId": "13604",
+      "playerName": "Barkley, Saquon",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 22.6
+    },
+    {
+      "playerId": "11225",
+      "playerName": "Patterson, Cordarrelle",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 22.3
+    },
+    {
+      "playerId": "14813",
+      "playerName": "Robinson, James",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "score": 20.6
+    },
+    {
+      "playerId": "13610",
+      "playerName": "Chubb, Nick",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 17.3
+    },
+    {
+      "playerId": "14803",
+      "playerName": "Edwards-Helaire, Clyde",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 14.9
+    },
+    {
+      "playerId": "14073",
+      "playerName": "Jacobs, Josh",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "score": 14.7
+    },
+    {
+      "playerId": "13128",
+      "playerName": "Cook, Dalvin",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 13.6
+    },
+    {
+      "playerId": "13130",
+      "playerName": "McCaffrey, Christian",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 13.5
+    },
+    {
+      "playerId": "13404",
+      "playerName": "Ekeler, Austin",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "score": 13.3
+    },
+    {
+      "playerId": "15254",
+      "playerName": "Harris, Najee",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 13.1
+    },
+    {
+      "playerId": "14802",
+      "playerName": "Taylor, Jonathan",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "score": 12.1
+    },
+    {
+      "playerId": "13129",
+      "playerName": "Fournette, Leonard",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "score": 12
+    },
+    {
+      "playerId": "14017",
+      "playerName": "Wilson, Jeffery",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 11.6
+    },
+    {
+      "playerId": "14852",
+      "playerName": "Gibson, Antonio",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "score": 11
+    },
+    {
+      "playerId": "14085",
+      "playerName": "Pollard, Tony",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 10.5
+    },
+    {
+      "playerId": "15256",
+      "playerName": "Williams, Javonte",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "score": 9
+    },
+    {
+      "playerId": "13146",
+      "playerName": "Conner, James",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 8.7
+    },
+    {
+      "playerId": "14797",
+      "playerName": "Swift, D'Andre",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 7.6
+    },
+    {
+      "playerId": "13132",
+      "playerName": "Kamara, Alvin",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 7.3
+    },
+    {
+      "playerId": "13131",
+      "playerName": "Mixon, Joe",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 6.8
+    },
+    {
+      "playerId": "14805",
+      "playerName": "Dillon, AJ",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 5.8
+    },
+    {
+      "playerId": "13319",
+      "playerName": "Jones, Aaron",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "score": 5.7
+    },
+    {
+      "playerId": "14079",
+      "playerName": "Sanders, Miles",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "score": 5.4
+    },
+    {
+      "playerId": "14071",
+      "playerName": "Montgomery, David",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 1.1
+    }
+  ],
+  "Week 4: Most Points from Single QuarterBack": [
+    {
+      "playerId": "5848",
+      "playerName": "Brady, Tom",
+      "position": "QB",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "score": 29.25
+    },
+    {
+      "playerId": "13116",
+      "playerName": "Mahomes, Patrick",
+      "position": "QB",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "score": 25.85
+    },
+    {
+      "playerId": "13589",
+      "playerName": "Allen, Josh",
+      "position": "QB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 25.65
+    },
+    {
+      "playerId": "14056",
+      "playerName": "Murray, Kyler",
+      "position": "QB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 24.95
+    },
+    {
+      "playerId": "14779",
+      "playerName": "Herbert, Justin",
+      "position": "QB",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "score": 24.5
+    },
+    {
+      "playerId": "14777",
+      "playerName": "Burrow, Joe",
+      "position": "QB",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 22.95
+    },
+    {
+      "playerId": "7836",
+      "playerName": "Rodgers, Aaron",
+      "position": "QB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 18.65
+    },
+    {
+      "playerId": "14783",
+      "playerName": "Hurts, Jalen",
+      "position": "QB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 18
+    },
+    {
+      "playerId": "13593",
+      "playerName": "Jackson, Lamar",
+      "position": "QB",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "score": 14.5
+    },
+    {
+      "playerId": "11644",
+      "playerName": "Carr, Derek",
+      "position": "QB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 13.4
+    }
+  ],
+  "Week 5: Most Kicker Points": [
+    {
+      "playerId": "8851",
+      "playerName": "Folk, Nick",
+      "position": "PK",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "score": 20
+    },
+    {
+      "playerId": "10976",
+      "playerName": "Tucker, Justin",
+      "position": "PK",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 17.8
+    },
+    {
+      "playerId": "13718",
+      "playerName": "Carlson, Daniel",
+      "position": "PK",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 17
+    },
+    {
+      "playerId": "8742",
+      "playerName": "Crosby, Mason",
+      "position": "PK",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 11.4
+    },
+    {
+      "playerId": "9686",
+      "playerName": "Succop, Ryan",
+      "position": "PK",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 8.4
+    },
+    {
+      "playerId": "14983",
+      "playerName": "Bass, Tyler",
+      "position": "PK",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "score": 7.5
+    },
+    {
+      "playerId": "15369",
+      "playerName": "Patterson, Riley",
+      "position": "PK",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "score": 7.5
+    },
+    {
+      "playerId": "15368",
+      "playerName": "McPherson, Evan",
+      "position": "PK",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "score": 6
+    },
+    {
+      "playerId": "14244",
+      "playerName": "Gay, Matt",
+      "position": "PK",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 3
+    },
+    {
+      "playerId": "13403",
+      "playerName": "Koo, Younghoe",
+      "position": "PK",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 0
+    }
+  ],
+  "Week 6: Longest QB TD": [
+    {
+      "playerId": "14777",
+      "playerName": "Burrow, Joe",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "passYards": 60
+    },
+    {
+      "playerId": "13116",
+      "playerName": "Mahomes, Patrick",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "passYards": 42
+    },
+    {
+      "playerId": "13589",
+      "playerName": "Allen, Josh",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "passYards": 34
+    },
+    {
+      "playerId": "7836",
+      "playerName": "Rodgers, Aaron",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "passYards": 25
+    },
+    {
+      "playerId": "13589",
+      "playerName": "Allen, Josh",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "passYards": 17
+    },
+    {
+      "playerId": "14777",
+      "playerName": "Burrow, Joe",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "passYards": 15
+    },
+    {
+      "playerId": "14783",
+      "playerName": "Hurts, Jalen",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "passYards": 15
+    },
+    {
+      "playerId": "13589",
+      "playerName": "Allen, Josh",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "passYards": 14
+    },
+    {
+      "playerId": "13593",
+      "playerName": "Jackson, Lamar",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "passYards": 12
+    },
+    {
+      "playerId": "5848",
+      "playerName": "Brady, Tom",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "passYards": 11
+    },
+    {
+      "playerId": "14777",
+      "playerName": "Burrow, Joe",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "passYards": 9
+    },
+    {
+      "playerId": "14783",
+      "playerName": "Hurts, Jalen",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "passYards": 7
+    },
+    {
+      "playerId": "13116",
+      "playerName": "Mahomes, Patrick",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "passYards": 3
+    }
+  ],
+  "Week 7: Most Team Receptions": [
+    {
+      "franchiseId": "0004",
+      "name": "Dex’s Solid Friend Ol’ Marty",
+      "receptions": 48
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 40
+    },
+    {
+      "franchiseId": "0007",
+      "name": "My Team Might Stink",
+      "receptions": 39
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Bow to your champion!",
+      "receptions": 31
+    },
+    {
+      "franchiseId": "0002",
+      "name": "La Muerte Peluda",
+      "receptions": 30
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Bye Week",
+      "receptions": 27
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Pepperoni Pizza Fucker",
+      "receptions": 27
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Muscly Arm Paper Boys",
+      "receptions": 25
+    },
+    {
+      "franchiseId": "0001",
+      "name": "Clear eyes, Full hearts, Can’t lose.",
+      "receptions": 24
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "receptions": 18
+    }
+  ],
+  "Week 8: Most DEF Points": [
+    {
+      "playerId": "0507",
+      "playerName": "Browns, Cleveland",
+      "position": "Def",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 14
+    },
+    {
+      "playerId": "0505",
+      "playerName": "Jets, New York",
+      "position": "Def",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 11
+    },
+    {
+      "playerId": "0508",
+      "playerName": "Titans, Tennessee",
+      "position": "Def",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "score": 11
+    },
+    {
+      "playerId": "0516",
+      "playerName": "Cowboys, Dallas",
+      "position": "Def",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "score": 10
+    },
+    {
+      "playerId": "0511",
+      "playerName": "Broncos, Denver",
+      "position": "Def",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 8
+    },
+    {
+      "playerId": "0504",
+      "playerName": "Patriots, New England",
+      "position": "Def",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "score": 8
+    },
+    {
+      "playerId": "0530",
+      "playerName": "49ers, San Francisco",
+      "position": "Def",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 5
+    },
+    {
+      "playerId": "0509",
+      "playerName": "Jaguars, Jacksonville",
+      "position": "Def",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "score": 5
+    },
+    {
+      "playerId": "0501",
+      "playerName": "Bills, Buffalo",
+      "position": "Def",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 4
+    },
+    {
+      "playerId": "0503",
+      "playerName": "Dolphins, Miami",
+      "position": "Def",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 0
+    }
+  ],
+  "Week 9: Most Single Player Receptions": [
+    {
+      "playerId": "11675",
+      "playerName": "Adams, Davante",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "receptions": 10
+    },
+    {
+      "playerId": "13156",
+      "playerName": "Smith-Schuster, JuJu",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 10
+    },
+    {
+      "playerId": "11244",
+      "playerName": "Kelce, Travis",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "receptions": 10
+    },
+    {
+      "playerId": "14138",
+      "playerName": "Hockenson, T.J.",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "receptions": 9
+    },
+    {
+      "playerId": "13633",
+      "playerName": "Kirk, Christian",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 8
+    },
+    {
+      "playerId": "15753",
+      "playerName": "Wilson, Garrett",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "receptions": 8
+    },
+    {
+      "playerId": "15319",
+      "playerName": "Palmer, Josh",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 8
+    },
+    {
+      "playerId": "13164",
+      "playerName": "Kupp, Cooper",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "receptions": 8
+    },
+    {
+      "playerId": "13674",
+      "playerName": "Goedert, Dallas",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "receptions": 8
+    },
+    {
+      "playerId": "15283",
+      "playerName": "Moore, Rondale",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "receptions": 8
+    },
+    {
+      "playerId": "14974",
+      "playerName": "Mooney, Darnell",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "receptions": 7
+    },
+    {
+      "playerId": "14836",
+      "playerName": "Jefferson, Justin",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 7
+    },
+    {
+      "playerId": "13163",
+      "playerName": "Godwin, Chris",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 7
+    },
+    {
+      "playerId": "13404",
+      "playerName": "Ekeler, Austin",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "receptions": 7
+    },
+    {
+      "playerId": "14835",
+      "playerName": "Higgins, Tee",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "receptions": 7
+    },
+    {
+      "playerId": "12801",
+      "playerName": "Hill, Tyreek",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "receptions": 7
+    },
+    {
+      "playerId": "15754",
+      "playerName": "Olave, Chris",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "receptions": 6
+    },
+    {
+      "playerId": "12186",
+      "playerName": "Diggs, Stefon",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "receptions": 5
+    },
+    {
+      "playerId": "13236",
+      "playerName": "Everett, Gerald",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "receptions": 5
+    },
+    {
+      "playerId": "14102",
+      "playerName": "Metcalf, DK",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "receptions": 5
+    },
+    {
+      "playerId": "15284",
+      "playerName": "Waddle, Jaylen",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 5
+    },
+    {
+      "playerId": "12650",
+      "playerName": "Boyd, Tyler",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 5
+    },
+    {
+      "playerId": "14109",
+      "playerName": "McLaurin, Terry",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 5
+    },
+    {
+      "playerId": "14127",
+      "playerName": "Meyers, Jakobi",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "receptions": 5
+    },
+    {
+      "playerId": "11671",
+      "playerName": "Evans, Mike",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 5
+    },
+    {
+      "playerId": "13129",
+      "playerName": "Fournette, Leonard",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "receptions": 5
+    },
+    {
+      "playerId": "11247",
+      "playerName": "Ertz, Zach",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "receptions": 5
+    },
+    {
+      "playerId": "12187",
+      "playerName": "Lockett, Tyler",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "receptions": 5
+    },
+    {
+      "playerId": "13146",
+      "playerName": "Conner, James",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "receptions": 5
+    },
+    {
+      "playerId": "14080",
+      "playerName": "Singletary, Devin",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "receptions": 4
+    },
+    {
+      "playerId": "13131",
+      "playerName": "Mixon, Joe",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "receptions": 4
+    },
+    {
+      "playerId": "14104",
+      "playerName": "Brown, A.J.",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "receptions": 4
+    },
+    {
+      "playerId": "11232",
+      "playerName": "Hopkins, DeAndre",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "receptions": 4
+    },
+    {
+      "playerId": "15287",
+      "playerName": "St. Brown, Amon-Ra",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "receptions": 4
+    },
+    {
+      "playerId": "13632",
+      "playerName": "Lazard, Allen",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "receptions": 4
+    },
+    {
+      "playerId": "14143",
+      "playerName": "Knox, Dawson",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 3
+    },
+    {
+      "playerId": "13132",
+      "playerName": "Kamara, Alvin",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 3
+    },
+    {
+      "playerId": "14073",
+      "playerName": "Jacobs, Josh",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "receptions": 3
+    },
+    {
+      "playerId": "13427",
+      "playerName": "Tonyan, Robert",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "receptions": 3
+    },
+    {
+      "playerId": "15711",
+      "playerName": "Walker III, Kenneth",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 3
+    },
+    {
+      "playerId": "11938",
+      "playerName": "Thielen, Adam",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "receptions": 3
+    },
+    {
+      "playerId": "15259",
+      "playerName": "Stevenson, Rhamondre",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "receptions": 3
+    },
+    {
+      "playerId": "13319",
+      "playerName": "Jones, Aaron",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "receptions": 2
+    },
+    {
+      "playerId": "12630",
+      "playerName": "Drake, Kenyan",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 2
+    },
+    {
+      "playerId": "13635",
+      "playerName": "Moore, D.J.",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "receptions": 2
+    },
+    {
+      "playerId": "15716",
+      "playerName": "Robinson, Brian",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "receptions": 2
+    },
+    {
+      "playerId": "13128",
+      "playerName": "Cook, Dalvin",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 2
+    },
+    {
+      "playerId": "14845",
+      "playerName": "Davis, Gabriel",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 2
+    },
+    {
+      "playerId": "13134",
+      "playerName": "Foreman, D'Onta",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "receptions": 2
+    },
+    {
+      "playerId": "15253",
+      "playerName": "Etienne, Travis",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "receptions": 2
+    },
+    {
+      "playerId": "15282",
+      "playerName": "Smith, DeVonta",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "receptions": 2
+    },
+    {
+      "playerId": "13675",
+      "playerName": "Conklin, Tyler",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "receptions": 1
+    },
+    {
+      "playerId": "14803",
+      "playerName": "Edwards-Helaire, Clyde",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "receptions": 1
+    },
+    {
+      "playerId": "14071",
+      "playerName": "Montgomery, David",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "receptions": 1
+    },
+    {
+      "playerId": "14847",
+      "playerName": "Duvernay, Devin",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "receptions": 1
+    },
+    {
+      "playerId": "15712",
+      "playerName": "Allgeier, Tyler",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 1
+    },
+    {
+      "playerId": "13189",
+      "playerName": "Engram, Evan",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 1
+    },
+    {
+      "playerId": "11225",
+      "playerName": "Patterson, Cordarrelle",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 1
+    },
+    {
+      "playerId": "13793",
+      "playerName": "Valdes-Scantling, Marquez",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "receptions": 1
+    },
+    {
+      "playerId": "13672",
+      "playerName": "Gesicki, Mike",
+      "position": "TE",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "receptions": 1
+    }
+  ],
+  "Week 10: Most Points from Single Tight End": [
+    {
+      "playerId": "11244",
+      "playerName": "Kelce, Travis",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "score": 20.1
+    },
+    {
+      "playerId": "13772",
+      "playerName": "Schultz, Dalton",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 17.4
+    },
+    {
+      "playerId": "12678",
+      "playerName": "Higbee, Tyler",
+      "position": "TE",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 15.3
+    },
+    {
+      "playerId": "14138",
+      "playerName": "Hockenson, T.J.",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "score": 11.5
+    },
+    {
+      "playerId": "14143",
+      "playerName": "Knox, Dawson",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 9.7
+    },
+    {
+      "playerId": "13674",
+      "playerName": "Goedert, Dallas",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "score": 9.3
+    },
+    {
+      "playerId": "15331",
+      "playerName": "Freiermuth, Pat",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 7.6
+    },
+    {
+      "playerId": "15329",
+      "playerName": "Pitts, Kyle",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "score": 4.8
+    },
+    {
+      "playerId": "13299",
+      "playerName": "Kittle, George",
+      "position": "TE",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 3.1
+    },
+    {
+      "playerId": "11247",
+      "playerName": "Ertz, Zach",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "score": 2.2
+    },
+    {
+      "playerId": "15797",
+      "playerName": "Dulcich, Greg",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 2.1
+    }
+  ],
+  "Week 11: Most Team TDs": [
+    {
+      "franchiseId": "0006",
+      "name": "Pepperoni Pizza Fucker",
+      "tds": 8
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Muscly Arm Paper Boys",
+      "tds": 7
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Bye Week",
+      "tds": 7
+    },
+    {
+      "franchiseId": "0002",
+      "name": "La Muerte Peluda",
+      "tds": 6
+    },
+    {
+      "franchiseId": "0007",
+      "name": "My Team Might Stink",
+      "tds": 6
+    },
+    {
+      "franchiseId": "0001",
+      "name": "Clear eyes, Full hearts, Can’t lose.",
+      "tds": 5
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "tds": 3
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "tds": 2
+    },
+    {
+      "franchiseId": "0004",
+      "name": "Dex’s Solid Friend Ol’ Marty",
+      "tds": 2
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Bow to your champion!",
+      "tds": 2
+    }
+  ],
+  "Week 12: Player with Most Points (No QB)": [
+    {
+      "playerId": "14073",
+      "playerName": "Jacobs, Josh",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "score": 48.3
+    },
+    {
+      "playerId": "14079",
+      "playerName": "Sanders, Miles",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "score": 31
+    },
+    {
+      "playerId": "14836",
+      "playerName": "Jefferson, Justin",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 29.45
+    },
+    {
+      "playerId": "13163",
+      "playerName": "Godwin, Chris",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 29
+    },
+    {
+      "playerId": "15287",
+      "playerName": "St. Brown, Amon-Ra",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "score": 27.9
+    },
+    {
+      "playerId": "15753",
+      "playerName": "Wilson, Garrett",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 26.4
+    },
+    {
+      "playerId": "13404",
+      "playerName": "Ekeler, Austin",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "score": 25
+    },
+    {
+      "playerId": "14835",
+      "playerName": "Higgins, Tee",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "score": 24.4
+    },
+    {
+      "playerId": "12186",
+      "playerName": "Diggs, Stefon",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 21.7
+    },
+    {
+      "playerId": "13146",
+      "playerName": "Conner, James",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 21
+    },
+    {
+      "playerId": "13635",
+      "playerName": "Moore, D.J.",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "score": 20.3
+    },
+    {
+      "playerId": "15259",
+      "playerName": "Stevenson, Rhamondre",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "score": 20.2
+    },
+    {
+      "playerId": "13610",
+      "playerName": "Chubb, Nick",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 20.2
+    },
+    {
+      "playerId": "14102",
+      "playerName": "Metcalf, DK",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "score": 20
+    },
+    {
+      "playerId": "15721",
+      "playerName": "White, Rachaad",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "score": 19.9
+    },
+    {
+      "playerId": "13133",
+      "playerName": "Perine, Samaje",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 19.3
+    },
+    {
+      "playerId": "13772",
+      "playerName": "Schultz, Dalton",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 19.1
+    },
+    {
+      "playerId": "13319",
+      "playerName": "Jones, Aaron",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "score": 18.9
+    },
+    {
+      "playerId": "14802",
+      "playerName": "Taylor, Jonathan",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "score": 18.8
+    },
+    {
+      "playerId": "11232",
+      "playerName": "Hopkins, DeAndre",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 18.7
+    },
+    {
+      "playerId": "14832",
+      "playerName": "Lamb, CeeDee",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 17.7
+    },
+    {
+      "playerId": "15711",
+      "playerName": "Walker III, Kenneth",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 16.9
+    },
+    {
+      "playerId": "12175",
+      "playerName": "Cooper, Amari",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 16.4
+    },
+    {
+      "playerId": "11222",
+      "playerName": "Allen, Keenan",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 15.9
+    },
+    {
+      "playerId": "12187",
+      "playerName": "Lockett, Tyler",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "score": 15.8
+    },
+    {
+      "playerId": "11244",
+      "playerName": "Kelce, Travis",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "score": 15.7
+    },
+    {
+      "playerId": "15749",
+      "playerName": "Pacheco, Isiah",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 15.6
+    },
+    {
+      "playerId": "14138",
+      "playerName": "Hockenson, T.J.",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "score": 15.3
+    },
+    {
+      "playerId": "13604",
+      "playerName": "Barkley, Saquon",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 15.2
+    },
+    {
+      "playerId": "12801",
+      "playerName": "Hill, Tyreek",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "score": 15
+    },
+    {
+      "playerId": "12626",
+      "playerName": "Henry, Derrick",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "score": 14.7
+    },
+    {
+      "playerId": "11675",
+      "playerName": "Adams, Davante",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "score": 14.4
+    },
+    {
+      "playerId": "14071",
+      "playerName": "Montgomery, David",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 14.3
+    },
+    {
+      "playerId": "13192",
+      "playerName": "Njoku, David",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 13.9
+    },
+    {
+      "playerId": "15284",
+      "playerName": "Waddle, Jaylen",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 13.5
+    },
+    {
+      "playerId": "13630",
+      "playerName": "Sutton, Courtland",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 13.5
+    },
+    {
+      "playerId": "14104",
+      "playerName": "Brown, A.J.",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 12.6
+    },
+    {
+      "playerId": "14017",
+      "playerName": "Wilson, Jeffery",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 12.2
+    },
+    {
+      "playerId": "14840",
+      "playerName": "Aiyuk, Brandon",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "score": 11.5
+    },
+    {
+      "playerId": "13134",
+      "playerName": "Foreman, D'Onta",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "score": 11.3
+    },
+    {
+      "playerId": "15754",
+      "playerName": "Olave, Chris",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "score": 11.2
+    },
+    {
+      "playerId": "13671",
+      "playerName": "Andrews, Mark",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 11
+    },
+    {
+      "playerId": "15254",
+      "playerName": "Harris, Najee",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 10.9
+    },
+    {
+      "playerId": "14105",
+      "playerName": "Brown, Marquise",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 10.6
+    },
+    {
+      "playerId": "15319",
+      "playerName": "Palmer, Josh",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 10.6
+    },
+    {
+      "playerId": "11225",
+      "playerName": "Patterson, Cordarrelle",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 10.46
+    },
+    {
+      "playerId": "13128",
+      "playerName": "Cook, Dalvin",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 9.6
+    },
+    {
+      "playerId": "14109",
+      "playerName": "McLaurin, Terry",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 9.3
+    },
+    {
+      "playerId": "14127",
+      "playerName": "Meyers, Jakobi",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "score": 9.2
+    },
+    {
+      "playerId": "14080",
+      "playerName": "Singletary, Devin",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 9
+    },
+    {
+      "playerId": "13130",
+      "playerName": "McCaffrey, Christian",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 8.9
+    },
+    {
+      "playerId": "14085",
+      "playerName": "Pollard, Tony",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 8.1
+    },
+    {
+      "playerId": "13633",
+      "playerName": "Kirk, Christian",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 8.1
+    },
+    {
+      "playerId": "13675",
+      "playerName": "Conklin, Tyler",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "score": 8
+    },
+    {
+      "playerId": "14845",
+      "playerName": "Davis, Gabriel",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 7.8
+    },
+    {
+      "playerId": "14136",
+      "playerName": "Samuel, Deebo",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "score": 7.3
+    },
+    {
+      "playerId": "14847",
+      "playerName": "Duvernay, Devin",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 7.14
+    },
+    {
+      "playerId": "13132",
+      "playerName": "Kamara, Alvin",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 7
+    },
+    {
+      "playerId": "13156",
+      "playerName": "Smith-Schuster, JuJu",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 6.8
+    },
+    {
+      "playerId": "14867",
+      "playerName": "Kmet, Cole",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "score": 5.7
+    },
+    {
+      "playerId": "13299",
+      "playerName": "Kittle, George",
+      "position": "TE",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 5.6
+    },
+    {
+      "playerId": "15751",
+      "playerName": "London, Drake",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "score": 4.9
+    },
+    {
+      "playerId": "13632",
+      "playerName": "Lazard, Allen",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "score": 4.4
+    },
+    {
+      "playerId": "14143",
+      "playerName": "Knox, Dawson",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 3.7
+    },
+    {
+      "playerId": "12650",
+      "playerName": "Boyd, Tyler",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 3.6
+    },
+    {
+      "playerId": "13157",
+      "playerName": "Samuel, Curtis",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "score": 1.3
+    },
+    {
+      "playerId": "15253",
+      "playerName": "Etienne, Travis",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 0.3
+    },
+    {
+      "playerId": "14974",
+      "playerName": "Mooney, Darnell",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "score": 0
+    },
+    {
+      "playerId": "14861",
+      "playerName": "Johnson, Juwan",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 0
+    },
+    {
+      "playerId": "12678",
+      "playerName": "Higbee, Tyler",
+      "position": "TE",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 0
+    }
+  ],
+  "Week 13: Greatest Win Margin": [
+    {
+      "winnerId": "0007",
+      "winnerName": "My Team Might Stink",
+      "winnerScore": 178.15,
+      "loserId": "0009",
+      "loserName": "Bye Week",
+      "loserScore": 96.3,
+      "margin": 81.85
+    },
+    {
+      "winnerId": "0005",
+      "winnerName": "Muscly Arm Paper Boys",
+      "winnerScore": 151.85,
+      "loserId": "0010",
+      "loserName": "Loves-to-eat-butt-crack-Pack",
+      "loserScore": 71.4,
+      "margin": 80.45
+    },
+    {
+      "winnerId": "0002",
+      "winnerName": "La Muerte Peluda",
+      "winnerScore": 163.95,
+      "loserId": "0003",
+      "loserName": "Gordon's Revival",
+      "loserScore": 133.6,
+      "margin": 30.35
+    },
+    {
+      "winnerId": "0004",
+      "winnerName": "Dex’s Solid Friend Ol’ Marty",
+      "winnerScore": 146.75,
+      "loserId": "0001",
+      "loserName": "Clear eyes, Full hearts, Can’t lose.",
+      "loserScore": 132.02,
+      "margin": 14.73
+    },
+    {
+      "winnerId": "0006",
+      "winnerName": "Pepperoni Pizza Fucker",
+      "winnerScore": 151.65,
+      "loserId": "0008",
+      "loserName": "Bow to your champion!",
+      "loserScore": 143.15,
+      "margin": 8.5
+    }
+  ],
+  "Week 14: Player with Most Yards (No QB)": [
+    {
+      "playerId": "14836",
+      "playerName": "Jefferson, Justin",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 223
+    },
+    {
+      "playerId": "13189",
+      "playerName": "Engram, Evan",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "yards": 162
+    },
+    {
+      "playerId": "12626",
+      "playerName": "Henry, Derrick",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "yards": 155
+    },
+    {
+      "playerId": "14079",
+      "playerName": "Sanders, Miles",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "yards": 155
+    },
+    {
+      "playerId": "13130",
+      "playerName": "McCaffrey, Christian",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 153
+    },
+    {
+      "playerId": "14857",
+      "playerName": "Peoples-Jones, Donovan",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 129
+    },
+    {
+      "playerId": "15281",
+      "playerName": "Chase, Ja'Marr",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 125
+    },
+    {
+      "playerId": "14073",
+      "playerName": "Jacobs, Josh",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "yards": 114
+    },
+    {
+      "playerId": "13146",
+      "playerName": "Conner, James",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 114
+    },
+    {
+      "playerId": "13131",
+      "playerName": "Mixon, Joe",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 106
+    },
+    {
+      "playerId": "13404",
+      "playerName": "Ekeler, Austin",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "yards": 104
+    },
+    {
+      "playerId": "15749",
+      "playerName": "Pacheco, Isiah",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "yards": 93
+    },
+    {
+      "playerId": "11222",
+      "playerName": "Allen, Keenan",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 92
+    },
+    {
+      "playerId": "13772",
+      "playerName": "Schultz, Dalton",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 87
+    },
+    {
+      "playerId": "14208",
+      "playerName": "Johnson, Diontae",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "yards": 82
+    },
+    {
+      "playerId": "12625",
+      "playerName": "Elliott, Ezekiel",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "yards": 81
+    },
+    {
+      "playerId": "12801",
+      "playerName": "Hill, Tyreek",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "yards": 81
+    },
+    {
+      "playerId": "11232",
+      "playerName": "Hopkins, DeAndre",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 79
+    },
+    {
+      "playerId": "15717",
+      "playerName": "Pierce, Dameon",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 78
+    },
+    {
+      "playerId": "15753",
+      "playerName": "Wilson, Garrett",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "yards": 78
+    },
+    {
+      "playerId": "13176",
+      "playerName": "Jones, Zay",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "yards": 77
+    },
+    {
+      "playerId": "15727",
+      "playerName": "Knight, Zonovan",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 77
+    },
+    {
+      "playerId": "14138",
+      "playerName": "Hockenson, T.J.",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "yards": 77
+    },
+    {
+      "playerId": "13134",
+      "playerName": "Foreman, D'Onta",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "yards": 75
+    },
+    {
+      "playerId": "13156",
+      "playerName": "Smith-Schuster, JuJu",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 74
+    },
+    {
+      "playerId": "15287",
+      "playerName": "St. Brown, Amon-Ra",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "yards": 74
+    },
+    {
+      "playerId": "14102",
+      "playerName": "Metcalf, DK",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "yards": 71
+    },
+    {
+      "playerId": "11675",
+      "playerName": "Adams, Davante",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "yards": 71
+    },
+    {
+      "playerId": "11244",
+      "playerName": "Kelce, Travis",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "yards": 71
+    },
+    {
+      "playerId": "14104",
+      "playerName": "Brown, A.J.",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 70
+    },
+    {
+      "playerId": "12676",
+      "playerName": "Henry, Hunter",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "yards": 70
+    },
+    {
+      "playerId": "14136",
+      "playerName": "Samuel, Deebo",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "yards": 64
+    },
+    {
+      "playerId": "15282",
+      "playerName": "Smith, DeVonta",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 64
+    },
+    {
+      "playerId": "14085",
+      "playerName": "Pollard, Tony",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 62
+    },
+    {
+      "playerId": "12187",
+      "playerName": "Lockett, Tyler",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "yards": 60
+    },
+    {
+      "playerId": "14840",
+      "playerName": "Aiyuk, Brandon",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "yards": 57
+    },
+    {
+      "playerId": "13192",
+      "playerName": "Njoku, David",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 57
+    },
+    {
+      "playerId": "13610",
+      "playerName": "Chubb, Nick",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 54
+    },
+    {
+      "playerId": "13163",
+      "playerName": "Godwin, Chris",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 54
+    },
+    {
+      "playerId": "15319",
+      "playerName": "Palmer, Josh",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 53
+    },
+    {
+      "playerId": "12785",
+      "playerName": "Robinson, Demarcus",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "yards": 52
+    },
+    {
+      "playerId": "13604",
+      "playerName": "Barkley, Saquon",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 48
+    },
+    {
+      "playerId": "13129",
+      "playerName": "Fournette, Leonard",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "yards": 46
+    },
+    {
+      "playerId": "13633",
+      "playerName": "Kirk, Christian",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 45
+    },
+    {
+      "playerId": "11671",
+      "playerName": "Evans, Mike",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 44
+    },
+    {
+      "playerId": "12447",
+      "playerName": "Mostert, Raheem",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "yards": 44
+    },
+    {
+      "playerId": "14858",
+      "playerName": "Jefferson, Van",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "yards": 44
+    },
+    {
+      "playerId": "12175",
+      "playerName": "Cooper, Amari",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 42
+    },
+    {
+      "playerId": "14143",
+      "playerName": "Knox, Dawson",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 41
+    },
+    {
+      "playerId": "14797",
+      "playerName": "Swift, D'Andre",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 39
+    },
+    {
+      "playerId": "12186",
+      "playerName": "Diggs, Stefon",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 37
+    },
+    {
+      "playerId": "13128",
+      "playerName": "Cook, Dalvin",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 36
+    },
+    {
+      "playerId": "14105",
+      "playerName": "Brown, Marquise",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "yards": 34
+    },
+    {
+      "playerId": "14832",
+      "playerName": "Lamb, CeeDee",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 33
+    },
+    {
+      "playerId": "15331",
+      "playerName": "Freiermuth, Pat",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 33
+    },
+    {
+      "playerId": "15253",
+      "playerName": "Etienne, Travis",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 32
+    },
+    {
+      "playerId": "15284",
+      "playerName": "Waddle, Jaylen",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 31
+    },
+    {
+      "playerId": "14845",
+      "playerName": "Davis, Gabriel",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 31
+    },
+    {
+      "playerId": "13675",
+      "playerName": "Conklin, Tyler",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "yards": 28
+    },
+    {
+      "playerId": "13299",
+      "playerName": "Kittle, George",
+      "position": "TE",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 28
+    },
+    {
+      "playerId": "12394",
+      "playerName": "Carter, DeAndre",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "yards": 23
+    },
+    {
+      "playerId": "15258",
+      "playerName": "Carter, Michael",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Pepperoni Pizza Fucker",
+      "yards": 20
+    },
+    {
+      "playerId": "13138",
+      "playerName": "Hunt, Kareem",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "yards": 12
+    },
+    {
+      "playerId": "12678",
+      "playerName": "Higbee, Tyler",
+      "position": "TE",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 11
+    },
+    {
+      "playerId": "15259",
+      "playerName": "Stevenson, Rhamondre",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "yards": 10
+    },
+    {
+      "playerId": "13635",
+      "playerName": "Moore, D.J.",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Bye Week",
+      "yards": 6
+    },
+    {
+      "playerId": "12630",
+      "playerName": "Drake, Kenyan",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 2
+    },
+    {
+      "playerId": "14835",
+      "playerName": "Higgins, Tee",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Dex’s Solid Friend Ol’ Marty",
+      "yards": 0
+    },
+    {
+      "playerId": "12650",
+      "playerName": "Boyd, Tyler",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "yards": 0
+    },
+    {
+      "playerId": "13319",
+      "playerName": "Jones, Aaron",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "My Team Might Stink",
+      "yards": 0
+    }
+  ],
+  "Week 15: Most Team Points": [
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "score": 149.15
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Bye Week",
+      "score": 140.2
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Muscly Arm Paper Boys",
+      "score": 134.7
+    },
+    {
+      "franchiseId": "0001",
+      "name": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 125.68
+    },
+    {
+      "franchiseId": "0007",
+      "name": "My Team Might Stink",
+      "score": 115.77
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Pepperoni Pizza Fucker",
+      "score": 112.3
+    }
+  ],
+  "Week 16: Most Team Points": [
+    {
+      "franchiseId": "0005",
+      "name": "Muscly Arm Paper Boys",
+      "score": 188.95
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Pepperoni Pizza Fucker",
+      "score": 147.4
+    },
+    {
+      "franchiseId": "0001",
+      "name": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 126.81
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Bye Week",
+      "score": 103.75
+    },
+    {
+      "franchiseId": "0007",
+      "name": "My Team Might Stink",
+      "score": 102.71
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "score": 91.88
+    }
+  ]
+}

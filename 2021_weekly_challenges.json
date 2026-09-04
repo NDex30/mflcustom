@@ -1,0 +1,2654 @@
+{
+  "Week 1: Most Team Points": [
+    {
+      "franchiseId": "0009",
+      "name": "Rusty Zambons",
+      "score": 187.05
+    },
+    {
+      "franchiseId": "0004",
+      "name": "InsaneGiraffe81",
+      "score": 172.11
+    },
+    {
+      "franchiseId": "0007",
+      "name": "Let The Boy Watch",
+      "score": 171.45
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "score": 158.33
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "score": 143.81
+    },
+    {
+      "franchiseId": "0002",
+      "name": "Congrats Keenan",
+      "score": 134.15
+    },
+    {
+      "franchiseId": "0001",
+      "name": "All Whites ",
+      "score": 132.08
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Williams, Darrel KCC RB for $600",
+      "score": 132.05
+    },
+    {
+      "franchiseId": "0005",
+      "name": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "score": 117.15
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Jake Filter: ON",
+      "score": 111.45
+    }
+  ],
+  "Week 2: Most All-Purpose Yards": [
+    {
+      "franchiseId": "0001",
+      "name": "All Whites ",
+      "yards": 691
+    },
+    {
+      "franchiseId": "0002",
+      "name": "Congrats Keenan",
+      "yards": 654
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "yards": 594
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Jake Filter: ON",
+      "yards": 575
+    },
+    {
+      "franchiseId": "0004",
+      "name": "InsaneGiraffe81",
+      "yards": 545
+    },
+    {
+      "franchiseId": "0007",
+      "name": "Let The Boy Watch",
+      "yards": 519
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "yards": 466
+    },
+    {
+      "franchiseId": "0005",
+      "name": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "yards": 461
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Williams, Darrel KCC RB for $600",
+      "yards": 453
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Rusty Zambons",
+      "yards": 413
+    }
+  ],
+  "Week 3: Most Points from Single Running Back": [
+    {
+      "playerId": "15254",
+      "playerName": "Harris, Najee",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "score": 28.2
+    },
+    {
+      "playerId": "12625",
+      "playerName": "Elliott, Ezekiel",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "score": 26.6
+    },
+    {
+      "playerId": "14813",
+      "playerName": "Robinson, James",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "score": 25.4
+    },
+    {
+      "playerId": "14797",
+      "playerName": "Swift, D'Andre",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 23.7
+    },
+    {
+      "playerId": "14223",
+      "playerName": "Mattison, Alexander",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "score": 23.1
+    },
+    {
+      "playerId": "13404",
+      "playerName": "Ekeler, Austin",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 22.7
+    },
+    {
+      "playerId": "13604",
+      "playerName": "Barkley, Saquon",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 21.4
+    },
+    {
+      "playerId": "13132",
+      "playerName": "Kamara, Alvin",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "score": 20.8
+    },
+    {
+      "playerId": "12626",
+      "playerName": "Henry, Derrick",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "score": 19.4
+    },
+    {
+      "playerId": "13319",
+      "playerName": "Jones, Aaron",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "score": 17.6
+    },
+    {
+      "playerId": "13364",
+      "playerName": "Carson, Chris",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "score": 16.2
+    },
+    {
+      "playerId": "12151",
+      "playerName": "Gordon, Melvin",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "score": 15.1
+    },
+    {
+      "playerId": "13726",
+      "playerName": "Edmonds, Chase",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "score": 14.5
+    },
+    {
+      "playerId": "13131",
+      "playerName": "Mixon, Joe",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "score": 10.4
+    },
+    {
+      "playerId": "14079",
+      "playerName": "Sanders, Miles",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "score": 8.5
+    },
+    {
+      "playerId": "13610",
+      "playerName": "Chubb, Nick",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 8.4
+    },
+    {
+      "playerId": "14802",
+      "playerName": "Taylor, Jonathan",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "score": 8.2
+    },
+    {
+      "playerId": "14071",
+      "playerName": "Montgomery, David",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "score": 7.5
+    },
+    {
+      "playerId": "13130",
+      "playerName": "McCaffrey, Christian",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "score": 6
+    },
+    {
+      "playerId": "14080",
+      "playerName": "Singletary, Devin",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 3.6
+    },
+    {
+      "playerId": "14075",
+      "playerName": "Harris, Damien",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "score": 3.1
+    },
+    {
+      "playerId": "11747",
+      "playerName": "White, James",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "score": 0.6
+    },
+    {
+      "playerId": "14073",
+      "playerName": "Jacobs, Josh",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "score": 0
+    }
+  ],
+  "Week 4: Most Points from Single QuarterBack": [
+    {
+      "playerId": "13116",
+      "playerName": "Mahomes, Patrick",
+      "position": "QB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 34.5
+    },
+    {
+      "playerId": "12620",
+      "playerName": "Prescott, Dak",
+      "position": "QB",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "score": 28.9
+    },
+    {
+      "playerId": "7836",
+      "playerName": "Rodgers, Aaron",
+      "position": "QB",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "score": 26.6
+    },
+    {
+      "playerId": "14056",
+      "playerName": "Murray, Kyler",
+      "position": "QB",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "score": 25.3
+    },
+    {
+      "playerId": "14779",
+      "playerName": "Herbert, Justin",
+      "position": "QB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 23.5
+    },
+    {
+      "playerId": "13593",
+      "playerName": "Jackson, Lamar",
+      "position": "QB",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "score": 22.6
+    },
+    {
+      "playerId": "13589",
+      "playerName": "Allen, Josh",
+      "position": "QB",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "score": 22.5
+    },
+    {
+      "playerId": "9431",
+      "playerName": "Stafford, Matthew",
+      "position": "QB",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "score": 22.1
+    },
+    {
+      "playerId": "11644",
+      "playerName": "Carr, Derek",
+      "position": "QB",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "score": 16.4
+    },
+    {
+      "playerId": "5848",
+      "playerName": "Brady, Tom",
+      "position": "QB",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "score": 13.75
+    }
+  ],
+  "Week 5: Most Kicker Points": [
+    {
+      "playerId": "10868",
+      "playerName": "Zuerlein, Greg",
+      "position": "PK",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "score": 15
+    },
+    {
+      "playerId": "11936",
+      "playerName": "Boswell, Chris",
+      "position": "PK",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "score": 12.1
+    },
+    {
+      "playerId": "13403",
+      "playerName": "Koo, Younghoe",
+      "position": "PK",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 11.3
+    },
+    {
+      "playerId": "14244",
+      "playerName": "Gay, Matt",
+      "position": "PK",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "score": 8.8
+    },
+    {
+      "playerId": "14983",
+      "playerName": "Bass, Tyler",
+      "position": "PK",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "score": 8
+    },
+    {
+      "playerId": "14912",
+      "playerName": "Blankenship, Rodrigo",
+      "position": "PK",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 6
+    },
+    {
+      "playerId": "12437",
+      "playerName": "Myers, Jason",
+      "position": "PK",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "score": 4.2
+    },
+    {
+      "playerId": "8930",
+      "playerName": "Prater, Matt",
+      "position": "PK",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "score": 4
+    },
+    {
+      "playerId": "13718",
+      "playerName": "Carlson, Daniel",
+      "position": "PK",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "score": 3.1
+    },
+    {
+      "playerId": "10976",
+      "playerName": "Tucker, Justin",
+      "position": "PK",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "score": 3
+    }
+  ],
+  "Week 6: Longest QB TD": [
+    {
+      "playerId": "12620",
+      "playerName": "Prescott, Dak",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "passYards": 35
+    },
+    {
+      "playerId": "13589",
+      "playerName": "Allen, Josh",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "passYards": 29
+    },
+    {
+      "playerId": "9431",
+      "playerName": "Stafford, Matthew",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "passYards": 25
+    },
+    {
+      "playerId": "13116",
+      "playerName": "Mahomes, Patrick",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "passYards": 24
+    },
+    {
+      "playerId": "5848",
+      "playerName": "Brady, Tom",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "passYards": 23
+    },
+    {
+      "playerId": "14056",
+      "playerName": "Murray, Kyler",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "passYards": 21
+    },
+    {
+      "playerId": "9431",
+      "playerName": "Stafford, Matthew",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "passYards": 15
+    },
+    {
+      "playerId": "13589",
+      "playerName": "Allen, Josh",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "passYards": 14
+    },
+    {
+      "playerId": "14056",
+      "playerName": "Murray, Kyler",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "passYards": 14
+    },
+    {
+      "playerId": "9431",
+      "playerName": "Stafford, Matthew",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "passYards": 13
+    },
+    {
+      "playerId": "14056",
+      "playerName": "Murray, Kyler",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "passYards": 13
+    },
+    {
+      "playerId": "7836",
+      "playerName": "Rodgers, Aaron",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "passYards": 12
+    },
+    {
+      "playerId": "13593",
+      "playerName": "Jackson, Lamar",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "passYards": 9
+    },
+    {
+      "playerId": "14056",
+      "playerName": "Murray, Kyler",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "passYards": 9
+    },
+    {
+      "playerId": "14783",
+      "playerName": "Hurts, Jalen",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "passYards": 5
+    },
+    {
+      "playerId": "9431",
+      "playerName": "Stafford, Matthew",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "passYards": 3
+    },
+    {
+      "playerId": "13116",
+      "playerName": "Mahomes, Patrick",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "passYards": 2
+    },
+    {
+      "playerId": "5848",
+      "playerName": "Brady, Tom",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "passYards": 2
+    },
+    {
+      "playerId": "14779",
+      "playerName": "Herbert, Justin",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "passYards": 1
+    },
+    {
+      "playerId": "13589",
+      "playerName": "Allen, Josh",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "passYards": 1
+    },
+    {
+      "playerId": "12620",
+      "playerName": "Prescott, Dak",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "passYards": 1
+    },
+    {
+      "playerId": "12620",
+      "playerName": "Prescott, Dak",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "passYards": 1
+    },
+    {
+      "playerId": "7836",
+      "playerName": "Rodgers, Aaron",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "passYards": 1
+    }
+  ],
+  "Week 7: Most Team Receptions": [
+    {
+      "franchiseId": "0009",
+      "name": "Rusty Zambons",
+      "receptions": 45
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Williams, Darrel KCC RB for $600",
+      "receptions": 34
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "receptions": 32
+    },
+    {
+      "franchiseId": "0007",
+      "name": "Let The Boy Watch",
+      "receptions": 32
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Jake Filter: ON",
+      "receptions": 32
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 30
+    },
+    {
+      "franchiseId": "0001",
+      "name": "All Whites ",
+      "receptions": 23
+    },
+    {
+      "franchiseId": "0005",
+      "name": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "receptions": 22
+    },
+    {
+      "franchiseId": "0004",
+      "name": "InsaneGiraffe81",
+      "receptions": 20
+    },
+    {
+      "franchiseId": "0002",
+      "name": "Congrats Keenan",
+      "receptions": 19
+    }
+  ],
+  "Week 8: Most DEF Points": [
+    {
+      "playerId": "0527",
+      "playerName": "Panthers, Carolina",
+      "position": "Def",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 12
+    },
+    {
+      "playerId": "0520",
+      "playerName": "FootballTeam, Washington",
+      "position": "Def",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "score": 9
+    },
+    {
+      "playerId": "0528",
+      "playerName": "Rams, Los Angeles",
+      "position": "Def",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "score": 8
+    },
+    {
+      "playerId": "0530",
+      "playerName": "49ers, San Francisco",
+      "position": "Def",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "score": 7
+    },
+    {
+      "playerId": "0516",
+      "playerName": "Cowboys, Dallas",
+      "position": "Def",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "score": 5
+    },
+    {
+      "playerId": "0507",
+      "playerName": "Browns, Cleveland",
+      "position": "Def",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 3
+    },
+    {
+      "playerId": "0506",
+      "playerName": "Bengals, Cincinnati",
+      "position": "Def",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "score": 2
+    },
+    {
+      "playerId": "0514",
+      "playerName": "Chargers, Los Angeles",
+      "position": "Def",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "score": 2
+    },
+    {
+      "playerId": "0526",
+      "playerName": "Falcons, Atlanta",
+      "position": "Def",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "score": 2
+    },
+    {
+      "playerId": "0525",
+      "playerName": "Buccaneers, Tampa Bay",
+      "position": "Def",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "score": -1
+    }
+  ],
+  "Week 9: Most Single Player Receptions": [
+    {
+      "playerId": "11222",
+      "playerName": "Allen, Keenan",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "receptions": 12
+    },
+    {
+      "playerId": "13164",
+      "playerName": "Kupp, Cooper",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "receptions": 11
+    },
+    {
+      "playerId": "14105",
+      "playerName": "Brown, Marquise",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 9
+    },
+    {
+      "playerId": "15284",
+      "playerName": "Waddle, Jaylen",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 8
+    },
+    {
+      "playerId": "10973",
+      "playerName": "Beasley, Cole",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "receptions": 8
+    },
+    {
+      "playerId": "12263",
+      "playerName": "Waller, Darren",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "receptions": 7
+    },
+    {
+      "playerId": "11228",
+      "playerName": "Woods, Robert",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "receptions": 7
+    },
+    {
+      "playerId": "14080",
+      "playerName": "Singletary, Devin",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 7
+    },
+    {
+      "playerId": "14123",
+      "playerName": "Renfrow, Hunter",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 7
+    },
+    {
+      "playerId": "12186",
+      "playerName": "Diggs, Stefon",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "receptions": 6
+    },
+    {
+      "playerId": "14081",
+      "playerName": "Gaskin, Myles",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "receptions": 6
+    },
+    {
+      "playerId": "13299",
+      "playerName": "Kittle, George",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "receptions": 6
+    },
+    {
+      "playerId": "15281",
+      "playerName": "Chase, Ja'Marr",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "receptions": 6
+    },
+    {
+      "playerId": "11225",
+      "playerName": "Patterson, Cordarrelle",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "receptions": 6
+    },
+    {
+      "playerId": "14835",
+      "playerName": "Higgins, Tee",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "receptions": 6
+    },
+    {
+      "playerId": "11675",
+      "playerName": "Adams, Davante",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "receptions": 6
+    },
+    {
+      "playerId": "13633",
+      "playerName": "Kirk, Christian",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "receptions": 6
+    },
+    {
+      "playerId": "11674",
+      "playerName": "Cooks, Brandin",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "receptions": 6
+    },
+    {
+      "playerId": "14104",
+      "playerName": "Brown, A.J.",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "receptions": 5
+    },
+    {
+      "playerId": "12678",
+      "playerName": "Higbee, Tyler",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "receptions": 5
+    },
+    {
+      "playerId": "14136",
+      "playerName": "Samuel, Deebo",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "receptions": 5
+    },
+    {
+      "playerId": "10276",
+      "playerName": "Ingram, Mark",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "receptions": 5
+    },
+    {
+      "playerId": "14842",
+      "playerName": "Pittman, Michael",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "receptions": 5
+    },
+    {
+      "playerId": "11244",
+      "playerName": "Kelce, Travis",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "receptions": 5
+    },
+    {
+      "playerId": "13131",
+      "playerName": "Mixon, Joe",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "receptions": 5
+    },
+    {
+      "playerId": "15263",
+      "playerName": "Mitchell, Elijah",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "receptions": 5
+    },
+    {
+      "playerId": "14208",
+      "playerName": "Johnson, Diontae",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "receptions": 5
+    },
+    {
+      "playerId": "13671",
+      "playerName": "Andrews, Mark",
+      "position": "TE",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "receptions": 5
+    },
+    {
+      "playerId": "13130",
+      "playerName": "McCaffrey, Christian",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "receptions": 4
+    },
+    {
+      "playerId": "13672",
+      "playerName": "Gesicki, Mike",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "receptions": 4
+    },
+    {
+      "playerId": "12801",
+      "playerName": "Hill, Tyreek",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "receptions": 4
+    },
+    {
+      "playerId": "14073",
+      "playerName": "Jacobs, Josh",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "receptions": 4
+    },
+    {
+      "playerId": "13132",
+      "playerName": "Kamara, Alvin",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "receptions": 4
+    },
+    {
+      "playerId": "13880",
+      "playerName": "Arnold, Dan",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "receptions": 4
+    },
+    {
+      "playerId": "10271",
+      "playerName": "Jones, Julio",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "receptions": 4
+    },
+    {
+      "playerId": "14087",
+      "playerName": "Henderson, Darrell",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "receptions": 3
+    },
+    {
+      "playerId": "15329",
+      "playerName": "Pitts, Kyle",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 3
+    },
+    {
+      "playerId": "10308",
+      "playerName": "Cobb, Randall",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "receptions": 3
+    },
+    {
+      "playerId": "13143",
+      "playerName": "McNichols, Jeremy",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "receptions": 3
+    },
+    {
+      "playerId": "14836",
+      "playerName": "Jefferson, Justin",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "receptions": 3
+    },
+    {
+      "playerId": "13623",
+      "playerName": "Williams, Darrel",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "receptions": 3
+    },
+    {
+      "playerId": "13404",
+      "playerName": "Ekeler, Austin",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 3
+    },
+    {
+      "playerId": "13674",
+      "playerName": "Goedert, Dallas",
+      "position": "TE",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 3
+    },
+    {
+      "playerId": "13635",
+      "playerName": "Moore, D.J.",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 3
+    },
+    {
+      "playerId": "11247",
+      "playerName": "Ertz, Zach",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "receptions": 3
+    },
+    {
+      "playerId": "14841",
+      "playerName": "Claypool, Chase",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "receptions": 3
+    },
+    {
+      "playerId": "14113",
+      "playerName": "Hardman, Mecole",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "receptions": 3
+    },
+    {
+      "playerId": "13128",
+      "playerName": "Cook, Dalvin",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "receptions": 3
+    },
+    {
+      "playerId": "11680",
+      "playerName": "Landry, Jarvis",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "receptions": 3
+    },
+    {
+      "playerId": "15254",
+      "playerName": "Harris, Najee",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "receptions": 3
+    },
+    {
+      "playerId": "12625",
+      "playerName": "Elliott, Ezekiel",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "receptions": 3
+    },
+    {
+      "playerId": "13154",
+      "playerName": "Williams, Mike",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "receptions": 2
+    },
+    {
+      "playerId": "14802",
+      "playerName": "Taylor, Jonathan",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "receptions": 2
+    },
+    {
+      "playerId": "14832",
+      "playerName": "Lamb, CeeDee",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 2
+    },
+    {
+      "playerId": "13610",
+      "playerName": "Chubb, Nick",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 2
+    },
+    {
+      "playerId": "12151",
+      "playerName": "Gordon, Melvin",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "receptions": 2
+    },
+    {
+      "playerId": "12175",
+      "playerName": "Cooper, Amari",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 2
+    },
+    {
+      "playerId": "11938",
+      "playerName": "Thielen, Adam",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "receptions": 2
+    },
+    {
+      "playerId": "15289",
+      "playerName": "Toney, Kadarius",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "receptions": 1
+    },
+    {
+      "playerId": "12650",
+      "playerName": "Boyd, Tyler",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "receptions": 1
+    },
+    {
+      "playerId": "13630",
+      "playerName": "Sutton, Courtland",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "receptions": 1
+    },
+    {
+      "playerId": "13632",
+      "playerName": "Lazard, Allen",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "receptions": 1
+    },
+    {
+      "playerId": "14127",
+      "playerName": "Meyers, Jakobi",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 1
+    },
+    {
+      "playerId": "14085",
+      "playerName": "Pollard, Tony",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 1
+    },
+    {
+      "playerId": "14075",
+      "playerName": "Harris, Damien",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "receptions": 1
+    }
+  ],
+  "Week 10: Most Points from Single Tight End": [
+    {
+      "playerId": "11244",
+      "playerName": "Kelce, Travis",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "score": 19.9
+    },
+    {
+      "playerId": "13671",
+      "playerName": "Andrews, Mark",
+      "position": "TE",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "score": 18.3
+    },
+    {
+      "playerId": "13299",
+      "playerName": "Kittle, George",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "score": 16
+    },
+    {
+      "playerId": "14137",
+      "playerName": "Fant, Noah",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "score": 10.9
+    },
+    {
+      "playerId": "15329",
+      "playerName": "Pitts, Kyle",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 10
+    },
+    {
+      "playerId": "12263",
+      "playerName": "Waller, Darren",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "score": 6.4
+    },
+    {
+      "playerId": "13674",
+      "playerName": "Goedert, Dallas",
+      "position": "TE",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 4.8
+    },
+    {
+      "playerId": "14143",
+      "playerName": "Knox, Dawson",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "score": 2.7
+    },
+    {
+      "playerId": "13772",
+      "playerName": "Schultz, Dalton",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "score": 2.4
+    },
+    {
+      "playerId": "13672",
+      "playerName": "Gesicki, Mike",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "score": 0
+    }
+  ],
+  "Week 11: Most Team TDs": [
+    {
+      "franchiseId": "0007",
+      "name": "Let The Boy Watch",
+      "tds": 10
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Jake Filter: ON",
+      "tds": 9
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "tds": 9
+    },
+    {
+      "franchiseId": "0002",
+      "name": "Congrats Keenan",
+      "tds": 8
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Williams, Darrel KCC RB for $600",
+      "tds": 7
+    },
+    {
+      "franchiseId": "0005",
+      "name": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "tds": 5
+    },
+    {
+      "franchiseId": "0001",
+      "name": "All Whites ",
+      "tds": 4
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Rusty Zambons",
+      "tds": 4
+    },
+    {
+      "franchiseId": "0004",
+      "name": "InsaneGiraffe81",
+      "tds": 3
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "tds": 2
+    }
+  ],
+  "Week 12: Player with Most Points (No QB)": [
+    {
+      "playerId": "13129",
+      "playerName": "Fournette, Leonard",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "score": 44.1
+    },
+    {
+      "playerId": "13131",
+      "playerName": "Mixon, Joe",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "score": 32.3
+    },
+    {
+      "playerId": "15284",
+      "playerName": "Waddle, Jaylen",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 28.98
+    },
+    {
+      "playerId": "14835",
+      "playerName": "Higgins, Tee",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "score": 23.4
+    },
+    {
+      "playerId": "11938",
+      "playerName": "Thielen, Adam",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "score": 23.2
+    },
+    {
+      "playerId": "14123",
+      "playerName": "Renfrow, Hunter",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 22.96
+    },
+    {
+      "playerId": "13108",
+      "playerName": "McKissic, J.D.",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "score": 22.6
+    },
+    {
+      "playerId": "13404",
+      "playerName": "Ekeler, Austin",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 21.9
+    },
+    {
+      "playerId": "14136",
+      "playerName": "Samuel, Deebo",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "score": 20.8
+    },
+    {
+      "playerId": "12186",
+      "playerName": "Diggs, Stefon",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "score": 20.4
+    },
+    {
+      "playerId": "14805",
+      "playerName": "Dillon, AJ",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "score": 20
+    },
+    {
+      "playerId": "14802",
+      "playerName": "Taylor, Jonathan",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "score": 19.7
+    },
+    {
+      "playerId": "9902",
+      "playerName": "Gronkowski, Rob",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "score": 19.3
+    },
+    {
+      "playerId": "9075",
+      "playerName": "Jackson, DeSean",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "score": 19.2
+    },
+    {
+      "playerId": "14073",
+      "playerName": "Jacobs, Josh",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "score": 19.2
+    },
+    {
+      "playerId": "14081",
+      "playerName": "Gaskin, Myles",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "score": 19.2
+    },
+    {
+      "playerId": "11679",
+      "playerName": "Beckham, Odell",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "score": 19.1
+    },
+    {
+      "playerId": "13164",
+      "playerName": "Kupp, Cooper",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "score": 18.6
+    },
+    {
+      "playerId": "14208",
+      "playerName": "Johnson, Diontae",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "score": 18.5
+    },
+    {
+      "playerId": "11675",
+      "playerName": "Adams, Davante",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "score": 18.4
+    },
+    {
+      "playerId": "14143",
+      "playerName": "Knox, Dawson",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "score": 18.2
+    },
+    {
+      "playerId": "14974",
+      "playerName": "Mooney, Darnell",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "score": 17.5
+    },
+    {
+      "playerId": "14087",
+      "playerName": "Henderson, Darrell",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "score": 17.3
+    },
+    {
+      "playerId": "12625",
+      "playerName": "Elliott, Ezekiel",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "score": 16.9
+    },
+    {
+      "playerId": "13671",
+      "playerName": "Andrews, Mark",
+      "position": "TE",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "score": 16.5
+    },
+    {
+      "playerId": "13772",
+      "playerName": "Schultz, Dalton",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "score": 15.6
+    },
+    {
+      "playerId": "13646",
+      "playerName": "Gallup, Michael",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 15.6
+    },
+    {
+      "playerId": "11222",
+      "playerName": "Allen, Keenan",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "score": 15.5
+    },
+    {
+      "playerId": "13128",
+      "playerName": "Cook, Dalvin",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "score": 14.3
+    },
+    {
+      "playerId": "13635",
+      "playerName": "Moore, D.J.",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 14.3
+    },
+    {
+      "playerId": "15331",
+      "playerName": "Freiermuth, Pat",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "score": 14
+    },
+    {
+      "playerId": "11674",
+      "playerName": "Cooks, Brandin",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "score": 13.5
+    },
+    {
+      "playerId": "13378",
+      "playerName": "Breida, Matt",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "score": 13.5
+    },
+    {
+      "playerId": "14836",
+      "playerName": "Jefferson, Justin",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "score": 13.5
+    },
+    {
+      "playerId": "14105",
+      "playerName": "Brown, Marquise",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 13.1
+    },
+    {
+      "playerId": "12187",
+      "playerName": "Lockett, Tyler",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "score": 12.6
+    },
+    {
+      "playerId": "14813",
+      "playerName": "Robinson, James",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "score": 12.5
+    },
+    {
+      "playerId": "14138",
+      "playerName": "Hockenson, T.J.",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "score": 12.5
+    },
+    {
+      "playerId": "14841",
+      "playerName": "Claypool, Chase",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "score": 11.2
+    },
+    {
+      "playerId": "15109",
+      "playerName": "Westbrook-Ikhine, Nick",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "score": 10.5
+    },
+    {
+      "playerId": "14071",
+      "playerName": "Montgomery, David",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "score": 10.4
+    },
+    {
+      "playerId": "12151",
+      "playerName": "Gordon, Melvin",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "score": 9.8
+    },
+    {
+      "playerId": "10973",
+      "playerName": "Beasley, Cole",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 9.6
+    },
+    {
+      "playerId": "14842",
+      "playerName": "Pittman, Michael",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "score": 9.3
+    },
+    {
+      "playerId": "13604",
+      "playerName": "Barkley, Saquon",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 9.3
+    },
+    {
+      "playerId": "15288",
+      "playerName": "Moore, Elijah",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "score": 9.3
+    },
+    {
+      "playerId": "14109",
+      "playerName": "McLaurin, Terry",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "score": 9.1
+    },
+    {
+      "playerId": "10738",
+      "playerName": "Jones, Marvin",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "score": 8.3
+    },
+    {
+      "playerId": "13154",
+      "playerName": "Williams, Mike",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "score": 7.9
+    },
+    {
+      "playerId": "14079",
+      "playerName": "Sanders, Miles",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "score": 7.4
+    },
+    {
+      "playerId": "11660",
+      "playerName": "Freeman, Devonta",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "score": 7
+    },
+    {
+      "playerId": "15281",
+      "playerName": "Chase, Ja'Marr",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "score": 6.9
+    },
+    {
+      "playerId": "15254",
+      "playerName": "Harris, Najee",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "score": 6.7
+    },
+    {
+      "playerId": "13610",
+      "playerName": "Chubb, Nick",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 5.9
+    },
+    {
+      "playerId": "12263",
+      "playerName": "Waller, Darren",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "score": 5.3
+    },
+    {
+      "playerId": "13163",
+      "playerName": "Godwin, Chris",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "score": 4.7
+    },
+    {
+      "playerId": "13672",
+      "playerName": "Gesicki, Mike",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "score": 4.7
+    },
+    {
+      "playerId": "11671",
+      "playerName": "Evans, Mike",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "score": 4.6
+    },
+    {
+      "playerId": "15329",
+      "playerName": "Pitts, Kyle",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 4.6
+    },
+    {
+      "playerId": "14137",
+      "playerName": "Fant, Noah",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "score": 4.2
+    },
+    {
+      "playerId": "14095",
+      "playerName": "Johnson, Ty",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "score": 4.2
+    },
+    {
+      "playerId": "15282",
+      "playerName": "Smith, DeVonta",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "score": 4.2
+    },
+    {
+      "playerId": "14797",
+      "playerName": "Swift, D'Andre",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 3.9
+    },
+    {
+      "playerId": "13130",
+      "playerName": "McCaffrey, Christian",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "score": 3.5
+    },
+    {
+      "playerId": "12650",
+      "playerName": "Boyd, Tyler",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 3.3
+    },
+    {
+      "playerId": "14857",
+      "playerName": "Peoples-Jones, Donovan",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "score": 3
+    },
+    {
+      "playerId": "14102",
+      "playerName": "Metcalf, DK",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "score": 2.3
+    },
+    {
+      "playerId": "13299",
+      "playerName": "Kittle, George",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "score": 2.3
+    },
+    {
+      "playerId": "13138",
+      "playerName": "Hunt, Kareem",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 2
+    },
+    {
+      "playerId": "13674",
+      "playerName": "Goedert, Dallas",
+      "position": "TE",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 1
+    }
+  ],
+  "Week 13: Greatest Win Margin": [
+    {
+      "winnerId": "0003",
+      "winnerName": "Gordon's Revival",
+      "winnerScore": 185.77,
+      "loserId": "0002",
+      "loserName": "Congrats Keenan",
+      "loserScore": 123.89,
+      "margin": 61.88
+    },
+    {
+      "winnerId": "0008",
+      "winnerName": "Williams, Darrel KCC RB for $600",
+      "winnerScore": 166.95,
+      "loserId": "0006",
+      "loserName": "Jake Filter: ON",
+      "loserScore": 125.65,
+      "margin": 41.3
+    },
+    {
+      "winnerId": "0005",
+      "winnerName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "winnerScore": 127.95,
+      "loserId": "0010",
+      "loserName": "Loves-to-eat-butt-crack-Pack",
+      "loserScore": 109.16,
+      "margin": 18.79
+    },
+    {
+      "winnerId": "0009",
+      "winnerName": "Rusty Zambons",
+      "winnerScore": 127.2,
+      "loserId": "0007",
+      "loserName": "Let The Boy Watch",
+      "loserScore": 121.65,
+      "margin": 5.55
+    },
+    {
+      "winnerId": "0004",
+      "winnerName": "InsaneGiraffe81",
+      "winnerScore": 130.6,
+      "loserId": "0001",
+      "loserName": "All Whites ",
+      "loserScore": 130.48,
+      "margin": 0.12
+    }
+  ],
+  "Week 14: Player with Most Yards (No QB)": [
+    {
+      "playerId": "13128",
+      "playerName": "Cook, Dalvin",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "yards": 222
+    },
+    {
+      "playerId": "13299",
+      "playerName": "Kittle, George",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "yards": 151
+    },
+    {
+      "playerId": "13132",
+      "playerName": "Kamara, Alvin",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "yards": 145
+    },
+    {
+      "playerId": "12187",
+      "playerName": "Lockett, Tyler",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "yards": 142
+    },
+    {
+      "playerId": "13129",
+      "playerName": "Fournette, Leonard",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "yards": 132
+    },
+    {
+      "playerId": "13146",
+      "playerName": "Conner, James",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "yards": 125
+    },
+    {
+      "playerId": "14123",
+      "playerName": "Renfrow, Hunter",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 123
+    },
+    {
+      "playerId": "13164",
+      "playerName": "Kupp, Cooper",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "yards": 123
+    },
+    {
+      "playerId": "11675",
+      "playerName": "Adams, Davante",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "yards": 121
+    },
+    {
+      "playerId": "13671",
+      "playerName": "Andrews, Mark",
+      "position": "TE",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "yards": 115
+    },
+    {
+      "playerId": "14835",
+      "playerName": "Higgins, Tee",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "yards": 114
+    },
+    {
+      "playerId": "12151",
+      "playerName": "Gordon, Melvin",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "yards": 111
+    },
+    {
+      "playerId": "13163",
+      "playerName": "Godwin, Chris",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "yards": 105
+    },
+    {
+      "playerId": "15254",
+      "playerName": "Harris, Najee",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "yards": 104
+    },
+    {
+      "playerId": "10261",
+      "playerName": "Green, A.J.",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "yards": 102
+    },
+    {
+      "playerId": "14841",
+      "playerName": "Claypool, Chase",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "yards": 95
+    },
+    {
+      "playerId": "11671",
+      "playerName": "Evans, Mike",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "yards": 91
+    },
+    {
+      "playerId": "13633",
+      "playerName": "Kirk, Christian",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "yards": 86
+    },
+    {
+      "playerId": "13404",
+      "playerName": "Ekeler, Austin",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 84
+    },
+    {
+      "playerId": "13635",
+      "playerName": "Moore, D.J.",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 84
+    },
+    {
+      "playerId": "14208",
+      "playerName": "Johnson, Diontae",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "yards": 83
+    },
+    {
+      "playerId": "15256",
+      "playerName": "Williams, Javonte",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "yards": 83
+    },
+    {
+      "playerId": "15281",
+      "playerName": "Chase, Ja'Marr",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "yards": 83
+    },
+    {
+      "playerId": "14071",
+      "playerName": "Montgomery, David",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "yards": 81
+    },
+    {
+      "playerId": "14832",
+      "playerName": "Lamb, CeeDee",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 80
+    },
+    {
+      "playerId": "13607",
+      "playerName": "Michel, Sony",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "yards": 79
+    },
+    {
+      "playerId": "12801",
+      "playerName": "Hill, Tyreek",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "yards": 76
+    },
+    {
+      "playerId": "14836",
+      "playerName": "Jefferson, Justin",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "yards": 75
+    },
+    {
+      "playerId": "12186",
+      "playerName": "Diggs, Stefon",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "yards": 74
+    },
+    {
+      "playerId": "15287",
+      "playerName": "St. Brown, Amon-Ra",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "yards": 73
+    },
+    {
+      "playerId": "11660",
+      "playerName": "Freeman, Devonta",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "yards": 72
+    },
+    {
+      "playerId": "14805",
+      "playerName": "Dillon, AJ",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "yards": 71
+    },
+    {
+      "playerId": "14073",
+      "playerName": "Jacobs, Josh",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "yards": 70
+    },
+    {
+      "playerId": "14840",
+      "playerName": "Aiyuk, Brandon",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "yards": 70
+    },
+    {
+      "playerId": "14858",
+      "playerName": "Jefferson, Van",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "yards": 68
+    },
+    {
+      "playerId": "13131",
+      "playerName": "Mixon, Joe",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "yards": 68
+    },
+    {
+      "playerId": "13610",
+      "playerName": "Chubb, Nick",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 65
+    },
+    {
+      "playerId": "12650",
+      "playerName": "Boyd, Tyler",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 64
+    },
+    {
+      "playerId": "10973",
+      "playerName": "Beasley, Cole",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "yards": 64
+    },
+    {
+      "playerId": "13809",
+      "playerName": "Gage, Russell",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "yards": 64
+    },
+    {
+      "playerId": "9902",
+      "playerName": "Gronkowski, Rob",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "yards": 62
+    },
+    {
+      "playerId": "13154",
+      "playerName": "Williams, Mike",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "yards": 61
+    },
+    {
+      "playerId": "15329",
+      "playerName": "Pitts, Kyle",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 61
+    },
+    {
+      "playerId": "13646",
+      "playerName": "Gallup, Michael",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 60
+    },
+    {
+      "playerId": "12625",
+      "playerName": "Elliott, Ezekiel",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "yards": 60
+    },
+    {
+      "playerId": "14143",
+      "playerName": "Knox, Dawson",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "yards": 60
+    },
+    {
+      "playerId": "14136",
+      "playerName": "Samuel, Deebo",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "yards": 59
+    },
+    {
+      "playerId": "11225",
+      "playerName": "Patterson, Cordarrelle",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "yards": 59
+    },
+    {
+      "playerId": "14095",
+      "playerName": "Johnson, Ty",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "yards": 57
+    },
+    {
+      "playerId": "11232",
+      "playerName": "Hopkins, DeAndre",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 54
+    },
+    {
+      "playerId": "14137",
+      "playerName": "Fant, Noah",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "yards": 51
+    },
+    {
+      "playerId": "14102",
+      "playerName": "Metcalf, DK",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "yards": 43
+    },
+    {
+      "playerId": "11247",
+      "playerName": "Ertz, Zach",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "yards": 42
+    },
+    {
+      "playerId": "14803",
+      "playerName": "Edwards-Helaire, Clyde",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "Congrats Keenan",
+      "yards": 42
+    },
+    {
+      "playerId": "14105",
+      "playerName": "Brown, Marquise",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 41
+    },
+    {
+      "playerId": "14852",
+      "playerName": "Gibson, Antonio",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 41
+    },
+    {
+      "playerId": "11680",
+      "playerName": "Landry, Jarvis",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "yards": 41
+    },
+    {
+      "playerId": "11244",
+      "playerName": "Kelce, Travis",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Williams, Darrel KCC RB for $600",
+      "yards": 27
+    },
+    {
+      "playerId": "9075",
+      "playerName": "Jackson, DeSean",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "yards": 19
+    },
+    {
+      "playerId": "14974",
+      "playerName": "Mooney, Darnell",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "yards": 19
+    },
+    {
+      "playerId": "13138",
+      "playerName": "Hunt, Kareem",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 18
+    },
+    {
+      "playerId": "13378",
+      "playerName": "Breida, Matt",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "All Whites ",
+      "yards": 12
+    },
+    {
+      "playerId": "13772",
+      "playerName": "Schultz, Dalton",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "InsaneGiraffe81",
+      "yards": 4
+    },
+    {
+      "playerId": "14813",
+      "playerName": "Robinson, James",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Jake Filter: ON",
+      "yards": 4
+    },
+    {
+      "playerId": "13108",
+      "playerName": "McKissic, J.D.",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "yards": 0
+    },
+    {
+      "playerId": "11222",
+      "playerName": "Allen, Keenan",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "Rusty Zambons",
+      "yards": 0
+    },
+    {
+      "playerId": "13674",
+      "playerName": "Goedert, Dallas",
+      "position": "TE",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 0
+    },
+    {
+      "playerId": "14085",
+      "playerName": "Pollard, Tony",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 0
+    },
+    {
+      "playerId": "14109",
+      "playerName": "McLaurin, Terry",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "yards": 0
+    },
+    {
+      "playerId": "12678",
+      "playerName": "Higbee, Tyler",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "Let The Boy Watch",
+      "yards": 0
+    }
+  ],
+  "Week 15: Most Team Points": [
+    {
+      "franchiseId": "0005",
+      "name": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "score": 146.3
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "score": 129.4
+    },
+    {
+      "franchiseId": "0004",
+      "name": "InsaneGiraffe81",
+      "score": 129.25
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Rusty Zambons",
+      "score": 101.7
+    },
+    {
+      "franchiseId": "0002",
+      "name": "Congrats Keenan",
+      "score": 96.22
+    },
+    {
+      "franchiseId": "0001",
+      "name": "All Whites ",
+      "score": 61.94
+    }
+  ],
+  "Week 16: Most Team Points": [
+    {
+      "franchiseId": "0006",
+      "name": "Jake Filter: ON",
+      "score": 182.3
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "score": 145.74
+    },
+    {
+      "franchiseId": "0004",
+      "name": "InsaneGiraffe81",
+      "score": 140.5
+    },
+    {
+      "franchiseId": "0007",
+      "name": "Let The Boy Watch",
+      "score": 139.25
+    },
+    {
+      "franchiseId": "0005",
+      "name": "FAKE DRAFT GERIATRIC LOVING MATTS",
+      "score": 127.75
+    },
+    {
+      "franchiseId": "0002",
+      "name": "Congrats Keenan",
+      "score": 114.28
+    },
+    {
+      "franchiseId": "0009",
+      "name": "Rusty Zambons",
+      "score": 89.8
+    },
+    {
+      "franchiseId": "0001",
+      "name": "All Whites ",
+      "score": 68.45
+    }
+  ]
+}

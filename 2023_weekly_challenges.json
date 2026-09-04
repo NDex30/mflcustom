@@ -1,0 +1,2580 @@
+{
+  "Week 1: Most Team Points": [
+    {
+      "franchiseId": "0001",
+      "name": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 160.5
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Muscly Arm Paper Boys",
+      "score": 152.2
+    },
+    {
+      "franchiseId": "0007",
+      "name": "Jake's Last Slither",
+      "score": 135.6
+    },
+    {
+      "franchiseId": "0004",
+      "name": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "score": 135.45
+    },
+    {
+      "franchiseId": "0002",
+      "name": "La Muerte Peluda",
+      "score": 131.35
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Keenan’s Gypsy Tears",
+      "score": 123.85
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Bow to your champion!",
+      "score": 114.4
+    },
+    {
+      "franchiseId": "0009",
+      "name": "You could eat it",
+      "score": 106.55
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "score": 83.1
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "score": 74.7
+    }
+  ],
+  "Week 2: Most All-Purpose Yards": [
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "yards": 738
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Muscly Arm Paper Boys",
+      "yards": 623
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "yards": 612
+    },
+    {
+      "franchiseId": "0001",
+      "name": "Clear eyes, Full hearts, Can’t lose.",
+      "yards": 607
+    },
+    {
+      "franchiseId": "0007",
+      "name": "Jake's Last Slither",
+      "yards": 603
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Keenan’s Gypsy Tears",
+      "yards": 551
+    },
+    {
+      "franchiseId": "0002",
+      "name": "La Muerte Peluda",
+      "yards": 480
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Bow to your champion!",
+      "yards": 441
+    },
+    {
+      "franchiseId": "0004",
+      "name": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "yards": 394
+    },
+    {
+      "franchiseId": "0009",
+      "name": "You could eat it",
+      "yards": 337
+    }
+  ],
+  "Week 3: Most Points from Single Running Back": [
+    {
+      "playerId": "12447",
+      "playerName": "Mostert, Raheem",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 45.2
+    },
+    {
+      "playerId": "15711",
+      "playerName": "Walker III, Kenneth",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 30.6
+    },
+    {
+      "playerId": "13130",
+      "playerName": "McCaffrey, Christian",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "score": 22.9
+    },
+    {
+      "playerId": "14798",
+      "playerName": "Moss, Zack",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 22.5
+    },
+    {
+      "playerId": "13146",
+      "playerName": "Conner, James",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 19.6
+    },
+    {
+      "playerId": "15253",
+      "playerName": "Etienne, Travis",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 17.8
+    },
+    {
+      "playerId": "14223",
+      "playerName": "Mattison, Alexander",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 17.5
+    },
+    {
+      "playerId": "15749",
+      "playerName": "Pacheco, Isiah",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 15.8
+    },
+    {
+      "playerId": "14085",
+      "playerName": "Pollard, Tony",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 15.1
+    },
+    {
+      "playerId": "14797",
+      "playerName": "Swift, D'Andre",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 14.8
+    },
+    {
+      "playerId": "13131",
+      "playerName": "Mixon, Joe",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 14
+    },
+    {
+      "playerId": "15715",
+      "playerName": "Cook, James",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 13.2
+    },
+    {
+      "playerId": "14073",
+      "playerName": "Jacobs, Josh",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "score": 11
+    },
+    {
+      "playerId": "16161",
+      "playerName": "Robinson, Bijan",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 10
+    },
+    {
+      "playerId": "16162",
+      "playerName": "Gibbs, Jahmyr",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "score": 9.2
+    },
+    {
+      "playerId": "15710",
+      "playerName": "Williams, Kyren",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 8.62
+    },
+    {
+      "playerId": "15256",
+      "playerName": "Williams, Javonte",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 8.5
+    },
+    {
+      "playerId": "15259",
+      "playerName": "Stevenson, Rhamondre",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "score": 7.2
+    },
+    {
+      "playerId": "15721",
+      "playerName": "White, Rachaad",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 7.2
+    },
+    {
+      "playerId": "15716",
+      "playerName": "Robinson, Brian",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 7
+    },
+    {
+      "playerId": "15254",
+      "playerName": "Harris, Najee",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "score": 6.5
+    },
+    {
+      "playerId": "13138",
+      "playerName": "Hunt, Kareem",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 5.5
+    },
+    {
+      "playerId": "14807",
+      "playerName": "Kelley, Joshua",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 2.7
+    },
+    {
+      "playerId": "12626",
+      "playerName": "Henry, Derrick",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "score": 2
+    },
+    {
+      "playerId": "13319",
+      "playerName": "Jones, Aaron",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "score": 0
+    }
+  ],
+  "Week 4: Most Points from Single QuarterBack": [
+    {
+      "playerId": "13589",
+      "playerName": "Allen, Josh",
+      "position": "QB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 39.7
+    },
+    {
+      "playerId": "13593",
+      "playerName": "Jackson, Lamar",
+      "position": "QB",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "score": 30
+    },
+    {
+      "playerId": "14783",
+      "playerName": "Hurts, Jalen",
+      "position": "QB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 27.35
+    },
+    {
+      "playerId": "14779",
+      "playerName": "Herbert, Justin",
+      "position": "QB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 25.05
+    },
+    {
+      "playerId": "15237",
+      "playerName": "Lawrence, Trevor",
+      "position": "QB",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "score": 18.55
+    },
+    {
+      "playerId": "14778",
+      "playerName": "Tagovailoa, Tua",
+      "position": "QB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 16.8
+    },
+    {
+      "playerId": "13116",
+      "playerName": "Mahomes, Patrick",
+      "position": "QB",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 15.25
+    },
+    {
+      "playerId": "12611",
+      "playerName": "Goff, Jared",
+      "position": "QB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 13.5
+    },
+    {
+      "playerId": "10700",
+      "playerName": "Cousins, Kirk",
+      "position": "QB",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 10.95
+    },
+    {
+      "playerId": "14777",
+      "playerName": "Burrow, Joe",
+      "position": "QB",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "score": 6.35
+    }
+  ],
+  "Week 5: Most Kicker Points": [
+    {
+      "playerId": "15368",
+      "playerName": "McPherson, Evan",
+      "position": "PK",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 12
+    },
+    {
+      "playerId": "13303",
+      "playerName": "Elliott, Jake",
+      "position": "PK",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "score": 11.4
+    },
+    {
+      "playerId": "13354",
+      "playerName": "Butker, Harrison",
+      "position": "PK",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 10.8
+    },
+    {
+      "playerId": "13832",
+      "playerName": "Sanders, Jason",
+      "position": "PK",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "score": 8
+    },
+    {
+      "playerId": "13403",
+      "playerName": "Koo, Younghoe",
+      "position": "PK",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 8
+    },
+    {
+      "playerId": "16286",
+      "playerName": "Moody, Jake",
+      "position": "PK",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 6
+    },
+    {
+      "playerId": "16414",
+      "playerName": "Aubrey, Brandon",
+      "position": "PK",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 6
+    },
+    {
+      "playerId": "10976",
+      "playerName": "Tucker, Justin",
+      "position": "PK",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 4
+    },
+    {
+      "playerId": "13909",
+      "playerName": "Maher, Brett",
+      "position": "PK",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "score": 2
+    },
+    {
+      "playerId": "8930",
+      "playerName": "Prater, Matt",
+      "position": "PK",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 1
+    }
+  ],
+  "Week 6: Longest QB TD": [
+    {
+      "playerId": "14778",
+      "playerName": "Tagovailoa, Tua",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "passYards": 41
+    },
+    {
+      "playerId": "15237",
+      "playerName": "Lawrence, Trevor",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "passYards": 29
+    },
+    {
+      "playerId": "13589",
+      "playerName": "Allen, Josh",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "passYards": 15
+    },
+    {
+      "playerId": "10700",
+      "playerName": "Cousins, Kirk",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "passYards": 10
+    },
+    {
+      "playerId": "15237",
+      "playerName": "Lawrence, Trevor",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "passYards": 10
+    },
+    {
+      "playerId": "13593",
+      "playerName": "Jackson, Lamar",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "passYards": 10
+    },
+    {
+      "playerId": "14783",
+      "playerName": "Hurts, Jalen",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "passYards": 9
+    },
+    {
+      "playerId": "14777",
+      "playerName": "Burrow, Joe",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "passYards": 8
+    },
+    {
+      "playerId": "14778",
+      "playerName": "Tagovailoa, Tua",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "passYards": 4
+    },
+    {
+      "playerId": "13589",
+      "playerName": "Allen, Josh",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "passYards": 3
+    },
+    {
+      "playerId": "13116",
+      "playerName": "Mahomes, Patrick",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "passYards": 3
+    },
+    {
+      "playerId": "14778",
+      "playerName": "Tagovailoa, Tua",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "passYards": 3
+    },
+    {
+      "playerId": "14777",
+      "playerName": "Burrow, Joe",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "passYards": 3
+    },
+    {
+      "playerId": "14779",
+      "playerName": "Herbert, Justin",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "passYards": 1
+    },
+    {
+      "playerId": "14779",
+      "playerName": "Herbert, Justin",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "passYards": 1
+    }
+  ],
+  "Week 7: Most Team Receptions": [
+    {
+      "franchiseId": "0006",
+      "name": "Keenan’s Gypsy Tears",
+      "receptions": 46
+    },
+    {
+      "franchiseId": "0007",
+      "name": "Jake's Last Slither",
+      "receptions": 41
+    },
+    {
+      "franchiseId": "0008",
+      "name": "Bow to your champion!",
+      "receptions": 35
+    },
+    {
+      "franchiseId": "0002",
+      "name": "La Muerte Peluda",
+      "receptions": 32
+    },
+    {
+      "franchiseId": "0004",
+      "name": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "receptions": 31
+    },
+    {
+      "franchiseId": "0009",
+      "name": "You could eat it",
+      "receptions": 31
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "receptions": 30
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Muscly Arm Paper Boys",
+      "receptions": 27
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 26
+    },
+    {
+      "franchiseId": "0001",
+      "name": "Clear eyes, Full hearts, Can’t lose.",
+      "receptions": 22
+    }
+  ],
+  "Week 8: Most DEF Points": [
+    {
+      "playerId": "0516",
+      "playerName": "Cowboys, Dallas",
+      "position": "Def",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 17
+    },
+    {
+      "playerId": "0524",
+      "playerName": "Vikings, Minnesota",
+      "position": "Def",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 13
+    },
+    {
+      "playerId": "0512",
+      "playerName": "Chiefs, Kansas City",
+      "position": "Def",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 13
+    },
+    {
+      "playerId": "0505",
+      "playerName": "Jets, New York",
+      "position": "Def",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 11
+    },
+    {
+      "playerId": "0503",
+      "playerName": "Dolphins, Miami",
+      "position": "Def",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "score": 8
+    },
+    {
+      "playerId": "0531",
+      "playerName": "Ravens, Baltimore",
+      "position": "Def",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "score": 7
+    },
+    {
+      "playerId": "0507",
+      "playerName": "Browns, Cleveland",
+      "position": "Def",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 5
+    },
+    {
+      "playerId": "0501",
+      "playerName": "Bills, Buffalo",
+      "position": "Def",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "score": 5
+    },
+    {
+      "playerId": "0529",
+      "playerName": "Saints, New Orleans",
+      "position": "Def",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 3
+    },
+    {
+      "playerId": "0518",
+      "playerName": "Eagles, Philadelphia",
+      "position": "Def",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": -1
+    }
+  ],
+  "Week 9: Most Single Player Receptions": [
+    {
+      "playerId": "14832",
+      "playerName": "Lamb, CeeDee",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "receptions": 11
+    },
+    {
+      "playerId": "16213",
+      "playerName": "Kincaid, Dalton",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "receptions": 10
+    },
+    {
+      "playerId": "13671",
+      "playerName": "Andrews, Mark",
+      "position": "TE",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 9
+    },
+    {
+      "playerId": "14842",
+      "playerName": "Pittman, Michael",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "receptions": 8
+    },
+    {
+      "playerId": "11222",
+      "playerName": "Allen, Keenan",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 8
+    },
+    {
+      "playerId": "14835",
+      "playerName": "Higgins, Tee",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 8
+    },
+    {
+      "playerId": "12801",
+      "playerName": "Hill, Tyreek",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "receptions": 8
+    },
+    {
+      "playerId": "14138",
+      "playerName": "Hockenson, T.J.",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "receptions": 7
+    },
+    {
+      "playerId": "15799",
+      "playerName": "Ferguson, Jake",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "receptions": 7
+    },
+    {
+      "playerId": "14208",
+      "playerName": "Johnson, Diontae",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "receptions": 7
+    },
+    {
+      "playerId": "15753",
+      "playerName": "Wilson, Garrett",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "receptions": 7
+    },
+    {
+      "playerId": "14104",
+      "playerName": "Brown, A.J.",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "receptions": 7
+    },
+    {
+      "playerId": "12186",
+      "playerName": "Diggs, Stefon",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 6
+    },
+    {
+      "playerId": "15754",
+      "playerName": "Olave, Chris",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "receptions": 6
+    },
+    {
+      "playerId": "14867",
+      "playerName": "Kmet, Cole",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "receptions": 6
+    },
+    {
+      "playerId": "15713",
+      "playerName": "Ford, Jerome",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 5
+    },
+    {
+      "playerId": "14802",
+      "playerName": "Taylor, Jonathan",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 5
+    },
+    {
+      "playerId": "16186",
+      "playerName": "Addison, Jordan",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "receptions": 5
+    },
+    {
+      "playerId": "14852",
+      "playerName": "Gibson, Antonio",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "receptions": 5
+    },
+    {
+      "playerId": "14109",
+      "playerName": "McLaurin, Terry",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "receptions": 5
+    },
+    {
+      "playerId": "13131",
+      "playerName": "Mixon, Joe",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "receptions": 5
+    },
+    {
+      "playerId": "11938",
+      "playerName": "Thielen, Adam",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "receptions": 5
+    },
+    {
+      "playerId": "12175",
+      "playerName": "Cooper, Amari",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "receptions": 5
+    },
+    {
+      "playerId": "15281",
+      "playerName": "Chase, Ja'Marr",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "receptions": 4
+    },
+    {
+      "playerId": "15715",
+      "playerName": "Cook, James",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "receptions": 4
+    },
+    {
+      "playerId": "13132",
+      "playerName": "Kamara, Alvin",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "receptions": 4
+    },
+    {
+      "playerId": "15708",
+      "playerName": "Hall, Breece",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "receptions": 4
+    },
+    {
+      "playerId": "11675",
+      "playerName": "Adams, Davante",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "receptions": 4
+    },
+    {
+      "playerId": "13192",
+      "playerName": "Njoku, David",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 4
+    },
+    {
+      "playerId": "11647",
+      "playerName": "Thomas, Logan",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "receptions": 4
+    },
+    {
+      "playerId": "11671",
+      "playerName": "Evans, Mike",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "receptions": 4
+    },
+    {
+      "playerId": "14105",
+      "playerName": "Brown, Marquise",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "receptions": 4
+    },
+    {
+      "playerId": "11232",
+      "playerName": "Hopkins, DeAndre",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "receptions": 4
+    },
+    {
+      "playerId": "15721",
+      "playerName": "White, Rachaad",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 4
+    },
+    {
+      "playerId": "15259",
+      "playerName": "Stevenson, Rhamondre",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "receptions": 4
+    },
+    {
+      "playerId": "15290",
+      "playerName": "Collins, Nico",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "receptions": 3
+    },
+    {
+      "playerId": "13635",
+      "playerName": "Moore, D.J.",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "receptions": 3
+    },
+    {
+      "playerId": "12187",
+      "playerName": "Lockett, Tyler",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 3
+    },
+    {
+      "playerId": "11244",
+      "playerName": "Kelce, Travis",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 3
+    },
+    {
+      "playerId": "15284",
+      "playerName": "Waddle, Jaylen",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 3
+    },
+    {
+      "playerId": "15282",
+      "playerName": "Smith, DeVonta",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "receptions": 3
+    },
+    {
+      "playerId": "16211",
+      "playerName": "Nacua, Puka",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 3
+    },
+    {
+      "playerId": "13604",
+      "playerName": "Barkley, Saquon",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 3
+    },
+    {
+      "playerId": "13674",
+      "playerName": "Goedert, Dallas",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "receptions": 3
+    },
+    {
+      "playerId": "12626",
+      "playerName": "Henry, Derrick",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "receptions": 3
+    },
+    {
+      "playerId": "13404",
+      "playerName": "Ekeler, Austin",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "receptions": 2
+    },
+    {
+      "playerId": "14223",
+      "playerName": "Mattison, Alexander",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 2
+    },
+    {
+      "playerId": "14797",
+      "playerName": "Swift, D'Andre",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 2
+    },
+    {
+      "playerId": "14127",
+      "playerName": "Meyers, Jakobi",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "receptions": 2
+    },
+    {
+      "playerId": "16161",
+      "playerName": "Robinson, Bijan",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 2
+    },
+    {
+      "playerId": "13164",
+      "playerName": "Kupp, Cooper",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "receptions": 2
+    },
+    {
+      "playerId": "13163",
+      "playerName": "Godwin, Chris",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "receptions": 2
+    },
+    {
+      "playerId": "15254",
+      "playerName": "Harris, Najee",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "receptions": 2
+    },
+    {
+      "playerId": "15762",
+      "playerName": "Pickens, George",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "receptions": 2
+    },
+    {
+      "playerId": "16187",
+      "playerName": "Downs, Josh",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "receptions": 1
+    },
+    {
+      "playerId": "16190",
+      "playerName": "Flowers, Zay",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 1
+    },
+    {
+      "playerId": "15711",
+      "playerName": "Walker III, Kenneth",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "receptions": 1
+    },
+    {
+      "playerId": "16169",
+      "playerName": "Charbonnet, Zach",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "receptions": 1
+    },
+    {
+      "playerId": "15716",
+      "playerName": "Robinson, Brian",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "receptions": 1
+    },
+    {
+      "playerId": "15789",
+      "playerName": "Watson, Christian",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "receptions": 1
+    },
+    {
+      "playerId": "14805",
+      "playerName": "Dillon, AJ",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "receptions": 1
+    }
+  ],
+  "Week 10: Most Points from Single Tight End": [
+    {
+      "playerId": "14138",
+      "playerName": "Hockenson, T.J.",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 30.4
+    },
+    {
+      "playerId": "13299",
+      "playerName": "Kittle, George",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 20.6
+    },
+    {
+      "playerId": "16213",
+      "playerName": "Kincaid, Dalton",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "score": 16.1
+    },
+    {
+      "playerId": "15799",
+      "playerName": "Ferguson, Jake",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 12.6
+    },
+    {
+      "playerId": "13192",
+      "playerName": "Njoku, David",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 11.8
+    },
+    {
+      "playerId": "13772",
+      "playerName": "Schultz, Dalton",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "score": 11.1
+    },
+    {
+      "playerId": "14867",
+      "playerName": "Kmet, Cole",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "score": 9.6
+    },
+    {
+      "playerId": "13671",
+      "playerName": "Andrews, Mark",
+      "position": "TE",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 6.4
+    },
+    {
+      "playerId": "13189",
+      "playerName": "Engram, Evan",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 5.2
+    },
+    {
+      "playerId": "13424",
+      "playerName": "Hill, Taysom",
+      "position": "TE",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 4.3
+    },
+    {
+      "playerId": "13193",
+      "playerName": "Smith, Jonnu",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 1.1
+    }
+  ],
+  "Week 11: Most Team TDs": [
+    {
+      "franchiseId": "0008",
+      "name": "Bow to your champion!",
+      "tds": 8
+    },
+    {
+      "franchiseId": "0002",
+      "name": "La Muerte Peluda",
+      "tds": 7
+    },
+    {
+      "franchiseId": "0003",
+      "name": "Gordon's Revival",
+      "tds": 7
+    },
+    {
+      "franchiseId": "0006",
+      "name": "Keenan’s Gypsy Tears",
+      "tds": 5
+    },
+    {
+      "franchiseId": "0001",
+      "name": "Clear eyes, Full hearts, Can’t lose.",
+      "tds": 5
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "tds": 4
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Muscly Arm Paper Boys",
+      "tds": 4
+    },
+    {
+      "franchiseId": "0007",
+      "name": "Jake's Last Slither",
+      "tds": 4
+    },
+    {
+      "franchiseId": "0004",
+      "name": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "tds": 3
+    },
+    {
+      "franchiseId": "0009",
+      "name": "You could eat it",
+      "tds": 3
+    }
+  ],
+  "Week 12: Player with Most Points (No QB)": [
+    {
+      "playerId": "15710",
+      "playerName": "Williams, Kyren",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 38.4
+    },
+    {
+      "playerId": "13130",
+      "playerName": "McCaffrey, Christian",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "score": 30.9
+    },
+    {
+      "playerId": "16161",
+      "playerName": "Robinson, Bijan",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 27.3
+    },
+    {
+      "playerId": "15749",
+      "playerName": "Pacheco, Isiah",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 25.9
+    },
+    {
+      "playerId": "12801",
+      "playerName": "Hill, Tyreek",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "score": 25.4
+    },
+    {
+      "playerId": "11671",
+      "playerName": "Evans, Mike",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 25
+    },
+    {
+      "playerId": "15282",
+      "playerName": "Smith, DeVonta",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "score": 23.6
+    },
+    {
+      "playerId": "15290",
+      "playerName": "Collins, Nico",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 23.4
+    },
+    {
+      "playerId": "16190",
+      "playerName": "Flowers, Zay",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 23.2
+    },
+    {
+      "playerId": "11222",
+      "playerName": "Allen, Keenan",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 22.6
+    },
+    {
+      "playerId": "14073",
+      "playerName": "Jacobs, Josh",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "score": 22.5
+    },
+    {
+      "playerId": "13635",
+      "playerName": "Moore, D.J.",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 22.4
+    },
+    {
+      "playerId": "14136",
+      "playerName": "Samuel, Deebo",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 22.4
+    },
+    {
+      "playerId": "14085",
+      "playerName": "Pollard, Tony",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 22.3
+    },
+    {
+      "playerId": "15259",
+      "playerName": "Stevenson, Rhamondre",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "score": 21.7
+    },
+    {
+      "playerId": "14802",
+      "playerName": "Taylor, Jonathan",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 21.1
+    },
+    {
+      "playerId": "14842",
+      "playerName": "Pittman, Michael",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 20.7
+    },
+    {
+      "playerId": "12626",
+      "playerName": "Henry, Derrick",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "score": 20.6
+    },
+    {
+      "playerId": "15284",
+      "playerName": "Waddle, Jaylen",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 19.4
+    },
+    {
+      "playerId": "12186",
+      "playerName": "Diggs, Stefon",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 19.4
+    },
+    {
+      "playerId": "15287",
+      "playerName": "St. Brown, Amon-Ra",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 18.5
+    },
+    {
+      "playerId": "15754",
+      "playerName": "Olave, Chris",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "score": 18.4
+    },
+    {
+      "playerId": "15753",
+      "playerName": "Wilson, Garrett",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 17.4
+    },
+    {
+      "playerId": "14832",
+      "playerName": "Lamb, CeeDee",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 17.3
+    },
+    {
+      "playerId": "16204",
+      "playerName": "Dell, Tank",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 17.2
+    },
+    {
+      "playerId": "14138",
+      "playerName": "Hockenson, T.J.",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 16
+    },
+    {
+      "playerId": "13132",
+      "playerName": "Kamara, Alvin",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 15.9
+    },
+    {
+      "playerId": "15254",
+      "playerName": "Harris, Najee",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "score": 15.9
+    },
+    {
+      "playerId": "14071",
+      "playerName": "Montgomery, David",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 15.1
+    },
+    {
+      "playerId": "11244",
+      "playerName": "Kelce, Travis",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 15.1
+    },
+    {
+      "playerId": "16184",
+      "playerName": "Reed, Jayden",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "score": 15
+    },
+    {
+      "playerId": "14105",
+      "playerName": "Brown, Marquise",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 14.8
+    },
+    {
+      "playerId": "14104",
+      "playerName": "Brown, A.J.",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "score": 14.7
+    },
+    {
+      "playerId": "15794",
+      "playerName": "McBride, Trey",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 13
+    },
+    {
+      "playerId": "14840",
+      "playerName": "Aiyuk, Brandon",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 13
+    },
+    {
+      "playerId": "15721",
+      "playerName": "White, Rachaad",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 13
+    },
+    {
+      "playerId": "13633",
+      "playerName": "Kirk, Christian",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 12.9
+    },
+    {
+      "playerId": "15253",
+      "playerName": "Etienne, Travis",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 12.6
+    },
+    {
+      "playerId": "15281",
+      "playerName": "Chase, Ja'Marr",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "score": 12.1
+    },
+    {
+      "playerId": "13192",
+      "playerName": "Njoku, David",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 11.9
+    },
+    {
+      "playerId": "15713",
+      "playerName": "Ford, Jerome",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 11.9
+    },
+    {
+      "playerId": "16162",
+      "playerName": "Gibbs, Jahmyr",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "score": 11.3
+    },
+    {
+      "playerId": "14867",
+      "playerName": "Kmet, Cole",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "score": 11.3
+    },
+    {
+      "playerId": "14805",
+      "playerName": "Dillon, AJ",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "score": 11.1
+    },
+    {
+      "playerId": "16186",
+      "playerName": "Addison, Jordan",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "score": 9.9
+    },
+    {
+      "playerId": "13404",
+      "playerName": "Ekeler, Austin",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "score": 9.4
+    },
+    {
+      "playerId": "14797",
+      "playerName": "Swift, D'Andre",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 9.4
+    },
+    {
+      "playerId": "13630",
+      "playerName": "Sutton, Courtland",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "score": 9.1
+    },
+    {
+      "playerId": "14109",
+      "playerName": "McLaurin, Terry",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 9
+    },
+    {
+      "playerId": "16213",
+      "playerName": "Kincaid, Dalton",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "score": 8.8
+    },
+    {
+      "playerId": "15716",
+      "playerName": "Robinson, Brian",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 8.4
+    },
+    {
+      "playerId": "13424",
+      "playerName": "Hill, Taysom",
+      "position": "TE",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 8.1
+    },
+    {
+      "playerId": "13131",
+      "playerName": "Mixon, Joe",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 8
+    },
+    {
+      "playerId": "11232",
+      "playerName": "Hopkins, DeAndre",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 7.9
+    },
+    {
+      "playerId": "13163",
+      "playerName": "Godwin, Chris",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "score": 7.5
+    },
+    {
+      "playerId": "13146",
+      "playerName": "Conner, James",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 7.2
+    },
+    {
+      "playerId": "15742",
+      "playerName": "Warren, Jaylen",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 7.2
+    },
+    {
+      "playerId": "15779",
+      "playerName": "Doubs, Romeo",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 6.7
+    },
+    {
+      "playerId": "16211",
+      "playerName": "Nacua, Puka",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 6.7
+    },
+    {
+      "playerId": "14102",
+      "playerName": "Metcalf, DK",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "score": 6.2
+    },
+    {
+      "playerId": "13604",
+      "playerName": "Barkley, Saquon",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "score": 6.2
+    },
+    {
+      "playerId": "12187",
+      "playerName": "Lockett, Tyler",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "score": 6
+    },
+    {
+      "playerId": "15271",
+      "playerName": "Herbert, Khalil",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 5.8
+    },
+    {
+      "playerId": "15288",
+      "playerName": "Moore, Elijah",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 5.4
+    },
+    {
+      "playerId": "13299",
+      "playerName": "Kittle, George",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 4.9
+    },
+    {
+      "playerId": "13164",
+      "playerName": "Kupp, Cooper",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "score": 4.8
+    },
+    {
+      "playerId": "12175",
+      "playerName": "Cooper, Amari",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "score": 3.6
+    },
+    {
+      "playerId": "11647",
+      "playerName": "Thomas, Logan",
+      "position": "TE",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "score": 3.5
+    },
+    {
+      "playerId": "13772",
+      "playerName": "Schultz, Dalton",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "score": 1.2
+    },
+    {
+      "playerId": "11938",
+      "playerName": "Thielen, Adam",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "score": 1.2
+    }
+  ],
+  "Week 13: Greatest Win Margin": [
+    {
+      "winnerId": "0006",
+      "winnerName": "Keenan’s Gypsy Tears",
+      "winnerScore": 213.6,
+      "loserId": "0003",
+      "loserName": "Gordon's Revival",
+      "loserScore": 147.9,
+      "margin": 65.7
+    },
+    {
+      "winnerId": "0007",
+      "winnerName": "Jake's Last Slither",
+      "winnerScore": 176.45,
+      "loserId": "0002",
+      "loserName": "La Muerte Peluda",
+      "loserScore": 121.7,
+      "margin": 54.75
+    },
+    {
+      "winnerId": "0008",
+      "winnerName": "Bow to your champion!",
+      "winnerScore": 140.85,
+      "loserId": "0001",
+      "loserName": "Clear eyes, Full hearts, Can’t lose.",
+      "loserScore": 93.9,
+      "margin": 46.95
+    },
+    {
+      "winnerId": "0005",
+      "winnerName": "Muscly Arm Paper Boys",
+      "winnerScore": 138.35,
+      "loserId": "0004",
+      "loserName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "loserScore": 121.2,
+      "margin": 17.15
+    },
+    {
+      "winnerId": "0010",
+      "winnerName": "Loves-to-eat-butt-crack-Pack",
+      "winnerScore": 110,
+      "loserId": "0009",
+      "loserName": "You could eat it",
+      "loserScore": 105.4,
+      "margin": 4.6
+    }
+  ],
+  "Week 14: Player with Most Yards (No QB)": [
+    {
+      "playerId": "14136",
+      "playerName": "Samuel, Deebo",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "yards": 192
+    },
+    {
+      "playerId": "13130",
+      "playerName": "McCaffrey, Christian",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "yards": 153
+    },
+    {
+      "playerId": "15721",
+      "playerName": "White, Rachaad",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 135
+    },
+    {
+      "playerId": "14840",
+      "playerName": "Aiyuk, Brandon",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 126
+    },
+    {
+      "playerId": "13131",
+      "playerName": "Mixon, Joe",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 125
+    },
+    {
+      "playerId": "11232",
+      "playerName": "Hopkins, DeAndre",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 124
+    },
+    {
+      "playerId": "13164",
+      "playerName": "Kupp, Cooper",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "yards": 115
+    },
+    {
+      "playerId": "15710",
+      "playerName": "Williams, Kyren",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 113
+    },
+    {
+      "playerId": "15753",
+      "playerName": "Wilson, Garrett",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 111
+    },
+    {
+      "playerId": "13604",
+      "playerName": "Barkley, Saquon",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 101
+    },
+    {
+      "playerId": "13404",
+      "playerName": "Ekeler, Austin",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 100
+    },
+    {
+      "playerId": "14085",
+      "playerName": "Pollard, Tony",
+      "position": "RB",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 96
+    },
+    {
+      "playerId": "14842",
+      "playerName": "Pittman, Michael",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "yards": 95
+    },
+    {
+      "playerId": "14104",
+      "playerName": "Brown, A.J.",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "yards": 94
+    },
+    {
+      "playerId": "13192",
+      "playerName": "Njoku, David",
+      "position": "TE",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 91
+    },
+    {
+      "playerId": "16211",
+      "playerName": "Nacua, Puka",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 90
+    },
+    {
+      "playerId": "13635",
+      "playerName": "Moore, D.J.",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 88
+    },
+    {
+      "playerId": "16161",
+      "playerName": "Robinson, Bijan",
+      "position": "RB",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 88
+    },
+    {
+      "playerId": "14071",
+      "playerName": "Montgomery, David",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "yards": 85
+    },
+    {
+      "playerId": "11244",
+      "playerName": "Kelce, Travis",
+      "position": "TE",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 83
+    },
+    {
+      "playerId": "15713",
+      "playerName": "Ford, Jerome",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 82
+    },
+    {
+      "playerId": "16162",
+      "playerName": "Gibbs, Jahmyr",
+      "position": "RB",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "yards": 82
+    },
+    {
+      "playerId": "15284",
+      "playerName": "Waddle, Jaylen",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 79
+    },
+    {
+      "playerId": "14805",
+      "playerName": "Dillon, AJ",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "yards": 78
+    },
+    {
+      "playerId": "12175",
+      "playerName": "Cooper, Amari",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "yards": 77
+    },
+    {
+      "playerId": "13299",
+      "playerName": "Kittle, George",
+      "position": "TE",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "yards": 76
+    },
+    {
+      "playerId": "11938",
+      "playerName": "Thielen, Adam",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "yards": 74
+    },
+    {
+      "playerId": "15282",
+      "playerName": "Smith, DeVonta",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "yards": 73
+    },
+    {
+      "playerId": "15799",
+      "playerName": "Ferguson, Jake",
+      "position": "TE",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 72
+    },
+    {
+      "playerId": "15253",
+      "playerName": "Etienne, Travis",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 72
+    },
+    {
+      "playerId": "16194",
+      "playerName": "Rice, Rashee",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 72
+    },
+    {
+      "playerId": "14832",
+      "playerName": "Lamb, CeeDee",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 71
+    },
+    {
+      "playerId": "16167",
+      "playerName": "Achane, De'Von",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "yards": 71
+    },
+    {
+      "playerId": "11222",
+      "playerName": "Allen, Keenan",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 68
+    },
+    {
+      "playerId": "14867",
+      "playerName": "Kmet, Cole",
+      "position": "TE",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "yards": 66
+    },
+    {
+      "playerId": "13630",
+      "playerName": "Sutton, Courtland",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 62
+    },
+    {
+      "playerId": "12801",
+      "playerName": "Hill, Tyreek",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "yards": 61
+    },
+    {
+      "playerId": "16190",
+      "playerName": "Flowers, Zay",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 60
+    },
+    {
+      "playerId": "14208",
+      "playerName": "Johnson, Diontae",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "yards": 57
+    },
+    {
+      "playerId": "15329",
+      "playerName": "Pitts, Kyle",
+      "position": "TE",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "yards": 57
+    },
+    {
+      "playerId": "14798",
+      "playerName": "Moss, Zack",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "yards": 56
+    },
+    {
+      "playerId": "11675",
+      "playerName": "Adams, Davante",
+      "position": "WR",
+      "franchiseId": "0002",
+      "franchiseName": "La Muerte Peluda",
+      "yards": 53
+    },
+    {
+      "playerId": "14138",
+      "playerName": "Hockenson, T.J.",
+      "position": "TE",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "yards": 53
+    },
+    {
+      "playerId": "13163",
+      "playerName": "Godwin, Chris",
+      "position": "WR",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "yards": 53
+    },
+    {
+      "playerId": "12626",
+      "playerName": "Henry, Derrick",
+      "position": "RB",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "yards": 51
+    },
+    {
+      "playerId": "14073",
+      "playerName": "Jacobs, Josh",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "yards": 50
+    },
+    {
+      "playerId": "15254",
+      "playerName": "Harris, Najee",
+      "position": "RB",
+      "franchiseId": "0009",
+      "franchiseName": "You could eat it",
+      "yards": 48
+    },
+    {
+      "playerId": "13132",
+      "playerName": "Kamara, Alvin",
+      "position": "RB",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "yards": 45
+    },
+    {
+      "playerId": "15288",
+      "playerName": "Moore, Elijah",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "yards": 42
+    },
+    {
+      "playerId": "15742",
+      "playerName": "Warren, Jaylen",
+      "position": "RB",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 40
+    },
+    {
+      "playerId": "14797",
+      "playerName": "Swift, D'Andre",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 39
+    },
+    {
+      "playerId": "11674",
+      "playerName": "Cooks, Brandin",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 37
+    },
+    {
+      "playerId": "15779",
+      "playerName": "Doubs, Romeo",
+      "position": "WR",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 32
+    },
+    {
+      "playerId": "15281",
+      "playerName": "Chase, Ja'Marr",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "yards": 29
+    },
+    {
+      "playerId": "15754",
+      "playerName": "Olave, Chris",
+      "position": "WR",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "yards": 28
+    },
+    {
+      "playerId": "14836",
+      "playerName": "Jefferson, Justin",
+      "position": "WR",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 27
+    },
+    {
+      "playerId": "16214",
+      "playerName": "LaPorta, Sam",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "yards": 27
+    },
+    {
+      "playerId": "12186",
+      "playerName": "Diggs, Stefon",
+      "position": "WR",
+      "franchiseId": "0008",
+      "franchiseName": "Bow to your champion!",
+      "yards": 24
+    },
+    {
+      "playerId": "15287",
+      "playerName": "St. Brown, Amon-Ra",
+      "position": "WR",
+      "franchiseId": "0006",
+      "franchiseName": "Keenan’s Gypsy Tears",
+      "yards": 21
+    },
+    {
+      "playerId": "16213",
+      "playerName": "Kincaid, Dalton",
+      "position": "TE",
+      "franchiseId": "0007",
+      "franchiseName": "Jake's Last Slither",
+      "yards": 21
+    },
+    {
+      "playerId": "15762",
+      "playerName": "Pickens, George",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "yards": 19
+    },
+    {
+      "playerId": "15331",
+      "playerName": "Freiermuth, Pat",
+      "position": "TE",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 18
+    },
+    {
+      "playerId": "14833",
+      "playerName": "Jeudy, Jerry",
+      "position": "WR",
+      "franchiseId": "0004",
+      "franchiseName": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "yards": 16
+    },
+    {
+      "playerId": "13850",
+      "playerName": "Edwards, Gus",
+      "position": "RB",
+      "franchiseId": "0005",
+      "franchiseName": "Muscly Arm Paper Boys",
+      "yards": 15
+    },
+    {
+      "playerId": "15290",
+      "playerName": "Collins, Nico",
+      "position": "WR",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 13
+    },
+    {
+      "playerId": "15271",
+      "playerName": "Herbert, Khalil",
+      "position": "RB",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "yards": 8
+    },
+    {
+      "playerId": "11671",
+      "playerName": "Evans, Mike",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "yards": 8
+    },
+    {
+      "playerId": "15717",
+      "playerName": "Pierce, Dameon",
+      "position": "RB",
+      "franchiseId": "0010",
+      "franchiseName": "Loves-to-eat-butt-crack-Pack",
+      "yards": 7
+    },
+    {
+      "playerId": "13424",
+      "playerName": "Hill, Taysom",
+      "position": "TE",
+      "franchiseId": "0003",
+      "franchiseName": "Gordon's Revival",
+      "yards": 0
+    },
+    {
+      "playerId": "13172",
+      "playerName": "Brown, Noah",
+      "position": "WR",
+      "franchiseId": "0001",
+      "franchiseName": "Clear eyes, Full hearts, Can’t lose.",
+      "yards": 0
+    }
+  ],
+  "Week 15: Most Team Points": [
+    {
+      "franchiseId": "0007",
+      "name": "Jake's Last Slither",
+      "score": 138.35
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Muscly Arm Paper Boys",
+      "score": 120.1
+    },
+    {
+      "franchiseId": "0001",
+      "name": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 109.85
+    },
+    {
+      "franchiseId": "0009",
+      "name": "You could eat it",
+      "score": 109.25
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "score": 93.2
+    },
+    {
+      "franchiseId": "0004",
+      "name": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "score": 89.7
+    }
+  ],
+  "Week 16: Most Team Points": [
+    {
+      "franchiseId": "0004",
+      "name": "Voodoo,Witchcraft,Hexxing,Volcano sacrifice",
+      "score": 199.95
+    },
+    {
+      "franchiseId": "0007",
+      "name": "Jake's Last Slither",
+      "score": 151.1
+    },
+    {
+      "franchiseId": "0010",
+      "name": "Loves-to-eat-butt-crack-Pack",
+      "score": 119.66
+    },
+    {
+      "franchiseId": "0001",
+      "name": "Clear eyes, Full hearts, Can’t lose.",
+      "score": 118.75
+    },
+    {
+      "franchiseId": "0005",
+      "name": "Muscly Arm Paper Boys",
+      "score": 117.05
+    },
+    {
+      "franchiseId": "0009",
+      "name": "You could eat it",
+      "score": 116.3
+    }
+  ]
+}
